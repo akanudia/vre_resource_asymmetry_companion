@@ -11,100 +11,100 @@ Each region has two figures available on this site:
   with within-cell p25–p75 whiskers.
 
 For a flat, browsable grid of all 20 regional figures, see
-**[the gallery](gallery.md)**. India is written up in full as a worked example;
-the other nine regions have one-paragraph stubs pointing into the gallery
-while per-region narrative pages are being completed.
+**[the gallery](gallery.md)**. Each region has a full prose reading that
+identifies the cells where regional $\theta$ departs from world by at least
+20°, with the physical mechanism that drives the departure.
 
 <div class="region-cards" markdown>
 
 <div class="card worked-example" markdown>
 ### India
-<span class="status">Worked example</span>
+<span class="status">Full reading</span>
 
-<span class="description">South Asian monsoon. Cooling-dominated demand. Wind seasonal aligned with summer monsoon; solar seasonal weakly negative against demand.</span>
+<span class="description">South Asian monsoon. Solar C7 temporal at **+21° vs world's −63°** — the cancellation poster cell at regional scale.</span>
 
-[Full reading →](india.md)
+[Read →](india.md)
 </div>
 
-<div class="card" markdown>
+<div class="card worked-example" markdown>
 ### Africa
-<span class="status">Stub · figures in gallery</span>
+<span class="status">Full reading</span>
 
-<span class="description">Wide latitudinal span; mixed cooling/heating climates by sub-region.</span>
+<span class="description">Wide latitudinal span. **Temporal cost reaction muted** — Africa's renewable headroom absorbs the value-channel signal.</span>
 
-[Stub page →](africa.md)
+[Read →](africa.md)
 </div>
 
-<div class="card" markdown>
+<div class="card worked-example" markdown>
 ### China
-<span class="status">Stub · figures in gallery</span>
+<span class="status">Full reading</span>
 
-<span class="description">East-Asian monsoon damps mid-latitude winter wind; the exception within heating-driven Northern Hemisphere.</span>
+<span class="description">East-Asian monsoon damps winter wind. **Temporal channel pushes cost up more than world**; solar takes the share that wind can't.</span>
 
-[Stub page →](china.md)
+[Read →](china.md)
 </div>
 
-<div class="card" markdown>
+<div class="card worked-example" markdown>
 ### Europe
-<span class="status">Stub · figures in gallery</span>
+<span class="status">Full reading</span>
 
-<span class="description">Heating-driven temperate; storm-track wind in winter; positive wind–demand seasonal alignment.</span>
+<span class="description">Heating-driven temperate. **Strongest negative-θ on Temporal Solar of any region** — the canonical 'finer TS favours wind' signature.</span>
 
-[Stub page →](europe.md)
+[Read →](europe.md)
 </div>
 
-<div class="card" markdown>
+<div class="card worked-example" markdown>
 ### Latin America
-<span class="status">Stub · figures in gallery</span>
+<span class="status">Full reading</span>
 
-<span class="description">Trade-wind / ITCZ migration drives strong wind seasonal in the Pacific coast countries (Venezuela, Colombia, Ecuador).</span>
+<span class="description">Trade-wind / ITCZ migration. **21 cells exceed the 20° departure threshold** — the most distinctive cell-level fingerprint of any region.</span>
 
-[Stub page →](latin_am.md)
+[Read →](latin_am.md)
 </div>
 
-<div class="card" markdown>
+<div class="card worked-example" markdown>
 ### Middle East
-<span class="status">Stub · figures in gallery</span>
+<span class="status">Full reading</span>
 
-<span class="description">Strongly cooling-driven (Saudi Arabia 84% seasonal demand). Solar–demand seasonal alignment positive.</span>
+<span class="description">Most cooling-driven region. **Supply Wind C7 at −30° vs world +69°** — the 99° sign flip is the largest cell departure on the site.</span>
 
-[Stub page →](middle_east.md)
+[Read →](middle_east.md)
 </div>
 
-<div class="card" markdown>
+<div class="card worked-example" markdown>
 ### North America
-<span class="status">Stub · figures in gallery</span>
+<span class="status">Full reading</span>
 
-<span class="description">Mixed heating/cooling by latitude. Wide spatial heterogeneity in onshore wind quality.</span>
+<span class="description">USA Great Plains wind tail. **Supply refinement reduces system cost at every climate ambition** — opposite to world.</span>
 
-[Stub page →](north_am.md)
+[Read →](north_am.md)
 </div>
 
-<div class="card" markdown>
+<div class="card worked-example" markdown>
 ### Pacific OECD
-<span class="status">Stub · figures in gallery</span>
+<span class="status">Full reading</span>
 
-<span class="description">Australia, New Zealand, Japan, Korea. Mixed climate signatures; Australia's solar resource is among the highest globally.</span>
+<span class="description">Mixed hemispheres (Japan/Korea NH + Australia/NZ SH). **The in-region analogue of channel-asymmetric global aggregation** — cancellation washes out the signal.</span>
 
-[Stub page →](pac_oecd.md)
+[Read →](pac_oecd.md)
 </div>
 
-<div class="card" markdown>
+<div class="card worked-example" markdown>
 ### Reforming Economies
-<span class="status">Stub · figures in gallery</span>
+<span class="status">Full reading</span>
 
-<span class="description">Russia and the former Soviet Union. Heating-dominated; positive wind–demand seasonal alignment.</span>
+<span class="description">Russia + former USSR. **Largest supply-channel solar sign-flip on the site (+95° departure at C4)** — Central Asian solar tail meets Arctic baseline.</span>
 
-[Stub page →](ref_econ.md)
+[Read →](ref_econ.md)
 </div>
 
-<div class="card" markdown>
+<div class="card worked-example" markdown>
 ### Rest of Asia
-<span class="status">Stub · figures in gallery</span>
+<span class="status">Full reading</span>
 
-<span class="description">South-East Asia and the Pacific. Cooling-driven; ITCZ-influenced seasonal patterns.</span>
+<span class="description">ITCZ-influenced cooling. **Wind saturates at +88°–+90° across nearly every climate** under supply refinement — clean wind-saturation regime.</span>
 
-[Stub page →](rest_asia.md)
+[Read →](rest_asia.md)
 </div>
 
 </div>

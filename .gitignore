@@ -33,3 +33,7 @@ htmlcov/
 
 # Local rendering caches
 .cache/
+
+# Scratch output from analysis scripts (departure tables, etc.) — these are
+# baked into the region pages, so the on-disk copies don't need versioning.
+scripts/output/

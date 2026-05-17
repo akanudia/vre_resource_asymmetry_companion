@@ -1,34 +1,113 @@
-# Africa
+# Africa — worked example
 
-R10 macro-region covering sub-Saharan Africa, North Africa, and the African
-island states. Composition follows IPCC AR6 WGIII (full list in Extended
-Data Table 1 of the manuscript).
+R10 macro-region for the African continent and adjacent island states. The
+R70 model treats Egypt, Morocco, Algeria, Nigeria, Ethiopia, Kenya, South
+Africa and several other countries individually; the rest are aggregated
+into rest-of-region nodes (see Extended Data Table 1 in the manuscript for
+the exact composition).
 
-## Physical setting (brief)
+## Physical setting
 
-Africa spans roughly 35°N to 35°S and so combines climate signatures that
-sit at opposite ends of the demand-alignment landscape: North Africa is
-strongly cooling-driven with positive solar–demand seasonal alignment;
-sub-Saharan Africa varies from monsoon-influenced (Sahel) to ITCZ-migration-
-driven (Horn of Africa) to temperate-coastal (South Africa). Wind onshore
-resource quality is highly heterogeneous across the macro-region.
+Africa is the most latitudinally extensive R10 macro-region, spanning roughly
+35°N to 35°S, and combines climate signatures that elsewhere belong to
+different macro-regions:
 
-## Figures
+- **North Africa**: strongly cooling-driven. Egypt, Algeria, Libya, Morocco
+  sit firmly in the lower-right of the Fig 4b alignment landscape (positive
+  solar–demand seasonal alignment, weak or negative wind–demand alignment).
+- **The Sahel**: monsoon-influenced wind seasonality, with the West African
+  monsoon driving a coherent summer wind pattern across Niger, Burkina Faso,
+  Mali, Senegal.
+- **The Horn of Africa**: ITCZ-migration-driven, similar to the Pacific
+  coast of Latin America.
+- **Sub-equatorial Africa**: tropical with mixed seasonal signatures.
+- **Southern Africa**: temperate cooling-driven, with strong wind resource
+  along the Cape coast.
+- **Wind resource heterogeneity**: large across the macro-region, from
+  ultra-high CF in the Sahel and Cape Coast corridors to low CF in equatorial
+  central Africa. Solar is comparatively uniform.
 
-The two Africa figures sit in the [gallery](gallery.md#africa). Direct links:
+## Paired structural shifts (Africa)
 
-- [Paired-shifts mini-hero (PNG)](../assets/figures/regions/africa/paired_shifts_mini_hero.png)
-  · [PDF](../assets/figures/regions/africa/paired_shifts_mini_hero.pdf)
-- [Signed structural dominance angle (PNG)](../assets/figures/regions/africa/magnitude_angle.png)
-  · [PDF](../assets/figures/regions/africa/magnitude_angle.pdf)
+[![Africa — paired structural shifts vs world anchor](../assets/figures/regions/africa/paired_shifts_mini_hero.png){ loading=lazy }](../assets/figures/regions/africa/paired_shifts_mini_hero.png)
 
-## CSV data
+/// caption
+**Africa paired structural shifts.** Same layout as the manuscript hero
+figure but computed at Africa aggregate: four rows (system cost, CO2
+emissions, cumulative solar, cumulative wind) × two columns (supply-curve
+LoT→HiT, temporal TS04→TS72). Expressed as % of C7-Base-median anchor.
+[Download PDF](../assets/figures/regions/africa/paired_shifts_mini_hero.pdf).
+///
+
+**Reading.** The supply-channel column shows a wider point cloud above $y=0$
+for wind than the world view, consistent with high within-region wind
+resource heterogeneity in the Sahel and Cape Coast. The temporal column
+shows a *muted* cost response — the upward cost shift that dominates the
+world view at C7 (clusters reaching $y > +30\%$) is barely visible at Africa
+aggregate.
+
+## Signed structural dominance angle (Africa)
+
+[![Africa — signed structural dominance angle](../assets/figures/regions/africa/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/africa/magnitude_angle.png)
+
+/// caption
+**Africa signed structural dominance angle.** Per (outcome × climate × channel)
+cell, $\theta = \mathrm{atan2}(\text{structural shift}, |\text{parametric shift}|)$
+in degrees on $[-90^\circ, +90^\circ]$. Median (dot) ± p25–p75 (whiskers).
+[Download PDF](../assets/figures/regions/africa/magnitude_angle.pdf).
+///
+
+**Reading.** Two patterns stand out:
+
+- **Solar on the supply side flips sign with climate ambition**: weakly
+  positive at C1–C3, then mildly negative at C4 (consistent with deep-decarb
+  wind-favouring), then back to **+31°** at C7. Africa's solar–demand
+  alignment is positive across most member countries, and at fossil-dominant
+  policy the optimiser uses supply refinement to expose high-CF solar
+  tranches in North Africa and the Sahel.
+- **Cost on the temporal side is muted**: $\theta \approx 0$–$+15°$ across
+  most climates, vs world's $\theta \approx +50°$ at C4 and C7. Africa's
+  large renewable potential plus strong demand growth means the
+  temporal-refinement value signal has little marginal effect on the cost
+  margin — the system has enough resource headroom that finer timeslicing
+  doesn't materially constrain build choices.
+
+## Cells where Africa departs from world
+
+The headline cells where Africa's $\theta$ differs by **at least 20°** from
+world aggregate $\theta$ on the same (channel × outcome × climate) cell:
+
+| Channel | Outcome | Climate | World θ | Region θ | Departure |
+|---|---|---|---:|---:|---:|
+| Temporal | Cost | C7 | **+50°** | +2° | **−48°** |
+| Supply | Solar | C7 | −5° | +31° | +36° |
+| Temporal | Cost | C4 | **+48°** | +14° | −34° |
+| Supply | Solar | C3 | −13° | −43° | −30° |
+| Supply | Wind | C4 | +33° | **+62°** | +29° |
+| Supply | Cost | C7 | +31° | **+59°** | +28° |
+| Temporal | Solar | C2 | +12° | +40° | +27° |
+| Supply | Wind | C7 | **+69°** | **+90°** | +21° |
+
+The most striking departure is **Temporal Cost C7** at −48°: world sits at
++50° (uniformly positive cost-up across all 10 regions), but Africa sits at
++2° — almost no cost shift. Africa's combination of strong renewable
+endowment + growing demand absorbs the value-channel signal without much
+cost reaction. The companion reading is **Supply Solar C7** at +36° — Africa
+is one of the few regions where supply refinement *favours* solar under
+fossil-dominant policy, reflecting the high heterogeneity of North African
+and Sahelian solar resource.
+
+## CSV download
+
+The raw cell-level $\theta$ distribution for Africa is in two CSVs:
 
 - [magnitude_angle_africa_supply.csv](../assets/data/regions/africa/magnitude_angle_africa_supply.csv)
 - [magnitude_angle_africa_temporal.csv](../assets/data/regions/africa/magnitude_angle_africa_temporal.csv)
 
-## Full prose reading
+Schema: `outcome, climate, p25, p50, p75, n`.
 
-Coming soon. The figures above carry the full evidentiary base; see the
-[India worked example](india.md) for the reading template that will be
-applied to this region in Phase 2.
+## See also
+
+- [World aggregate](../world.md) — where Africa's cells sit in the regional bracket
+- [Gallery](gallery.md) — all 10 R10 regions' figures side by side
+- [Methodology](../methodology.md) — for the θ definition
