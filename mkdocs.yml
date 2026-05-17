@@ -1,0 +1,104 @@
+# Companion site for the vre_info_asymmetry / wind–solar resource asymmetry manuscript.
+# Before pushing to GitHub: replace <YOUR-GITHUB-USERNAME> with your real handle in
+# site_url and repo_url (and the README badges).
+
+site_name: Wind–solar resource asymmetry — companion site
+site_description: >
+  Companion site to the Nature Energy manuscript "Wind–solar resource asymmetry:
+  how model resolution choices shape technology mix, cost and emissions".
+  Hosts the full regional evidentiary base behind the manuscript's hero figure
+  and ED Fig 2.
+site_author: Manuscript authors
+site_url: https://<YOUR-GITHUB-USERNAME>.github.io/vre-resource-asymmetry-companion/
+
+repo_url: https://github.com/<YOUR-GITHUB-USERNAME>/vre-resource-asymmetry-companion
+repo_name: vre-resource-asymmetry-companion
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - assets/css/custom.css
+
+plugins:
+  - search
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: false
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - Methodology: methodology.md
+  - World aggregate: world.md
+  - Regions:
+    - regions/index.md
+    - All-region gallery: regions/gallery.md
+    - India (worked example): regions/india.md
+    - Africa: regions/africa.md
+    - China: regions/china.md
+    - Europe: regions/europe.md
+    - Latin America: regions/latin_am.md
+    - Middle East: regions/middle_east.md
+    - North America: regions/north_am.md
+    - Pacific OECD: regions/pac_oecd.md
+    - Reforming Economies: regions/ref_econ.md
+    - Rest of Asia: regions/rest_asia.md
+  - Data: data.md
+  - Cite: cite.md

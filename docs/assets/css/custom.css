@@ -1,0 +1,99 @@
+/* Minor theme tweaks for the companion site. */
+
+/* Tighten figure captions */
+figcaption {
+  font-size: 0.85em;
+  color: var(--md-default-fg-color--light);
+  margin-top: 0.4em;
+  line-height: 1.4;
+}
+
+/* Gallery grid for the all-regions page. */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.2em;
+  margin: 1.5em 0;
+}
+
+.gallery-grid .gallery-item {
+  text-align: center;
+  padding: 0.6em;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  background-color: var(--md-default-bg-color);
+}
+
+.gallery-grid .gallery-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 3px;
+}
+
+.gallery-grid .gallery-item .caption {
+  font-size: 0.8em;
+  color: var(--md-default-fg-color--light);
+  margin-top: 0.4em;
+}
+
+/* Region card grid on the regions/index page. */
+.region-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1em;
+  margin: 1.5em 0;
+}
+
+.region-cards .card {
+  padding: 1em;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  background-color: var(--md-default-bg-color);
+  transition: border-color 0.15s ease;
+}
+
+.region-cards .card:hover {
+  border-color: var(--md-accent-fg-color);
+}
+
+.region-cards .card h3 {
+  margin-top: 0;
+  margin-bottom: 0.3em;
+  font-size: 1.05em;
+}
+
+.region-cards .card .description {
+  font-size: 0.88em;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 0.5em;
+}
+
+.region-cards .card .status {
+  font-size: 0.78em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--md-default-fg-color--light);
+}
+
+.region-cards .card.worked-example .status {
+  color: var(--md-accent-fg-color);
+  font-weight: 600;
+}
+
+/* Cell-level departure table. */
+table.departure-table {
+  font-size: 0.9em;
+}
+
+table.departure-table th,
+table.departure-table td {
+  padding: 0.35em 0.7em;
+}
+
+table.departure-table .pos {
+  color: #1b5e20;
+}
+
+table.departure-table .neg {
+  color: #b71c1c;
+}
