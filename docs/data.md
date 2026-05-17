@@ -49,7 +49,7 @@ additionally has `channel` (`supply` or `temporal`), `world_p50`,
 import pandas as pd
 
 india_supply = pd.read_csv(
-    "https://<YOUR-GITHUB-USERNAME>.github.io/vre-resource-asymmetry-companion/"
+    "https://akanudia.github.io/vre_resource_asymmetry_companion/"
     "assets/data/regions/india/magnitude_angle_india_supply.csv"
 )
 print(india_supply.query("climate == 'C7'"))
@@ -68,6 +68,6 @@ from the [cite page](cite.md).
 ## License
 
 All CSVs are released under CC-BY 4.0 (see `LICENSE-CONTENT` in the
-[GitHub repo](https://github.com/<YOUR-GITHUB-USERNAME>/vre-resource-asymmetry-companion)).
+[GitHub repo](https://github.com/akanudia/vre_resource_asymmetry_companion)).
 Attribution: "Companion site data for [Authors], 2026, *Wind–solar resource
 asymmetry...*, Nature Energy."

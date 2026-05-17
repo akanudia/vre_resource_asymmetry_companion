@@ -1,5 +1,5 @@
 # Companion site for the vre_info_asymmetry / wind–solar resource asymmetry manuscript.
-# Before pushing to GitHub: replace <YOUR-GITHUB-USERNAME> with your real handle in
+# Before pushing to GitHub: replace akanudia with your real handle in
 # site_url and repo_url (and the README badges).
 
 site_name: Wind–solar resource asymmetry — companion site
@@ -9,10 +9,10 @@ site_description: >
   Hosts the full regional evidentiary base behind the manuscript's hero figure
   and ED Fig 2.
 site_author: Manuscript authors
-site_url: https://<YOUR-GITHUB-USERNAME>.github.io/vre-resource-asymmetry-companion/
+site_url: https://akanudia.github.io/vre_resource_asymmetry_companion/
 
-repo_url: https://github.com/<YOUR-GITHUB-USERNAME>/vre-resource-asymmetry-companion
-repo_name: vre-resource-asymmetry-companion
+repo_url: https://github.com/akanudia/vre_resource_asymmetry_companion
+repo_name: vre_resource_asymmetry_companion
 edit_uri: edit/main/docs/
 
 theme:

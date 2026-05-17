@@ -29,14 +29,14 @@ quotation or reproduction (rather than the manuscript itself), additionally
 cite the site:
 
 > Companion site for [Authors], 2026, *Wind–solar resource asymmetry...*,
-> https://<YOUR-GITHUB-USERNAME>.github.io/vre-resource-asymmetry-companion/
+> https://akanudia.github.io/vre_resource_asymmetry_companion/
 
 ```bibtex
 @misc{vre_resource_asymmetry_companion_2026,
   author       = {[Authors]},
   title        = {Companion site: wind--solar resource asymmetry},
   year         = {2026},
-  url          = {https://<YOUR-GITHUB-USERNAME>.github.io/vre-resource-asymmetry-companion/},
+  url          = {https://akanudia.github.io/vre_resource_asymmetry_companion/},
   note         = {Accessed YYYY-MM-DD},
 }
 ```
@@ -50,7 +50,7 @@ the site at the time of acceptance.
 ## Licenses
 
 - Prose, figures, captions on this site: CC-BY 4.0
-  (see `LICENSE-CONTENT` in the [GitHub repo](https://github.com/<YOUR-GITHUB-USERNAME>/vre-resource-asymmetry-companion))
+  (see `LICENSE-CONTENT` in the [GitHub repo](https://github.com/akanudia/vre_resource_asymmetry_companion))
 - CSV data: CC-BY 4.0
 - Build code (scripts, mkdocs config, GitHub Actions workflow): MIT
   (see `LICENSE` in the same repo)

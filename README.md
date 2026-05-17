@@ -9,7 +9,7 @@ regional spread), released alongside the code and data.
 
 ## Before deploying
 
-Replace `<YOUR-GITHUB-USERNAME>` with your actual GitHub handle in:
+Replace `akanudia` with your actual GitHub handle in:
 
 - `mkdocs.yml` — `site_url` and `repo_url` fields
 - this README
@@ -17,7 +17,7 @@ Replace `<YOUR-GITHUB-USERNAME>` with your actual GitHub handle in:
 A quick find-and-replace across the tree:
 
 ```bash
-grep -rl "<YOUR-GITHUB-USERNAME>" . | xargs sed -i 's/<YOUR-GITHUB-USERNAME>/your-handle/g'
+grep -rl "akanudia" . | xargs sed -i 's/akanudia/your-handle/g'
 ```
 
 ## Build locally
@@ -31,7 +31,7 @@ Open <http://127.0.0.1:8000>.
 
 ## Deploy
 
-Push to the `main` branch of `github.com/<YOUR-GITHUB-USERNAME>/vre-resource-asymmetry-companion`;
+Push to the `main` branch of `github.com/akanudia/vre_resource_asymmetry_companion`;
 the GitHub Actions workflow at `.github/workflows/build.yml` will build and
 deploy to the `gh-pages` branch automatically. GitHub Pages must be enabled
 in the repo settings (Pages → Source → `gh-pages` branch, root).
