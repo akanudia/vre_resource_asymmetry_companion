@@ -1,4 +1,4 @@
-# Middle East — worked example
+# Middle East
 
 R10 macro-region covering the Arabian Peninsula, the Levant, Iraq, Iran, and
 typically Egypt. The R70 model treats Saudi Arabia, Iran, Iraq, UAE, and

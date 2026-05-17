@@ -79,5 +79,5 @@ large structural shift, but their signs cancel at world aggregate.
 ## See also
 
 - [Regional gallery](regions/gallery.md) — all 10 R10 regions' figures side by side
-- [India worked example](regions/india.md) — full prose reading of one region
+- [Regional pages](regions/index.md) — full prose readings of each of the 10 R10 macro-regions
 - [Methodology](methodology.md) — for the experimental design and the θ definition

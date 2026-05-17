@@ -1,4 +1,4 @@
-# Latin America — worked example
+# Latin America
 
 R10 macro-region covering Mexico, Central America, the Caribbean, and South
 America. The R70 model treats Brazil, Mexico, Argentina, Chile, Colombia,

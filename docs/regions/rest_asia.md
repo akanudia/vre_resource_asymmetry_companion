@@ -1,4 +1,4 @@
-# Rest of Asia — worked example
+# Rest of Asia
 
 R10 macro-region covering South-East Asia, Mongolia, and the Pacific
 island states. Indonesia, Thailand, Vietnam, the Philippines, Malaysia

@@ -1,4 +1,4 @@
-# Pacific OECD — worked example
+# Pacific OECD
 
 R10 macro-region covering Japan, South Korea, Australia, and New Zealand.
 All four countries are treated individually in the R70 model (see Extended

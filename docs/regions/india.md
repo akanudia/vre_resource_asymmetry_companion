@@ -1,4 +1,4 @@
-# India — worked example
+# India
 
 India is the R10 region for the South Asian subcontinent: India, Bangladesh,
 Bhutan, Nepal, Pakistan, Sri Lanka. The R70 model treats India individually

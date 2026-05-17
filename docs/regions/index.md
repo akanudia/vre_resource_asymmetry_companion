@@ -18,15 +18,6 @@ identifies the cells where regional $\theta$ departs from world by at least
 <div class="region-cards" markdown>
 
 <div class="card worked-example" markdown>
-### India
-<span class="status">Full reading</span>
-
-<span class="description">South Asian monsoon. Solar C7 temporal at **+21° vs world's −63°** — the cancellation poster cell at regional scale.</span>
-
-[Read →](india.md)
-</div>
-
-<div class="card worked-example" markdown>
 ### Africa
 <span class="status">Full reading</span>
 
@@ -51,6 +42,15 @@ identifies the cells where regional $\theta$ departs from world by at least
 <span class="description">Heating-driven temperate. **Strongest negative-θ on Temporal Solar of any region** — the canonical 'finer TS favours wind' signature.</span>
 
 [Read →](europe.md)
+</div>
+
+<div class="card worked-example" markdown>
+### India
+<span class="status">Full reading</span>
+
+<span class="description">South Asian monsoon. Solar C7 temporal at **+21° vs world's −63°** — the cancellation poster cell at regional scale.</span>
+
+[Read →](india.md)
 </div>
 
 <div class="card worked-example" markdown>

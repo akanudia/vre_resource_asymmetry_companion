@@ -1,4 +1,4 @@
-# China — worked example
+# China
 
 R10 macro-region covering mainland China and adjacent entities (see Extended
 Data Table 1 in the manuscript for the exact composition; in R70, China is
@@ -100,5 +100,5 @@ temporal channel gives it more information about hourly alignment.
 
 - [World aggregate](../world.md) — where China's cells sit in the regional bracket
 - [Gallery](gallery.md) — all 10 R10 regions' figures side by side
-- [India worked example](india.md) — adjacent regional context (South Asian monsoon)
+- [India](india.md) — adjacent regional context (South Asian monsoon)
 - [Methodology](../methodology.md) — for the θ definition

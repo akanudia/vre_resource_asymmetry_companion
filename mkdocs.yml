@@ -89,10 +89,10 @@ nav:
   - Regions:
     - regions/index.md
     - All-region gallery: regions/gallery.md
-    - India (worked example): regions/india.md
     - Africa: regions/africa.md
     - China: regions/china.md
     - Europe: regions/europe.md
+    - India: regions/india.md
     - Latin America: regions/latin_am.md
     - Middle East: regions/middle_east.md
     - North America: regions/north_am.md

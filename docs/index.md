@@ -60,11 +60,11 @@ reading.
 
 <div class="card worked-example" markdown>
 
-### Regional gallery + India worked example
+### Regional gallery + per-region readings
 
 [Read →](regions/index.md)
 
-<span class="description">All 10 R10 regions: flat gallery of paired-shifts mini-heros and signed-θ diagnostics. India is the fully-written worked example.</span>
+<span class="description">All 10 R10 regions, each with a full prose reading: paired-shifts mini-hero, signed-θ diagnostic, and the cells where the regional signature departs from world.</span>
 
 </div>
 

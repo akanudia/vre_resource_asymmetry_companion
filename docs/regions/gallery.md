@@ -5,9 +5,8 @@ scatter and the signed structural dominance angle ($\theta$) diagnostic.
 Click any thumbnail to expand. Each row is one region; the left column is
 the paired-shifts scatter and the right column is the signed-θ figure.
 
-For prose reading of any specific figure, see
-[the India worked example](india.md) and follow the same structure when
-reading the others.
+For prose reading of any specific region, see that region's page (linked
+under each set of figures below).
 
 For the world equivalents of these figures, see [the world page](../world.md).
 
@@ -45,7 +44,7 @@ Stub page · [Europe](europe.md) · [PDFs: paired-shifts](../assets/figures/regi
 [![India — paired shifts](../assets/figures/regions/india/paired_shifts_mini_hero.png){ loading=lazy }](../assets/figures/regions/india/paired_shifts_mini_hero.png)
 [![India — signed θ](../assets/figures/regions/india/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/india/magnitude_angle.png)
 
-**Worked example** · [India full page →](india.md) · [PDFs: paired-shifts](../assets/figures/regions/india/paired_shifts_mini_hero.pdf) / [signed θ](../assets/figures/regions/india/magnitude_angle.pdf)
+Full reading · [India →](india.md) · [PDFs: paired-shifts](../assets/figures/regions/india/paired_shifts_mini_hero.pdf) / [signed θ](../assets/figures/regions/india/magnitude_angle.pdf)
 
 ---
 

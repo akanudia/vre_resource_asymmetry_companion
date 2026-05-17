@@ -61,8 +61,7 @@ docs/
 ├── regions/
 │   ├── index.md                          regional overview / nav
 │   ├── gallery.md                        flat gallery of all 20 regional figures
-│   ├── india.md                          worked example (full prose)
-│   └── {africa,china,europe,...}.md      stubs for Phase 2
+│   └── {africa,china,europe,india,...}.md  full prose per region (10 pages)
 ├── data.md                               CSV index
 ├── cite.md                               citation block
 └── assets/

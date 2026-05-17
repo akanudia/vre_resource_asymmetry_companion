@@ -1,4 +1,4 @@
-# Africa — worked example
+# Africa
 
 R10 macro-region for the African continent and adjacent island states. The
 R70 model treats Egypt, Morocco, Algeria, Nigeria, Ethiopia, Kenya, South

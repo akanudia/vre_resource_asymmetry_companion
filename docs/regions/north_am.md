@@ -1,4 +1,4 @@
-# North America — worked example
+# North America
 
 R10 macro-region covering the USA, Canada, and (per IPCC AR6 WGIII
 convention) Mexico. The R70 model treats USA and Canada individually

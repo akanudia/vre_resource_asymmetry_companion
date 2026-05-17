@@ -1,4 +1,4 @@
-# Europe — worked example
+# Europe
 
 R10 macro-region covering the EU, UK, EFTA, and non-EU South-Eastern Europe.
 See Extended Data Table 1 in the manuscript for the exact composition.

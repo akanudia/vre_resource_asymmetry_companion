@@ -1,4 +1,4 @@
-# Reforming Economies — worked example
+# Reforming Economies
 
 R10 macro-region covering Russia, the European and Central Asian former
 Soviet Union states, and (per IPCC AR6 WGIII) Turkey. Russia is the
