@@ -69,5 +69,5 @@ from the [cite page](cite.md).
 
 All CSVs are released under CC-BY 4.0 (see `LICENSE-CONTENT` in the
 [GitHub repo](https://github.com/akanudia/vre_resource_asymmetry_companion)).
-Attribution: "Companion site data for [Authors], 2026, *Wind–solar resource
+Attribution: "Companion site data for Kanudia, A., 2026, *Wind–solar resource
 asymmetry...*, Nature Energy."

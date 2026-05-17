@@ -3,9 +3,11 @@
 If this companion site or its underlying data informs your work, please cite
 the parent manuscript.
 
+**Author**: Amit Kanudia, [KanORS-EMR](https://www.kanors-emr.org/).
+
 ## Citation (provisional)
 
-> [Authors], "Wind–solar resource asymmetry: how model resolution choices
+> Kanudia, A., "Wind–solar resource asymmetry: how model resolution choices
 > shape technology mix, cost and emissions", *Nature Energy* (under review,
 > 2026). DOI: to be assigned upon acceptance.
 
@@ -13,7 +15,7 @@ the parent manuscript.
 
 ```bibtex
 @article{vre_resource_asymmetry_2026,
-  author  = {[Authors]},
+  author  = {Kanudia, A.},
   title   = {Wind--solar resource asymmetry: how model resolution choices
              shape technology mix, cost and emissions},
   journal = {Nature Energy},
@@ -28,12 +30,12 @@ If the figures, prose, or data on this site are the direct source for a
 quotation or reproduction (rather than the manuscript itself), additionally
 cite the site:
 
-> Companion site for [Authors], 2026, *Wind–solar resource asymmetry...*,
+> Companion site for Kanudia, A., 2026, *Wind–solar resource asymmetry...*,
 > https://akanudia.github.io/vre_resource_asymmetry_companion/
 
 ```bibtex
 @misc{vre_resource_asymmetry_companion_2026,
-  author       = {[Authors]},
+  author       = {Kanudia, A.},
   title        = {Companion site: wind--solar resource asymmetry},
   year         = {2026},
   url          = {https://akanudia.github.io/vre_resource_asymmetry_companion/},

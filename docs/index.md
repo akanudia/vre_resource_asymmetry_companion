@@ -3,6 +3,9 @@
 **Companion site for the Nature Energy manuscript**
 *Wind–solar resource asymmetry: how model resolution choices shape technology mix, cost and emissions.*
 
+Amit Kanudia · [KanORS-EMR](https://www.kanors-emr.org/) · 2026
+{ .subtitle }
+
 Long-term energy-system models choose temporal and spatial resolution to keep
 their optimisation tractable. This paper asks whether those choices interact
 with the **intrinsic physical properties of wind and solar resources** to bias

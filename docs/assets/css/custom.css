@@ -8,6 +8,15 @@ figcaption {
   line-height: 1.4;
 }
 
+/* Subtitle line with author + affiliation + year on the landing page. */
+.subtitle {
+  font-size: 0.95em;
+  color: var(--md-default-fg-color--light);
+  margin-top: -0.4em;
+  margin-bottom: 1.5em;
+  letter-spacing: 0.02em;
+}
+
 /* Gallery grid for the all-regions page. */
 .gallery-grid {
   display: grid;
