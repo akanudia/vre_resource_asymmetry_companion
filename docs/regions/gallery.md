@@ -17,7 +17,7 @@ For the world equivalents of these figures, see [the world page](../world.md).
 [![Africa — paired shifts](../assets/figures/regions/africa/paired_shifts_mini_hero.png){ loading=lazy }](../assets/figures/regions/africa/paired_shifts_mini_hero.png)
 [![Africa — signed θ](../assets/figures/regions/africa/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/africa/magnitude_angle.png)
 
-Stub page · [Africa](africa.md) · [PDFs: paired-shifts](../assets/figures/regions/africa/paired_shifts_mini_hero.pdf) / [signed θ](../assets/figures/regions/africa/magnitude_angle.pdf)
+Full reading · [Africa →](africa.md) · [PDFs: paired-shifts](../assets/figures/regions/africa/paired_shifts_mini_hero.pdf) / [signed θ](../assets/figures/regions/africa/magnitude_angle.pdf)
 
 ---
 
@@ -26,7 +26,7 @@ Stub page · [Africa](africa.md) · [PDFs: paired-shifts](../assets/figures/regi
 [![China — paired shifts](../assets/figures/regions/china/paired_shifts_mini_hero.png){ loading=lazy }](../assets/figures/regions/china/paired_shifts_mini_hero.png)
 [![China — signed θ](../assets/figures/regions/china/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/china/magnitude_angle.png)
 
-Stub page · [China](china.md) · [PDFs: paired-shifts](../assets/figures/regions/china/paired_shifts_mini_hero.pdf) / [signed θ](../assets/figures/regions/china/magnitude_angle.pdf)
+Full reading · [China →](china.md) · [PDFs: paired-shifts](../assets/figures/regions/china/paired_shifts_mini_hero.pdf) / [signed θ](../assets/figures/regions/china/magnitude_angle.pdf)
 
 ---
 
@@ -35,7 +35,7 @@ Stub page · [China](china.md) · [PDFs: paired-shifts](../assets/figures/region
 [![Europe — paired shifts](../assets/figures/regions/europe/paired_shifts_mini_hero.png){ loading=lazy }](../assets/figures/regions/europe/paired_shifts_mini_hero.png)
 [![Europe — signed θ](../assets/figures/regions/europe/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/europe/magnitude_angle.png)
 
-Stub page · [Europe](europe.md) · [PDFs: paired-shifts](../assets/figures/regions/europe/paired_shifts_mini_hero.pdf) / [signed θ](../assets/figures/regions/europe/magnitude_angle.pdf)
+Full reading · [Europe →](europe.md) · [PDFs: paired-shifts](../assets/figures/regions/europe/paired_shifts_mini_hero.pdf) / [signed θ](../assets/figures/regions/europe/magnitude_angle.pdf)
 
 ---
 
@@ -53,7 +53,7 @@ Full reading · [India →](india.md) · [PDFs: paired-shifts](../assets/figures
 [![Latin America — paired shifts](../assets/figures/regions/latin_am/paired_shifts_mini_hero.png){ loading=lazy }](../assets/figures/regions/latin_am/paired_shifts_mini_hero.png)
 [![Latin America — signed θ](../assets/figures/regions/latin_am/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/latin_am/magnitude_angle.png)
 
-Stub page · [Latin America](latin_am.md) · [PDFs: paired-shifts](../assets/figures/regions/latin_am/paired_shifts_mini_hero.pdf) / [signed θ](../assets/figures/regions/latin_am/magnitude_angle.pdf)
+Full reading · [Latin America →](latin_am.md) · [PDFs: paired-shifts](../assets/figures/regions/latin_am/paired_shifts_mini_hero.pdf) / [signed θ](../assets/figures/regions/latin_am/magnitude_angle.pdf)
 
 ---
 
@@ -62,7 +62,7 @@ Stub page · [Latin America](latin_am.md) · [PDFs: paired-shifts](../assets/fig
 [![Middle East — paired shifts](../assets/figures/regions/middle_east/paired_shifts_mini_hero.png){ loading=lazy }](../assets/figures/regions/middle_east/paired_shifts_mini_hero.png)
 [![Middle East — signed θ](../assets/figures/regions/middle_east/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/middle_east/magnitude_angle.png)
 
-Stub page · [Middle East](middle_east.md) · [PDFs: paired-shifts](../assets/figures/regions/middle_east/paired_shifts_mini_hero.pdf) / [signed θ](../assets/figures/regions/middle_east/magnitude_angle.pdf)
+Full reading · [Middle East →](middle_east.md) · [PDFs: paired-shifts](../assets/figures/regions/middle_east/paired_shifts_mini_hero.pdf) / [signed θ](../assets/figures/regions/middle_east/magnitude_angle.pdf)
 
 ---
 
@@ -71,7 +71,7 @@ Stub page · [Middle East](middle_east.md) · [PDFs: paired-shifts](../assets/fi
 [![North America — paired shifts](../assets/figures/regions/north_am/paired_shifts_mini_hero.png){ loading=lazy }](../assets/figures/regions/north_am/paired_shifts_mini_hero.png)
 [![North America — signed θ](../assets/figures/regions/north_am/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/north_am/magnitude_angle.png)
 
-Stub page · [North America](north_am.md) · [PDFs: paired-shifts](../assets/figures/regions/north_am/paired_shifts_mini_hero.pdf) / [signed θ](../assets/figures/regions/north_am/magnitude_angle.pdf)
+Full reading · [North America →](north_am.md) · [PDFs: paired-shifts](../assets/figures/regions/north_am/paired_shifts_mini_hero.pdf) / [signed θ](../assets/figures/regions/north_am/magnitude_angle.pdf)
 
 ---
 
@@ -80,7 +80,7 @@ Stub page · [North America](north_am.md) · [PDFs: paired-shifts](../assets/fig
 [![Pacific OECD — paired shifts](../assets/figures/regions/pac_oecd/paired_shifts_mini_hero.png){ loading=lazy }](../assets/figures/regions/pac_oecd/paired_shifts_mini_hero.png)
 [![Pacific OECD — signed θ](../assets/figures/regions/pac_oecd/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/pac_oecd/magnitude_angle.png)
 
-Stub page · [Pacific OECD](pac_oecd.md) · [PDFs: paired-shifts](../assets/figures/regions/pac_oecd/paired_shifts_mini_hero.pdf) / [signed θ](../assets/figures/regions/pac_oecd/magnitude_angle.pdf)
+Full reading · [Pacific OECD →](pac_oecd.md) · [PDFs: paired-shifts](../assets/figures/regions/pac_oecd/paired_shifts_mini_hero.pdf) / [signed θ](../assets/figures/regions/pac_oecd/magnitude_angle.pdf)
 
 ---
 
@@ -89,7 +89,7 @@ Stub page · [Pacific OECD](pac_oecd.md) · [PDFs: paired-shifts](../assets/figu
 [![Reforming Economies — paired shifts](../assets/figures/regions/ref_econ/paired_shifts_mini_hero.png){ loading=lazy }](../assets/figures/regions/ref_econ/paired_shifts_mini_hero.png)
 [![Reforming Economies — signed θ](../assets/figures/regions/ref_econ/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/ref_econ/magnitude_angle.png)
 
-Stub page · [Reforming Economies](ref_econ.md) · [PDFs: paired-shifts](../assets/figures/regions/ref_econ/paired_shifts_mini_hero.pdf) / [signed θ](../assets/figures/regions/ref_econ/magnitude_angle.pdf)
+Full reading · [Reforming Economies →](ref_econ.md) · [PDFs: paired-shifts](../assets/figures/regions/ref_econ/paired_shifts_mini_hero.pdf) / [signed θ](../assets/figures/regions/ref_econ/magnitude_angle.pdf)
 
 ---
 
@@ -98,7 +98,7 @@ Stub page · [Reforming Economies](ref_econ.md) · [PDFs: paired-shifts](../asse
 [![Rest of Asia — paired shifts](../assets/figures/regions/rest_asia/paired_shifts_mini_hero.png){ loading=lazy }](../assets/figures/regions/rest_asia/paired_shifts_mini_hero.png)
 [![Rest of Asia — signed θ](../assets/figures/regions/rest_asia/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/rest_asia/magnitude_angle.png)
 
-Stub page · [Rest of Asia](rest_asia.md) · [PDFs: paired-shifts](../assets/figures/regions/rest_asia/paired_shifts_mini_hero.pdf) / [signed θ](../assets/figures/regions/rest_asia/magnitude_angle.pdf)
+Full reading · [Rest of Asia →](rest_asia.md) · [PDFs: paired-shifts](../assets/figures/regions/rest_asia/paired_shifts_mini_hero.pdf) / [signed θ](../assets/figures/regions/rest_asia/magnitude_angle.pdf)
 
 ---
 
