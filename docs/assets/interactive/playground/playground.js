@@ -351,7 +351,8 @@ function buildTraces(f) {
     const xref = ax > 1 ? `x${ax}` : "x";
     const yref = ax > 1 ? `y${ax}` : "y";
 
-    // Legend: top-left panel, first marker variant per colour category.
+    // Colour-legend entry: only on top-left panel, only on the first
+    // marker variant per colour category.
     const legendKey = colourKey + "|" + g.c;
     const isLegend = (ax === 1) && !seenLegend.has(legendKey);
     if (isLegend) seenLegend.add(legendKey);
@@ -362,6 +363,7 @@ function buildTraces(f) {
       x: g.x, y: g.y,
       name: g.c,
       legendgroup: legendKey,
+      legend: "legend",
       showlegend: isLegend,
       marker: {
         color:  palette ? (palette[g.c] || "#888") : "#888",
@@ -374,6 +376,36 @@ function buildTraces(f) {
       text: g.h,
       xaxis: xref, yaxis: yref,
     });
+  }
+
+  // Marker-shape legend (legend2). Build via invisible dummy traces, one
+  // per marker category. Skipped when "marker by" is "none" or when
+  // marker dimension equals colour dimension (the colour legend already
+  // tells that story).
+  if (markerKey !== "none" && markerKey !== colourKey && shapes) {
+    const presentMarkers = new Set();
+    for (const g of ordered) presentMarkers.add(g.m);
+    for (const mCat of Object.keys(shapes)) {
+      if (!presentMarkers.has(mCat)) continue;   // no data of this shape
+      traces.push({
+        type: "scatter",
+        mode: "markers",
+        x: [null], y: [null],
+        name: mCat,
+        legendgroup: "marker|" + mCat,
+        legend: "legend2",
+        showlegend: true,
+        marker: {
+          color: "#666",
+          symbol: shapes[mCat],
+          size: 8,
+          opacity: 0.95,
+          line: { width: 0.4, color: "white" },
+        },
+        hoverinfo: "skip",
+        xaxis: "x", yaxis: "y",
+      });
+    }
   }
 
   return traces;
@@ -420,10 +452,10 @@ function buildLayout(f) {
     shapes: [],
     annotations: [],
     legend: {
-      // Horizontal legend strip above the subplot grid -- frees up the
-      // right side of the figure for the 4 chart columns.
+      // Colour legend: horizontal strip above the grid, anchored left.
       orientation: "h",
-      title: { text: "<b>" + labelOf(state.colour) + "</b>&nbsp;", side: "left" },
+      title: { text: "<b>Colour:</b> " + labelOf(state.colour) + "&nbsp;&nbsp;",
+               side: "left" },
       x: 0, xanchor: "left", y: 1.08, yanchor: "bottom",
       bgcolor: "rgba(255,255,255,0.95)",
       bordercolor: "#ddd", borderwidth: 1,
@@ -431,6 +463,23 @@ function buildLayout(f) {
     },
     font: { family: "Inter, system-ui, sans-serif", size: 12 },
   };
+
+  // Marker legend (legend2) only when the marker dimension is set AND
+  // distinct from the colour dimension. Otherwise it'd be empty or
+  // redundant.
+  const showMarkerLegend = state.marker !== "none"
+    && state.marker !== state.colour;
+  if (showMarkerLegend) {
+    layout.legend2 = {
+      orientation: "h",
+      title: { text: "<b>Marker:</b> " + labelOf(state.marker) + "&nbsp;&nbsp;",
+               side: "left" },
+      x: 1, xanchor: "right", y: 1.08, yanchor: "bottom",
+      bgcolor: "rgba(255,255,255,0.95)",
+      bordercolor: "#ddd", borderwidth: 1,
+      font: { size: 12 },
+    };
+  }
 
   // Subplot grid with independent axes.
   // Domain per cell on the [0,1] paper. 4 cols × 2 rows.
