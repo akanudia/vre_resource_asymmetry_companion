@@ -99,5 +99,6 @@ nav:
     - Pacific OECD: regions/pac_oecd.md
     - Reforming Economies: regions/ref_econ.md
     - Rest of Asia: regions/rest_asia.md
+  - Playground: playground.md
   - Data: data.md
   - Cite: cite.md

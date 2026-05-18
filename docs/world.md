@@ -20,6 +20,10 @@ $|y| > |x|$. R10 circles, R70 triangles. Colour codes the climate ambition
 category (C1 ... C7). [Download PDF](assets/figures/world/hero.pdf).
 ///
 
+For an interactive view that lets you filter on every scenario dimension and
+recolour the cloud by climate, cost, price, TS resolution, supply curve, or
+regional aggregation, open the **[Playground](../playground/)**.
+
 **Reading.** Points sitting above $y = x$ (or below $y = -x$) are
 structurally dominated: the structural-axis shift exceeds the parametric
 distance from the anchor in magnitude. The supply channel (left column)
