@@ -43,6 +43,60 @@ const FILTER_LABELS = {
   spat_gran: "Reg. agg.",
 };
 
+// Tooltips shown on hover over each filter group's axis label. One-line
+// explanations of the paper's nomenclature so cold-landing readers don't
+// have to flip to the manuscript to interpret the chips.
+const FILTER_HELP = {
+  climate:
+    "AR6 climate ambition: C1 (1.5°C, low overshoot) → C7 (above 2.5°C, "
+    + "reference policy). Sets the carbon-price trajectory.",
+  cost:
+    "Technology cost level for VRE: Hi (pessimistic capex), Base (central), "
+    + "Lo (optimistic).",
+  price:
+    "Fossil fuel price quantile: q25 (cheap fossils, fossil-favouring), "
+    + "median (central), q75 (expensive fossils, VRE-favouring).",
+  ts:
+    "Timeslice resolution of the model run: TS04 (4 representative "
+    + "timeslices, very coarse) → TS72 (72 timeslices, fine sub-daily). "
+    + "Pair axis for the temporal channel; fixed within-pair for the "
+    + "supply channel.",
+  tech_gran:
+    "Supply-curve detail per technology: LoT (coarse, 4–5 cost-ordered "
+    + "tranches) vs HiT (fine, ~30 tranches exposing the high-quality "
+    + "resource tail). Pair axis for the supply channel; fixed within-pair "
+    + "for the temporal channel.",
+  spat_gran:
+    "Regional aggregation: R10 (10 IPCC AR6 macro-regions) vs R70 "
+    + "(62 individually-modelled countries + 8 rest-of-region aggregates).",
+};
+
+// Tooltips for individual chip values where the abbreviation isn't
+// self-explanatory.
+const VALUE_HELP = {
+  C1: "1.5°C, low/no overshoot",
+  C2: "1.5°C, high overshoot",
+  C3: "Likely below 2°C",
+  C4: "Below 2°C",
+  C7: "Above 2.5°C — reference (current policies)",
+  Hi: "High VRE capex (pessimistic for renewables)",
+  Lo: "Low VRE capex (optimistic for renewables)",
+  Base: "Central technology cost assumption",
+  q25: "25th-percentile fossil fuel price (cheap)",
+  q75: "75th-percentile fossil fuel price (expensive)",
+  median: "Median fossil fuel price",
+  LoT: "Coarse supply curve (4–5 tranches per tech)",
+  HiT: "Fine supply curve (~30 tranches per tech)",
+  R10: "10 IPCC AR6 macro-regions",
+  R70: "62 countries + 8 aggregates",
+  TS04: "4 timeslices",
+  TS12: "12 timeslices",
+  TS24: "24 timeslices",
+  TS36: "36 timeslices",
+  TS48: "48 timeslices",
+  TS72: "72 timeslices",
+};
+
 const ENCODING_OPTIONS = [
   { key: "climate",   label: "Climate ambition" },
   { key: "cost",      label: "Technology cost" },
@@ -54,7 +108,7 @@ const ENCODING_OPTIONS = [
 
 // Discrete palettes.
 const PALETTES = {
-  climate:   { C1: "#1a9850", C2: "#91cf60", C3: "#fee08b",
+  climate:   { C1: "#1a9850", C2: "#91cf60", C3: "#e0b938",
                C4: "#fc8d59", C7: "#d73027" },
   cost:      { Lo: "#1f77b4", Base: "#7f7f7f", Hi: "#d62728" },
   price:     { q25: "#1f77b4", median: "#7f7f7f", q75: "#d62728" },
@@ -87,6 +141,65 @@ const state = {
   filters:  {},
 };
 
+// ----------------------------------------------------------------- URL state
+
+// Serialise current state to a URL hash so a view is shareable by link.
+// Format: #region=R10INDIA%2B&colour=cost&marker=spat_gran&scaling=auto
+//         &climate=C4,C7&cost=Lo
+// Filter axes are omitted from the hash when all values are selected
+// (default), so the URL stays short for unfiltered views.
+function stateToHash() {
+  const parts = [];
+  parts.push("region=" + encodeURIComponent(state.region));
+  if (state.colour  !== "climate")   parts.push("colour="  + state.colour);
+  if (state.marker  !== "spat_gran") parts.push("marker="  + state.marker);
+  if (state.scaling !== "paper")     parts.push("scaling=" + state.scaling);
+  for (const axis of FILTER_AXES) {
+    const all = DATA.scenario_axes[axis];
+    const sel = all.filter(v => state.filters[axis].has(v));
+    if (sel.length !== all.length) {
+      parts.push(axis + "=" + sel.map(encodeURIComponent).join(","));
+    }
+  }
+  return "#" + parts.join("&");
+}
+
+function applyHashToState() {
+  const h = window.location.hash.replace(/^#/, "");
+  if (!h) return;
+  const validRegions  = new Set(DATA.regions);
+  const validEncoding = new Set(["climate", "cost", "price",
+                                  "ts", "tech_gran", "spat_gran"]);
+  for (const pair of h.split("&")) {
+    const eq = pair.indexOf("=");
+    if (eq < 0) continue;
+    const k = pair.slice(0, eq);
+    const v = decodeURIComponent(pair.slice(eq + 1));
+    if (k === "region" && validRegions.has(v))     state.region = v;
+    else if (k === "colour" && validEncoding.has(v))  state.colour = v;
+    else if (k === "marker"
+             && (v === "none" || validEncoding.has(v))) state.marker = v;
+    else if (k === "scaling" && (v === "paper" || v === "auto"))
+                                                       state.scaling = v;
+    else if (FILTER_AXES.includes(k)) {
+      const allowed = new Set(DATA.scenario_axes[k]);
+      const vals = v.split(",").map(decodeURIComponent).filter(x => allowed.has(x));
+      // Only override if at least one valid value is named; an empty
+      // filter would silently wipe the chart, which is worse than
+      // ignoring a malformed URL.
+      if (vals.length > 0) state.filters[k] = new Set(vals);
+    }
+  }
+}
+
+function updateUrlHash() {
+  if (!DATA) return;
+  const newHash = stateToHash();
+  if (window.location.hash !== newHash) {
+    history.replaceState(null, "", newHash);
+  }
+}
+
 // ----------------------------------------------------------------- init
 
 async function init() {
@@ -106,15 +219,45 @@ async function init() {
       state.filters[axis] = new Set(DATA.scenario_axes[axis]);
     }
 
+    // Hydrate state from the URL hash so a reviewer can land directly on
+    // a shared view (e.g. ?#region=R10INDIA%2B&colour=cost&climate=C7).
+    applyHashToState();
+
     buildRegionCombo();
     buildEncodingCombos();
     buildFilterChips();
     attachHandlers();
+    initHelpPanel();
     render();
   } catch (err) {
     showError(err);
     throw err;
   }
+}
+
+// First-visit: open the orientation panel. Subsequent visits: stay
+// collapsed (the user has already read the prose). Tracked via
+// localStorage; survives across browser sessions but resets if the user
+// clears site data.
+function initHelpPanel() {
+  const help = document.getElementById("ph-help");
+  if (!help) return;
+  let seen = false;
+  try { seen = !!localStorage.getItem("ph-help-seen"); }
+  catch (_) { /* localStorage may be disabled — treat as first visit */ }
+  help.open = !seen;
+  help.addEventListener("toggle", () => {
+    if (!help.open) {
+      try { localStorage.setItem("ph-help-seen", "1"); }
+      catch (_) {}
+    }
+  });
+  // Close-on-outside-click for the orientation panel only (so it behaves
+  // like a popover rather than a permanent inline section).
+  document.addEventListener("click", (e) => {
+    if (!help.open) return;
+    if (!help.contains(e.target)) help.open = false;
+  });
 }
 
 function showError(err) {
@@ -175,7 +318,8 @@ function buildFilterChips() {
     const lbl = document.createElement("span");
     lbl.className = "ph-flabel";
     lbl.textContent = FILTER_LABELS[axis];
-    lbl.title = "Click to toggle all";
+    // Compose tooltip: explanation + click-to-toggle-all hint.
+    lbl.title = (FILTER_HELP[axis] || "") + "\n\n(Click to toggle all)";
     lbl.addEventListener("click", () => toggleAxisAll(axis));
     grp.appendChild(lbl);
 
@@ -183,6 +327,8 @@ function buildFilterChips() {
       const chip = document.createElement("label");
       chip.className = "ph-chip checked";
       chip.dataset.value = v;
+      // Per-chip tooltip with the value's plain-language gloss.
+      if (VALUE_HELP[v]) chip.title = `${v}: ${VALUE_HELP[v]}`;
       const cb = document.createElement("input");
       cb.type = "checkbox";
       cb.checked = true;
@@ -563,8 +709,12 @@ function render() {
   const f = filteredPoints();
   const n = f.region.length;
   const countEl = document.getElementById("ph-count");
-  countEl.textContent = `${n.toLocaleString()} point${n === 1 ? "" : "s"} in plot`;
-  countEl.classList.toggle("zero", n === 0);
+  countEl.textContent = `${n.toLocaleString()} point${n === 1 ? "" : "s"}`;
+  // Tier the count's colour treatment by how heavily the filters cut the
+  // plot. Default n per region is 2,880; 0 = zero (red), <1,440 (half of
+  // default) = filtered (amber), otherwise = primary accent.
+  countEl.classList.toggle("zero",     n === 0);
+  countEl.classList.toggle("filtered", n > 0 && n < 1440);
   document.getElementById("ph-empty").hidden = (n > 0);
   document.getElementById("ph-current-region").textContent =
     REGION_LABELS[state.region] || state.region;
@@ -574,6 +724,10 @@ function render() {
   Plotly.react("ph-plot", traces, layout,
     { responsive: true, displaylogo: false,
       modeBarButtonsToRemove: ["select2d", "lasso2d"] });
+
+  // Reflect every state change in the URL hash so the current view is
+  // copy-pasteable as a shareable link.
+  updateUrlHash();
 }
 
 // ----------------------------------------------------------------- go

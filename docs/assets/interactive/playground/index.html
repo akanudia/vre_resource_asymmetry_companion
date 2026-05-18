@@ -10,8 +10,45 @@
 </head>
 <body>
   <header class="ph-header">
-    <h1>Resource-asymmetry playground</h1>
-    <span class="ph-sub" id="ph-current-region">Loading&hellip;</span>
+    <div class="ph-title-block">
+      <h1 id="ph-current-region">Loading&hellip;</h1>
+      <span class="ph-subtitle">Resource-asymmetry playground &middot;
+        companion to <em>Wind&ndash;solar resource asymmetry</em></span>
+    </div>
+    <span class="ph-count" id="ph-count">&mdash;</span>
+    <details class="ph-help" id="ph-help">
+      <summary>What's this?</summary>
+      <div class="ph-help-body">
+        <p><b>What you're looking at.</b>
+          The 4&times;2 chart matrix shows every paired-shift point from
+          the 1,080-instance scenario ensemble for the currently selected
+          region. <b>Columns</b> are outcomes (cumulative wind, solar,
+          system cost, CO<sub>2</sub> emissions). <b>Rows</b> are structural
+          channels: <em>supply-curve refinement</em> (LoT&nbsp;&rarr;&nbsp;HiT)
+          and <em>temporal-resolution refinement</em>
+          (TS04&nbsp;&rarr;&nbsp;TS72).</p>
+
+        <p><b>How to read a point.</b>
+          <em>x</em> = the parametric % shift of the coarse leg of the
+          pair vs the C7-Base-median anchor.
+          <em>y</em> = the structural % shift coarse&nbsp;&rarr;&nbsp;fine,
+          on the same denominator. A point outside the dashed
+          <em>y</em>&nbsp;=&nbsp;&plusmn;<em>x</em> wedge is
+          <em>structurally dominant</em> &mdash; the resolution choice
+          moved the outcome by more than the parametric distance from
+          the anchor.</p>
+
+        <p><b>Using the controls.</b>
+          Pick a different region from the combo. Recolour or
+          re-marker the cloud by any scenario axis. Filter chips
+          narrow the cloud &mdash; <em>checked&nbsp;=&nbsp;included</em>;
+          unchecked chips fade out so it's visible what you've turned
+          off. Click any chip-group label (e.g. <em>CLIMATE</em>) to
+          toggle all its chips on or off. The current view is
+          encoded in the page URL; copy-paste the URL to share an exact
+          view.</p>
+      </div>
+    </details>
     <a class="ph-back" href="../../../">&larr; Companion site</a>
   </header>
 
@@ -55,7 +92,6 @@
 
       <div class="ph-row ph-row-bottom">
         <button type="button" id="ph-reset" class="ph-btn">Reset filters</button>
-        <span class="ph-count" id="ph-count">&mdash;</span>
       </div>
     </section>
   </main>

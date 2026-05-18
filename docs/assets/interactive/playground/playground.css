@@ -32,24 +32,107 @@ html, body {
 /* ============================================================ Header */
 
 .ph-header {
-  display: flex; align-items: baseline; gap: 16px;
-  padding: 10px 22px;
+  display: flex; align-items: baseline; gap: 22px;
+  padding: 12px 26px 10px 26px;
   background: var(--panel);
   border-bottom: 1px solid var(--border);
   flex-wrap: wrap;
 }
+.ph-title-block {
+  display: flex; flex-direction: column; gap: 1px;
+}
+/* Region name is the primary live state — large, bold, dominant. */
 .ph-header h1 {
-  font-size: 17px; font-weight: 600; margin: 0;
+  font-size: 22px; font-weight: 700; margin: 0;
+  color: var(--text);
+  letter-spacing: -0.01em;
 }
-.ph-sub {
-  font-size: 13px; color: var(--muted);
+/* Subtitle: muted, identifies the page itself. */
+.ph-subtitle {
+  font-size: 12px; color: var(--muted);
+  letter-spacing: 0.01em;
 }
+/* Header point-count: secondary live state, sits next to the region name. */
+.ph-header .ph-count {
+  font-size: 18px; font-weight: 500;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+  align-self: center;
+  padding-left: 10px;
+  border-left: 1px solid var(--border);
+}
+.ph-header .ph-count.filtered { color: #ef6c00; }
+.ph-header .ph-count.zero     { color: #c62828; font-weight: 700; }
 .ph-back {
-  margin-left: auto;
   font-size: 13px; color: var(--accent);
   text-decoration: none;
+  align-self: center;
 }
 .ph-back:hover { text-decoration: underline; }
+
+/* "What's this?" expandable orientation panel. Inline in the header bar;
+ * collapsed by default for return visitors (tracked via localStorage). */
+.ph-help {
+  margin-left: auto;
+  font-size: 13px;
+}
+.ph-help summary {
+  cursor: pointer;
+  color: var(--accent);
+  list-style: none;
+  padding: 5px 12px;
+  border: 1px solid var(--accent);
+  border-radius: 14px;
+  background: var(--panel);
+  transition: all 0.12s ease;
+  user-select: none;
+  align-self: center;
+}
+.ph-help summary::-webkit-details-marker { display: none; }
+.ph-help summary::before {
+  content: "?";
+  display: inline-block;
+  width: 14px; height: 14px;
+  margin-right: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: white;
+  font-weight: 700;
+  font-size: 11px;
+  text-align: center;
+  line-height: 14px;
+  vertical-align: 1px;
+}
+.ph-help[open] summary {
+  background: var(--accent-soft);
+}
+.ph-help summary:hover {
+  background: var(--accent-soft);
+}
+.ph-help-body {
+  position: absolute;
+  z-index: 10;
+  top: 100%;
+  right: 22px;
+  margin-top: 6px;
+  width: min(560px, calc(100vw - 44px));
+  padding: 16px 20px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.10);
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--text);
+}
+.ph-help-body p { margin: 0 0 10px 0; }
+.ph-help-body p:last-child { margin-bottom: 0; }
+.ph-help-body b { color: var(--text); }
+.ph-help-body em { font-style: italic; color: var(--accent); }
+
+/* Make the header positioning context so the absolute-positioned panel
+ * anchors to the header bar. */
+.ph-header { position: relative; }
 
 /* ============================================================ Main */
 
@@ -141,14 +224,31 @@ html, body {
   min-width: 84px;
   cursor: pointer;
   user-select: none;
+  /* Dotted underline = "this has a tooltip + is clickable". */
+  border-bottom: 1px dotted #c4c4c4;
 }
-.ph-fgroup .ph-flabel:hover { color: var(--accent); }
+.ph-fgroup .ph-flabel:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
 
+/* Chip semantics:
+ *   Checked   = quiet (default look)            — the filter is "active",
+ *                                                  this value contributes
+ *                                                  to the plot.
+ *   Unchecked = signalling (dashed, faded)      — the filter is excluding
+ *                                                  this value, so it
+ *                                                  visually punches out
+ *                                                  of an otherwise-calm row.
+ * This inverts the typical "loud-on-active" pattern because the default
+ * state is everything-checked, and the diagnostic question is "what have
+ * I turned off?" rather than "what have I turned on?". */
 .ph-chip {
-  display: inline-flex; align-items: center; gap: 5px;
-  padding: 3px 9px;
-  border: 1px solid var(--border); border-radius: 14px;
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 3px 10px 3px 8px;
+  border: 1px solid #d4d4d4; border-radius: 14px;
   background: var(--panel);
+  color: var(--text);
   font-size: 12px;
   cursor: pointer;
   user-select: none;
@@ -157,19 +257,24 @@ html, body {
 .ph-chip input {
   appearance: none; -webkit-appearance: none;
   width: 10px; height: 10px; margin: 0;
-  border: 1px solid #bbb; border-radius: 50%;
-  background: var(--panel);
-}
-.ph-chip.checked {
-  background: var(--accent-soft);
-  border-color: var(--accent);
-  color: #1a237e;
-}
-.ph-chip.checked input {
+  border: 1px solid var(--accent); border-radius: 50%;
   background: var(--accent);
-  border-color: var(--accent);
 }
-.ph-chip:hover { border-color: var(--accent); }
+/* Unchecked = signalling */
+.ph-chip:not(.checked) {
+  border-style: dashed;
+  border-color: #c4c4c4;
+  color: #999;
+  opacity: 0.58;
+}
+.ph-chip:not(.checked) input {
+  background: transparent;
+  border-color: #bbb;
+}
+.ph-chip:hover {
+  border-color: var(--accent);
+  opacity: 1;
+}
 
 /* ============================================================ Row-bottom */
 
@@ -182,12 +287,12 @@ html, body {
 }
 .ph-btn:hover { border-color: var(--accent); color: var(--accent); }
 
+/* Base .ph-count rule retained for backwards compat with any controls-row
+ * usage; the active live count lives in the header (.ph-header .ph-count). */
 .ph-count {
-  margin-left: auto;
   font-size: 13px; color: var(--muted);
   font-variant-numeric: tabular-nums;
 }
-.ph-count.zero { color: #c62828; font-weight: 600; }
 
 /* ============================================================ Plotly tweaks */
 
