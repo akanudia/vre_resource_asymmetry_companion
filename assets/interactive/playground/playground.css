@@ -1,0 +1,197 @@
+/* Resource-asymmetry playground — standalone page
+ *
+ * Layout: full-viewport landscape page. Header at top, plot fills the
+ * upper viewport, controls panel fixed-height at bottom.
+ *
+ * Palette matches the companion-site Material theme (indigo accent on a
+ * neutral background).
+ */
+
+:root {
+  --bg:       #fafafa;
+  --panel:    #ffffff;
+  --border:   #e4e4e4;
+  --text:     #1a1a1a;
+  --muted:    #666;
+  --accent:   #3949ab;            /* mkdocs Material indigo */
+  --accent-soft: #e8eaf6;
+  --shape-r10:#1976D2;
+  --shape-r70:#F1C40F;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0; padding: 0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 14px;
+  color: var(--text);
+  background: var(--bg);
+}
+
+/* ============================================================ Header */
+
+.ph-header {
+  display: flex; align-items: baseline; gap: 16px;
+  padding: 10px 22px;
+  background: var(--panel);
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+.ph-header h1 {
+  font-size: 17px; font-weight: 600; margin: 0;
+}
+.ph-sub {
+  font-size: 13px; color: var(--muted);
+}
+.ph-back {
+  margin-left: auto;
+  font-size: 13px; color: var(--accent);
+  text-decoration: none;
+}
+.ph-back:hover { text-decoration: underline; }
+
+/* ============================================================ Main */
+
+.ph-main {
+  display: flex; flex-direction: column;
+  min-height: calc(100vh - 50px);
+}
+
+.ph-plot {
+  flex: 1 1 auto;
+  /* Use viewport-relative min-height so 4K / tall monitors get proportionally
+   * larger charts. Floor at 540px so small laptops still work. */
+  min-height: max(540px, 68vh);
+  padding: 8px 12px 0 12px;
+  background: var(--bg);
+}
+
+.ph-empty {
+  margin: 12px 22px;
+  padding: 14px 18px;
+  background: #fff8e1;
+  border: 1px solid #ffd54f;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #5d4037;
+}
+.ph-empty p { margin: 0; }
+
+/* ============================================================ Controls */
+
+.ph-controls {
+  padding: 14px 22px 18px 22px;
+  background: var(--panel);
+  border-top: 1px solid var(--border);
+}
+
+.ph-row {
+  display: flex; align-items: flex-end; gap: 24px;
+  flex-wrap: wrap;
+}
+.ph-row-top    { margin-bottom: 12px; }
+.ph-row-bottom { margin-top: 10px; align-items: center; }
+
+.ph-field {
+  display: flex; flex-direction: column; gap: 4px;
+}
+.ph-field label {
+  font-size: 11px; font-weight: 600;
+  color: var(--muted);
+  letter-spacing: 0.04em; text-transform: uppercase;
+}
+.ph-field select {
+  padding: 5px 8px;
+  font-size: 13px;
+  border: 1px solid var(--border); border-radius: 4px;
+  background: var(--panel);
+  min-width: 160px;
+}
+
+.ph-scaling { min-width: 320px; }
+.ph-radio-group {
+  display: flex; gap: 14px; padding-top: 4px;
+}
+.ph-radio-group label {
+  font-size: 13px; text-transform: none; letter-spacing: 0;
+  font-weight: 400; color: var(--text);
+  display: inline-flex; align-items: center; gap: 5px;
+  cursor: pointer;
+}
+.ph-radio-group input { margin: 0; }
+
+/* ============================================================ Filter chips */
+
+.ph-filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 10px 24px;
+  padding-top: 8px;
+}
+
+.ph-fgroup {
+  display: flex; align-items: center;
+  flex-wrap: wrap; gap: 6px;
+}
+.ph-fgroup .ph-flabel {
+  font-size: 11px; font-weight: 600;
+  color: var(--muted);
+  letter-spacing: 0.04em; text-transform: uppercase;
+  min-width: 84px;
+  cursor: pointer;
+  user-select: none;
+}
+.ph-fgroup .ph-flabel:hover { color: var(--accent); }
+
+.ph-chip {
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 3px 9px;
+  border: 1px solid var(--border); border-radius: 14px;
+  background: var(--panel);
+  font-size: 12px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.12s ease;
+}
+.ph-chip input {
+  appearance: none; -webkit-appearance: none;
+  width: 10px; height: 10px; margin: 0;
+  border: 1px solid #bbb; border-radius: 50%;
+  background: var(--panel);
+}
+.ph-chip.checked {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: #1a237e;
+}
+.ph-chip.checked input {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.ph-chip:hover { border-color: var(--accent); }
+
+/* ============================================================ Row-bottom */
+
+.ph-btn {
+  padding: 6px 14px;
+  font-size: 13px;
+  border: 1px solid var(--border); border-radius: 4px;
+  background: var(--panel);
+  cursor: pointer;
+}
+.ph-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+.ph-count {
+  margin-left: auto;
+  font-size: 13px; color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.ph-count.zero { color: #c62828; font-weight: 600; }
+
+/* ============================================================ Plotly tweaks */
+
+.js-plotly-plot .plotly .modebar {
+  /* Float the modebar inside the plot area; out of the way of subplots. */
+  top: 0px !important;
+}

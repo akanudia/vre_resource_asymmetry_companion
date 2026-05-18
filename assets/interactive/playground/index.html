@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resource-asymmetry playground &mdash; companion site</title>
+  <link rel="stylesheet" href="playground.css">
+  <script defer src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <script defer src="playground.js"></script>
+</head>
+<body>
+  <header class="ph-header">
+    <h1>Resource-asymmetry playground</h1>
+    <span class="ph-sub" id="ph-current-region">Loading&hellip;</span>
+    <a class="ph-back" href="../../../">&larr; Companion site</a>
+  </header>
+
+  <main class="ph-main">
+    <div id="ph-plot" class="ph-plot"></div>
+
+    <div class="ph-empty" id="ph-empty" hidden>
+      <p><b>No pairs match the current filters.</b>
+        A paired-shift point requires both legs of the comparison
+        (both LoT and HiT for supply pairs; both TS04 and TS72 for
+        temporal pairs) plus matching values on every other scenario axis.
+        Re-tick at least one option in each greyed-out filter group.</p>
+    </div>
+
+    <section class="ph-controls">
+      <div class="ph-row ph-row-top">
+        <div class="ph-field">
+          <label for="ph-region">Region</label>
+          <select id="ph-region"></select>
+        </div>
+        <div class="ph-field">
+          <label for="ph-colour">Colour by</label>
+          <select id="ph-colour"></select>
+        </div>
+        <div class="ph-field">
+          <label for="ph-marker">Marker by</label>
+          <select id="ph-marker"></select>
+        </div>
+        <div class="ph-field ph-scaling">
+          <label>Scaling</label>
+          <div class="ph-radio-group">
+            <label><input type="radio" name="ph-scaling" value="paper" checked>
+              Paper-matched</label>
+            <label><input type="radio" name="ph-scaling" value="auto">
+              Per-panel autoscale</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="ph-filters" id="ph-filters"><!-- chip groups injected by JS --></div>
+
+      <div class="ph-row ph-row-bottom">
+        <button type="button" id="ph-reset" class="ph-btn">Reset filters</button>
+        <span class="ph-count" id="ph-count">&mdash;</span>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
