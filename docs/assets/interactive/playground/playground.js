@@ -592,18 +592,22 @@ function buildLayout(f) {
   }
 
   const layout = {
-    margin: { l: 56, r: 28, t: 84, b: 56 },
+    // Top margin is now modest -- legends moved between the two chart
+    // rows, so we only need top room for the column-title annotations.
+    margin: { l: 56, r: 28, t: 44, b: 56 },
     plot_bgcolor: "white",
     hovermode: "closest",
     autosize: true,
     shapes: [],
     annotations: [],
     legend: {
-      // Colour legend: horizontal strip above the grid, anchored left.
+      // Colour legend: horizontal strip placed BETWEEN the supply and
+      // temporal chart rows, anchored just left of paper centre so the
+      // colour-marker pair reads as a centred row.
       orientation: "h",
       title: { text: "<b>Colour:</b> " + labelOf(state.colour) + "&nbsp;&nbsp;",
                side: "left" },
-      x: 0, xanchor: "left", y: 1.08, yanchor: "bottom",
+      x: 0.495, xanchor: "right", y: 0.5, yanchor: "middle",
       bgcolor: "rgba(255,255,255,0.95)",
       bordercolor: "#ddd", borderwidth: 1,
       font: { size: 12 },
@@ -618,22 +622,29 @@ function buildLayout(f) {
     && state.marker !== state.colour;
   if (showMarkerLegend) {
     layout.legend2 = {
+      // Sits to the right of the colour legend on the same centred row
+      // between the two chart rows.
       orientation: "h",
       title: { text: "<b>Marker:</b> " + labelOf(state.marker) + "&nbsp;&nbsp;",
                side: "left" },
-      x: 1, xanchor: "right", y: 1.08, yanchor: "bottom",
+      x: 0.505, xanchor: "left", y: 0.5, yanchor: "middle",
       bgcolor: "rgba(255,255,255,0.95)",
       bordercolor: "#ddd", borderwidth: 1,
       font: { size: 12 },
     };
+  } else {
+    // No marker legend -- centre the colour legend on the page.
+    layout.legend.x = 0.5;
+    layout.legend.xanchor = "center";
   }
 
   // Subplot grid with independent axes.
   // Domain per cell on the [0,1] paper. nCols cols × 2 rows.
-  // No legend reservation -- the legend is now a horizontal strip above
-  // the grid (see legend.orientation = "h" above).
+  // The legend strip sits BETWEEN the two rows; rowGap is enlarged so
+  // the legends have room to breathe without colliding with row-2
+  // panel titles (which sit just above the bottom row's panels).
   const nCols = OUTCOMES.length;
-  const colGap = 0.05, rowGap = 0.13;
+  const colGap = 0.05, rowGap = 0.18;
   const colW = (1 - (nCols - 1) * colGap) / nCols;
   const rowH = (1 - rowGap) / 2;
 
