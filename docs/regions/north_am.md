@@ -44,6 +44,8 @@ intermediate climate ambitions — supply refinement makes the North American
 system cheaper. The Great Plains wind corridor is the principal driver:
 LoT averages it with low-CF cells, HiT exposes the cheap-wind tail.
 
+*Electricity-price row.* The electricity-price row tracks the system-cost channel signatures — supply-curve refinement drives prices down more aggressively than at world aggregate at C7 (Δθ −35°), and temporal refinement raises them more at low-ambition C2 (Δθ +20°). USA Great Plains wind heterogeneity is the dominant driver of the supply-channel signal.
+
 ## Signed structural dominance angle (North America)
 
 [![North America — signed structural dominance angle](../assets/figures/regions/north_am/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/north_am/magnitude_angle.png)
@@ -71,22 +73,22 @@ LoT averages it with low-CF cells, HiT exposes the cheap-wind tail.
 
 ## Cells where North America departs from world
 
-| Channel | Outcome | Climate | World θ | Region θ | Departure |
+| Channel | Outcome | Climate | World θ | North America θ | Departure |
 |---|---|---|---:|---:|---:|
 | Supply | Cost | C4 | +8° | −42° | **−50°** |
-| Supply | Solar | C7 | −5° | **−48°** | −44° |
-| Supply | Cost | C7 | +31° | −12° | −43° |
-| Supply | Cost | C3 | −3° | −41° | −37° |
-| Supply | Wind | C4 | +33° | **+63°** | +30° |
-| Supply | Cost | C2 | −6° | −34° | −28° |
-| Supply | Cost | C1 | −7° | −34° | −27° |
-| Temporal | Wind | C7 | −10° | +14° | +24° |
-| Temporal | Solar | C2 | +12° | −12° | −24° |
-| Supply | Solar | C2 | −9° | −33° | −24° |
-| Supply | Solar | C4 | −34° | **−57°** | −22° |
-| Temporal | Solar | C7 | **−63°** | **−85°** | −22° |
-| Supply | Solar | C3 | −13° | −34° | −21° |
-| Supply | Solar | C1 | −9° | −29° | −20° |
+| Supply | Solar | C7 | −5° | −48° | **−44°** |
+| Supply | Cost | C7 | +31° | −12° | **−43°** |
+| Supply | Cost | C2 | −6° | −45° | **−40°** |
+| Supply | Price | C7 | −29° | −65° | **−35°** |
+| Temporal | Solar | C2 | +12° | −22° | **−34°** |
+| Temporal | Cost | C2 | +22° | +48° | **+26°** |
+| Supply | Solar | C4 | −34° | −8° | **+26°** |
+| Temporal | Wind | C2 | +1° | +26° | **+25°** |
+| Temporal | Solar | C1 | +18° | −5° | **−23°** |
+| Temporal | Solar | C3 | +15° | −7° | **−22°** |
+| Supply | Wind | C4 | +33° | +11° | **−21°** |
+| Temporal | Price | C2 | +22° | +42° | **+20°** |
+| Temporal | Emissions | C7 | +41° | +21° | **−20°** |
 
 The headline reading: **North America is the "supply channel makes
 everything cheaper" region**. Every climate ambition shows negative cost

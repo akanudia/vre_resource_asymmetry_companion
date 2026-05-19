@@ -48,6 +48,8 @@ directions:
   refinement *reduces* system cost. Brazil's high-quality wind tail at the
   Nordeste coast unlocks ultra-cheap generation that LoT averages away.
 
+*Electricity-price row.* The electricity-price row reads as the strongest consumer-facing channel signature on the site. Supply-curve refinement drives prices down much more aggressively than at world aggregate (Δθ of −33° to −46° across climates), while temporal refinement raises them more steeply (Δθ of +28° to +41°). The vast within-region wind heterogeneity in Brazil's Nordeste and the seasonal misalignment between solar and demand both make the price signal larger here than for any other R10 region.
+
 ## Signed structural dominance angle (Latin America)
 
 [![Latin America — signed structural dominance angle](../assets/figures/regions/latin_am/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/latin_am/magnitude_angle.png)
@@ -71,29 +73,38 @@ directions:
 
 ## Cells where Latin America departs from world
 
-| Channel | Outcome | Climate | World θ | Region θ | Departure |
+| Channel | Outcome | Climate | World θ | Latin America θ | Departure |
 |---|---|---|---:|---:|---:|
-| Supply | Cost | C7 | +31° | **−45°** | **−76°** |
-| Temporal | Wind | C7 | −10° | **+60°** | **+69°** |
-| Supply | Solar | C7 | −5° | **−74°** | **−69°** |
-| Supply | Cost | C3 | −3° | **−47°** | −44° |
-| Temporal | Cost | C3 | +24° | **+62°** | +39° |
-| Supply | Cost | C4 | +8° | −28° | −36° |
-| Temporal | Wind | C3 | −1° | +35° | +36° |
-| Supply | Cost | C2 | −6° | −41° | −35° |
-| Supply | Solar | C2 | −9° | −42° | −33° |
-| Temporal | Solar | C2 | +12° | −21° | −33° |
-| Temporal | Wind | C2 | +1° | +34° | +33° |
-| Temporal | Solar | C3 | +15° | −18° | −33° |
-| Supply | Cost | C1 | −7° | −37° | −30° |
-| Temporal | Cost | C4 | **+48°** | +18° | −30° |
-| Supply | Solar | C3 | −13° | −42° | −29° |
-| Supply | Solar | C1 | −9° | −34° | −25° |
-| Temporal | Solar | C4 | −8° | −33° | −25° |
-| Temporal | Wind | C1 | +1° | +26° | +25° |
-| Temporal | Cost | C1 | +17° | +42° | +25° |
-| Temporal | Solar | C7 | **−63°** | **−85°** | −22° |
-| Temporal | Wind | C4 | −3° | +18° | +21° |
+| Supply | Cost | C7 | +31° | −45° | **−76°** |
+| Temporal | Wind | C7 | −10° | +60° | **+69°** |
+| Supply | Solar | C7 | −5° | −74° | **−69°** |
+| Supply | Price | C2 | −18° | −64° | **−46°** |
+| Supply | Cost | C3 | −3° | −47° | **−44°** |
+| Temporal | Price | C2 | +22° | +63° | **+41°** |
+| Supply | Price | C4 | −27° | −68° | **−41°** |
+| Supply | Price | C7 | −29° | −69° | **−40°** |
+| Temporal | Price | C1 | +19° | +57° | **+39°** |
+| Temporal | Cost | C3 | +24° | +62° | **+39°** |
+| Supply | Cost | C4 | +8° | −28° | **−36°** |
+| Temporal | Wind | C3 | −1° | +35° | **+36°** |
+| Supply | Cost | C2 | −6° | −41° | **−35°** |
+| Supply | Price | C3 | −21° | −56° | **−35°** |
+| Supply | Solar | C2 | −9° | −42° | **−33°** |
+| Supply | Price | C1 | −17° | −51° | **−33°** |
+| Temporal | Solar | C2 | +12° | −21° | **−33°** |
+| Temporal | Wind | C2 | +1° | +34° | **+33°** |
+| Temporal | Solar | C3 | +15° | −18° | **−33°** |
+| Temporal | Price | C3 | +24° | +56° | **+32°** |
+| Supply | Cost | C1 | −7° | −37° | **−30°** |
+| Temporal | Cost | C4 | +48° | +18° | **−30°** |
+| Supply | Solar | C3 | −13° | −42° | **−29°** |
+| Temporal | Price | C4 | +33° | +61° | **+28°** |
+| Supply | Solar | C1 | −9° | −34° | **−25°** |
+| Temporal | Solar | C4 | −8° | −33° | **−25°** |
+| Temporal | Wind | C1 | +1° | +26° | **+25°** |
+| Temporal | Cost | C1 | +17° | +42° | **+25°** |
+| Temporal | Solar | C7 | −63° | −85° | **−22°** |
+| Temporal | Wind | C4 | −3° | +18° | **+21°** |
 
 Latin America has the **most cells with large departures** of any region —
 21 cells exceed the 20° threshold. The cost column is especially

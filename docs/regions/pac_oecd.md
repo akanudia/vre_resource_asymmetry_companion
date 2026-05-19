@@ -43,6 +43,8 @@ view — the structural shifts are present but less directionally coherent
 than at world or in any of the more homogeneous regions. This is the
 visual signature of intra-region cancellation.
 
+*Electricity-price row.* The electricity-price row shows the in-region analogue of channel cancellation: temporal refinement raises prices less aggressively than at world aggregate (Δθ −33° at C7, Δθ −23° at C4), and supply refinement lowers prices less (Δθ +21° at C7). The mixed hemispheres of Pacific OECD dilute the channel signatures relative to a single-climate aggregate.
+
 ## Signed structural dominance angle (Pacific OECD)
 
 [![Pacific OECD — signed structural dominance angle](../assets/figures/regions/pac_oecd/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/pac_oecd/magnitude_angle.png)
@@ -75,19 +77,23 @@ over 4 countries rather than 10 regions.
 
 ## Cells where Pacific OECD departs from world
 
-| Channel | Outcome | Climate | World θ | Region θ | Departure |
+| Channel | Outcome | Climate | World θ | Pacific OECD θ | Departure |
 |---|---|---|---:|---:|---:|
 | Temporal | Emissions | C7 | +41° | −3° | **−45°** |
-| Temporal | Cost | C4 | **+48°** | +8° | −40° |
-| Temporal | Solar | C7 | **−63°** | −32° | +31° |
-| Supply | Cost | C7 | +31° | +3° | −28° |
-| Temporal | Cost | C7 | **+50°** | +24° | −27° |
-| Temporal | Cost | C3 | +24° | −2° | −26° |
-| Supply | Solar | C2 | −9° | −33° | −24° |
-| Supply | Solar | C1 | −9° | −33° | −24° |
-| Supply | Solar | C4 | −34° | −12° | +22° |
-| Supply | Wind | C7 | **+69°** | **+90°** | +21° |
-| Temporal | Cost | C2 | +20° | 0° | −20° |
+| Temporal | Cost | C4 | +48° | +8° | **−40°** |
+| Temporal | Price | C7 | +52° | +19° | **−33°** |
+| Temporal | Solar | C7 | −63° | −32° | **+31°** |
+| Supply | Wind | C1 | +17° | +45° | **+28°** |
+| Supply | Cost | C1 | −7° | +20° | **+27°** |
+| Temporal | Solar | C3 | +15° | −12° | **−27°** |
+| Supply | Cost | C2 | −6° | +21° | **+27°** |
+| Temporal | Solar | C2 | +12° | −13° | **−25°** |
+| Supply | Cost | C7 | +31° | +6° | **−25°** |
+| Temporal | Solar | C1 | +18° | −5° | **−23°** |
+| Temporal | Price | C4 | +33° | +10° | **−23°** |
+| Supply | Wind | C2 | +20° | +42° | **+22°** |
+| Supply | Price | C7 | −29° | −8° | **+21°** |
+| Supply | Wind | C7 | +69° | +90° | **+20°** |
 
 The pattern across the table: **Pacific OECD's departures are almost all
 negative on the cost and emissions outcomes**. The structural-channel

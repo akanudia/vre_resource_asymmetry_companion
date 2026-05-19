@@ -51,6 +51,8 @@ $y > +80\%$ at the high-VRE end. The region's wind resource is highly
 heterogeneous within countries, and refining supply curves uncovers the
 high-CF coastal tail that LoT averaging hides.
 
+*Electricity-price row.* The electricity-price row mutes the supply-channel signature at C7 (Δθ +22°): supply-curve refinement lowers prices less aggressively than at world aggregate, consistent with the wind-saturation regime visible in the signed-θ diagnostic.
+
 ## Signed structural dominance angle (Rest of Asia)
 
 [![Rest of Asia — signed structural dominance angle](../assets/figures/regions/rest_asia/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/rest_asia/magnitude_angle.png)
@@ -80,20 +82,22 @@ high-CF coastal tail that LoT averaging hides.
 
 ## Cells where Rest of Asia departs from world
 
-| Channel | Outcome | Climate | World θ | Region θ | Departure |
+| Channel | Outcome | Climate | World θ | Rest of Asia θ | Departure |
 |---|---|---|---:|---:|---:|
-| Supply | Wind | C3 | +22° | **+88°** | **+66°** |
-| Supply | Wind | C2 | +20° | **+86°** | **+66°** |
-| Supply | Wind | C4 | +33° | **+90°** | +57° |
-| Supply | Wind | C1 | +17° | **+74°** | **+57°** |
-| Supply | Wind | C7 | **+69°** | **+90°** | +21° |
-| Supply | Cost | C7 | +31° | **+52°** | +21° |
-| Supply | Cost | C3 | −3° | +30° | +33° |
-| Temporal | Wind | C3 | −1° | +33° | +34° |
-| Temporal | Cost | C3 | +24° | **+58°** | +34° |
-| Supply | Cost | C2 | −6° | +21° | +27° |
-| Temporal | Solar | C7 | **−63°** | −38° | +25° |
-| Supply | Solar | C4 | −34° | −12° | +22° |
+| Supply | Wind | C3 | +22° | +88° | **+66°** |
+| Supply | Wind | C2 | +20° | +86° | **+66°** |
+| Supply | Wind | C4 | +33° | +90° | **+57°** |
+| Temporal | Wind | C4 | −3° | −52° | **−49°** |
+| Supply | Wind | C1 | +17° | +65° | **+48°** |
+| Temporal | Cost | C4 | +48° | +4° | **−44°** |
+| Supply | Emissions | C7 | −52° | −17° | **+35°** |
+| Temporal | Wind | C3 | −1° | −36° | **−35°** |
+| Temporal | Wind | C7 | −10° | −43° | **−33°** |
+| Temporal | Wind | C2 | +1° | −30° | **−31°** |
+| Temporal | Wind | C1 | +1° | −29° | **−30°** |
+| Supply | Solar | C4 | −34° | −6° | **+29°** |
+| Supply | Price | C7 | −29° | −8° | **+22°** |
+| Supply | Wind | C7 | +69° | +90° | **+21°** |
 
 The headline reading is **wind saturation across every climate**: Rest of
 Asia is the cleanest example of a region where the supply channel runs to

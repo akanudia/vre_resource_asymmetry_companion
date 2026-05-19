@@ -33,8 +33,7 @@ different macro-regions:
 
 /// caption
 **Africa paired structural shifts.** Same layout as the manuscript hero
-figure but computed at Africa aggregate: four rows (system cost, CO2
-emissions, cumulative solar, cumulative wind) × two columns (supply-curve
+figure but computed at Africa aggregate: five rows (cumulative wind, cumulative solar, average electricity price, cumulative system cost (NPV), cumulative CO$_2$ emissions) × two columns (supply-curve
 LoT→HiT, temporal TS04→TS72). Expressed as % of C7-Base-median anchor.
 [Download PDF](../assets/figures/regions/africa/paired_shifts_mini_hero.pdf).
 ///
@@ -45,6 +44,8 @@ resource heterogeneity in the Sahel and Cape Coast. The temporal column
 shows a *muted* cost response — the upward cost shift that dominates the
 world view at C7 (clusters reaching $y > +30\%$) is barely visible at Africa
 aggregate.
+
+*Electricity-price row.* The electricity-price row follows the world pattern closely (no cells exceed the 20° departure threshold) — supply-curve refinement lowers prices, temporal refinement raises them.
 
 ## Signed structural dominance angle (Africa)
 
@@ -77,16 +78,16 @@ in degrees on $[-90^\circ, +90^\circ]$. Median (dot) ± p25–p75 (whiskers).
 The headline cells where Africa's $\theta$ differs by **at least 20°** from
 world aggregate $\theta$ on the same (channel × outcome × climate) cell:
 
-| Channel | Outcome | Climate | World θ | Region θ | Departure |
+| Channel | Outcome | Climate | World θ | Africa θ | Departure |
 |---|---|---|---:|---:|---:|
-| Temporal | Cost | C7 | **+50°** | +2° | **−48°** |
-| Supply | Solar | C7 | −5° | +31° | +36° |
-| Temporal | Cost | C4 | **+48°** | +14° | −34° |
-| Supply | Solar | C3 | −13° | −43° | −30° |
-| Supply | Wind | C4 | +33° | **+62°** | +29° |
-| Supply | Cost | C7 | +31° | **+59°** | +28° |
-| Temporal | Solar | C2 | +12° | +40° | +27° |
-| Supply | Wind | C7 | **+69°** | **+90°** | +21° |
+| Temporal | Cost | C7 | +50° | +2° | **−48°** |
+| Supply | Solar | C7 | −5° | +31° | **+36°** |
+| Temporal | Cost | C4 | +48° | +14° | **−34°** |
+| Supply | Solar | C3 | −13° | −43° | **−30°** |
+| Supply | Wind | C4 | +33° | +62° | **+29°** |
+| Supply | Cost | C7 | +31° | +59° | **+28°** |
+| Temporal | Solar | C2 | +12° | +40° | **+27°** |
+| Supply | Wind | C7 | +69° | +90° | **+21°** |
 
 The most striking departure is **Temporal Cost C7** at −48°: world sits at
 +50° (uniformly positive cost-up across all 10 regions), but Africa sits at

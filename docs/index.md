@@ -13,21 +13,27 @@ modelled outcomes — and finds that they do, through two channels acting
 asymmetrically across geographies. A 1,080-instance controlled factorial,
 generated from a single shared data repository by the KiNESYS production
 pipeline, isolates the channels from cross-framework data drift and lets the
-signature be read off at world and regional scale simultaneously.
+signature be read off at world and regional scale simultaneously across five
+outcomes: wind generation, solar generation, electricity price, system cost,
+and CO$_2$ emissions.
 
 The headline finding is **channel-asymmetric global aggregation**: the
 supply-curve (cost) channel produces structural shifts whose sign is
 consistent across regions, so the global aggregate inherits the regional
-signature; the temporal (value) channel produces structural shifts whose sign
-flips between heating-driven and cooling-driven regions, so the global
-aggregate cancels and the bias is only visible at regional scale. This site
-exposes that pattern explicitly, region by region.
+signature; the temporal (value) channel produces structural shifts on the
+wind–solar balance whose sign flips between heating-driven and cooling-driven
+regions, so the global aggregate cancels and the bias is only visible at
+regional scale. Electricity price is the outcome where both channels
+propagate coherently with opposite signs (down on supply, up on temporal),
+making it the cleanest single-cell consumer-facing test of the channel
+asymmetry. This site exposes that pattern explicitly, region by region.
 
 ![Hero figure — paired structural shifts at world aggregate](assets/figures/world/hero.png){ loading=lazy }
 
 /// caption
-**Hero figure (Fig 5 in the manuscript).** Paired structural shifts of system
-cost, CO2 emissions, cumulative solar and cumulative wind generation at world
+**Hero figure (Fig 5 in the manuscript).** Paired structural shifts of
+cumulative wind generation, cumulative solar generation, average electricity
+price, cumulative system cost (NPV) and cumulative CO$_2$ emissions at world
 aggregate, expressed as % of the C7-Base-median anchor. Left column: supply
 curve LoT→HiT pairs. Right column: temporal TS04→TS72 pairs. R10 markers are
 circles; R70 markers are triangles. See [the world page](world.md) for
@@ -54,7 +60,7 @@ reading.
 
 [Read →](world.md)
 
-<span class="description">Reading of the hero figure and ED Fig 2 at the world scale. Where the channel-asymmetric story shows up at headline level.</span>
+<span class="description">Reading of the hero (Fig 5), the world-vs-regional structural-shift diagnostic (Fig 6), and the signed-θ angle (ED Fig 2) at the world scale — where the channel-asymmetric story shows up at headline level.</span>
 
 </div>
 

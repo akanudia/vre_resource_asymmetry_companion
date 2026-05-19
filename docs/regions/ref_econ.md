@@ -51,6 +51,8 @@ pattern. The two channels point in **opposite directions** for solar in
 Reforming Economies — supply refinement favours solar, temporal
 refinement disfavours it.
 
+*Electricity-price row.* The electricity-price row mutes the temporal-channel signature at C7 (Δθ −37°) and softens the supply-channel signature (Δθ +21°) — temporal refinement raises prices less aggressively here than at world aggregate, consistent with limited integration-cost exposure in a fossil-rich, hydro-rich region.
+
 ## Signed structural dominance angle (Reforming Economies)
 
 [![Reforming Economies — signed structural dominance angle](../assets/figures/regions/ref_econ/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/ref_econ/magnitude_angle.png)
@@ -84,20 +86,22 @@ opposite directions in nearly every climate.
 
 ## Cells where Reforming Economies departs from world
 
-| Channel | Outcome | Climate | World θ | Region θ | Departure |
+| Channel | Outcome | Climate | World θ | Reforming Economies θ | Departure |
 |---|---|---|---:|---:|---:|
-| Supply | Solar | C4 | −34° | **+61°** | **+95°** |
-| Supply | Solar | C7 | −5° | **+74°** | **+79°** |
-| Supply | Solar | C2 | −9° | **+64°** | **+73°** |
-| Supply | Solar | C3 | −13° | **+54°** | **+66°** |
+| Supply | Solar | C4 | −34° | +61° | **+95°** |
+| Supply | Solar | C7 | −5° | +74° | **+79°** |
+| Supply | Solar | C2 | −9° | +64° | **+73°** |
+| Supply | Solar | C3 | −13° | +54° | **+66°** |
 | Supply | Solar | C1 | −9° | +41° | **+50°** |
 | Temporal | Solar | C2 | +12° | −33° | **−46°** |
-| Supply | Wind | C7 | **+69°** | +28° | −42° |
-| Temporal | Solar | C1 | +18° | −23° | −40° |
-| Temporal | Solar | C3 | +15° | −21° | −36° |
-| Temporal | Cost | C7 | **+50°** | +15° | −35° |
-| Temporal | Cost | C4 | **+48°** | +21° | −27° |
-| Temporal | Solar | C4 | −8° | −34° | −26° |
+| Supply | Wind | C7 | +69° | +28° | **−42°** |
+| Temporal | Solar | C1 | +18° | −23° | **−40°** |
+| Temporal | Price | C7 | +52° | +15° | **−37°** |
+| Temporal | Solar | C3 | +15° | −21° | **−36°** |
+| Temporal | Cost | C7 | +50° | +15° | **−35°** |
+| Temporal | Cost | C4 | +48° | +21° | **−27°** |
+| Temporal | Solar | C4 | −8° | −34° | **−26°** |
+| Supply | Price | C7 | −29° | −8° | **+21°** |
 
 The headline reading is that **all 5 climates show large positive
 departures on Supply Solar** — Reforming Economies is the cleanest

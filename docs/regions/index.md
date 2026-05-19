@@ -1,11 +1,18 @@
 # Regions
 
 The 10 R10 macro-regions follow the IPCC AR6 Working Group III convention.
+The less-obvious names: *Reforming Economies* = former Soviet Union and
+Eastern Europe; *China+* = China and nearby; *India+* = India and nearby;
+*Pacific OECD* = Australia, Japan, New Zealand, Korea; *Rest of Asia* =
+other Asian countries. Country composition is in Extended Data Table 1
+of the manuscript.
+
 Each region has two figures available on this site:
 
-- **Paired structural shifts** — the 4-row × 2-column scatter (cost,
-  emissions, solar, wind × supply-channel, temporal-channel), in the same
-  format as the manuscript hero figure but computed at regional aggregate.
+- **Paired structural shifts** — the 5-row × 2-column scatter (wind,
+  solar, electricity price, system cost, CO$_2$ emissions × supply-channel,
+  temporal-channel), in the same format as the manuscript hero figure but
+  computed at regional aggregate.
 - **Signed structural dominance angle** — the cell-level summary
   ($\theta = \mathrm{atan2}(\text{structural shift}, |\text{parametric shift}|)$),
   with within-cell p25–p75 whiskers.

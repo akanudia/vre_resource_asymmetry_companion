@@ -33,8 +33,7 @@ landscape, but with a distinct monsoon overlay:
 
 /// caption
 **India paired structural shifts.** Same layout as the manuscript hero figure
-but computed at India aggregate: four rows (system cost, CO2 emissions,
-cumulative solar, cumulative wind) × two columns (supply-curve LoT→HiT,
+but computed at India aggregate: five rows (cumulative wind, cumulative solar, average electricity price, cumulative system cost (NPV), cumulative CO$_2$ emissions) × two columns (supply-curve LoT→HiT,
 temporal TS04→TS72). Expressed as % of C7-Base-median anchor.
 [Download PDF](../assets/figures/regions/india/paired_shifts_mini_hero.pdf).
 ///
@@ -53,6 +52,8 @@ temporal TS04→TS72). Expressed as % of C7-Base-median anchor.
   monsoon's wind output overlaps imperfectly with cooling demand peaks
   (which are highest in pre-monsoon April–May), and finer timeslices expose
   this misalignment in the optimiser's value-of-resource calculation.
+
+*Electricity-price row.* The electricity-price row follows the world pattern closely (no cells exceed the 20° departure threshold) — supply-curve refinement lowers prices, temporal refinement raises them.
 
 ## Signed structural dominance angle (India)
 
@@ -87,19 +88,19 @@ from anchor in magnitude — the cell is **structurally dominant**.
 The headline cells where India's $\theta$ differs by **at least 20°** from
 world aggregate $\theta$ on the same (channel × outcome × climate) cell:
 
-| Channel | Outcome | Climate | World θ | India θ | Departure |
+| Channel | Outcome | Climate | World θ | India+ θ | Departure |
 |---|---|---|---:|---:|---:|
-| Temporal | Solar | C7 | −63° | **+21°** | **+84°** |
-| Supply | Cost | C3 | −3° | **+50°** | **+53°** |
-| Supply | Wind | C4 | +33° | **+83°** | **+51°** |
-| Temporal | Solar | C4 | −8° | +33° | +41° |
-| Supply | Wind | C3 | +22° | +62° | +40° |
-| Temporal | Emissions | C7 | +41° | +10° | −31° |
-| Supply | Solar | C4 | −34° | −64° | −30° |
-| Supply | Emissions | C7 | −52° | −24° | +29° |
-| Supply | Cost | C4 | +9° | +31° | +23° |
-| Temporal | Solar | C3 | +15° | +37° | +22° |
-| Temporal | Cost | C4 | +48° | +26° | −22° |
+| Temporal | Solar | C7 | −63° | +21° | **+84°** |
+| Supply | Cost | C3 | −3° | +50° | **+53°** |
+| Supply | Wind | C4 | +33° | +83° | **+51°** |
+| Temporal | Solar | C4 | −8° | +33° | **+41°** |
+| Supply | Wind | C3 | +22° | +62° | **+40°** |
+| Temporal | Emissions | C7 | +41° | +10° | **−31°** |
+| Supply | Solar | C4 | −34° | −64° | **−30°** |
+| Supply | Emissions | C7 | −52° | −24° | **+29°** |
+| Supply | Cost | C4 | +8° | +31° | **+23°** |
+| Temporal | Solar | C3 | +15° | +37° | **+22°** |
+| Temporal | Cost | C4 | +48° | +26° | **−22°** |
 
 The most striking departure is **Temporal Solar C7** at +84°: world sits at
 −63° (strong directional consensus that finer timeslices disadvantage solar

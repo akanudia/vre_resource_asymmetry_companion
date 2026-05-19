@@ -27,7 +27,8 @@ REGIONS = [
 
 WORLD_FIGURES = [
     # (source filename stem, dest folder, dest filename stem, role)
-    ("fig_paired_shifts_scatter_world_vs_base", "world", "hero", "hero scatter"),
+    ("fig_paired_shifts_scatter_world_vs_base", "world", "hero", "hero scatter (Fig 5)"),
+    ("fig_structural_shift_world_vs_regional", "world", "world_vs_regional", "world-vs-regional (Fig 6)"),
     ("ed_fig6_magnitude_angle", "world", "ed_fig2_magnitude_angle", "ED Fig 2 (signed θ, world + regional bracket)"),
     ("ed_fig6_magnitude_angle_world", "world", "ed_fig2_world_only", "ED Fig 2 (world-only variant)"),
 ]

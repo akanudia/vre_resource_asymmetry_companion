@@ -47,6 +47,8 @@ positive points reaching $y > +30\%$ at higher climate ambitions: Oman
 offshore wind's seasonal alignment with cooling demand makes wind valuable
 under finer temporal resolution even though the supply channel ignores it.
 
+*Electricity-price row.* The electricity-price row follows the world pattern closely (no cells exceed the 20° departure threshold) — supply-curve refinement lowers prices, temporal refinement raises them.
+
 ## Signed structural dominance angle (Middle East)
 
 [![Middle East — signed structural dominance angle](../assets/figures/regions/middle_east/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/middle_east/magnitude_angle.png)
@@ -79,16 +81,16 @@ under finer temporal resolution even though the supply channel ignores it.
 
 ## Cells where Middle East departs from world
 
-| Channel | Outcome | Climate | World θ | Region θ | Departure |
+| Channel | Outcome | Climate | World θ | Middle East θ | Departure |
 |---|---|---|---:|---:|---:|
-| Supply | Wind | C7 | **+69°** | −30° | **−99°** |
+| Supply | Wind | C7 | +69° | −30° | **−99°** |
 | Supply | Cost | C7 | +31° | −30° | **−60°** |
-| Temporal | Wind | C7 | −10° | **+45°** | **+55°** |
-| Temporal | Cost | C4 | **+48°** | +4° | −43° |
-| Supply | Emissions | C7 | **−52°** | −12° | +40° |
-| Supply | Solar | C4 | −34° | +5° | +39° |
-| Temporal | Cost | C7 | **+50°** | +14° | −36° |
-| Supply | Wind | C4 | +33° | +5° | −28° |
+| Temporal | Wind | C7 | −10° | +45° | **+55°** |
+| Temporal | Cost | C4 | +48° | +4° | **−43°** |
+| Supply | Emissions | C7 | −52° | −12° | **+40°** |
+| Supply | Solar | C4 | −34° | +5° | **+39°** |
+| Temporal | Cost | C7 | +50° | +14° | **−36°** |
+| Supply | Wind | C4 | +33° | +5° | **−28°** |
 
 The Middle East is the **canonical "supply channel rejects wind" region**.
 Under fossil-dominant policy the world story is "wind saturation"; the

@@ -20,10 +20,11 @@ const REGION_LABELS = {
   R10REST_ASIA:     "Rest of Asia",
 };
 
-const OUTCOMES = ["wind", "solar", "cost", "emis"];
+const OUTCOMES = ["wind", "solar", "price", "cost", "emis"];
 const OUTCOME_LABELS = {
   wind:  "Wind generation",
   solar: "Solar generation",
+  price: "Electricity price",
   cost:  "System cost (NPV)",
   emis:  "CO₂ emissions",
 };
@@ -493,7 +494,7 @@ function buildTraces(f) {
     const [o, ch] = g.panel.split("|");
     const r = ch === "supply" ? 1 : 2;
     const c = OUTCOMES.indexOf(o) + 1;
-    const ax = (r - 1) * 4 + c;
+    const ax = (r - 1) * OUTCOMES.length + c;
     const xref = ax > 1 ? `x${ax}` : "x";
     const yref = ax > 1 ? `y${ax}` : "y";
 
@@ -628,16 +629,17 @@ function buildLayout(f) {
   }
 
   // Subplot grid with independent axes.
-  // Domain per cell on the [0,1] paper. 4 cols × 2 rows.
+  // Domain per cell on the [0,1] paper. nCols cols × 2 rows.
   // No legend reservation -- the legend is now a horizontal strip above
   // the grid (see legend.orientation = "h" above).
+  const nCols = OUTCOMES.length;
   const colGap = 0.05, rowGap = 0.13;
-  const colW = (1 - 3 * colGap) / 4;
+  const colW = (1 - (nCols - 1) * colGap) / nCols;
   const rowH = (1 - rowGap) / 2;
 
   for (let r = 0; r < 2; r++) {
-    for (let c = 0; c < 4; c++) {
-      const ax = r * 4 + c + 1;
+    for (let c = 0; c < nCols; c++) {
+      const ax = r * nCols + c + 1;
       const xname = ax > 1 ? `xaxis${ax}` : "xaxis";
       const yname = ax > 1 ? `yaxis${ax}` : "yaxis";
       const xref  = ax > 1 ? `x${ax}` : "x";

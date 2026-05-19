@@ -1,9 +1,11 @@
 # Playground
 
-An interactive view over the **full 11,880-pair scenario archive** that
-backs the manuscript's hero figure (Fig 5) and every regional cousin. The
-same 4 × 2 panel grid is rebuilt in your browser as you change the
-filters.
+An interactive view over the **full 14,400-pair scenario archive** that
+backs the manuscript's hero figure (Fig 5) and the world-vs-regional
+diagnostic (Fig 6). The same 5 × 2 panel grid — five outcomes (wind,
+solar, electricity price, system cost, CO₂ emissions) across two
+structural channels (supply-curve refinement, temporal refinement) — is
+rebuilt in your browser as you change the filters.
 
 <div class="playground-launch" markdown>
 
@@ -16,8 +18,12 @@ laptop). Mobile works but the controls panel takes most of the screen.
 
 ## What you can do
 
-**Pick a region.** World aggregate or any of the 10 R10 macro-regions.
-The plot rebuilds against that region's pairs.
+**Pick a region.** World aggregate or any of the 10 R10 macro-regions
+(the less-obvious names: *Reforming Economies* = former Soviet Union
+and Eastern Europe; *China+* = China and nearby; *India+* = India and
+nearby; *Pacific OECD* = Australia, Japan, New Zealand, Korea; *Rest of
+Asia* = other Asian countries). The plot rebuilds against that region's
+pairs.
 
 **Recolour the cloud.** The default colour encoding is climate ambition
 (C1 → C7, the manuscript convention). Drop the **Colour by** combo to
@@ -41,11 +47,12 @@ of its comparison are present in the filter — so unchecking either
 
 - **Paper-matched.** Per-outcome column scaling. Wind and Solar columns
   share the x-axis range (they're both generation outcomes; comparable
-  cherry-picking magnitudes). Cost and Emissions columns each get their
-  own range. Within each outcome column, supply and temporal panels
-  share x and y so the saturation-diagonal geometry is consistent. This
-  is the scaling used in the static print figure.
-- **Per-panel autoscale.** Every one of the eight panels picks its own
+  cherry-picking magnitudes). Electricity-price, system-cost and
+  emissions columns each get their own range. Within each outcome
+  column, supply and temporal panels share x and y so the
+  saturation-diagonal geometry is consistent. This is the scaling used
+  in the static print figure.
+- **Per-panel autoscale.** Every one of the ten panels picks its own
   range from its own filtered points. Best when filters have culled
   the cloud heavily and you want to see what's left at full resolution.
 

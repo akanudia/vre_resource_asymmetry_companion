@@ -44,6 +44,8 @@ consistent with the East-Asian-monsoon story: when the optimiser sees the
 hourly mismatch between wind and demand, it substitutes toward solar plus
 storage, which is costlier than the wind-driven world-aggregate trade-off.
 
+*Electricity-price row.* The electricity-price row follows the world pattern closely (no cells exceed the 20° departure threshold) — supply-curve refinement lowers prices, temporal refinement raises them.
+
 ## Signed structural dominance angle (China)
 
 [![China — signed structural dominance angle](../assets/figures/regions/china/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/china/magnitude_angle.png)
@@ -72,18 +74,16 @@ in degrees. Median (dot) ± p25–p75 (whiskers).
 
 ## Cells where China departs from world
 
-| Channel | Outcome | Climate | World θ | Region θ | Departure |
+| Channel | Outcome | Climate | World θ | China+ θ | Departure |
 |---|---|---|---:|---:|---:|
 | Temporal | Solar | C4 | −8° | +39° | **+47°** |
-| Temporal | Cost | C3 | +24° | **+65°** | +41° |
-| Supply | Solar | C7 | −5° | +34° | +39° |
-| Supply | Wind | C4 | +33° | **+71°** | +38° |
-| Temporal | Solar | C2 | +12° | **+47°** | +35° |
-| Temporal | Cost | C2 | +20° | **+53°** | +33° |
-| Temporal | Cost | C4 | **+48°** | **+76°** | +28° |
-| Supply | Cost | C4 | +8° | +34° | +26° |
-| Temporal | Solar | C1 | +18° | **+43°** | +25° |
-| Supply | Wind | C7 | **+69°** | **+90°** | +21° |
+| Temporal | Cost | C3 | +24° | +65° | **+41°** |
+| Supply | Solar | C7 | −5° | +34° | **+39°** |
+| Temporal | Solar | C1 | +18° | +49° | **+31°** |
+| Temporal | Wind | C7 | −10° | −38° | **−28°** |
+| Temporal | Cost | C1 | +17° | +40° | **+23°** |
+| Supply | Solar | C4 | −34° | −13° | **+21°** |
+| Supply | Wind | C7 | +69° | +90° | **+20°** |
 
 The headline reading is that **China's temporal channel is consistently
 more positive than world's across both Solar and Cost outcomes**. The
