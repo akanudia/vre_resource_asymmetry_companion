@@ -545,6 +545,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#regional-coherence-and-cancellation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Regional coherence and cancellation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#signed-structural-dominance-world-median-regional-spread" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1108,6 +1119,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#regional-coherence-and-cancellation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Regional coherence and cancellation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#signed-structural-dominance-world-median-regional-spread" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1166,22 +1188,24 @@
 
 
 <h1 id="world-aggregate">World aggregate<a class="headerlink" href="#world-aggregate" title="Permanent link">¶</a></h1>
-<p>This page reads the two world-level figures: the paired-shifts hero scatter
-(Fig 5 in the manuscript) and the signed structural dominance angle with
-regional spread bracket (ED Fig 2). Both are computed at world aggregate from
-the 1,080-run controlled factorial described on the <a href="../methodology/">Methodology</a>
-page.</p>
+<p>This page reads the three world-level figures from the manuscript: the
+paired-shifts hero scatter (Fig 5), the world-vs-regional structural-shift
+diagnostic (Fig 6) and the signed structural dominance angle with regional
+spread bracket (ED Fig 2). All three are computed from the 1,080-run
+controlled factorial described on the <a href="../methodology/">Methodology</a> page.</p>
 <h2 id="paired-structural-shifts-at-world-aggregate">Paired structural shifts at world aggregate<a class="headerlink" href="#paired-structural-shifts-at-world-aggregate" title="Permanent link">¶</a></h2>
 <figure>
 <p><a href="../assets/figures/world/hero.png"><img alt="Paired structural shifts at world aggregate" loading="lazy" src="../assets/figures/world/hero.png"></a></p>
 <figcaption>
-<p><strong>Fig 5 (manuscript).</strong> Four outcomes × two channels: system cost, CO2
-emissions, cumulative solar, cumulative wind, expressed as % of the
-C7-Base-median anchor. Left column: supply-curve LoT→HiT pairs (540 pairs at
-world aggregate). Right column: temporal TS04→TS72 pairs (180 pairs). Solid
-lines at <span class="arithmatex">\(x=0\)</span> / <span class="arithmatex">\(y=0\)</span>; dashed line at <span class="arithmatex">\(y=\pm x\)</span>; light wedge where
-<span class="arithmatex">\(|y| &gt; |x|\)</span>. R10 circles, R70 triangles. Colour codes the climate ambition
-category (C1 ... C7). <a href="../assets/figures/world/hero.pdf">Download PDF</a>.</p>
+<p><strong>Fig 5 (manuscript).</strong> Five outcomes × two channels: cumulative wind
+generation, cumulative solar generation, average electricity price,
+cumulative system cost (NPV) and cumulative CO<span class="arithmatex">\(_2\)</span> emissions, expressed as
+% of the C7-Base-median anchor. Left column: supply-curve LoT→HiT pairs
+(540 pairs at world aggregate). Right column: temporal TS04→TS72 pairs
+(180 pairs). Solid lines at <span class="arithmatex">\(x=0\)</span> / <span class="arithmatex">\(y=0\)</span>; dashed line at <span class="arithmatex">\(y=\pm x\)</span>; light
+wedge where <span class="arithmatex">\(|y| &gt; |x|\)</span>. R10 circles, R70 triangles. Colour codes the
+climate ambition category (C1 ... C7).
+<a href="../assets/figures/world/hero.pdf">Download PDF</a>.</p>
 </figcaption>
 </figure>
 <p>For an interactive view that lets you filter on every scenario dimension and
@@ -1190,11 +1214,37 @@ regional aggregation, open the <strong><a href="../playground/">Playground</a></
 <p><strong>Reading.</strong> Points sitting above <span class="arithmatex">\(y = x\)</span> (or below <span class="arithmatex">\(y = -x\)</span>) are
 structurally dominated: the structural-axis shift exceeds the parametric
 distance from the anchor in magnitude. The supply channel (left column)
-shows positive-y dominance for wind across most climates and large clusters
-along the <span class="arithmatex">\(y = +x\)</span> diagonal at deep-decarbonisation scenarios — the
-saturation regime, where both LoT and HiT configurations have hit the
-regional supply ceiling. The temporal channel (right column) shows a tighter
-parametric envelope and a clearer cost-up signature.</p>
+produces a persistent windward shift, lowers electricity prices, and reduces
+emissions across nearly every scenario. Solar generation falls modestly
+because it loses to wind, not because the solar resource deteriorates.
+The temporal channel (right column) raises electricity prices and system
+cost coherently; its wind–solar response is regime-dependent and partly
+cancels across regions at the world aggregate.</p>
+<h2 id="regional-coherence-and-cancellation">Regional coherence and cancellation<a class="headerlink" href="#regional-coherence-and-cancellation" title="Permanent link">¶</a></h2>
+<figure>
+<p><a href="../assets/figures/world/world_vs_regional.png"><img alt="Regional coherence and cancellation of structural shifts" loading="lazy" src="../assets/figures/world/world_vs_regional.png"></a></p>
+<figcaption>
+<p><strong>Fig 6 (manuscript).</strong> For each outcome × channel cell, the within-cell
+structural-shift distribution is shown as a horizontal bracket per
+modelling entity: <strong>World</strong> on the top row, followed by the 10 R10
+macro-regions. Filled dot = median, thick segment = p25–p75, thin capped
+line = p5–p95. Pooled across all 45 parametric scenarios.
+<a href="../assets/figures/world/world_vs_regional.pdf">Download PDF</a>.</p>
+</figcaption>
+</figure>
+<p><strong>Reading.</strong> The figure makes the <strong>channel-asymmetric global aggregation</strong>
+finding visible cell by cell. Where regional medians stack on the same side
+of zero, the world aggregate inherits the regional direction (cost-channel
+shifts on wind generation and emissions; both channels on electricity price
+and system cost). Where regional medians span both sides of zero with the
+world bracket sitting near zero, the world aggregate masks the underlying
+regional shifts — the <strong>value-channel shift on the wind–solar balance</strong> is
+the canonical case: heating-driven and cooling-driven regions push in
+opposite directions and cancel at the global aggregate even when individual
+regional shifts are large. Electricity price is the outcome where both
+channels propagate coherently with opposite signs (down on supply, up on
+temporal), making it the cleanest single-cell test of the channel
+asymmetry.</p>
 <h2 id="signed-structural-dominance-world-median-regional-spread">Signed structural dominance, world median + regional spread<a class="headerlink" href="#signed-structural-dominance-world-median-regional-spread" title="Permanent link">¶</a></h2>
 <figure>
 <p><a href="../assets/figures/world/ed_fig2_magnitude_angle.png"><img alt="Signed structural dominance angle, world vs regional spread" loading="lazy" src="../assets/figures/world/ed_fig2_magnitude_angle.png"></a></p>
@@ -1221,7 +1271,7 @@ Anchor scenarios (C7-Base-median, <span class="arithmatex">\(x=0\)</span>) exclu
 <tbody>
 <tr>
 <td>Wind C7 supply</td>
-<td style="text-align: right;">+71°</td>
+<td style="text-align: right;">+69°</td>
 <td>−30° to +90°</td>
 <td>saturation; 7 of 10 regions at +88°+</td>
 </tr>
@@ -1233,9 +1283,21 @@ Anchor scenarios (C7-Base-median, <span class="arithmatex">\(x=0\)</span>) exclu
 </tr>
 <tr>
 <td>Solar C7 temporal</td>
-<td style="text-align: right;">−66°</td>
+<td style="text-align: right;">−63°</td>
 <td>−85° to +21°</td>
 <td>strong directional consensus; world reads the central tendency</td>
+</tr>
+<tr>
+<td>Price C7 supply</td>
+<td style="text-align: right;">−29°</td>
+<td>−69° to −8°</td>
+<td>uniformly negative across all 10 regions (consumer-facing cost-channel signal)</td>
+</tr>
+<tr>
+<td>Price C7 temporal</td>
+<td style="text-align: right;">+52°</td>
+<td>+15° to +67°</td>
+<td>uniformly positive across all 10 regions (consumer-facing integration cost)</td>
 </tr>
 <tr>
 <td>Cost C7 supply</td>
