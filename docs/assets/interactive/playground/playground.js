@@ -610,9 +610,17 @@ function buildLayout(f) {
   }
 
   const layout = {
-    // Top margin is now modest -- legends moved between the two chart
-    // rows, so we only need top room for the column-title annotations.
-    margin: { l: 56, r: 28, t: 44, b: 56 },
+    // Margins are sized so the cards can extend OUTSIDE the [0,1] paper
+    // area into the left/right/top/bottom margin region, with enough
+    // headroom that titles/tick labels sit comfortably INSIDE the card
+    // border rather than pressed against it:
+    //   l: 100 -- leftmost card hosts y-axis title with interior padding
+    //   t: 72  -- top-row cards host panel-title annotation with breathing room
+    //   b: 76  -- bottom-row cards host x-axis title; trimmed from 88 so the
+    //            chart+controls stack fits without vertical scroll on the
+    //            calibrated 540px viewport
+    //   r: 36  -- modest right-edge breathing room
+    margin: { l: 100, r: 36, t: 72, b: 76 },
     // Card layout: paper bg matches page bg (#fafafa), each subplot's data
     // area is transparent, and a rounded-rect "card" shape is drawn behind
     // each subplot to give the panels visible card semantics.
@@ -662,23 +670,42 @@ function buildLayout(f) {
 
   // Subplot grid with independent axes.
   // Domain per cell on the [0,1] paper. nCols cols × 2 rows.
-  // The legend strip sits BETWEEN the two rows; rowGap is enlarged so
-  // the legends have room to breathe without colliding with row-2
-  // panel titles (which sit just above the bottom row's panels).
-  // colGap is set to ~2px at typical viewport width; cards are visually
-  // separated by the gap + the thin border on each card.
+  // The legend strip sits BETWEEN the two rows; rowGap is sized so that
+  // free space = rowGap − bottomPadRow0 − topPad ≈ 0.14 paper, of which
+  // the legend box uses ~0.05, leaving ~0.045 paper above AND below the
+  // legend box (symmetric breathing room, legend anchored at y=0.5).
+  //
+  // colGap (between subplot domains) is sized so that adjacent cards end
+  // up exactly 2px apart at their OUTER edges:
+  //   colGap = rightPad + leftPad(next col) + 0.0015 (= 2px @ ~1380 wide)
+  //          = 0.014    + 0.038             + 0.0015
+  //          = 0.0535
   const nCols = OUTCOMES.length;
-  const colGap = 0.0015, rowGap = 0.18;
+  const colGap = 0.0535, rowGap = 0.26;
   const colW = (1 - (nCols - 1) * colGap) / nCols;
   const rowH = (1 - rowGap) / 2;
 
-  // Card geometry: rounded-rect background per subplot. The card encloses
-  // the full subplot domain (data area only -- axis titles/ticks sit
-  // outside in the paper bg). rx/ry chosen to approximate 4px corners on a
-  // typical 1380x540 viewport.
+  // Card geometry: rounded-rect background per subplot. Cards extend
+  // OUTSIDE the subplot domain on all four sides to enclose the panel
+  // title (top), x-axis tick labels + axis title on the bottom row
+  // (bottom), and y-axis tick labels + axis title on the first column
+  // (left). The leftmost column has a wider leftPad to host the y-axis
+  // title text; other columns just need room for tick labels. Same logic
+  // applies bottom-up: the bottom row has wider bottomPad to host the
+  // x-axis title; the top row just needs tick-label room.
+  // rx/ry approximate 4px corners on a typical 1380x540 viewport.
+  // Pads are deliberately generous so panel title / axis title / tick
+  // labels sit COMFORTABLY inside the card border on all four sides,
+  // rather than kissing the border. Bumped 2026-05-20 per visual check.
   const cardRx = 0.003, cardRy = 0.008;
   const cardFill = "#ffffff";
   const cardStroke = "#e4e4e4";
+  const topPad = 0.060;         // clearance above panel title
+  const bottomPadRow1 = 0.090;  // bottom row (axis title + tick labels + margin)
+  const bottomPadRow0 = 0.060;  // top row (tick labels + margin only)
+  const leftPadCol0 = 0.068;    // leftmost column (axis title + ticks + margin)
+  const leftPadOther = 0.038;   // other columns (tick labels + margin only)
+  const rightPad = 0.014;       // modest right-edge clearance
 
   for (let r = 0; r < 2; r++) {
     for (let c = 0; c < nCols; c++) {
@@ -719,9 +746,18 @@ function buildLayout(f) {
       // Card background: rounded-rect on paper coords, layer "below" so
       // axes/diagonals/markers all draw on top. Pushed first inside the
       // cell so the diagonals (added right after) sit on top of the card.
+      // Card outer bounds extend beyond the subplot domain to enclose
+      // panel title (top), tick labels + axis title (bottom row), and
+      // tick labels + axis title (left column). Adjacent cards end up
+      // 2px apart at their outer edges by construction (see colGap).
+      const bp = (r === 1) ? bottomPadRow1 : bottomPadRow0;
+      const lp = (c === 0) ? leftPadCol0   : leftPadOther;
       layout.shapes.push({
         type: "path",
-        path: roundedRectPath(x0, y0, x1, y1, cardRx, cardRy),
+        path: roundedRectPath(
+          x0 - lp,        y0 - bp,
+          x1 + rightPad,  y1 + topPad,
+          cardRx, cardRy),
         xref: "paper", yref: "paper",
         fillcolor: cardFill,
         line: { color: cardStroke, width: 1 },
