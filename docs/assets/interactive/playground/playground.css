@@ -29,6 +29,18 @@ html, body {
   background: var(--bg);
 }
 
+/* Flex-column layout locks header + main + controls into the viewport
+ * height. The chart inside .ph-main fills whatever space remains after
+ * header + controls. When the viewport is tall enough for header + chart
+ * floor + controls, nothing scrolls. When it isn't, body grows past 100vh
+ * and a single viewport scrollbar appears — graceful fallback instead of
+ * the chart collapsing to nothing. */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 /* ============================================================ Header */
 
 .ph-header {
@@ -126,15 +138,21 @@ html, body {
 /* ============================================================ Main */
 
 .ph-main {
+  /* Fills the body column below the header. min-height: 0 lets the chart
+   * inside shrink as needed without overflowing the flex container. */
+  flex: 1 1 auto;
+  min-height: 0;
   display: flex; flex-direction: column;
-  min-height: calc(100vh - 50px);
 }
 
 .ph-plot {
+  /* Fills the space inside .ph-main not taken by the controls block.
+   * No fixed viewport-relative min-height — the flex container handles
+   * sizing — but a modest 360px floor keeps the chart usable on short
+   * viewports. Below that threshold the body grows past 100vh and a
+   * viewport scrollbar appears (no chart collapse, no clipping). */
   flex: 1 1 auto;
-  /* Use viewport-relative min-height so 4K / tall monitors get proportionally
-   * larger charts. Floor at 540px so small laptops still work. */
-  min-height: max(540px, 68vh);
+  min-height: 360px;
   padding: 8px 12px 0 12px;
   background: var(--bg);
 }
