@@ -37,11 +37,11 @@ const CHANNEL_LABELS = {
 const FILTER_AXES = ["climate", "cost", "price", "ts", "tech_gran", "spat_gran"];
 const FILTER_LABELS = {
   climate:   "Climate",
-  cost:      "Tech cost",
+  cost:      "Technology cost",
   price:     "Fuel price",
-  ts:        "TS res.",
+  ts:        "Timeslice resolution",
   tech_gran: "Supply curve",
-  spat_gran: "Reg. agg.",
+  spat_gran: "Regional aggregation",
 };
 
 // Tooltips shown on hover over each filter group's axis label. One-line
@@ -728,7 +728,12 @@ function buildLayout(f) {
         range: [-xmag, xmag],
         zeroline: true, zerolinecolor: "#666", zerolinewidth: 1,
         gridcolor: "#eee", showline: false,
-        ticks: "outside", title: r === 1 ? { text: "parametric %", standoff: 4 } : "",
+        ticks: "outside",
+        title: r === 1 ? {
+          text: "<b>parametric %</b>",
+          standoff: 4,
+          font: { size: 13, color: "#1f3a93" },
+        } : "",
       };
       layout[yname] = {
         domain: [y0, y1],
@@ -737,10 +742,13 @@ function buildLayout(f) {
         zeroline: true, zerolinecolor: "#666", zerolinewidth: 1,
         gridcolor: "#eee", showline: false,
         ticks: "outside",
-        title: c === 0 ? { text: ch === "supply"
-                                 ? "structural % (LoT→HiT)"
-                                 : "structural % (TS04→TS72)",
-                             standoff: 4 } : "",
+        title: c === 0 ? {
+          text: ch === "supply"
+                  ? "<b>structural % (LoT→HiT)</b>"
+                  : "<b>structural % (TS04→TS72)</b>",
+          standoff: 4,
+          font: { size: 13, color: "#1f3a93" },
+        } : "",
       };
 
       // Card background: rounded-rect on paper coords, layer "below" so
@@ -775,7 +783,11 @@ function buildLayout(f) {
 
       // Subplot title above each panel: outcome (bold) + channel
       // sub-label. Repeated on every panel so each cell self-identifies.
-      const subtitle = "<b>" + OUTCOME_LABELS[o] + "</b>"
+      // Outcome name in Kanors brand blue for visual continuity with the
+      // page H1 and the axis titles; channel sub-label stays muted grey so
+      // the outcome remains the visual anchor.
+      const subtitle = "<span style=\"color:#1f3a93\"><b>"
+        + OUTCOME_LABELS[o] + "</b></span>"
         + "<br><span style=\"font-size:10.5px;color:#666\">"
         + CHANNEL_LABELS[ch] + "</span>";
       layout.annotations.push({
