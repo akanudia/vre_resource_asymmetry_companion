@@ -560,6 +560,24 @@ function buildTraces(f) {
 
 // ----------------------------------------------------------------- layout
 
+// Build an SVG path string for a rounded rectangle, in paper coords.
+// (x0,y0) = bottom-left, (x1,y1) = top-right. rx/ry are corner radii.
+// Used for Plotly shape type "path" with xref/yref = "paper".
+function roundedRectPath(x0, y0, x1, y1, rx, ry) {
+  return [
+    `M ${x0 + rx} ${y1}`,
+    `L ${x1 - rx} ${y1}`,
+    `Q ${x1} ${y1} ${x1} ${y1 - ry}`,
+    `L ${x1} ${y0 + ry}`,
+    `Q ${x1} ${y0} ${x1 - rx} ${y0}`,
+    `L ${x0 + rx} ${y0}`,
+    `Q ${x0} ${y0} ${x0} ${y0 + ry}`,
+    `L ${x0} ${y1 - ry}`,
+    `Q ${x0} ${y1} ${x0 + rx} ${y1}`,
+    "Z",
+  ].join(" ");
+}
+
 function buildLayout(f) {
   // Natural per-panel magnitudes from filtered data.
   const nat = {};
@@ -595,7 +613,11 @@ function buildLayout(f) {
     // Top margin is now modest -- legends moved between the two chart
     // rows, so we only need top room for the column-title annotations.
     margin: { l: 56, r: 28, t: 44, b: 56 },
-    plot_bgcolor: "white",
+    // Card layout: paper bg matches page bg (#fafafa), each subplot's data
+    // area is transparent, and a rounded-rect "card" shape is drawn behind
+    // each subplot to give the panels visible card semantics.
+    plot_bgcolor: "rgba(0,0,0,0)",
+    paper_bgcolor: "#fafafa",
     hovermode: "closest",
     autosize: true,
     shapes: [],
@@ -643,10 +665,20 @@ function buildLayout(f) {
   // The legend strip sits BETWEEN the two rows; rowGap is enlarged so
   // the legends have room to breathe without colliding with row-2
   // panel titles (which sit just above the bottom row's panels).
+  // colGap is set to ~2px at typical viewport width; cards are visually
+  // separated by the gap + the thin border on each card.
   const nCols = OUTCOMES.length;
-  const colGap = 0.05, rowGap = 0.18;
+  const colGap = 0.0015, rowGap = 0.18;
   const colW = (1 - (nCols - 1) * colGap) / nCols;
   const rowH = (1 - rowGap) / 2;
+
+  // Card geometry: rounded-rect background per subplot. The card encloses
+  // the full subplot domain (data area only -- axis titles/ticks sit
+  // outside in the paper bg). rx/ry chosen to approximate 4px corners on a
+  // typical 1380x540 viewport.
+  const cardRx = 0.003, cardRy = 0.008;
+  const cardFill = "#ffffff";
+  const cardStroke = "#e4e4e4";
 
   for (let r = 0; r < 2; r++) {
     for (let c = 0; c < nCols; c++) {
@@ -683,6 +715,18 @@ function buildLayout(f) {
                                  : "structural % (TS04→TS72)",
                              standoff: 4 } : "",
       };
+
+      // Card background: rounded-rect on paper coords, layer "below" so
+      // axes/diagonals/markers all draw on top. Pushed first inside the
+      // cell so the diagonals (added right after) sit on top of the card.
+      layout.shapes.push({
+        type: "path",
+        path: roundedRectPath(x0, y0, x1, y1, cardRx, cardRy),
+        xref: "paper", yref: "paper",
+        fillcolor: cardFill,
+        line: { color: cardStroke, width: 1 },
+        layer: "below",
+      });
 
       // Dashed y = +/- x diagonals.
       const diag = Math.max(xmag, ymag) * 1.5;
