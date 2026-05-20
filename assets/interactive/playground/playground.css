@@ -52,17 +52,6 @@ html, body {
   font-size: 12px; color: var(--muted);
   letter-spacing: 0.01em;
 }
-/* Header point-count: secondary live state, sits next to the region name. */
-.ph-header .ph-count {
-  font-size: 18px; font-weight: 500;
-  color: var(--accent);
-  font-variant-numeric: tabular-nums;
-  align-self: center;
-  padding-left: 10px;
-  border-left: 1px solid var(--border);
-}
-.ph-header .ph-count.filtered { color: #ef6c00; }
-.ph-header .ph-count.zero     { color: #c62828; font-weight: 700; }
 .ph-back {
   font-size: 13px; color: var(--accent);
   text-decoration: none;
@@ -164,8 +153,16 @@ html, body {
 /* ============================================================ Controls */
 
 .ph-controls {
-  padding: 14px 22px 18px 22px;
-  background: var(--panel);
+  /* padding-top is 0 — the gap below the chart is already provided by
+   * Plotly's bottom margin (carrying the bottom-row card border + x-axis
+   * title), so any additional top padding here doubles the gap and pushes
+   * the page into vertical scroll. Bottom padding is trimmed too to fit
+   * the whole controls block on one screen. */
+  padding: 0 22px 8px 22px;
+  /* Match the plot area background (--bg = #fafafa) so the white control
+   * cards below pop as islands on grey, same treatment as the chart cards
+   * use above. */
+  background: var(--bg);
   border-top: 1px solid var(--border);
 }
 
@@ -174,10 +171,18 @@ html, body {
   flex-wrap: wrap;
 }
 .ph-row-top    { margin-bottom: 12px; }
-.ph-row-bottom { margin-top: 10px; align-items: center; }
 
+/* Each labelled control (REGION, COLOUR BY, MARKER BY, SCALING) is a card
+ * matching the chart-row cards above: white fill, #dcdcdc border, 4px
+ * radius, interior padding, contents pinned top-left. */
 .ph-field {
-  display: flex; flex-direction: column; gap: 4px;
+  display: flex; flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 10px 12px 12px 12px;
+  background: var(--panel);
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
 }
 .ph-field label {
   font-size: 11px; font-weight: 600;
@@ -213,23 +218,34 @@ html, body {
   padding-top: 8px;
 }
 
+/* Each filter chip group is a card matching the labelled-control cards:
+ * label sits top-left on its own row inside the card, chips wrap below.
+ * White fill, #dcdcdc border, 4px radius, contents top-left. */
 .ph-fgroup {
-  display: flex; align-items: center;
-  flex-wrap: wrap; gap: 6px;
+  display: flex; align-items: flex-start;
+  flex-wrap: wrap; gap: 8px 6px;
+  padding: 10px 12px 12px 12px;
+  background: var(--panel);
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
 }
 .ph-fgroup .ph-flabel {
+  /* width:100% forces the chips to wrap onto a new row INSIDE the card */
+  width: 100%;
   font-size: 11px; font-weight: 600;
   color: var(--muted);
   letter-spacing: 0.04em; text-transform: uppercase;
-  min-width: 84px;
   cursor: pointer;
   user-select: none;
-  /* Dotted underline = "this has a tooltip + is clickable". */
-  border-bottom: 1px dotted #c4c4c4;
+  /* Dotted underline = "this has a tooltip + is clickable". Use
+   * text-decoration (text-bound) rather than border-bottom (element-bound),
+   * which would otherwise span the full card width and look like a divider. */
+  text-decoration: underline dotted #c4c4c4;
+  text-underline-offset: 3px;
 }
 .ph-fgroup .ph-flabel:hover {
   color: var(--accent);
-  border-bottom-color: var(--accent);
+  text-decoration-color: var(--accent);
 }
 
 /* Chip semantics:
@@ -287,12 +303,17 @@ html, body {
 }
 .ph-btn:hover { border-color: var(--accent); color: var(--accent); }
 
-/* Base .ph-count rule retained for backwards compat with any controls-row
- * usage; the active live count lives in the header (.ph-header .ph-count). */
+/* Point count, shown as the value inside the POINTS card in the top
+ * controls row. Sized to read as live state at a glance; tier-coloured
+ * (amber/red) when filters cut the cloud heavily. */
 .ph-count {
-  font-size: 13px; color: var(--muted);
+  font-size: 16px; font-weight: 500;
+  color: var(--accent);
   font-variant-numeric: tabular-nums;
+  padding-top: 2px;
 }
+.ph-count.filtered { color: #ef6c00; }
+.ph-count.zero     { color: #c62828; font-weight: 700; }
 
 /* ============================================================ Plotly tweaks */
 
