@@ -556,10 +556,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#signed-structural-dominance-world-median-regional-spread" class="md-nav__link">
+  <a href="#signed-structural-dominance-angle-saturation-sweep" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Signed structural dominance, world median + regional spread
+        Signed structural dominance angle + saturation sweep
       
     </span>
   </a>
@@ -571,6 +571,17 @@
     <span class="md-ellipsis">
       
         What the regional spread tells you
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#saturation-how-much-temporal-resolution-is-enough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Saturation: how much temporal resolution is enough?
       
     </span>
   </a>
@@ -1130,10 +1141,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#signed-structural-dominance-world-median-regional-spread" class="md-nav__link">
+  <a href="#signed-structural-dominance-angle-saturation-sweep" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Signed structural dominance, world median + regional spread
+        Signed structural dominance angle + saturation sweep
       
     </span>
   </a>
@@ -1145,6 +1156,17 @@
     <span class="md-ellipsis">
       
         What the regional spread tells you
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#saturation-how-much-temporal-resolution-is-enough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Saturation: how much temporal resolution is enough?
       
     </span>
   </a>
@@ -1188,10 +1210,11 @@
 
 
 <h1 id="world-aggregate">World aggregate<a class="headerlink" href="#world-aggregate" title="Permanent link">¶</a></h1>
-<p>This page reads the three world-level figures from the manuscript: the
+<p>This page reads the four world-level figures from the manuscript: the
 paired-shifts hero scatter (Fig 5), the world-vs-regional structural-shift
-diagnostic (Fig 6) and the signed structural dominance angle with regional
-spread bracket (ED Fig 2). All three are computed from the 1,080-run
+diagnostic (Fig 6), the signed structural dominance angle with saturation
+sweep and non-VRE capacity factor (ED Fig 2) and the climate-stratified
+saturation diagnostic (ED Fig 3). All four are computed from the 1,080-run
 controlled factorial described on the <a href="../methodology/">Methodology</a> page.</p>
 <h2 id="paired-structural-shifts-at-world-aggregate">Paired structural shifts at world aggregate<a class="headerlink" href="#paired-structural-shifts-at-world-aggregate" title="Permanent link">¶</a></h2>
 <figure>
@@ -1245,19 +1268,34 @@ regional shifts are large. Electricity price is the outcome where both
 channels propagate coherently with opposite signs (down on supply, up on
 temporal), making it the cleanest single-cell test of the channel
 asymmetry.</p>
-<h2 id="signed-structural-dominance-world-median-regional-spread">Signed structural dominance, world median + regional spread<a class="headerlink" href="#signed-structural-dominance-world-median-regional-spread" title="Permanent link">¶</a></h2>
+<h2 id="signed-structural-dominance-angle-saturation-sweep">Signed structural dominance angle + saturation sweep<a class="headerlink" href="#signed-structural-dominance-angle-saturation-sweep" title="Permanent link">¶</a></h2>
 <figure>
-<p><a href="../assets/figures/world/ed_fig2_magnitude_angle.png"><img alt="Signed structural dominance angle, world vs regional spread" loading="lazy" src="../assets/figures/world/ed_fig2_magnitude_angle.png"></a></p>
+<p><a href="../assets/figures/world/ed_fig2_magnitude_angle.png"><img alt="Signed structural dominance angle, world median + regional spread, with saturation sweep" loading="lazy" src="../assets/figures/world/ed_fig2_magnitude_angle.png"></a></p>
 <figcaption>
-<p><strong>ED Fig 2 (manuscript).</strong> Per (outcome × climate × channel) cell, the
-signed angle <span class="arithmatex">\(\theta = \mathrm{atan2}(\text{structural shift}, |\text{parametric shift}|)\)</span>
-in degrees on <span class="arithmatex">\([-90^\circ, +90^\circ]\)</span>. World median (filled dot) overlaid
-with a vertical bracket showing the spread of within-cell medians across the
-10 R10 regions: thick band = inter-region p25–p75; thin line = full range.
-Anchor scenarios (C7-Base-median, <span class="arithmatex">\(x=0\)</span>) excluded by construction.
+<p><strong>ED Fig 2 (manuscript).</strong> Signed structural-dominance diagnostic at world
+aggregate, across six outcomes (cumulative wind, solar, average electricity
+price, <strong>non-VRE capacity factor</strong>, cumulative system cost, cumulative
+CO<span class="arithmatex">\(_2\)</span> emissions). For each (outcome × channel × fine-endpoint) cell, the
+signed angle
+<span class="arithmatex">\(\theta = \mathrm{atan2}(\text{structural shift}, |\text{parametric shift}|)\)</span>
+in degrees on <span class="arithmatex">\([-90^\circ, +90^\circ]\)</span>. The temporal channel is shown
+across its full <strong>saturation sweep</strong>: TS04 is held as the coarse baseline
+and TS12, TS24, TS36, TS48, TS72 are compared against it in turn (colour
+gradient). World median (filled dot); vertical bracket = spread of regional
+medians across the 10 R10 regions (thick = p25–p75; thin = full range).
+The non-VRE capacity-factor row tracks utilisation of generation capacity
+that is neither wind, solar, nor storage. Anchor scenarios (C7-Base-median,
+<span class="arithmatex">\(x=0\)</span>) excluded by construction.
 <a href="../assets/figures/world/ed_fig2_magnitude_angle.pdf">Download PDF</a>.</p>
 </figcaption>
 </figure>
+<p><strong>Why non-VRE CF matters.</strong> The non-VRE capacity-factor row explains the
+<em>regime-dependent</em> system-cost response visible in Fig. 5: better
+supply-curve detail lowers per-unit generation cost and electricity prices
+(easier renewable supply), while the additional VRE deployment lowers
+utilisation of the non-VRE fleet and raises its per-unit cost. These two
+effects oppose on system cost — which is why the supply-channel cost
+direction is <em>mixed</em> across climate regimes rather than uniformly negative.</p>
 <p><strong>Reading at world aggregate.</strong> Headline cells:</p>
 <table>
 <thead>
@@ -1339,6 +1377,30 @@ world-scale story looks unremarkable</strong>. A reader who sees Solar C7 supply
 sitting at world θ ≈ −5° might conclude "no structural effect". The
 −74° to +74° regional range tells the opposite story: every region has a
 large structural shift, but their signs cancel at world aggregate.</p>
+<h2 id="saturation-how-much-temporal-resolution-is-enough">Saturation: how much temporal resolution is enough?<a class="headerlink" href="#saturation-how-much-temporal-resolution-is-enough" title="Permanent link">¶</a></h2>
+<figure>
+<p><a href="../assets/figures/world/ed_fig3_saturation_by_climate.png"><img alt="Saturation analysis, climate-stratified" loading="lazy" src="../assets/figures/world/ed_fig3_saturation_by_climate.png"></a></p>
+<figcaption>
+<p><strong>ED Fig 3 (manuscript).</strong> The same signed structural-dominance diagnostic
+as ED Fig 2, stratified by AR6 climate ambition category (C1 1.5 °C
+low/no-overshoot through C7 above 2.5 °C). Each panel shows the
+world-aggregate median angle and regional-spread bracket for each
+(outcome × channel × fine-endpoint) cell.
+<a href="../assets/figures/world/ed_fig3_saturation_by_climate.pdf">Download PDF</a>.</p>
+</figcaption>
+</figure>
+<p><strong>Reading.</strong> The figure answers <em>"how much temporal resolution is enough?"</em>
+and the answer is <strong>diagnostic-specific</strong>: along the tested TS12 → TS72
+sweep, structural-dominance angles do not converge uniformly across
+outcomes. Electricity prices, system cost and non-VRE utilisation continue
+shifting with finer temporal resolution; wind–solar shifts remain
+region- and regime-dependent; CO<span class="arithmatex">\(_2\)</span> effects concentrate in weaker-policy
+regimes (C7). The temporal channel has therefore <strong>not saturated</strong> within
+the resolution range tested here, which means the TS04→TS72 magnitudes
+elsewhere on this site should be read as a <strong>lower bound</strong> on what a
+chronological dispatch representation would surface. The directional
+channel signatures would amplify rather than reverse with further
+refinement.</p>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">¶</a></h2>
 <ul>
 <li><a href="../regions/gallery/">Regional gallery</a> — all 10 R10 regions' figures side by side</li>
