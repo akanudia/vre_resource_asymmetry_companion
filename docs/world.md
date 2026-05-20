@@ -1,9 +1,10 @@
 # World aggregate
 
-This page reads the three world-level figures from the manuscript: the
+This page reads the four world-level figures from the manuscript: the
 paired-shifts hero scatter (Fig 5), the world-vs-regional structural-shift
-diagnostic (Fig 6) and the signed structural dominance angle with regional
-spread bracket (ED Fig 2). All three are computed from the 1,080-run
+diagnostic (Fig 6), the signed structural dominance angle with saturation
+sweep and non-VRE capacity factor (ED Fig 2) and the climate-stratified
+saturation diagnostic (ED Fig 3). All four are computed from the 1,080-run
 controlled factorial described on the [Methodology](methodology.md) page.
 
 ## Paired structural shifts at world aggregate
@@ -63,19 +64,35 @@ channels propagate coherently with opposite signs (down on supply, up on
 temporal), making it the cleanest single-cell test of the channel
 asymmetry.
 
-## Signed structural dominance, world median + regional spread
+## Signed structural dominance angle + saturation sweep
 
-[![Signed structural dominance angle, world vs regional spread](assets/figures/world/ed_fig2_magnitude_angle.png){ loading=lazy }](assets/figures/world/ed_fig2_magnitude_angle.png)
+[![Signed structural dominance angle, world median + regional spread, with saturation sweep](assets/figures/world/ed_fig2_magnitude_angle.png){ loading=lazy }](assets/figures/world/ed_fig2_magnitude_angle.png)
 
 /// caption
-**ED Fig 2 (manuscript).** Per (outcome × climate × channel) cell, the
-signed angle $\theta = \mathrm{atan2}(\text{structural shift}, |\text{parametric shift}|)$
-in degrees on $[-90^\circ, +90^\circ]$. World median (filled dot) overlaid
-with a vertical bracket showing the spread of within-cell medians across the
-10 R10 regions: thick band = inter-region p25–p75; thin line = full range.
-Anchor scenarios (C7-Base-median, $x=0$) excluded by construction.
+**ED Fig 2 (manuscript).** Signed structural-dominance diagnostic at world
+aggregate, across six outcomes (cumulative wind, solar, average electricity
+price, **non-VRE capacity factor**, cumulative system cost, cumulative
+CO$_2$ emissions). For each (outcome × channel × fine-endpoint) cell, the
+signed angle
+$\theta = \mathrm{atan2}(\text{structural shift}, |\text{parametric shift}|)$
+in degrees on $[-90^\circ, +90^\circ]$. The temporal channel is shown
+across its full **saturation sweep**: TS04 is held as the coarse baseline
+and TS12, TS24, TS36, TS48, TS72 are compared against it in turn (colour
+gradient). World median (filled dot); vertical bracket = spread of regional
+medians across the 10 R10 regions (thick = p25–p75; thin = full range).
+The non-VRE capacity-factor row tracks utilisation of generation capacity
+that is neither wind, solar, nor storage. Anchor scenarios (C7-Base-median,
+$x=0$) excluded by construction.
 [Download PDF](assets/figures/world/ed_fig2_magnitude_angle.pdf).
 ///
+
+**Why non-VRE CF matters.** The non-VRE capacity-factor row explains the
+*regime-dependent* system-cost response visible in Fig. 5: better
+supply-curve detail lowers per-unit generation cost and electricity prices
+(easier renewable supply), while the additional VRE deployment lowers
+utilisation of the non-VRE fleet and raises its per-unit cost. These two
+effects oppose on system cost — which is why the supply-channel cost
+direction is *mixed* across climate regimes rather than uniformly negative.
 
 **Reading at world aggregate.** Headline cells:
 
@@ -111,6 +128,32 @@ world-scale story looks unremarkable**. A reader who sees Solar C7 supply
 sitting at world θ ≈ −5° might conclude "no structural effect". The
 −74° to +74° regional range tells the opposite story: every region has a
 large structural shift, but their signs cancel at world aggregate.
+
+## Saturation: how much temporal resolution is enough?
+
+[![Saturation analysis, climate-stratified](assets/figures/world/ed_fig3_saturation_by_climate.png){ loading=lazy }](assets/figures/world/ed_fig3_saturation_by_climate.png)
+
+/// caption
+**ED Fig 3 (manuscript).** The same signed structural-dominance diagnostic
+as ED Fig 2, stratified by AR6 climate ambition category (C1 1.5 °C
+low/no-overshoot through C7 above 2.5 °C). Each panel shows the
+world-aggregate median angle and regional-spread bracket for each
+(outcome × channel × fine-endpoint) cell.
+[Download PDF](assets/figures/world/ed_fig3_saturation_by_climate.pdf).
+///
+
+**Reading.** The figure answers *"how much temporal resolution is enough?"*
+and the answer is **diagnostic-specific**: along the tested TS12 → TS72
+sweep, structural-dominance angles do not converge uniformly across
+outcomes. Electricity prices, system cost and non-VRE utilisation continue
+shifting with finer temporal resolution; wind–solar shifts remain
+region- and regime-dependent; CO$_2$ effects concentrate in weaker-policy
+regimes (C7). The temporal channel has therefore **not saturated** within
+the resolution range tested here, which means the TS04→TS72 magnitudes
+elsewhere on this site should be read as a **lower bound** on what a
+chronological dispatch representation would surface. The directional
+channel signatures would amplify rather than reverse with further
+refinement.
 
 ## See also
 
