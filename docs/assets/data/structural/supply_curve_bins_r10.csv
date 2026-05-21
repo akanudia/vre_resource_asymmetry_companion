@@ -1,0 +1,1185 @@
+config,r10_region,region_label,technology,technology_label,bin_rank,n_cells,avg_cf,std_cf,total_capacity_gw
+LoT,R10AFRICA,Africa,solar,Solar PV,1,4394,0.2783,0.0475,9764.37
+LoT,R10AFRICA,Africa,solar,Solar PV,2,641,0.261,0.0566,1396.55
+LoT,R10AFRICA,Africa,solar,Solar PV,3,1511,0.2524,0.0533,2231.3
+LoT,R10AFRICA,Africa,solar,Solar PV,4,2111,0.2359,0.0654,3377.75
+LoT,R10AFRICA,Africa,solar,Solar PV,5,3755,0.2184,0.0615,7182.2
+LoT,R10AFRICA,Africa,solar,Solar PV,6,1171,0.2148,0.0577,4124.48
+HiT,R10AFRICA,Africa,solar,Solar PV,1,643,0.2873,0.0273,1741.31
+HiT,R10AFRICA,Africa,solar,Solar PV,2,505,0.2829,0.0252,1143.22
+HiT,R10AFRICA,Africa,solar,Solar PV,3,646,0.2829,0.0273,1583.7
+HiT,R10AFRICA,Africa,solar,Solar PV,4,173,0.2798,0.0292,393.15
+HiT,R10AFRICA,Africa,solar,Solar PV,5,209,0.2792,0.0255,491.09
+HiT,R10AFRICA,Africa,solar,Solar PV,6,585,0.2762,0.0356,1444.68
+HiT,R10AFRICA,Africa,solar,Solar PV,7,610,0.2746,0.0367,1060.83
+HiT,R10AFRICA,Africa,solar,Solar PV,8,408,0.2733,0.0336,895.59
+HiT,R10AFRICA,Africa,solar,Solar PV,9,376,0.273,0.029,667.89
+HiT,R10AFRICA,Africa,solar,Solar PV,10,318,0.2726,0.0319,750.36
+HiT,R10AFRICA,Africa,solar,Solar PV,11,271,0.2697,0.0352,741.5
+HiT,R10AFRICA,Africa,solar,Solar PV,12,188,0.2695,0.0297,421.48
+HiT,R10AFRICA,Africa,solar,Solar PV,13,263,0.2673,0.0252,427.94
+HiT,R10AFRICA,Africa,solar,Solar PV,14,209,0.2621,0.0318,356.24
+HiT,R10AFRICA,Africa,solar,Solar PV,15,151,0.2603,0.0421,338.54
+HiT,R10AFRICA,Africa,solar,Solar PV,16,118,0.258,0.0284,361.76
+HiT,R10AFRICA,Africa,solar,Solar PV,17,115,0.2564,0.0424,72.36
+HiT,R10AFRICA,Africa,solar,Solar PV,18,256,0.2513,0.0355,758.84
+HiT,R10AFRICA,Africa,solar,Solar PV,19,125,0.2512,0.0407,127.01
+HiT,R10AFRICA,Africa,solar,Solar PV,20,59,0.2504,0.0381,19.48
+HiT,R10AFRICA,Africa,solar,Solar PV,21,174,0.249,0.0295,250.19
+HiT,R10AFRICA,Africa,solar,Solar PV,22,154,0.2486,0.028,219.72
+HiT,R10AFRICA,Africa,solar,Solar PV,23,132,0.2458,0.0461,197.83
+HiT,R10AFRICA,Africa,solar,Solar PV,24,94,0.2423,0.0279,136.54
+HiT,R10AFRICA,Africa,solar,Solar PV,25,67,0.2418,0.0315,75.78
+HiT,R10AFRICA,Africa,solar,Solar PV,26,73,0.2409,0.0367,23.77
+HiT,R10AFRICA,Africa,solar,Solar PV,27,244,0.2402,0.0315,370.62
+HiT,R10AFRICA,Africa,solar,Solar PV,28,109,0.2384,0.0365,29.54
+HiT,R10AFRICA,Africa,solar,Solar PV,29,203,0.2378,0.0373,496.61
+HiT,R10AFRICA,Africa,solar,Solar PV,30,94,0.2366,0.0365,137.0
+HiT,R10AFRICA,Africa,solar,Solar PV,31,97,0.2359,0.0318,174.31
+HiT,R10AFRICA,Africa,solar,Solar PV,32,122,0.235,0.0361,111.23
+HiT,R10AFRICA,Africa,solar,Solar PV,33,366,0.2346,0.0383,623.27
+HiT,R10AFRICA,Africa,solar,Solar PV,34,225,0.233,0.033,339.85
+HiT,R10AFRICA,Africa,solar,Solar PV,35,263,0.232,0.0363,568.41
+HiT,R10AFRICA,Africa,solar,Solar PV,36,302,0.2319,0.0493,367.29
+HiT,R10AFRICA,Africa,solar,Solar PV,37,129,0.2311,0.0408,574.44
+HiT,R10AFRICA,Africa,solar,Solar PV,38,285,0.2303,0.0402,340.54
+HiT,R10AFRICA,Africa,solar,Solar PV,39,143,0.2295,0.0395,304.2
+HiT,R10AFRICA,Africa,solar,Solar PV,40,119,0.2288,0.0487,115.55
+HiT,R10AFRICA,Africa,solar,Solar PV,41,174,0.2273,0.0376,68.46
+HiT,R10AFRICA,Africa,solar,Solar PV,42,152,0.2255,0.0374,128.2
+HiT,R10AFRICA,Africa,solar,Solar PV,43,256,0.2244,0.041,550.43
+HiT,R10AFRICA,Africa,solar,Solar PV,44,200,0.2236,0.044,115.05
+HiT,R10AFRICA,Africa,solar,Solar PV,45,181,0.223,0.0399,493.12
+HiT,R10AFRICA,Africa,solar,Solar PV,46,160,0.2212,0.0448,242.92
+HiT,R10AFRICA,Africa,solar,Solar PV,47,155,0.2207,0.037,470.55
+HiT,R10AFRICA,Africa,solar,Solar PV,48,117,0.2198,0.0437,119.22
+HiT,R10AFRICA,Africa,solar,Solar PV,49,169,0.2189,0.0435,79.36
+HiT,R10AFRICA,Africa,solar,Solar PV,50,93,0.2154,0.04,400.8
+HiT,R10AFRICA,Africa,solar,Solar PV,51,85,0.2141,0.0352,99.3
+HiT,R10AFRICA,Africa,solar,Solar PV,52,154,0.2136,0.0389,789.16
+HiT,R10AFRICA,Africa,solar,Solar PV,53,53,0.2135,0.042,19.67
+HiT,R10AFRICA,Africa,solar,Solar PV,54,130,0.2113,0.0377,163.41
+HiT,R10AFRICA,Africa,solar,Solar PV,55,126,0.2112,0.0441,81.71
+HiT,R10AFRICA,Africa,solar,Solar PV,56,161,0.2058,0.039,490.43
+HiT,R10AFRICA,Africa,solar,Solar PV,57,172,0.2056,0.0432,934.23
+HiT,R10AFRICA,Africa,solar,Solar PV,58,144,0.2047,0.0421,649.92
+HiT,R10AFRICA,Africa,solar,Solar PV,59,45,0.2045,0.0376,32.6
+HiT,R10AFRICA,Africa,solar,Solar PV,60,98,0.2038,0.0377,565.13
+HiT,R10AFRICA,Africa,solar,Solar PV,61,200,0.2011,0.0413,686.5
+HiT,R10AFRICA,Africa,solar,Solar PV,62,55,0.1995,0.0437,51.89
+HiT,R10AFRICA,Africa,solar,Solar PV,63,107,0.1971,0.0401,405.33
+HiT,R10AFRICA,Africa,solar,Solar PV,64,67,0.1933,0.0362,80.78
+HiT,R10AFRICA,Africa,solar,Solar PV,65,154,0.1841,0.0409,248.37
+HiT,R10AFRICA,Africa,solar,Solar PV,66,69,0.1816,0.0432,226.18
+HiT,R10AFRICA,Africa,solar,Solar PV,67,89,0.1769,0.038,51.37
+HiT,R10AFRICA,Africa,solar,Solar PV,68,63,0.1747,0.0391,105.82
+HiT,R10AFRICA,Africa,solar,Solar PV,69,66,0.1742,0.0377,139.5
+HiT,R10AFRICA,Africa,solar,Solar PV,70,123,0.1693,0.045,146.54
+HiT,R10AFRICA,Africa,solar,Solar PV,71,73,0.1555,0.0414,84.46
+HiT,R10AFRICA,Africa,solar,Solar PV,72,69,0.1508,0.0352,102.6
+LoT,R10AFRICA,Africa,wind_onshore,Wind onshore,1,1963,0.3426,0.2624,6221.56
+LoT,R10AFRICA,Africa,wind_onshore,Wind onshore,2,838,0.3408,0.2683,1876.19
+LoT,R10AFRICA,Africa,wind_onshore,Wind onshore,3,1180,0.3351,0.2491,1235.35
+LoT,R10AFRICA,Africa,wind_onshore,Wind onshore,4,3323,0.3287,0.2335,6189.26
+LoT,R10AFRICA,Africa,wind_onshore,Wind onshore,5,1334,0.2605,0.2502,1933.76
+LoT,R10AFRICA,Africa,wind_onshore,Wind onshore,6,1200,0.172,0.1375,822.4
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,1,395,0.4276,0.2018,654.17
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,2,297,0.427,0.2197,734.45
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,3,281,0.4211,0.2201,776.67
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,4,187,0.4028,0.2189,666.09
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,5,407,0.3821,0.1941,996.97
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,6,325,0.3756,0.1862,1069.35
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,7,209,0.3755,0.2095,712.39
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,8,228,0.3738,0.2262,686.36
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,9,133,0.3716,0.2276,400.57
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,10,139,0.3661,0.1672,444.58
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,11,123,0.351,0.1795,362.14
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,12,186,0.3497,0.166,576.05
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,13,219,0.3401,0.186,633.97
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,14,117,0.3299,0.1591,374.19
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,15,243,0.3276,0.2096,468.2
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,16,312,0.3242,0.2146,973.79
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,17,253,0.3232,0.2049,802.05
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,18,154,0.3203,0.1787,508.53
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,19,85,0.3001,0.1912,66.0
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,20,191,0.2998,0.1686,159.89
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,21,167,0.2957,0.1837,464.21
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,22,166,0.2821,0.1436,245.44
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,23,144,0.2817,0.2885,125.41
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,24,51,0.2794,0.166,141.08
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,25,166,0.2792,0.1694,402.22
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,26,129,0.2704,0.1715,101.94
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,27,158,0.2686,0.1349,207.92
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,28,161,0.2684,0.2264,354.94
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,29,92,0.2671,0.1495,116.53
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,30,172,0.2646,0.1426,179.3
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,31,70,0.2597,0.1472,204.23
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,32,176,0.2578,0.1558,212.86
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,33,133,0.2534,0.1801,107.87
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,34,195,0.2447,0.1315,255.85
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,35,86,0.2381,0.1553,177.64
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,36,80,0.233,0.1618,76.87
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,37,135,0.2329,0.1671,436.45
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,38,90,0.2274,0.1301,47.78
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,39,80,0.2271,0.14,23.62
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,40,85,0.2222,0.1727,177.58
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,41,80,0.2201,0.1344,42.84
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,42,101,0.2124,0.1014,46.03
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,43,259,0.206,0.124,218.63
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,44,259,0.2008,0.1097,250.18
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,45,79,0.1973,0.1234,88.38
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,46,94,0.1864,0.1753,91.11
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,47,214,0.1849,0.1116,56.5
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,48,85,0.1804,0.1722,112.16
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,49,86,0.1785,0.1729,77.66
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,50,146,0.1672,0.0859,184.49
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,51,44,0.1642,0.0892,13.07
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,52,251,0.1629,0.0865,157.01
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,53,62,0.1606,0.1268,62.38
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,54,59,0.155,0.1216,86.2
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,55,56,0.154,0.1591,80.63
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,56,58,0.1479,0.1144,46.55
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,57,143,0.1458,0.1184,11.56
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,58,255,0.1437,0.0908,220.8
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,59,126,0.1266,0.0755,75.27
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,60,258,0.121,0.0753,216.81
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,61,98,0.0666,0.0709,14.0
+HiT,R10AFRICA,Africa,wind_onshore,Wind onshore,62,5,0.0039,0.0064,0.09
+LoT,R10AFRICA,Africa,wind_offshore,Wind offshore,1,659,0.4164,0.3397,2081.39
+LoT,R10AFRICA,Africa,wind_offshore,Wind offshore,2,161,0.3593,0.2154,628.06
+LoT,R10AFRICA,Africa,wind_offshore,Wind offshore,3,383,0.2941,0.2742,837.97
+LoT,R10AFRICA,Africa,wind_offshore,Wind offshore,4,102,0.0917,0.0779,166.35
+HiT,R10AFRICA,Africa,wind_offshore,Wind offshore,1,109,0.5389,0.2673,513.18
+HiT,R10AFRICA,Africa,wind_offshore,Wind offshore,2,63,0.4706,0.2134,287.82
+HiT,R10AFRICA,Africa,wind_offshore,Wind offshore,3,53,0.4627,0.2913,119.36
+HiT,R10AFRICA,Africa,wind_offshore,Wind offshore,4,52,0.4354,0.2142,105.37
+HiT,R10AFRICA,Africa,wind_offshore,Wind offshore,5,66,0.4352,0.2074,291.47
+HiT,R10AFRICA,Africa,wind_offshore,Wind offshore,6,143,0.4243,0.2523,283.83
+HiT,R10AFRICA,Africa,wind_offshore,Wind offshore,7,38,0.3781,0.1597,126.88
+HiT,R10AFRICA,Africa,wind_offshore,Wind offshore,8,51,0.3771,0.1805,208.43
+HiT,R10AFRICA,Africa,wind_offshore,Wind offshore,9,50,0.3703,0.2363,158.67
+HiT,R10AFRICA,Africa,wind_offshore,Wind offshore,10,80,0.3558,0.169,341.03
+HiT,R10AFRICA,Africa,wind_offshore,Wind offshore,11,53,0.3528,0.1763,172.42
+HiT,R10AFRICA,Africa,wind_offshore,Wind offshore,12,23,0.3381,0.187,66.99
+HiT,R10AFRICA,Africa,wind_offshore,Wind offshore,13,30,0.3275,0.127,78.6
+HiT,R10AFRICA,Africa,wind_offshore,Wind offshore,14,23,0.3174,0.1529,56.59
+HiT,R10AFRICA,Africa,wind_offshore,Wind offshore,15,39,0.3064,0.1289,89.34
+HiT,R10AFRICA,Africa,wind_offshore,Wind offshore,16,52,0.2965,0.1739,119.06
+HiT,R10AFRICA,Africa,wind_offshore,Wind offshore,17,28,0.2801,0.1602,43.07
+HiT,R10AFRICA,Africa,wind_offshore,Wind offshore,18,34,0.259,0.1769,126.97
+HiT,R10AFRICA,Africa,wind_offshore,Wind offshore,19,38,0.2497,0.1693,37.25
+HiT,R10AFRICA,Africa,wind_offshore,Wind offshore,20,33,0.115,0.0618,63.8
+HiT,R10AFRICA,Africa,wind_offshore,Wind offshore,21,60,0.114,0.0619,68.11
+HiT,R10AFRICA,Africa,wind_offshore,Wind offshore,22,65,0.087,0.0482,143.58
+HiT,R10AFRICA,Africa,wind_offshore,Wind offshore,23,30,0.0839,0.0376,40.76
+HiT,R10AFRICA,Africa,wind_offshore,Wind offshore,24,39,0.0728,0.0455,61.78
+HiT,R10AFRICA,Africa,wind_offshore,Wind offshore,25,53,0.0673,0.0451,109.4
+LoT,R10CHINA+,China+,solar,Solar PV,1,1896,0.2462,0.069,4376.6
+LoT,R10CHINA+,China+,solar,Solar PV,2,1327,0.2037,0.0798,2207.15
+LoT,R10CHINA+,China+,solar,Solar PV,3,600,0.1973,0.0727,1060.18
+LoT,R10CHINA+,China+,solar,Solar PV,4,405,0.1799,0.0673,482.65
+LoT,R10CHINA+,China+,solar,Solar PV,5,352,0.1609,0.063,429.44
+HiT,R10CHINA+,China+,solar,Solar PV,1,140,0.2631,0.0379,362.38
+HiT,R10CHINA+,China+,solar,Solar PV,2,256,0.2617,0.0472,753.64
+HiT,R10CHINA+,China+,solar,Solar PV,3,227,0.2558,0.0414,636.75
+HiT,R10CHINA+,China+,solar,Solar PV,4,141,0.2509,0.0487,157.61
+HiT,R10CHINA+,China+,solar,Solar PV,5,113,0.2463,0.0342,331.5
+HiT,R10CHINA+,China+,solar,Solar PV,6,143,0.2463,0.0404,369.77
+HiT,R10CHINA+,China+,solar,Solar PV,7,163,0.239,0.0431,401.57
+HiT,R10CHINA+,China+,solar,Solar PV,8,115,0.2367,0.0448,219.41
+HiT,R10CHINA+,China+,solar,Solar PV,9,160,0.2358,0.0418,394.56
+HiT,R10CHINA+,China+,solar,Solar PV,10,116,0.2332,0.0349,294.58
+HiT,R10CHINA+,China+,solar,Solar PV,11,142,0.231,0.0487,234.69
+HiT,R10CHINA+,China+,solar,Solar PV,12,116,0.2259,0.047,231.94
+HiT,R10CHINA+,China+,solar,Solar PV,13,78,0.223,0.0435,38.92
+HiT,R10CHINA+,China+,solar,Solar PV,14,101,0.2178,0.0436,168.69
+HiT,R10CHINA+,China+,solar,Solar PV,15,133,0.2164,0.0446,296.97
+HiT,R10CHINA+,China+,solar,Solar PV,16,106,0.2142,0.0391,182.06
+HiT,R10CHINA+,China+,solar,Solar PV,17,121,0.2118,0.0445,299.78
+HiT,R10CHINA+,China+,solar,Solar PV,18,162,0.2107,0.0436,289.61
+HiT,R10CHINA+,China+,solar,Solar PV,19,87,0.2063,0.0478,22.17
+HiT,R10CHINA+,China+,solar,Solar PV,20,138,0.2051,0.0441,293.18
+HiT,R10CHINA+,China+,solar,Solar PV,21,130,0.2013,0.0473,217.44
+HiT,R10CHINA+,China+,solar,Solar PV,22,91,0.2011,0.0406,123.25
+HiT,R10CHINA+,China+,solar,Solar PV,23,59,0.2011,0.0429,40.51
+HiT,R10CHINA+,China+,solar,Solar PV,24,40,0.1989,0.0369,32.8
+HiT,R10CHINA+,China+,solar,Solar PV,25,81,0.1981,0.0431,126.57
+HiT,R10CHINA+,China+,solar,Solar PV,26,51,0.1973,0.0392,131.55
+HiT,R10CHINA+,China+,solar,Solar PV,27,85,0.1956,0.0475,71.35
+HiT,R10CHINA+,China+,solar,Solar PV,28,92,0.1921,0.0436,250.14
+HiT,R10CHINA+,China+,solar,Solar PV,29,95,0.1913,0.0533,46.5
+HiT,R10CHINA+,China+,solar,Solar PV,30,62,0.1899,0.0343,160.49
+HiT,R10CHINA+,China+,solar,Solar PV,31,110,0.1898,0.0401,265.12
+HiT,R10CHINA+,China+,solar,Solar PV,32,77,0.1874,0.0391,113.41
+HiT,R10CHINA+,China+,solar,Solar PV,33,60,0.1839,0.0519,52.62
+HiT,R10CHINA+,China+,solar,Solar PV,34,104,0.1782,0.0436,152.35
+HiT,R10CHINA+,China+,solar,Solar PV,35,59,0.1716,0.0373,119.26
+HiT,R10CHINA+,China+,solar,Solar PV,36,90,0.1711,0.0457,51.84
+HiT,R10CHINA+,China+,solar,Solar PV,37,89,0.1632,0.0315,65.35
+HiT,R10CHINA+,China+,solar,Solar PV,38,46,0.1608,0.0364,55.11
+HiT,R10CHINA+,China+,solar,Solar PV,39,104,0.1594,0.0444,98.8
+HiT,R10CHINA+,China+,solar,Solar PV,40,56,0.1579,0.0412,40.74
+HiT,R10CHINA+,China+,solar,Solar PV,41,46,0.1542,0.0411,119.35
+HiT,R10CHINA+,China+,solar,Solar PV,42,72,0.1539,0.0404,112.63
+HiT,R10CHINA+,China+,solar,Solar PV,43,71,0.153,0.0478,43.64
+HiT,R10CHINA+,China+,solar,Solar PV,44,52,0.1513,0.0391,85.44
+LoT,R10CHINA+,China+,wind_onshore,Wind onshore,1,1030,0.2829,0.2463,3657.34
+LoT,R10CHINA+,China+,wind_onshore,Wind onshore,2,1273,0.272,0.2603,3798.63
+LoT,R10CHINA+,China+,wind_onshore,Wind onshore,3,273,0.1937,0.1712,701.98
+LoT,R10CHINA+,China+,wind_onshore,Wind onshore,4,399,0.1761,0.1975,1178.64
+LoT,R10CHINA+,China+,wind_onshore,Wind onshore,5,598,0.1599,0.2297,1514.91
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,1,277,0.3768,0.2289,885.01
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,2,328,0.3684,0.2275,1156.66
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,3,172,0.3186,0.2128,627.98
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,4,95,0.3085,0.2146,290.53
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,5,173,0.2953,0.1874,601.11
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,6,109,0.283,0.1421,325.98
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,7,60,0.272,0.2733,45.24
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,8,157,0.2652,0.1913,503.46
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,9,145,0.2423,0.1488,557.48
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,10,95,0.2399,0.1664,83.63
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,11,43,0.2355,0.111,63.15
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,12,106,0.2302,0.1736,312.64
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,13,53,0.2294,0.1648,178.15
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,14,81,0.2226,0.1953,203.45
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,15,122,0.2202,0.2104,301.94
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,16,56,0.2176,0.1818,155.33
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,17,142,0.2146,0.1272,593.31
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,18,88,0.2045,0.1706,257.02
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,19,96,0.1988,0.1245,270.04
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,20,47,0.1918,0.159,213.85
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,21,99,0.182,0.1969,277.66
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,22,34,0.1769,0.1073,145.13
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,23,103,0.1758,0.1337,255.01
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,24,91,0.1756,0.1496,258.53
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,25,54,0.171,0.13,247.65
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,26,99,0.1616,0.1098,301.22
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,27,22,0.1516,0.0716,24.09
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,28,65,0.1501,0.0962,89.17
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,29,42,0.1471,0.1244,92.76
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,30,64,0.1429,0.1073,134.34
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,31,59,0.1361,0.0909,240.3
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,32,35,0.1351,0.0853,142.77
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,33,79,0.1313,0.0873,277.7
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,34,75,0.1254,0.0824,211.12
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,35,48,0.123,0.0882,185.24
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,36,60,0.12,0.0862,101.57
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,37,42,0.1183,0.0919,68.91
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,38,42,0.1181,0.078,162.89
+HiT,R10CHINA+,China+,wind_onshore,Wind onshore,39,15,0.1005,0.0448,9.47
+LoT,R10CHINA+,China+,wind_offshore,Wind offshore,1,346,0.4784,0.2749,1121.12
+LoT,R10CHINA+,China+,wind_offshore,Wind offshore,2,141,0.4491,0.1888,608.45
+LoT,R10CHINA+,China+,wind_offshore,Wind offshore,3,200,0.3826,0.2356,632.96
+HiT,R10CHINA+,China+,wind_offshore,Wind offshore,1,50,0.5835,0.1781,145.01
+HiT,R10CHINA+,China+,wind_offshore,Wind offshore,2,38,0.5268,0.1554,164.37
+HiT,R10CHINA+,China+,wind_offshore,Wind offshore,3,64,0.5239,0.1781,201.58
+HiT,R10CHINA+,China+,wind_offshore,Wind offshore,4,40,0.4925,0.1236,145.48
+HiT,R10CHINA+,China+,wind_offshore,Wind offshore,5,77,0.455,0.1541,313.01
+HiT,R10CHINA+,China+,wind_offshore,Wind offshore,6,32,0.4476,0.1014,165.92
+HiT,R10CHINA+,China+,wind_offshore,Wind offshore,7,20,0.4327,0.1783,85.73
+HiT,R10CHINA+,China+,wind_offshore,Wind offshore,8,69,0.4286,0.1475,297.05
+HiT,R10CHINA+,China+,wind_offshore,Wind offshore,9,25,0.4059,0.0874,98.63
+HiT,R10CHINA+,China+,wind_offshore,Wind offshore,10,35,0.3943,0.1875,102.7
+HiT,R10CHINA+,China+,wind_offshore,Wind offshore,11,37,0.3934,0.1638,92.63
+HiT,R10CHINA+,China+,wind_offshore,Wind offshore,12,38,0.3883,0.1278,82.47
+HiT,R10CHINA+,China+,wind_offshore,Wind offshore,13,53,0.3822,0.1242,233.74
+HiT,R10CHINA+,China+,wind_offshore,Wind offshore,14,33,0.3718,0.097,21.28
+HiT,R10CHINA+,China+,wind_offshore,Wind offshore,15,26,0.3718,0.1784,107.67
+HiT,R10CHINA+,China+,wind_offshore,Wind offshore,16,21,0.3691,0.0967,61.96
+HiT,R10CHINA+,China+,wind_offshore,Wind offshore,17,21,0.3155,0.1488,31.69
+HiT,R10CHINA+,China+,wind_offshore,Wind offshore,18,8,0.2611,0.1713,11.61
+LoT,R10EUROPE,Europe,solar,Solar PV,1,811,0.227,0.0688,682.42
+LoT,R10EUROPE,Europe,solar,Solar PV,2,1099,0.1612,0.0676,842.45
+LoT,R10EUROPE,Europe,solar,Solar PV,3,668,0.1567,0.0708,1306.81
+LoT,R10EUROPE,Europe,solar,Solar PV,4,464,0.1436,0.0701,199.56
+HiT,R10EUROPE,Europe,solar,Solar PV,1,58,0.244,0.0418,13.66
+HiT,R10EUROPE,Europe,solar,Solar PV,2,212,0.2428,0.0488,95.16
+HiT,R10EUROPE,Europe,solar,Solar PV,3,122,0.2287,0.0508,214.98
+HiT,R10EUROPE,Europe,solar,Solar PV,4,162,0.2265,0.0503,210.72
+HiT,R10EUROPE,Europe,solar,Solar PV,5,117,0.2236,0.0424,23.48
+HiT,R10EUROPE,Europe,solar,Solar PV,6,140,0.2113,0.0508,124.42
+HiT,R10EUROPE,Europe,solar,Solar PV,7,199,0.2064,0.043,42.99
+HiT,R10EUROPE,Europe,solar,Solar PV,8,88,0.1878,0.0378,23.62
+HiT,R10EUROPE,Europe,solar,Solar PV,9,78,0.1847,0.0312,29.34
+HiT,R10EUROPE,Europe,solar,Solar PV,10,93,0.1847,0.0519,140.13
+HiT,R10EUROPE,Europe,solar,Solar PV,11,106,0.1837,0.0475,60.88
+HiT,R10EUROPE,Europe,solar,Solar PV,12,49,0.1787,0.0386,46.64
+HiT,R10EUROPE,Europe,solar,Solar PV,13,94,0.1742,0.0332,58.6
+HiT,R10EUROPE,Europe,solar,Solar PV,14,55,0.171,0.042,57.42
+HiT,R10EUROPE,Europe,solar,Solar PV,15,90,0.1701,0.0531,245.13
+HiT,R10EUROPE,Europe,solar,Solar PV,16,67,0.1663,0.0484,155.25
+HiT,R10EUROPE,Europe,solar,Solar PV,17,131,0.1634,0.0405,109.28
+HiT,R10EUROPE,Europe,solar,Solar PV,18,96,0.1559,0.0493,207.63
+HiT,R10EUROPE,Europe,solar,Solar PV,19,102,0.1519,0.0488,55.43
+HiT,R10EUROPE,Europe,solar,Solar PV,20,35,0.151,0.0435,27.41
+HiT,R10EUROPE,Europe,solar,Solar PV,21,45,0.1508,0.0377,109.53
+HiT,R10EUROPE,Europe,solar,Solar PV,22,86,0.15,0.043,114.07
+HiT,R10EUROPE,Europe,solar,Solar PV,23,61,0.1498,0.0511,20.3
+HiT,R10EUROPE,Europe,solar,Solar PV,24,53,0.1458,0.0424,99.79
+HiT,R10EUROPE,Europe,solar,Solar PV,25,50,0.1451,0.0421,5.46
+HiT,R10EUROPE,Europe,solar,Solar PV,26,74,0.1443,0.0452,226.34
+HiT,R10EUROPE,Europe,solar,Solar PV,27,61,0.1428,0.0389,10.09
+HiT,R10EUROPE,Europe,solar,Solar PV,28,38,0.141,0.0349,2.07
+HiT,R10EUROPE,Europe,solar,Solar PV,29,113,0.1398,0.0141,25.91
+HiT,R10EUROPE,Europe,solar,Solar PV,30,72,0.1384,0.0401,18.36
+HiT,R10EUROPE,Europe,solar,Solar PV,31,69,0.1369,0.0388,177.92
+HiT,R10EUROPE,Europe,solar,Solar PV,32,53,0.1366,0.0399,151.09
+HiT,R10EUROPE,Europe,solar,Solar PV,33,29,0.1365,0.0341,55.55
+HiT,R10EUROPE,Europe,solar,Solar PV,34,47,0.136,0.0493,13.4
+HiT,R10EUROPE,Europe,solar,Solar PV,35,58,0.1338,0.0408,52.8
+HiT,R10EUROPE,Europe,solar,Solar PV,36,39,0.1313,0.042,6.39
+LoT,R10EUROPE,Europe,wind_onshore,Wind onshore,1,1401,0.3229,0.303,1652.2
+LoT,R10EUROPE,Europe,wind_onshore,Wind onshore,2,440,0.2735,0.1973,1514.65
+LoT,R10EUROPE,Europe,wind_onshore,Wind onshore,3,552,0.2043,0.234,635.89
+LoT,R10EUROPE,Europe,wind_onshore,Wind onshore,4,265,0.1689,0.1539,109.19
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,1,134,0.4505,0.2306,239.45
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,2,133,0.4149,0.2216,246.8
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,3,72,0.3927,0.2705,13.28
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,4,169,0.3565,0.2356,328.41
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,5,110,0.3309,0.1615,36.22
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,6,120,0.3236,0.1624,47.11
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,7,151,0.3221,0.193,663.13
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,8,79,0.3033,0.1421,69.55
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,9,119,0.2931,0.053,101.83
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,10,89,0.2845,0.1416,183.55
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,11,103,0.2777,0.1433,428.44
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,12,83,0.267,0.1342,31.35
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,13,83,0.2502,0.2513,18.6
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,14,101,0.2355,0.2021,303.98
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,15,63,0.2338,0.1525,55.16
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,16,72,0.2225,0.1811,15.17
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,17,68,0.2178,0.1441,259.3
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,18,71,0.2115,0.207,127.61
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,19,75,0.1942,0.1502,27.31
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,20,102,0.1886,0.142,27.45
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,21,25,0.1875,0.1113,12.49
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,22,92,0.1862,0.1042,25.51
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,23,47,0.1838,0.1076,18.01
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,24,34,0.1736,0.0643,6.3
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,25,31,0.1719,0.0831,153.04
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,26,83,0.1672,0.172,74.56
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,27,36,0.1513,0.0888,168.22
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,28,47,0.1501,0.1103,59.91
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,29,90,0.1275,0.1113,36.44
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,30,79,0.1254,0.1417,103.26
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,31,41,0.1162,0.0852,27.69
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,32,20,0.0659,0.0358,1.31
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,33,22,0.041,0.0269,0.99
+HiT,R10EUROPE,Europe,wind_onshore,Wind onshore,34,14,0.0151,0.0135,0.52
+LoT,R10EUROPE,Europe,wind_offshore,Wind offshore,1,1228,0.5294,0.3426,7608.43
+LoT,R10EUROPE,Europe,wind_offshore,Wind offshore,2,191,0.3774,0.2816,658.99
+LoT,R10EUROPE,Europe,wind_offshore,Wind offshore,3,354,0.3678,0.3055,1196.77
+LoT,R10EUROPE,Europe,wind_offshore,Wind offshore,4,130,0.2678,0.181,286.1
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,1,211,0.6056,0.262,1044.89
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,2,93,0.5697,0.1841,557.63
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,3,125,0.5644,0.2545,694.49
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,4,90,0.5618,0.1927,454.8
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,5,172,0.5511,0.2341,1268.49
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,6,128,0.5029,0.2336,1030.26
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,7,50,0.5025,0.2726,88.69
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,8,19,0.4985,0.1649,69.61
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,9,64,0.4896,0.1658,391.3
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,10,37,0.4776,0.171,157.09
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,11,68,0.4773,0.1927,375.22
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,12,60,0.4772,0.2065,425.19
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,13,55,0.4766,0.2074,418.71
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,14,69,0.469,0.229,267.92
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,15,76,0.4649,0.1776,416.1
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,16,49,0.4572,0.1765,374.26
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,17,54,0.4162,0.1944,217.37
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,18,40,0.3665,0.197,135.7
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,19,57,0.3602,0.1517,308.45
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,20,25,0.3565,0.204,84.17
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,21,42,0.3441,0.1812,102.67
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,22,57,0.3336,0.1954,215.18
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,23,39,0.2923,0.167,103.24
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,24,48,0.2811,0.1723,148.13
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,25,44,0.2582,0.177,126.15
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,26,24,0.255,0.1211,36.08
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,27,67,0.2537,0.1323,146.78
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,28,30,0.2354,0.156,66.99
+HiT,R10EUROPE,Europe,wind_offshore,Wind offshore,29,10,0.2222,0.118,24.73
+LoT,R10INDIA+,India+,solar,Solar PV,1,822,0.2475,0.0562,1701.94
+LoT,R10INDIA+,India+,solar,Solar PV,2,476,0.2178,0.0422,1708.72
+LoT,R10INDIA+,India+,solar,Solar PV,3,687,0.2076,0.0546,1942.96
+LoT,R10INDIA+,India+,solar,Solar PV,4,303,0.1928,0.0477,896.39
+HiT,R10INDIA+,India+,solar,Solar PV,1,103,0.277,0.0321,128.7
+HiT,R10INDIA+,India+,solar,Solar PV,2,161,0.2695,0.0281,338.83
+HiT,R10INDIA+,India+,solar,Solar PV,3,100,0.2505,0.025,184.28
+HiT,R10INDIA+,India+,solar,Solar PV,4,72,0.2493,0.0384,86.86
+HiT,R10INDIA+,India+,solar,Solar PV,5,84,0.2456,0.0407,100.23
+HiT,R10INDIA+,India+,solar,Solar PV,6,73,0.2408,0.0218,267.69
+HiT,R10INDIA+,India+,solar,Solar PV,7,105,0.2377,0.0248,236.82
+HiT,R10INDIA+,India+,solar,Solar PV,8,74,0.2281,0.0244,272.17
+HiT,R10INDIA+,India+,solar,Solar PV,9,38,0.2276,0.0472,29.12
+HiT,R10INDIA+,India+,solar,Solar PV,10,86,0.2262,0.028,329.42
+HiT,R10INDIA+,India+,solar,Solar PV,11,96,0.2257,0.0327,320.17
+HiT,R10INDIA+,India+,solar,Solar PV,12,84,0.2175,0.029,324.96
+HiT,R10INDIA+,India+,solar,Solar PV,13,57,0.2158,0.0264,244.38
+HiT,R10INDIA+,India+,solar,Solar PV,14,79,0.2143,0.0255,240.75
+HiT,R10INDIA+,India+,solar,Solar PV,15,59,0.2119,0.0305,176.85
+HiT,R10INDIA+,India+,solar,Solar PV,16,85,0.2118,0.0295,335.95
+HiT,R10INDIA+,India+,solar,Solar PV,17,62,0.2111,0.0372,138.13
+HiT,R10INDIA+,India+,solar,Solar PV,18,87,0.2099,0.0302,232.76
+HiT,R10INDIA+,India+,solar,Solar PV,19,56,0.2095,0.0272,187.94
+HiT,R10INDIA+,India+,solar,Solar PV,20,52,0.209,0.0326,143.58
+HiT,R10INDIA+,India+,solar,Solar PV,21,39,0.2073,0.0348,15.34
+HiT,R10INDIA+,India+,solar,Solar PV,22,58,0.2066,0.0246,214.72
+HiT,R10INDIA+,India+,solar,Solar PV,23,58,0.2045,0.0284,241.6
+HiT,R10INDIA+,India+,solar,Solar PV,24,70,0.2033,0.0336,188.22
+HiT,R10INDIA+,India+,solar,Solar PV,25,59,0.2016,0.0265,223.6
+HiT,R10INDIA+,India+,solar,Solar PV,26,29,0.1996,0.0391,8.39
+HiT,R10INDIA+,India+,solar,Solar PV,27,73,0.1985,0.0295,252.01
+HiT,R10INDIA+,India+,solar,Solar PV,28,59,0.1983,0.0296,142.16
+HiT,R10INDIA+,India+,solar,Solar PV,29,89,0.192,0.0383,299.16
+HiT,R10INDIA+,India+,solar,Solar PV,30,73,0.19,0.0318,208.7
+HiT,R10INDIA+,India+,solar,Solar PV,31,37,0.19,0.0309,75.83
+HiT,R10INDIA+,India+,solar,Solar PV,32,31,0.1862,0.0386,60.7
+LoT,R10INDIA+,India+,wind_onshore,Wind onshore,1,522,0.2194,0.2094,901.64
+LoT,R10INDIA+,India+,wind_onshore,Wind onshore,2,463,0.1971,0.1644,711.91
+LoT,R10INDIA+,India+,wind_onshore,Wind onshore,3,189,0.1876,0.1765,335.16
+LoT,R10INDIA+,India+,wind_onshore,Wind onshore,4,427,0.1277,0.1239,630.17
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,1,44,0.4411,0.2641,86.68
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,2,135,0.2655,0.1478,227.22
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,3,72,0.2397,0.1914,43.75
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,4,36,0.2249,0.145,53.04
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,5,52,0.2214,0.1523,124.26
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,6,18,0.2213,0.1335,28.98
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,7,163,0.2068,0.1133,347.16
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,8,82,0.1997,0.119,76.11
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,9,100,0.1987,0.1243,215.87
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,10,70,0.1955,0.1346,122.03
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,11,33,0.1929,0.1789,41.95
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,12,50,0.1567,0.1241,104.9
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,13,70,0.1543,0.0887,135.31
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,14,28,0.1538,0.0698,51.92
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,15,49,0.153,0.1181,64.49
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,16,69,0.1504,0.1193,101.41
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,17,20,0.1434,0.077,11.38
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,18,72,0.1415,0.0877,108.11
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,19,47,0.1362,0.0769,87.16
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,20,23,0.131,0.0848,35.83
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,21,31,0.1294,0.0783,41.58
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,22,71,0.1254,0.0767,115.19
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,23,66,0.1243,0.0888,119.89
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,24,63,0.1151,0.0684,81.4
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,25,66,0.1122,0.0718,88.42
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,26,34,0.1095,0.0655,43.13
+HiT,R10INDIA+,India+,wind_onshore,Wind onshore,27,37,0.0986,0.0529,21.71
+LoT,R10INDIA+,India+,wind_offshore,Wind offshore,1,123,0.3224,0.218,238.22
+LoT,R10INDIA+,India+,wind_offshore,Wind offshore,2,93,0.2881,0.1309,275.81
+LoT,R10INDIA+,India+,wind_offshore,Wind offshore,3,76,0.2588,0.1578,212.65
+HiT,R10INDIA+,India+,wind_offshore,Wind offshore,1,43,0.4283,0.1651,52.11
+HiT,R10INDIA+,India+,wind_offshore,Wind offshore,2,24,0.4234,0.1675,39.9
+HiT,R10INDIA+,India+,wind_offshore,Wind offshore,3,49,0.3066,0.1067,175.06
+HiT,R10INDIA+,India+,wind_offshore,Wind offshore,4,15,0.2764,0.1051,31.08
+HiT,R10INDIA+,India+,wind_offshore,Wind offshore,5,28,0.2753,0.1054,67.85
+HiT,R10INDIA+,India+,wind_offshore,Wind offshore,6,31,0.2691,0.0834,86.22
+HiT,R10INDIA+,India+,wind_offshore,Wind offshore,7,17,0.2653,0.0498,11.22
+HiT,R10INDIA+,India+,wind_offshore,Wind offshore,8,11,0.2563,0.0888,15.25
+HiT,R10INDIA+,India+,wind_offshore,Wind offshore,9,27,0.2548,0.0762,89.53
+HiT,R10INDIA+,India+,wind_offshore,Wind offshore,10,20,0.2458,0.0623,69.7
+HiT,R10INDIA+,India+,wind_offshore,Wind offshore,11,13,0.2415,0.0659,44.01
+HiT,R10INDIA+,India+,wind_offshore,Wind offshore,12,14,0.2344,0.0759,44.76
+LoT,R10LATIN_AM,Latin America,solar,Solar PV,1,1270,0.2497,0.0723,1309.48
+LoT,R10LATIN_AM,Latin America,solar,Solar PV,2,753,0.2312,0.0749,1091.75
+LoT,R10LATIN_AM,Latin America,solar,Solar PV,3,3162,0.2036,0.0685,2298.38
+LoT,R10LATIN_AM,Latin America,solar,Solar PV,4,802,0.1997,0.0642,472.39
+LoT,R10LATIN_AM,Latin America,solar,Solar PV,5,904,0.1792,0.0602,1825.06
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,1,210,0.2818,0.0417,319.89
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,2,163,0.2763,0.0431,293.79
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,3,203,0.2551,0.0607,431.29
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,4,83,0.254,0.0513,57.51
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,5,183,0.2528,0.0494,36.3
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,6,184,0.2487,0.054,282.63
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,7,227,0.2302,0.0523,99.36
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,8,169,0.2225,0.0525,307.51
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,9,97,0.2222,0.0642,71.32
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,10,58,0.2174,0.0514,10.05
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,11,161,0.217,0.0467,159.78
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,12,287,0.215,0.0474,413.26
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,13,132,0.2125,0.0429,87.95
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,14,80,0.2102,0.0379,142.94
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,15,94,0.21,0.0385,65.58
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,16,151,0.2094,0.0484,115.19
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,17,164,0.209,0.0435,146.93
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,18,96,0.2074,0.0412,114.59
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,19,119,0.2032,0.0407,90.32
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,20,118,0.203,0.0406,35.05
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,21,69,0.2026,0.0501,40.2
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,22,94,0.2023,0.034,57.43
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,23,176,0.2014,0.0468,89.47
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,24,114,0.2014,0.0366,134.92
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,25,155,0.2012,0.0394,85.27
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,26,76,0.2003,0.0339,52.84
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,27,73,0.1965,0.0525,7.47
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,28,101,0.196,0.0375,18.84
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,29,249,0.1958,0.0496,285.77
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,30,114,0.1956,0.0395,140.05
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,31,186,0.1952,0.0452,151.53
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,32,227,0.1948,0.051,83.89
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,33,178,0.1944,0.0425,162.68
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,34,64,0.193,0.0376,22.48
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,35,76,0.1924,0.0391,53.42
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,36,139,0.1917,0.0452,135.39
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,37,87,0.1917,0.0486,14.79
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,38,121,0.1914,0.0472,49.01
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,39,171,0.1905,0.0487,93.16
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,40,95,0.1888,0.0451,101.92
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,41,63,0.1876,0.0412,65.06
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,42,122,0.1864,0.0427,61.52
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,43,116,0.1862,0.0427,346.66
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,44,139,0.1835,0.0416,118.93
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,45,145,0.1831,0.0427,487.02
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,46,116,0.1815,0.042,18.72
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,47,93,0.1788,0.0425,20.88
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,48,66,0.1788,0.0442,19.11
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,49,157,0.177,0.0459,30.91
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,50,48,0.1714,0.0402,1.95
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,51,112,0.1705,0.0431,435.64
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,52,130,0.1688,0.0429,321.81
+HiT,R10LATIN_AM,Latin America,solar,Solar PV,53,40,0.1675,0.0401,7.07
+LoT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,1,977,0.412,0.308,1701.67
+LoT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,2,927,0.3147,0.2185,898.22
+LoT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,3,427,0.2313,0.153,249.7
+LoT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,4,1072,0.2121,0.2254,863.47
+LoT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,5,338,0.1913,0.1249,199.62
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,1,98,0.641,0.2618,89.9
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,2,157,0.4707,0.2718,636.84
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,3,158,0.452,0.2838,505.81
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,4,125,0.3814,0.1998,159.48
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,5,109,0.3561,0.2677,63.43
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,6,60,0.3302,0.2158,130.2
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,7,104,0.3268,0.2073,320.45
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,8,68,0.3177,0.2061,87.59
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,9,84,0.304,0.1292,109.74
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,10,118,0.3038,0.1937,107.1
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,11,176,0.2843,0.1551,154.46
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,12,130,0.2773,0.123,105.9
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,13,225,0.2763,0.1861,135.7
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,14,73,0.2542,0.1613,68.38
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,15,140,0.2463,0.1212,90.05
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,16,72,0.2424,0.1625,15.26
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,17,194,0.2205,0.1316,144.31
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,18,54,0.2162,0.1725,42.42
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,19,32,0.2066,0.1519,44.99
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,20,72,0.2056,0.1397,106.11
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,21,38,0.2054,0.1369,10.89
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,22,172,0.2035,0.147,130.03
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,23,93,0.2011,0.1769,54.84
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,24,87,0.1792,0.0836,14.33
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,25,51,0.1692,0.1135,90.51
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,26,95,0.1612,0.1281,104.13
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,27,45,0.1588,0.1041,23.66
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,28,39,0.1573,0.1662,7.22
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,29,96,0.156,0.1039,20.49
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,30,72,0.155,0.1103,39.67
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,31,113,0.1533,0.1513,44.68
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,32,85,0.1457,0.1201,82.2
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,33,137,0.1268,0.0832,12.16
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,34,74,0.1203,0.063,43.98
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,35,104,0.12,0.0759,36.71
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,36,22,0.1076,0.0801,13.18
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,37,53,0.1068,0.0544,17.03
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,38,36,0.0956,0.046,22.66
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,39,70,0.0956,0.0632,11.33
+HiT,R10LATIN_AM,Latin America,wind_onshore,Wind onshore,40,10,0.0489,0.0321,14.82
+LoT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,1,835,0.532,0.3448,3619.22
+LoT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,2,576,0.3653,0.243,1133.18
+LoT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,3,272,0.3291,0.2312,536.91
+LoT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,4,79,0.2787,0.1467,151.86
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,1,203,0.6869,0.295,1176.65
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,2,86,0.5787,0.2407,596.62
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,3,67,0.5373,0.235,370.37
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,4,131,0.4767,0.2325,310.75
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,5,70,0.468,0.1851,267.51
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,6,59,0.4294,0.2677,260.83
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,7,56,0.4266,0.2782,145.27
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,8,115,0.4026,0.2017,142.63
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,9,116,0.3736,0.1558,168.25
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,10,30,0.3675,0.1765,67.0
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,11,69,0.367,0.1492,190.21
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,12,76,0.3564,0.201,391.52
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,13,38,0.3476,0.1422,98.84
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,14,88,0.338,0.1626,72.15
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,15,37,0.3249,0.1419,33.34
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,16,42,0.3222,0.0849,83.36
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,17,32,0.3156,0.1124,59.21
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,18,42,0.3102,0.1017,68.96
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,19,91,0.307,0.112,284.09
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,20,37,0.3022,0.1365,35.49
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,21,53,0.3004,0.1399,69.75
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,22,23,0.2808,0.181,68.09
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,23,79,0.2787,0.1467,151.86
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,24,71,0.2787,0.1504,208.62
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,25,16,0.2701,0.1309,58.2
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,26,25,0.2379,0.0991,56.04
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,27,6,0.0804,0.0482,3.02
+HiT,R10LATIN_AM,Latin America,wind_offshore,Wind offshore,28,4,0.0379,0.0168,2.54
+LoT,R10MIDDLE_EAST,Middle East,solar,Solar PV,1,661,0.2692,0.0472,1531.43
+LoT,R10MIDDLE_EAST,Middle East,solar,Solar PV,2,788,0.2667,0.0367,2075.51
+LoT,R10MIDDLE_EAST,Middle East,solar,Solar PV,3,494,0.2659,0.0317,1351.55
+LoT,R10MIDDLE_EAST,Middle East,solar,Solar PV,4,587,0.2601,0.0424,1158.6
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,1,86,0.2805,0.02,229.11
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,2,81,0.279,0.0216,224.8
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,3,61,0.2741,0.0229,164.42
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,4,38,0.2723,0.0254,31.84
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,5,89,0.2712,0.024,209.22
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,6,98,0.2703,0.016,334.45
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,7,81,0.2703,0.0271,118.25
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,8,110,0.2703,0.0199,330.34
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,9,166,0.2685,0.0185,549.93
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,10,108,0.2681,0.0242,382.27
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,11,91,0.2673,0.0178,260.64
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,12,91,0.2669,0.0249,229.58
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,13,79,0.2668,0.0185,225.94
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,14,78,0.2661,0.0226,172.87
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,15,136,0.2655,0.0257,319.44
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,16,55,0.2649,0.0144,153.35
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,17,102,0.2648,0.0198,336.18
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,18,161,0.2641,0.0306,317.6
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,19,87,0.2637,0.0233,213.2
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,20,63,0.2589,0.0241,192.92
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,21,43,0.2584,0.0235,64.22
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,22,59,0.2583,0.0164,155.95
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,23,74,0.2574,0.0295,33.61
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,24,90,0.257,0.0208,203.37
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,25,73,0.2563,0.0208,184.12
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,26,28,0.2557,0.0173,76.23
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,27,76,0.2551,0.0231,180.2
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,28,39,0.2528,0.0323,13.65
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,29,50,0.2527,0.0262,102.85
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,30,41,0.2493,0.0235,33.41
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,31,46,0.2463,0.03,52.37
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,32,26,0.2227,0.0333,16.27
+HiT,R10MIDDLE_EAST,Middle East,solar,Solar PV,33,24,0.2005,0.0379,4.48
+LoT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,1,770,0.2971,0.2399,1784.21
+LoT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,2,583,0.269,0.2195,1271.99
+LoT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,3,660,0.2107,0.2403,1304.89
+LoT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,4,127,0.1353,0.13,172.32
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,1,109,0.3547,0.2031,202.42
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,2,54,0.3361,0.1566,119.47
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,3,93,0.3266,0.1753,184.97
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,4,88,0.3202,0.1698,225.91
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,5,172,0.3189,0.2043,437.06
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,6,105,0.3037,0.1815,262.27
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,7,67,0.3034,0.1588,152.17
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,8,64,0.2969,0.1963,158.36
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,9,131,0.2766,0.2168,232.22
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,10,107,0.2682,0.1698,258.97
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,11,86,0.2679,0.2235,242.5
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,12,85,0.261,0.1407,215.15
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,13,68,0.2598,0.1335,129.38
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,14,44,0.2564,0.2274,21.87
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,15,67,0.2424,0.1372,165.64
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,16,91,0.2413,0.1425,202.06
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,17,77,0.2346,0.1232,184.01
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,18,71,0.2236,0.1632,154.84
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,19,42,0.2049,0.1305,51.76
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,20,56,0.182,0.1628,83.99
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,21,42,0.1797,0.1311,81.35
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,22,22,0.1762,0.123,67.96
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,23,72,0.1714,0.1958,128.39
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,24,36,0.1487,0.1175,76.04
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,25,32,0.148,0.1129,73.29
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,26,58,0.1366,0.1028,36.53
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,27,37,0.1364,0.0947,75.49
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,28,68,0.1363,0.121,142.44
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,29,32,0.1333,0.0948,60.31
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,30,45,0.1299,0.112,85.43
+HiT,R10MIDDLE_EAST,Middle East,wind_onshore,Wind onshore,31,19,0.1133,0.0833,21.17
+LoT,R10MIDDLE_EAST,Middle East,wind_offshore,Wind offshore,1,79,0.3897,0.1859,152.09
+LoT,R10MIDDLE_EAST,Middle East,wind_offshore,Wind offshore,2,133,0.3004,0.2788,393.31
+LoT,R10MIDDLE_EAST,Middle East,wind_offshore,Wind offshore,3,63,0.292,0.1532,168.92
+HiT,R10MIDDLE_EAST,Middle East,wind_offshore,Wind offshore,1,31,0.4519,0.124,58.95
+HiT,R10MIDDLE_EAST,Middle East,wind_offshore,Wind offshore,2,39,0.3742,0.1414,77.13
+HiT,R10MIDDLE_EAST,Middle East,wind_offshore,Wind offshore,3,26,0.3427,0.1723,81.85
+HiT,R10MIDDLE_EAST,Middle East,wind_offshore,Wind offshore,4,26,0.3399,0.1476,73.99
+HiT,R10MIDDLE_EAST,Middle East,wind_offshore,Wind offshore,5,39,0.3222,0.1295,85.82
+HiT,R10MIDDLE_EAST,Middle East,wind_offshore,Wind offshore,6,20,0.322,0.1214,76.16
+HiT,R10MIDDLE_EAST,Middle East,wind_offshore,Wind offshore,7,20,0.3011,0.1278,39.31
+HiT,R10MIDDLE_EAST,Middle East,wind_offshore,Wind offshore,8,24,0.2609,0.0839,83.09
+HiT,R10MIDDLE_EAST,Middle East,wind_offshore,Wind offshore,9,15,0.2534,0.1065,58.93
+HiT,R10MIDDLE_EAST,Middle East,wind_offshore,Wind offshore,10,13,0.2376,0.0997,45.06
+HiT,R10MIDDLE_EAST,Middle East,wind_offshore,Wind offshore,11,9,0.2361,0.0979,16.01
+HiT,R10MIDDLE_EAST,Middle East,wind_offshore,Wind offshore,12,13,0.1634,0.1108,18.0
+LoT,R10NORTH_AM,North America,solar,Solar PV,1,1743,0.2659,0.0802,3042.97
+LoT,R10NORTH_AM,North America,solar,Solar PV,2,2046,0.2124,0.0939,507.86
+LoT,R10NORTH_AM,North America,solar,Solar PV,3,1488,0.1981,0.0886,1910.64
+LoT,R10NORTH_AM,North America,solar,Solar PV,4,464,0.1889,0.0817,364.9
+LoT,R10NORTH_AM,North America,solar,Solar PV,5,856,0.1474,0.0879,141.89
+HiT,R10NORTH_AM,North America,solar,Solar PV,1,381,0.2868,0.0495,936.2
+HiT,R10NORTH_AM,North America,solar,Solar PV,2,184,0.2742,0.0475,287.05
+HiT,R10NORTH_AM,North America,solar,Solar PV,3,376,0.2697,0.0638,671.93
+HiT,R10NORTH_AM,North America,solar,Solar PV,4,201,0.2692,0.0543,328.44
+HiT,R10NORTH_AM,North America,solar,Solar PV,5,271,0.2485,0.0636,395.42
+HiT,R10NORTH_AM,North America,solar,Solar PV,6,164,0.2276,0.0524,216.07
+HiT,R10NORTH_AM,North America,solar,Solar PV,7,278,0.2235,0.0641,118.24
+HiT,R10NORTH_AM,North America,solar,Solar PV,8,148,0.2219,0.057,167.08
+HiT,R10NORTH_AM,North America,solar,Solar PV,9,186,0.2219,0.0627,108.21
+HiT,R10NORTH_AM,North America,solar,Solar PV,10,130,0.2212,0.0529,54.64
+HiT,R10NORTH_AM,North America,solar,Solar PV,11,166,0.2161,0.053,207.87
+HiT,R10NORTH_AM,North America,solar,Solar PV,12,89,0.2101,0.0527,9.2
+HiT,R10NORTH_AM,North America,solar,Solar PV,13,100,0.2069,0.0492,105.1
+HiT,R10NORTH_AM,North America,solar,Solar PV,14,209,0.2056,0.0554,200.38
+HiT,R10NORTH_AM,North America,solar,Solar PV,15,136,0.1997,0.0513,93.3
+HiT,R10NORTH_AM,North America,solar,Solar PV,16,108,0.1993,0.051,58.67
+HiT,R10NORTH_AM,North America,solar,Solar PV,17,140,0.1988,0.0563,496.14
+HiT,R10NORTH_AM,North America,solar,Solar PV,18,115,0.1984,0.0531,102.35
+HiT,R10NORTH_AM,North America,solar,Solar PV,19,109,0.1955,0.0566,154.96
+HiT,R10NORTH_AM,North America,solar,Solar PV,20,119,0.1952,0.0568,7.23
+HiT,R10NORTH_AM,North America,solar,Solar PV,21,76,0.1947,0.0429,135.07
+HiT,R10NORTH_AM,North America,solar,Solar PV,22,141,0.1943,0.0597,97.93
+HiT,R10NORTH_AM,North America,solar,Solar PV,23,120,0.1915,0.0584,161.18
+HiT,R10NORTH_AM,North America,solar,Solar PV,24,119,0.1913,0.0536,281.21
+HiT,R10NORTH_AM,North America,solar,Solar PV,25,105,0.1896,0.0571,130.9
+HiT,R10NORTH_AM,North America,solar,Solar PV,26,83,0.1895,0.0508,118.54
+HiT,R10NORTH_AM,North America,solar,Solar PV,27,111,0.186,0.0643,1.87
+HiT,R10NORTH_AM,North America,solar,Solar PV,28,69,0.1855,0.0485,64.77
+HiT,R10NORTH_AM,North America,solar,Solar PV,29,71,0.1844,0.0496,3.66
+HiT,R10NORTH_AM,North America,solar,Solar PV,30,135,0.1809,0.0571,10.68
+HiT,R10NORTH_AM,North America,solar,Solar PV,31,159,0.1805,0.0567,20.25
+HiT,R10NORTH_AM,North America,solar,Solar PV,32,93,0.1789,0.0641,15.47
+HiT,R10NORTH_AM,North America,solar,Solar PV,33,76,0.1767,0.0508,9.84
+HiT,R10NORTH_AM,North America,solar,Solar PV,34,102,0.1755,0.0573,11.09
+HiT,R10NORTH_AM,North America,solar,Solar PV,35,88,0.1749,0.0535,5.31
+HiT,R10NORTH_AM,North America,solar,Solar PV,36,71,0.174,0.0473,1.96
+HiT,R10NORTH_AM,North America,solar,Solar PV,37,132,0.1728,0.0552,12.09
+HiT,R10NORTH_AM,North America,solar,Solar PV,38,46,0.1725,0.0519,3.99
+HiT,R10NORTH_AM,North America,solar,Solar PV,39,84,0.1671,0.0541,3.54
+HiT,R10NORTH_AM,North America,solar,Solar PV,40,76,0.1665,0.0585,2.11
+HiT,R10NORTH_AM,North America,solar,Solar PV,41,83,0.1655,0.056,4.06
+HiT,R10NORTH_AM,North America,solar,Solar PV,42,99,0.1647,0.0545,4.93
+HiT,R10NORTH_AM,North America,solar,Solar PV,43,83,0.1643,0.0532,2.81
+HiT,R10NORTH_AM,North America,solar,Solar PV,44,52,0.1625,0.0438,5.83
+HiT,R10NORTH_AM,North America,solar,Solar PV,45,101,0.1583,0.0528,6.48
+HiT,R10NORTH_AM,North America,solar,Solar PV,46,104,0.1581,0.0534,5.76
+HiT,R10NORTH_AM,North America,solar,Solar PV,47,65,0.1558,0.0519,7.04
+HiT,R10NORTH_AM,North America,solar,Solar PV,48,92,0.1534,0.0558,3.38
+HiT,R10NORTH_AM,North America,solar,Solar PV,49,59,0.1497,0.0459,10.23
+HiT,R10NORTH_AM,North America,solar,Solar PV,50,59,0.1487,0.0501,6.5
+HiT,R10NORTH_AM,North America,solar,Solar PV,51,109,0.1482,0.0553,37.07
+HiT,R10NORTH_AM,North America,solar,Solar PV,52,124,0.14,0.0603,64.22
+LoT,R10NORTH_AM,North America,wind_onshore,Wind onshore,1,3807,0.3884,0.3167,2438.9
+LoT,R10NORTH_AM,North America,wind_onshore,Wind onshore,2,1258,0.2652,0.2242,542.08
+LoT,R10NORTH_AM,North America,wind_onshore,Wind onshore,3,397,0.1985,0.1648,49.97
+LoT,R10NORTH_AM,North America,wind_onshore,Wind onshore,4,407,0.1597,0.1506,402.87
+LoT,R10NORTH_AM,North America,wind_onshore,Wind onshore,5,278,0.152,0.1429,289.46
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,1,192,0.4992,0.2236,99.81
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,2,157,0.4927,0.2506,34.38
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,3,214,0.4579,0.2452,100.77
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,4,221,0.4434,0.2334,228.81
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,5,130,0.4409,0.2218,292.28
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,6,105,0.4359,0.2011,31.92
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,7,119,0.4247,0.2183,31.7
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,8,202,0.4078,0.2111,101.5
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,9,253,0.4057,0.2211,461.64
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,10,169,0.3889,0.2118,221.18
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,11,260,0.3767,0.2399,13.34
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,12,218,0.3752,0.2134,36.63
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,13,121,0.3547,0.2573,131.76
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,14,166,0.343,0.1935,31.19
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,15,85,0.3391,0.1688,68.54
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,16,182,0.3331,0.1813,72.9
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,17,217,0.3304,0.2003,47.09
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,18,106,0.3167,0.1864,127.11
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,19,130,0.3072,0.1543,12.64
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,20,154,0.3065,0.164,178.93
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,21,87,0.2996,0.1259,4.21
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,22,138,0.2963,0.2005,172.4
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,23,182,0.287,0.1697,37.52
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,24,85,0.2859,0.2225,158.16
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,25,155,0.2757,0.1538,16.06
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,26,81,0.2679,0.1454,8.55
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,27,152,0.2546,0.1389,7.99
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,28,96,0.2316,0.1122,41.82
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,29,102,0.2261,0.1295,13.88
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,30,76,0.223,0.1376,28.45
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,31,131,0.219,0.1361,11.96
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,32,80,0.2084,0.0967,23.86
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,33,82,0.2046,0.1337,94.06
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,34,177,0.2035,0.1087,58.37
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,35,108,0.1984,0.1325,36.16
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,36,92,0.1902,0.1257,17.3
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,37,97,0.184,0.1244,82.59
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,38,53,0.1748,0.1091,38.84
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,39,135,0.1692,0.1096,32.7
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,40,33,0.1609,0.0766,21.82
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,41,102,0.1528,0.1258,149.93
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,42,78,0.1501,0.1395,74.99
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,43,79,0.1438,0.2017,8.81
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,44,80,0.1431,0.092,96.27
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,45,34,0.1407,0.0774,0.88
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,46,38,0.1255,0.0886,5.95
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,47,76,0.125,0.0955,107.75
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,48,22,0.1211,0.0815,6.87
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,49,52,0.1186,0.0826,36.61
+HiT,R10NORTH_AM,North America,wind_onshore,Wind onshore,50,43,0.1177,0.1201,4.42
+LoT,R10NORTH_AM,North America,wind_offshore,Wind offshore,1,1023,0.5284,0.3505,5125.52
+LoT,R10NORTH_AM,North America,wind_offshore,Wind offshore,2,617,0.4522,0.2941,3153.06
+LoT,R10NORTH_AM,North America,wind_offshore,Wind offshore,3,422,0.3548,0.2615,2018.88
+LoT,R10NORTH_AM,North America,wind_offshore,Wind offshore,4,470,0.329,0.2595,2265.61
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,1,125,0.6474,0.2579,755.8
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,2,138,0.62,0.2413,785.42
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,3,76,0.5503,0.2136,388.96
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,4,128,0.5341,0.2318,594.91
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,5,83,0.5212,0.221,333.63
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,6,74,0.5067,0.193,292.67
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,7,180,0.5016,0.2708,985.59
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,8,75,0.4821,0.1794,428.7
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,9,118,0.4815,0.1962,744.27
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,10,91,0.4671,0.251,576.3
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,11,94,0.4415,0.1757,457.95
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,12,45,0.4395,0.2021,188.88
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,13,82,0.4384,0.1644,484.23
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,14,53,0.4212,0.1507,293.74
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,15,68,0.3974,0.158,357.98
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,16,56,0.3904,0.177,235.03
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,17,60,0.3903,0.1977,229.99
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,18,24,0.3651,0.1772,151.42
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,19,86,0.3615,0.1607,507.81
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,20,38,0.3587,0.0887,226.75
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,21,25,0.3546,0.1405,51.93
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,22,32,0.3536,0.1242,62.03
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,23,110,0.3533,0.1641,466.36
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,24,91,0.3482,0.1789,386.74
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,25,60,0.3448,0.1261,339.43
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,26,53,0.3417,0.1578,93.53
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,27,119,0.3382,0.1586,600.51
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,28,82,0.3344,0.1528,349.44
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,29,51,0.3148,0.1716,326.15
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,30,62,0.3112,0.1612,281.74
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,31,29,0.31,0.2255,104.93
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,32,43,0.301,0.1963,129.19
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,33,47,0.2892,0.1634,230.03
+HiT,R10NORTH_AM,North America,wind_offshore,Wind offshore,34,34,0.286,0.1141,121.04
+LoT,R10PAC_OECD,Pacific OECD,solar,Solar PV,1,573,0.2402,0.0526,1077.11
+LoT,R10PAC_OECD,Pacific OECD,solar,Solar PV,2,1283,0.2354,0.061,2705.55
+LoT,R10PAC_OECD,Pacific OECD,solar,Solar PV,3,334,0.1965,0.0666,277.06
+LoT,R10PAC_OECD,Pacific OECD,solar,Solar PV,4,308,0.1828,0.0715,172.08
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,1,144,0.2468,0.035,383.69
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,2,167,0.2459,0.038,474.3
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,3,87,0.2436,0.0435,147.01
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,4,91,0.2407,0.038,49.25
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,5,90,0.2386,0.0294,252.58
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,6,180,0.236,0.0358,598.04
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,7,142,0.2358,0.0342,426.55
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,8,167,0.2355,0.038,524.82
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,9,89,0.2354,0.0352,248.4
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,10,60,0.2302,0.0283,182.92
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,11,122,0.2301,0.0436,74.94
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,12,71,0.2297,0.0348,13.29
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,13,73,0.2294,0.0386,59.43
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,14,77,0.2284,0.0412,15.45
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,15,92,0.2258,0.0426,34.17
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,16,106,0.2218,0.0465,32.87
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,17,71,0.2216,0.037,79.22
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,18,98,0.2189,0.0379,264.96
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,19,56,0.2137,0.0346,51.26
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,20,33,0.2013,0.0394,7.94
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,21,84,0.1942,0.0437,42.4
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,22,40,0.1858,0.0449,41.77
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,23,48,0.1852,0.0416,15.87
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,24,24,0.1845,0.0464,1.62
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,25,61,0.1831,0.0524,68.73
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,26,32,0.1814,0.0371,13.73
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,27,34,0.1814,0.0408,13.64
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,28,25,0.1761,0.0397,22.34
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,29,16,0.1751,0.0333,1.02
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,30,38,0.1716,0.0422,21.0
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,31,25,0.1714,0.0421,24.9
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,32,31,0.1705,0.0382,15.58
+HiT,R10PAC_OECD,Pacific OECD,solar,Solar PV,33,24,0.1556,0.041,28.12
+LoT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,1,829,0.3884,0.2643,2521.57
+LoT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,2,694,0.3475,0.2484,1203.01
+LoT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,3,648,0.3264,0.2474,1021.86
+LoT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,4,320,0.2401,0.2837,621.69
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,1,117,0.4383,0.2025,205.42
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,2,43,0.4217,0.2222,14.95
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,3,73,0.4209,0.2199,241.42
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,4,127,0.4058,0.1892,438.49
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,5,117,0.4016,0.1782,470.79
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,6,79,0.3964,0.192,37.15
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,7,57,0.3934,0.179,10.13
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,8,87,0.3793,0.1679,328.39
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,9,167,0.3629,0.1891,600.08
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,10,97,0.3595,0.1673,268.06
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,11,140,0.3593,0.1634,573.69
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,12,43,0.3579,0.2361,8.05
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,13,140,0.3526,0.1749,468.68
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,14,100,0.3464,0.1539,185.19
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,15,90,0.3395,0.1744,174.42
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,16,50,0.3316,0.2199,77.49
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,17,82,0.3281,0.1776,108.32
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,18,84,0.328,0.1754,226.84
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,19,78,0.3034,0.252,98.03
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,20,40,0.3,0.1954,99.14
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,21,77,0.2862,0.141,67.41
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,22,61,0.2645,0.2434,138.77
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,23,55,0.2502,0.1861,160.59
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,24,50,0.244,0.1924,11.32
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,25,88,0.2327,0.1967,16.11
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,26,63,0.2274,0.1147,47.16
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,27,99,0.2079,0.1409,8.69
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,28,48,0.1998,0.1133,7.74
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,29,19,0.1945,0.1067,2.72
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,30,26,0.1933,0.175,2.26
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,31,44,0.1845,0.1479,111.05
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,32,18,0.1766,0.0783,78.91
+HiT,R10PAC_OECD,Pacific OECD,wind_onshore,Wind onshore,33,32,0.1607,0.0946,80.67
+LoT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,1,806,0.5183,0.3632,4436.29
+LoT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,2,152,0.4299,0.2015,503.3
+LoT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,3,355,0.4081,0.2927,1066.63
+LoT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,4,302,0.3711,0.2436,1581.13
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,1,143,0.7335,0.253,1099.6
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,2,88,0.5501,0.2631,435.89
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,3,29,0.5368,0.1186,39.08
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,4,55,0.5236,0.2061,271.72
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,5,41,0.5056,0.1666,201.32
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,6,49,0.4778,0.261,303.5
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,7,61,0.4775,0.2401,295.75
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,8,51,0.4723,0.1765,332.37
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,9,46,0.4628,0.243,303.4
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,10,74,0.442,0.1286,339.07
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,11,112,0.4405,0.2321,344.99
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,12,99,0.4355,0.1662,272.23
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,13,53,0.4232,0.1583,231.08
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,14,78,0.4219,0.234,148.45
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,15,79,0.4176,0.1518,361.7
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,16,33,0.4087,0.1541,161.93
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,17,32,0.4065,0.1616,268.46
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,18,77,0.405,0.2223,356.42
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,19,54,0.3847,0.1581,181.2
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,20,37,0.38,0.206,112.19
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,21,41,0.358,0.1673,117.88
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,22,42,0.354,0.1869,25.05
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,23,45,0.3521,0.2437,122.54
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,24,79,0.3389,0.1485,587.03
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,25,39,0.3305,0.1819,164.04
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,26,41,0.259,0.1074,254.26
+HiT,R10PAC_OECD,Pacific OECD,wind_offshore,Wind offshore,27,37,0.2569,0.1129,256.21
+LoT,R10REF_ECON,Reforming Economies,solar,Solar PV,1,2244,0.2035,0.0759,4820.69
+LoT,R10REF_ECON,Reforming Economies,solar,Solar PV,2,976,0.1794,0.0882,2989.93
+LoT,R10REF_ECON,Reforming Economies,solar,Solar PV,3,585,0.1598,0.063,845.17
+LoT,R10REF_ECON,Reforming Economies,solar,Solar PV,4,1030,0.1537,0.0738,2442.98
+LoT,R10REF_ECON,Reforming Economies,solar,Solar PV,5,683,0.1397,0.0617,1991.38
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,1,258,0.2324,0.0402,791.38
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,2,111,0.23,0.0381,202.54
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,3,167,0.2242,0.0521,301.78
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,4,210,0.2115,0.0584,343.74
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,5,338,0.2105,0.0519,957.18
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,6,137,0.2057,0.0416,303.79
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,7,80,0.2052,0.053,202.0
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,8,86,0.2016,0.0489,326.82
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,9,112,0.2002,0.0543,50.39
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,10,267,0.1996,0.0475,710.43
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,11,91,0.1912,0.0544,345.16
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,12,120,0.187,0.0607,347.11
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,13,93,0.1821,0.0537,378.69
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,14,125,0.1773,0.0612,174.19
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,15,77,0.1755,0.0518,177.46
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,16,139,0.1721,0.0468,208.53
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,17,191,0.171,0.0561,334.3
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,18,130,0.1707,0.0569,251.87
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,19,116,0.1699,0.0423,200.69
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,20,93,0.1691,0.0539,275.15
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,21,64,0.1686,0.0534,111.08
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,22,46,0.1679,0.0489,141.66
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,23,107,0.1652,0.0621,207.05
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,24,105,0.1649,0.0563,349.5
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,25,91,0.1647,0.0566,347.23
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,26,187,0.164,0.0506,390.19
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,27,86,0.1633,0.0506,179.49
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,28,57,0.1588,0.0526,125.38
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,29,67,0.1577,0.0432,175.34
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,30,114,0.1576,0.0438,187.75
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,31,103,0.1533,0.0403,201.03
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,32,60,0.1519,0.0423,122.95
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,33,66,0.1515,0.0667,137.84
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,34,72,0.1514,0.0412,138.36
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,35,93,0.151,0.0431,177.64
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,36,86,0.1501,0.0468,251.4
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,37,120,0.1466,0.0471,280.04
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,38,76,0.1454,0.0448,50.29
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,39,108,0.144,0.0426,266.08
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,40,86,0.1439,0.0453,277.71
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,41,101,0.142,0.0413,71.81
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,42,93,0.1406,0.0407,351.25
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,43,77,0.1405,0.0431,306.8
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,44,103,0.1402,0.0466,264.39
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,45,166,0.1387,0.0456,383.57
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,46,76,0.1376,0.0429,165.82
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,47,79,0.1365,0.0444,223.57
+HiT,R10REF_ECON,Reforming Economies,solar,Solar PV,48,88,0.133,0.0431,321.75
+LoT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,1,875,0.3713,0.2758,1686.65
+LoT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,2,934,0.3636,0.2784,1365.04
+LoT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,3,942,0.3469,0.2242,1036.73
+LoT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,4,1357,0.3208,0.2402,2803.03
+LoT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,5,854,0.2277,0.2089,271.89
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,1,193,0.4148,0.2086,450.74
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,2,143,0.4105,0.1827,221.93
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,3,100,0.3907,0.168,210.41
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,4,252,0.3838,0.2035,365.76
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,5,141,0.3835,0.1578,271.16
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,6,96,0.3801,0.1915,165.05
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,7,140,0.3733,0.2354,234.33
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,8,118,0.3701,0.1481,223.51
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,9,177,0.3656,0.1778,414.86
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,10,98,0.3512,0.1649,227.75
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,11,147,0.3496,0.2051,265.08
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,12,136,0.3484,0.1885,440.3
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,13,153,0.3477,0.1892,375.13
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,14,170,0.3412,0.1778,738.0
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,15,181,0.3387,0.1555,211.28
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,16,182,0.3295,0.1474,216.01
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,17,102,0.3246,0.1351,165.8
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,18,139,0.3111,0.1383,125.73
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,19,240,0.3077,0.1698,243.92
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,20,221,0.3074,0.1658,254.54
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,21,135,0.2996,0.1714,228.25
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,22,129,0.292,0.1938,171.82
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,23,103,0.2917,0.187,381.67
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,24,85,0.2897,0.115,4.99
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,25,68,0.2677,0.1229,134.54
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,26,74,0.2609,0.1223,36.3
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,27,133,0.2539,0.1972,68.8
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,28,63,0.2416,0.1762,10.87
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,29,82,0.2368,0.1496,50.81
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,30,99,0.2363,0.1883,39.56
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,31,53,0.2349,0.0955,34.69
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,32,70,0.2015,0.1108,33.29
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,33,72,0.199,0.1217,1.47
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,34,88,0.1956,0.124,4.08
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,35,52,0.1954,0.1724,58.68
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,36,76,0.1833,0.1195,25.77
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,37,102,0.1735,0.1128,9.1
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,38,67,0.1401,0.091,2.84
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,39,62,0.1396,0.1041,4.13
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,40,55,0.1337,0.1019,6.54
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,41,61,0.1245,0.1004,13.98
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,42,41,0.0848,0.0786,12.25
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,43,19,0.0266,0.0251,4.94
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,44,31,0.0264,0.0293,2.08
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,45,12,0.0064,0.0055,0.59
+HiT,R10REF_ECON,Reforming Economies,wind_onshore,Wind onshore,46,1,0.0007,,0.0
+LoT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,1,176,0.4696,0.3202,1739.74
+LoT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,2,354,0.4492,0.3172,6780.85
+LoT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,3,543,0.4461,0.3139,7291.19
+LoT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,4,94,0.3707,0.2169,550.76
+HiT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,1,96,0.5096,0.2748,966.2
+HiT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,2,51,0.5084,0.2569,729.16
+HiT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,3,37,0.4786,0.21,742.27
+HiT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,4,86,0.4784,0.2676,1496.81
+HiT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,5,67,0.4763,0.2567,1209.38
+HiT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,6,48,0.4761,0.2263,683.73
+HiT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,7,69,0.4742,0.2584,962.88
+HiT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,8,70,0.4742,0.2613,966.67
+HiT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,9,30,0.4724,0.1899,612.56
+HiT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,10,53,0.4559,0.2282,639.48
+HiT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,11,84,0.4438,0.2585,953.83
+HiT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,12,52,0.4374,0.2145,1031.81
+HiT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,13,46,0.418,0.278,213.6
+HiT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,14,37,0.4049,0.3009,213.04
+HiT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,15,57,0.4043,0.2219,1181.66
+HiT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,16,61,0.404,0.2133,1276.82
+HiT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,17,62,0.4011,0.1872,378.49
+HiT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,18,49,0.4008,0.2147,1117.39
+HiT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,19,19,0.3991,0.1785,289.48
+HiT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,20,21,0.3461,0.1407,411.21
+HiT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,21,30,0.3328,0.1726,96.96
+HiT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,22,32,0.3037,0.1592,172.26
+HiT,R10REF_ECON,Reforming Economies,wind_offshore,Wind offshore,23,10,0.1335,0.0844,16.85
+LoT,R10REST_ASIA,Rest of Asia,solar,Solar PV,1,505,0.1972,0.0529,802.23
+LoT,R10REST_ASIA,Rest of Asia,solar,Solar PV,2,718,0.197,0.0619,865.17
+LoT,R10REST_ASIA,Rest of Asia,solar,Solar PV,3,744,0.175,0.0601,1747.01
+LoT,R10REST_ASIA,Rest of Asia,solar,Solar PV,4,1079,0.174,0.0664,1221.6
+LoT,R10REST_ASIA,Rest of Asia,solar,Solar PV,5,86,0.1514,0.0452,79.93
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,1,178,0.2066,0.0493,103.05
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,2,65,0.2032,0.0335,50.48
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,3,29,0.2029,0.0282,0.84
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,4,121,0.2008,0.0392,171.96
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,5,129,0.2003,0.0401,214.16
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,6,129,0.1997,0.0354,296.1
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,7,92,0.1988,0.0416,61.16
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,8,83,0.1979,0.036,191.03
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,9,125,0.1976,0.0431,240.31
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,10,108,0.1953,0.0399,140.67
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,11,70,0.1948,0.0368,55.56
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,12,131,0.1923,0.0449,116.83
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,13,124,0.1915,0.0471,218.91
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,14,68,0.1879,0.0413,83.05
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,15,54,0.1878,0.0408,57.24
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,16,50,0.1859,0.0353,68.4
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,17,117,0.1847,0.0471,61.57
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,18,104,0.1846,0.0462,42.75
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,19,38,0.1833,0.0408,32.4
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,20,41,0.183,0.0327,3.21
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,21,60,0.1819,0.0401,79.13
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,22,80,0.1813,0.0442,139.91
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,23,65,0.1795,0.0239,63.09
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,24,131,0.1767,0.0482,213.59
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,25,71,0.1751,0.0422,183.87
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,26,124,0.1746,0.0437,452.96
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,27,68,0.1746,0.0549,3.14
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,28,111,0.1725,0.0427,366.19
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,29,41,0.1725,0.0417,25.14
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,30,119,0.1705,0.0432,374.91
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,31,69,0.1678,0.0426,104.87
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,32,91,0.1635,0.05,137.25
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,33,73,0.1593,0.0423,127.07
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,34,51,0.1562,0.039,31.81
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,35,42,0.155,0.0386,6.63
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,36,35,0.1482,0.0359,48.12
+HiT,R10REST_ASIA,Rest of Asia,solar,Solar PV,37,45,0.1366,0.0409,148.59
+LoT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,1,243,0.1978,0.2023,157.73
+LoT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,2,283,0.1615,0.1606,242.81
+LoT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,3,302,0.1557,0.2126,201.17
+LoT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,4,251,0.1475,0.1542,53.27
+HiT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,1,85,0.2493,0.1594,21.58
+HiT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,2,73,0.2326,0.183,27.47
+HiT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,3,112,0.2237,0.2048,96.29
+HiT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,4,29,0.2132,0.1294,1.03
+HiT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,5,35,0.1899,0.1403,13.01
+HiT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,6,87,0.1773,0.137,101.65
+HiT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,7,49,0.1769,0.1356,13.56
+HiT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,8,43,0.1652,0.1534,50.16
+HiT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,9,45,0.1547,0.1352,36.89
+HiT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,10,51,0.1525,0.1255,8.75
+HiT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,11,18,0.1512,0.141,1.74
+HiT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,12,53,0.1507,0.1108,22.97
+HiT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,13,55,0.1488,0.1178,44.89
+HiT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,14,31,0.1434,0.0994,3.26
+HiT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,15,31,0.1427,0.1576,69.96
+HiT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,16,41,0.1425,0.1217,3.53
+HiT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,17,31,0.1358,0.0992,20.21
+HiT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,18,31,0.1276,0.0783,2.49
+HiT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,19,17,0.1219,0.0727,2.55
+HiT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,20,55,0.1203,0.0682,31.15
+HiT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,21,30,0.119,0.0626,43.7
+HiT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,22,37,0.1101,0.1024,34.87
+HiT,R10REST_ASIA,Rest of Asia,wind_onshore,Wind onshore,23,40,0.1012,0.0482,3.25
+LoT,R10REST_ASIA,Rest of Asia,wind_offshore,Wind offshore,1,459,0.3422,0.2491,1005.24
+LoT,R10REST_ASIA,Rest of Asia,wind_offshore,Wind offshore,2,354,0.3354,0.2059,840.47
+LoT,R10REST_ASIA,Rest of Asia,wind_offshore,Wind offshore,3,202,0.2251,0.1942,655.97
+HiT,R10REST_ASIA,Rest of Asia,wind_offshore,Wind offshore,1,82,0.4878,0.1448,180.62
+HiT,R10REST_ASIA,Rest of Asia,wind_offshore,Wind offshore,2,33,0.4196,0.2066,42.23
+HiT,R10REST_ASIA,Rest of Asia,wind_offshore,Wind offshore,3,67,0.401,0.1108,260.9
+HiT,R10REST_ASIA,Rest of Asia,wind_offshore,Wind offshore,4,67,0.3918,0.1643,108.14
+HiT,R10REST_ASIA,Rest of Asia,wind_offshore,Wind offshore,5,40,0.3809,0.1329,114.28
+HiT,R10REST_ASIA,Rest of Asia,wind_offshore,Wind offshore,6,43,0.325,0.1841,179.18
+HiT,R10REST_ASIA,Rest of Asia,wind_offshore,Wind offshore,7,54,0.3058,0.0999,126.21
+HiT,R10REST_ASIA,Rest of Asia,wind_offshore,Wind offshore,8,69,0.3035,0.1072,186.13
+HiT,R10REST_ASIA,Rest of Asia,wind_offshore,Wind offshore,9,85,0.2975,0.1499,193.08
+HiT,R10REST_ASIA,Rest of Asia,wind_offshore,Wind offshore,10,62,0.2954,0.1125,83.37
+HiT,R10REST_ASIA,Rest of Asia,wind_offshore,Wind offshore,11,17,0.2871,0.112,4.04
+HiT,R10REST_ASIA,Rest of Asia,wind_offshore,Wind offshore,12,44,0.2798,0.1219,57.75
+HiT,R10REST_ASIA,Rest of Asia,wind_offshore,Wind offshore,13,63,0.2651,0.1028,147.39
+HiT,R10REST_ASIA,Rest of Asia,wind_offshore,Wind offshore,14,24,0.25,0.121,25.1
+HiT,R10REST_ASIA,Rest of Asia,wind_offshore,Wind offshore,15,43,0.2348,0.099,61.32
+HiT,R10REST_ASIA,Rest of Asia,wind_offshore,Wind offshore,16,32,0.2348,0.1022,98.72
+HiT,R10REST_ASIA,Rest of Asia,wind_offshore,Wind offshore,17,16,0.2344,0.0865,13.48
+HiT,R10REST_ASIA,Rest of Asia,wind_offshore,Wind offshore,18,36,0.2308,0.0922,97.29
+HiT,R10REST_ASIA,Rest of Asia,wind_offshore,Wind offshore,19,49,0.2261,0.0893,174.8
+HiT,R10REST_ASIA,Rest of Asia,wind_offshore,Wind offshore,20,8,0.2226,0.0549,3.77
+HiT,R10REST_ASIA,Rest of Asia,wind_offshore,Wind offshore,21,67,0.2201,0.0855,291.39
+HiT,R10REST_ASIA,Rest of Asia,wind_offshore,Wind offshore,22,14,0.2168,0.0674,52.47
