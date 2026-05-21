@@ -17,19 +17,31 @@ these native regional schemas (AR6 R10, IEA nine-region) into the
 experiment's regional configurations happens during pipeline assembly
 and is documented in the [methodology](methodology.md) page.
 
-The build script that produced these CSVs from the raw source files is
-[`scripts/build_parametric_inputs.py`](https://github.com/akanudia/vre_resource_asymmetry_companion/blob/main/scripts/build_parametric_inputs.py)
-in this repository.
+The build scripts in this repository regenerate everything from the
+raw source files:
+[`build_parametric_inputs.py`](https://github.com/akanudia/vre_resource_asymmetry_companion/blob/main/scripts/build_parametric_inputs.py)
+produces the CSVs, and
+[`build_input_plots.py`](https://github.com/akanudia/vre_resource_asymmetry_companion/blob/main/scripts/build_input_plots.py)
+produces the figures embedded below.
 
 ---
 
 ## Electricity demand — `demands_twh_by_region_scenario.csv`
+
+![Global electricity demand by AR6 climate category](assets/figures/inputs/demand_electricity.png){ loading=lazy }
 
 Per-scenario electricity-demand projections aggregated to AR6 R10
 regions, in TWh/yr. Values are median, q25 and q75 across the vetted
 AR6 scenarios in each climate category, computed after exclusion of
 extreme outliers beyond 3× IQR. Hydrogen-from-electrolysis is included
 since it draws on the same electricity system.
+
+The most-ambitious mitigation pathway (C1) lands highest in 2050,
+reflecting the electrification required to decarbonise transport,
+heating and industry. C4 sits at the low end despite below-2°C
+ambition — a known feature of AR6 where some C4 scenarios rely more on
+demand reduction and non-electric clean fuels than direct
+electrification.
 
 | Column | Type | Description |
 |---|---|---|
@@ -52,10 +64,22 @@ Original AR6 units (EJ/yr) have been converted using
 
 ## Fuel prices — `fuel_prices_by_region_scenario.csv`
 
+![Gas and biomass price trajectories by AR6 climate category](assets/figures/inputs/fuel_prices.png){ loading=lazy }
+
 Per-scenario fuel-price projections for gas and biomass (the fuels
 varied as an independent parametric axis in the experiment), with coal
 and oil included for completeness. Same outlier handling as demands
 (3× IQR).
+
+Gas prices are *higher* under ambitious mitigation: as gas demand
+contracts to a small residual (peaking, CCS, industrial heat), the
+marginal user pays scarcity rent and average prices in those scenarios
+rise. Biomass prices stay low through 2030 across all categories and
+only diverge in the second half of the horizon, when BECCS becomes a
+significant draw on the resource. Where AR6 scenario coverage is thin
+for a particular cell (visible as kinked lines), the
+`n_scenarios` column in the CSV indicates how many vetted scenarios
+contribute.
 
 | Column | Type | Description |
 |---|---|---|
@@ -81,9 +105,17 @@ here for transparency.
 
 ## Carbon prices — `carbon_prices_by_region_scenario.csv`
 
+![Carbon-price trajectories by AR6 climate category](assets/figures/inputs/carbon_prices.png){ loading=lazy }
+
 Per-scenario carbon-price projections at the AR6 R10 level. The five
 parametric carbon-price trajectories used in the experiment are the
 five climate-category medians.
+
+The category ordering at 2050 — C1 ≫ C2 > C3 > C4 ≫ C7 (≈0) — is the
+single most visible signal in the parametric envelope: ambition
+translates directly into carbon-price level, with the q25–q75 spread
+within each category widening into the second half of the horizon as
+IAMs diverge on the cost of late-stage abatement.
 
 | Column | Type | Description |
 |---|---|---|
@@ -102,10 +134,21 @@ five climate-category medians.
 
 ## Technology costs — `tech_costs_by_region_year.csv`
 
+![Capex trajectories for solar PV, wind onshore, gas CCGT and battery 4h](assets/figures/inputs/tech_costs.png){ loading=lazy }
+
 Technology-economic parameters compiled from IEA GEC (WEO 2023) for
 regional mid-level costs and NREL ATB 2024 v3 for the lo / hi spread
 multipliers. Battery storage is taken directly from ATB and applied
 globally.
+
+The grey lines in each panel are the nine IEA regions at the mid cost
+level; the highlighted US lines show the ATB-derived lo / mid / hi
+envelope. Solar PV and 4-hour battery storage show the steepest
+projected cost declines together with the widest learning-uncertainty
+spread by 2050 — the two technologies whose representational treatment
+the experiment is most sensitive to. Gas CCGT capex is essentially flat
+across the horizon and across IEA regions, reflecting a mature
+technology with limited remaining learning headroom.
 
 | Column | Type | Description |
 |---|---|---|
