@@ -1,5 +1,16 @@
 # Parametric inputs
 
+!!! abstract "Sources & provenance"
+    **Manuscript:** Methods § Parametric envelope.  
+    **External data:** [IPCC AR6 Scenarios DB v1.1](data_sources.md#ar6),
+    [IEA GEC power costs (WEO 2023)](data_sources.md#iea-gec),
+    [NREL ATB 2024 v3](data_sources.md#nrel-atb).  
+    **Companion-only:** the released CSVs, embedded plots, schema tables
+    and figure captions on this page extend the manuscript's
+    parametric-envelope description with data downloads and visualisations;
+    no quantitative claims appear here that are not derivable from the
+    sources above.
+
 This page releases the four community-sourced parametric input layers
 behind the 45-scenario envelope used in the manuscript:
 
