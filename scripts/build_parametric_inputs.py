@@ -141,36 +141,58 @@ def build_demands() -> pd.DataFrame:
 
 # ---------------------------------------------------------------------------
 # 2. Fuel prices (gas, biomass; coal, oil for completeness)
+#
+# NB: ar6_r10_scenario_drivers.csv stores fuel prices INDEXED to 2020 = 1.0,
+# which is not what we want for the companion site. AR6_R10_fuel_prices_by_category.csv
+# (produced by compile_ar6_fuel_prices.py) carries the absolute US$2010/GJ values.
+# That file has two junk header rows from an Excel save, so we skip them.
 # ---------------------------------------------------------------------------
 def build_fuel_prices() -> pd.DataFrame:
-    src = pd.read_csv(DRIVERS_OUT / "ar6_r10_scenario_drivers.csv")
+    src = pd.read_csv(
+        DRIVERS_OUT / "AR6_R10_fuel_prices_by_category.csv",
+        skiprows=2,
+    )
+
+    # The file also picks up some junk trailing columns from the Excel save.
+    # We keep only the columns we care about.
+    keep_cols = [
+        "variable", "ar6_variable", "unit",
+        "region", "category", "year",
+        "count", "count_clean",
+        "median", "q25", "q75",
+    ]
+    src = src[keep_cols].copy()
+    # Drop rows that came in as junk (e.g. variable == '0')
+    src = src[src["variable"].isin(["Gas", "Bioenergy", "Coal", "Oil"])].copy()
 
     fuel_map = {
-        "Gas price": "gas",
-        "Biomass price": "biomass",
-        "Coal price": "coal",        # included for completeness; not varied as a parametric axis
-        "Oil price": "oil",          # included for completeness; not varied as a parametric axis
+        "Gas": "gas",
+        "Bioenergy": "biomass",
+        "Coal": "coal",   # included for completeness; not varied as a parametric axis
+        "Oil": "oil",     # included for completeness; not varied as a parametric axis
     }
-    src = src[src["attribute"].isin(fuel_map)].copy()
-    src = src[src["Category"].isin(CATEGORY_LABEL)].copy()
-    src["fuel"] = src["attribute"].map(fuel_map)
+    src["fuel"] = src["variable"].map(fuel_map)
+    src = src[src["category"].isin(CATEGORY_LABEL)].copy()
+    src["year"] = src["year"].astype(int)
 
     out = src.rename(columns={
-        "Region": "r10_region",
-        "Category": "ar6_category",
-        "Year": "year",
+        "region": "r10_region",
+        "category": "ar6_category",
         "median": "median_price",
         "q25": "q25_price",
         "q75": "q75_price",
-        "count": "n_scenarios",
+        "count_clean": "n_scenarios",
+        "unit": "unit_raw",
     })[[
         "fuel", "r10_region", "ar6_category", "year",
-        "median_price", "q25_price", "q75_price", "n_scenarios",
+        "median_price", "q25_price", "q75_price", "n_scenarios", "unit_raw",
     ]]
 
     out["region_label"] = out["r10_region"].map(REGION_LABEL)
     out["category_label"] = out["ar6_category"].map(CATEGORY_LABEL)
+    # All four primary-energy prices are US$2010/GJ in AR6
     out["unit"] = "USD2010/GJ"
+    out = out.drop(columns=["unit_raw"])
 
     out = out[[
         "fuel", "r10_region", "region_label",
@@ -267,33 +289,6 @@ def build_tech_costs() -> pd.DataFrame:
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
-def main():
-    print(f"Source dir : {DRIVERS_OUT}")
-    print(f"Costs file : {COSTS_FILE}")
-    print(f"Output dir : {OUT_DIR}")
-    print()
-
-    demands = build_demands()
-    demands.to_csv(OUT_DIR / "demands_twh_by_region_scenario.csv", index=False)
-    print(f"  demands           : {len(demands):>6,} rows  -> demands_twh_by_region_scenario.csv")
-
-    fuels = build_fuel_prices()
-    fuels.to_csv(OUT_DIR / "fuel_prices_by_region_scenario.csv", index=False)
-    print(f"  fuel prices       : {len(fuels):>6,} rows  -> fuel_prices_by_region_scenario.csv")
-
-    co2 = build_carbon_prices()
-    co2.to_csv(OUT_DIR / "carbon_prices_by_region_scenario.csv", index=False)
-    print(f"  carbon prices     : {len(co2):>6,} rows  -> carbon_prices_by_region_scenario.csv")
-
-    costs = build_tech_costs()
-    costs.to_csv(OUT_DIR / "tech_costs_by_region_year.csv", index=False)
-    print(f"  technology costs  : {len(costs):>6,} rows  -> tech_costs_by_region_year.csv")
-
-    print("\nDone.")
-
-
-if __name__ == "__main__":
-    main()
 def main():
     print(f"Source dir : {DRIVERS_OUT}")
     print(f"Costs file : {COSTS_FILE}")
