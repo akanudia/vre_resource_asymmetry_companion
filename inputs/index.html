@@ -101,7 +101,9 @@
     
       
 
-<header class="md-header" data-md-component="header">
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href=".." title="Wind–solar resource asymmetry — companion site" class="md-header__button md-logo" aria-label="Wind–solar resource asymmetry — companion site" data-md-component="logo">
       
@@ -218,14 +220,8 @@
     
   </nav>
   
-</header>
     
-    <div class="md-container" data-md-component="container">
       
-      
-        
-          
-            
 <nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
   <div class="md-grid">
     <ul class="md-tabs__list">
@@ -390,7 +386,13 @@
     </ul>
   </div>
 </nav>
-          
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
         
       
       <main class="md-main" data-md-component="main">
@@ -1322,16 +1324,26 @@ form the 1,080-run archive analysed in the manuscript. Mapping from
 these native regional schemas (AR6 R10, IEA nine-region) into the
 experiment's regional configurations happens during pipeline assembly
 and is documented in the <a href="../methodology/">methodology</a> page.</p>
-<p>The build script that produced these CSVs from the raw source files is
-<a href="https://github.com/akanudia/vre_resource_asymmetry_companion/blob/main/scripts/build_parametric_inputs.py"><code>scripts/build_parametric_inputs.py</code></a>
-in this repository.</p>
+<p>The build scripts in this repository regenerate everything from the
+raw source files:
+<a href="https://github.com/akanudia/vre_resource_asymmetry_companion/blob/main/scripts/build_parametric_inputs.py"><code>build_parametric_inputs.py</code></a>
+produces the CSVs, and
+<a href="https://github.com/akanudia/vre_resource_asymmetry_companion/blob/main/scripts/build_input_plots.py"><code>build_input_plots.py</code></a>
+produces the figures embedded below.</p>
 <hr>
 <h2 id="electricity-demand-demands_twh_by_region_scenariocsv">Electricity demand — <code>demands_twh_by_region_scenario.csv</code><a class="headerlink" href="#electricity-demand-demands_twh_by_region_scenariocsv" title="Permanent link">¶</a></h2>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/figures/inputs/demand_electricity.png" data-desc-position="bottom"><img alt="Global electricity demand by AR6 climate category" loading="lazy" src="../assets/figures/inputs/demand_electricity.png"></a></p>
 <p>Per-scenario electricity-demand projections aggregated to AR6 R10
 regions, in TWh/yr. Values are median, q25 and q75 across the vetted
 AR6 scenarios in each climate category, computed after exclusion of
 extreme outliers beyond 3× IQR. Hydrogen-from-electrolysis is included
 since it draws on the same electricity system.</p>
+<p>The most-ambitious mitigation pathway (C1) lands highest in 2050,
+reflecting the electrification required to decarbonise transport,
+heating and industry. C4 sits at the low end despite below-2°C
+ambition — a known feature of AR6 where some C4 scenarios rely more on
+demand reduction and non-electric clean fuels than direct
+electrification.</p>
 <table>
 <thead>
 <tr>
@@ -1402,10 +1414,20 @@ since it draws on the same electricity system.</p>
 1 EJ/yr = 277.778 TWh/yr.</p>
 <hr>
 <h2 id="fuel-prices-fuel_prices_by_region_scenariocsv">Fuel prices — <code>fuel_prices_by_region_scenario.csv</code><a class="headerlink" href="#fuel-prices-fuel_prices_by_region_scenariocsv" title="Permanent link">¶</a></h2>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/figures/inputs/fuel_prices.png" data-desc-position="bottom"><img alt="Gas and biomass price trajectories by AR6 climate category" loading="lazy" src="../assets/figures/inputs/fuel_prices.png"></a></p>
 <p>Per-scenario fuel-price projections for gas and biomass (the fuels
 varied as an independent parametric axis in the experiment), with coal
 and oil included for completeness. Same outlier handling as demands
 (3× IQR).</p>
+<p>Gas prices are <em>higher</em> under ambitious mitigation: as gas demand
+contracts to a small residual (peaking, CCS, industrial heat), the
+marginal user pays scarcity rent and average prices in those scenarios
+rise. Biomass prices stay low through 2030 across all categories and
+only diverge in the second half of the horizon, when BECCS becomes a
+significant draw on the resource. Where AR6 scenario coverage is thin
+for a particular cell (visible as kinked lines), the
+<code>n_scenarios</code> column in the CSV indicates how many vetted scenarios
+contribute.</p>
 <table>
 <thead>
 <tr>
@@ -1479,9 +1501,15 @@ primarily governed by the carbon-price trajectory; they are released
 here for transparency.</p>
 <hr>
 <h2 id="carbon-prices-carbon_prices_by_region_scenariocsv">Carbon prices — <code>carbon_prices_by_region_scenario.csv</code><a class="headerlink" href="#carbon-prices-carbon_prices_by_region_scenariocsv" title="Permanent link">¶</a></h2>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/figures/inputs/carbon_prices.png" data-desc-position="bottom"><img alt="Carbon-price trajectories by AR6 climate category" loading="lazy" src="../assets/figures/inputs/carbon_prices.png"></a></p>
 <p>Per-scenario carbon-price projections at the AR6 R10 level. The five
 parametric carbon-price trajectories used in the experiment are the
 five climate-category medians.</p>
+<p>The category ordering at 2050 — C1 ≫ C2 &gt; C3 &gt; C4 ≫ C7 (≈0) — is the
+single most visible signal in the parametric envelope: ambition
+translates directly into carbon-price level, with the q25–q75 spread
+within each category widening into the second half of the horizon as
+IAMs diverge on the cost of late-stage abatement.</p>
 <table>
 <thead>
 <tr>
@@ -1545,10 +1573,19 @@ five climate-category medians.</p>
 </table>
 <hr>
 <h2 id="technology-costs-tech_costs_by_region_yearcsv">Technology costs — <code>tech_costs_by_region_year.csv</code><a class="headerlink" href="#technology-costs-tech_costs_by_region_yearcsv" title="Permanent link">¶</a></h2>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/figures/inputs/tech_costs.png" data-desc-position="bottom"><img alt="Capex trajectories for solar PV, wind onshore, gas CCGT and battery 4h" loading="lazy" src="../assets/figures/inputs/tech_costs.png"></a></p>
 <p>Technology-economic parameters compiled from IEA GEC (WEO 2023) for
 regional mid-level costs and NREL ATB 2024 v3 for the lo / hi spread
 multipliers. Battery storage is taken directly from ATB and applied
 globally.</p>
+<p>The grey lines in each panel are the nine IEA regions at the mid cost
+level; the highlighted US lines show the ATB-derived lo / mid / hi
+envelope. Solar PV and 4-hour battery storage show the steepest
+projected cost declines together with the widest learning-uncertainty
+spread by 2050 — the two technologies whose representational treatment
+the experiment is most sensitive to. Gas CCGT capex is essentially flat
+across the horizon and across IEA regions, reflecting a mature
+technology with limited remaining learning headroom.</p>
 <table>
 <thead>
 <tr>
@@ -1698,7 +1735,7 @@ resource asymmetry...</em>, Nature Energy."</p>
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.sections", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "content.code.copy", "content.action.edit", "toc.follow"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "content.code.copy", "content.action.edit", "toc.follow"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
