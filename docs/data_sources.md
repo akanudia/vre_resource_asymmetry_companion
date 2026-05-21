@@ -39,7 +39,7 @@ listed.
 
 **Provider:** Global Energy Monitor  
 **Version:** September 2025 II  
-**Access:** [https://globalenergymonitor.org/projects/global-integrated-power/](https://globalenergymonitor.org/projects/global-integrated-power/)
+**Access:** [https://globalenergymonitor.org/projects/global-integrated-power-tracker](https://globalenergymonitor.org/projects/global-integrated-power-tracker)
 
 The Global Integrated Power tracker is the primary source for the
 existing generation fleet. Each record covers a single power unit with

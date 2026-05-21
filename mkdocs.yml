@@ -85,24 +85,29 @@ extra_javascript:
 
 nav:
   - Home: index.md
-  - Methodology: methodology.md
-  - World aggregate: world.md
-  - Regions:
-    - regions/index.md
-    - All-region gallery: regions/gallery.md
-    - Africa: regions/africa.md
-    - China: regions/china.md
-    - Europe: regions/europe.md
-    - India: regions/india.md
-    - Latin America: regions/latin_am.md
-    - Middle East: regions/middle_east.md
-    - North America: regions/north_am.md
-    - Pacific OECD: regions/pac_oecd.md
-    - Reforming Economies: regions/ref_econ.md
-    - Rest of Asia: regions/rest_asia.md
-  - Playground: playground.md
-  - Data: data.md
-  - Inputs: inputs.md
-  - Structural inputs: structural_inputs.md
-  - Data sources: data_sources.md
+
+  - Methodology:
+    - Overview: methodology.md
+    - Parametric envelope: inputs.md
+    - Structural variants: structural_inputs.md
+    - Data sources: data_sources.md
+
+  - Structural shifts:
+    - World aggregate: world.md
+    - Regions:
+      - regions/index.md
+      - All-region gallery: regions/gallery.md
+      - Africa: regions/africa.md
+      - China: regions/china.md
+      - Europe: regions/europe.md
+      - India: regions/india.md
+      - Latin America: regions/latin_am.md
+      - Middle East: regions/middle_east.md
+      - North America: regions/north_am.md
+      - Pacific OECD: regions/pac_oecd.md
+      - Reforming Economies: regions/ref_econ.md
+      - Rest of Asia: regions/rest_asia.md
+    - Data tables: data.md
+    - Playground: playground.md
+
   - Cite: cite.md
