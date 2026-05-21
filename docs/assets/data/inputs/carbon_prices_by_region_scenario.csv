@@ -1,0 +1,386 @@
+r10_region,region_label,ar6_category,category_label,year,median_price,q25_price,q75_price,unit,n_scenarios
+R10AFRICA,Africa,C1,"1.5°C, no/limited overshoot",2020,0.43,0.0,8.31,USD2010/tCO2,58
+R10AFRICA,Africa,C1,"1.5°C, no/limited overshoot",2025,113.94,28.22,179.27,USD2010/tCO2,58
+R10AFRICA,Africa,C1,"1.5°C, no/limited overshoot",2030,180.17,89.49,241.69,USD2010/tCO2,58
+R10AFRICA,Africa,C1,"1.5°C, no/limited overshoot",2035,243.45,142.95,358.71,USD2010/tCO2,58
+R10AFRICA,Africa,C1,"1.5°C, no/limited overshoot",2040,326.01,239.53,539.74,USD2010/tCO2,58
+R10AFRICA,Africa,C1,"1.5°C, no/limited overshoot",2045,415.81,353.85,714.5,USD2010/tCO2,58
+R10AFRICA,Africa,C1,"1.5°C, no/limited overshoot",2050,605.23,451.31,863.42,USD2010/tCO2,58
+R10AFRICA,Africa,C2,"1.5°C, high overshoot",2020,0.0,0.0,0.55,USD2010/tCO2,76
+R10AFRICA,Africa,C2,"1.5°C, high overshoot",2025,32.69,5.54,61.39,USD2010/tCO2,65
+R10AFRICA,Africa,C2,"1.5°C, high overshoot",2030,49.85,10.8,78.77,USD2010/tCO2,76
+R10AFRICA,Africa,C2,"1.5°C, high overshoot",2035,152.99,95.06,208.88,USD2010/tCO2,65
+R10AFRICA,Africa,C2,"1.5°C, high overshoot",2040,191.71,106.05,261.57,USD2010/tCO2,76
+R10AFRICA,Africa,C2,"1.5°C, high overshoot",2045,257.82,161.67,360.63,USD2010/tCO2,65
+R10AFRICA,Africa,C2,"1.5°C, high overshoot",2050,285.06,180.84,426.08,USD2010/tCO2,76
+R10AFRICA,Africa,C3,Likely below 2°C,2020,0.14,0.0,8.31,USD2010/tCO2,180
+R10AFRICA,Africa,C3,Likely below 2°C,2025,32.7,8.92,45.73,USD2010/tCO2,157
+R10AFRICA,Africa,C3,Likely below 2°C,2030,48.97,12.04,63.91,USD2010/tCO2,180
+R10AFRICA,Africa,C3,Likely below 2°C,2035,87.7,63.8,133.35,USD2010/tCO2,157
+R10AFRICA,Africa,C3,Likely below 2°C,2040,122.55,91.4,178.52,USD2010/tCO2,180
+R10AFRICA,Africa,C3,Likely below 2°C,2045,179.54,117.95,229.77,USD2010/tCO2,157
+R10AFRICA,Africa,C3,Likely below 2°C,2050,211.71,145.79,304.91,USD2010/tCO2,180
+R10AFRICA,Africa,C4,Below 2°C with lower probability,2020,0.0,0.0,0.0,USD2010/tCO2,69
+R10AFRICA,Africa,C4,Below 2°C with lower probability,2025,14.57,4.61,22.63,USD2010/tCO2,63
+R10AFRICA,Africa,C4,Below 2°C with lower probability,2030,12.04,0.0,36.35,USD2010/tCO2,69
+R10AFRICA,Africa,C4,Below 2°C with lower probability,2035,55.56,41.37,83.87,USD2010/tCO2,63
+R10AFRICA,Africa,C4,Below 2°C with lower probability,2040,76.61,56.75,115.41,USD2010/tCO2,69
+R10AFRICA,Africa,C4,Below 2°C with lower probability,2045,96.24,72.08,152.12,USD2010/tCO2,63
+R10AFRICA,Africa,C4,Below 2°C with lower probability,2050,112.53,90.42,161.76,USD2010/tCO2,69
+R10AFRICA,Africa,C7,High-warming weak-policy (reference),2020,0.0,0.0,0.55,USD2010/tCO2,57
+R10AFRICA,Africa,C7,High-warming weak-policy (reference),2025,0.0,0.0,1.94,USD2010/tCO2,52
+R10AFRICA,Africa,C7,High-warming weak-policy (reference),2030,0.0,0.0,1.25,USD2010/tCO2,57
+R10AFRICA,Africa,C7,High-warming weak-policy (reference),2035,0.0,0.0,1.99,USD2010/tCO2,52
+R10AFRICA,Africa,C7,High-warming weak-policy (reference),2040,0.0,0.0,2.46,USD2010/tCO2,57
+R10AFRICA,Africa,C7,High-warming weak-policy (reference),2045,0.4,0.0,3.1,USD2010/tCO2,52
+R10AFRICA,Africa,C7,High-warming weak-policy (reference),2050,0.0,0.0,3.68,USD2010/tCO2,57
+R10CHINA+,China,C1,"1.5°C, no/limited overshoot",2020,0.28,0.0,0.28,USD2010/tCO2,60
+R10CHINA+,China,C1,"1.5°C, no/limited overshoot",2025,128.21,101.54,190.02,USD2010/tCO2,60
+R10CHINA+,China,C1,"1.5°C, no/limited overshoot",2030,194.33,164.67,244.32,USD2010/tCO2,60
+R10CHINA+,China,C1,"1.5°C, no/limited overshoot",2035,256.63,220.16,396.19,USD2010/tCO2,60
+R10CHINA+,China,C1,"1.5°C, no/limited overshoot",2040,338.71,287.98,560.56,USD2010/tCO2,60
+R10CHINA+,China,C1,"1.5°C, no/limited overshoot",2045,460.87,355.81,713.93,USD2010/tCO2,60
+R10CHINA+,China,C1,"1.5°C, no/limited overshoot",2050,581.84,409.79,771.78,USD2010/tCO2,60
+R10CHINA+,China,C2,"1.5°C, high overshoot",2020,0.0,0.0,1.11,USD2010/tCO2,86
+R10CHINA+,China,C2,"1.5°C, high overshoot",2025,24.75,1.11,73.93,USD2010/tCO2,75
+R10CHINA+,China,C2,"1.5°C, high overshoot",2030,41.97,8.23,77.17,USD2010/tCO2,86
+R10CHINA+,China,C2,"1.5°C, high overshoot",2035,135.74,87.35,201.85,USD2010/tCO2,75
+R10CHINA+,China,C2,"1.5°C, high overshoot",2040,165.64,108.54,257.75,USD2010/tCO2,86
+R10CHINA+,China,C2,"1.5°C, high overshoot",2045,249.21,164.3,345.91,USD2010/tCO2,75
+R10CHINA+,China,C2,"1.5°C, high overshoot",2050,285.03,195.5,417.87,USD2010/tCO2,86
+R10CHINA+,China,C3,Likely below 2°C,2020,0.28,0.0,0.28,USD2010/tCO2,192
+R10CHINA+,China,C3,Likely below 2°C,2025,39.0,1.11,60.99,USD2010/tCO2,169
+R10CHINA+,China,C3,Likely below 2°C,2030,49.25,8.23,80.62,USD2010/tCO2,192
+R10CHINA+,China,C3,Likely below 2°C,2035,97.48,69.64,138.58,USD2010/tCO2,169
+R10CHINA+,China,C3,Likely below 2°C,2040,128.69,96.45,186.44,USD2010/tCO2,192
+R10CHINA+,China,C3,Likely below 2°C,2045,171.28,120.13,239.45,USD2010/tCO2,169
+R10CHINA+,China,C3,Likely below 2°C,2050,208.73,147.49,301.21,USD2010/tCO2,192
+R10CHINA+,China,C4,Below 2°C with lower probability,2020,0.0,0.0,4.85,USD2010/tCO2,74
+R10CHINA+,China,C4,Below 2°C with lower probability,2025,4.67,0.0,19.61,USD2010/tCO2,68
+R10CHINA+,China,C4,Below 2°C with lower probability,2030,12.91,0.0,32.54,USD2010/tCO2,74
+R10CHINA+,China,C4,Below 2°C with lower probability,2035,52.06,41.63,77.38,USD2010/tCO2,68
+R10CHINA+,China,C4,Below 2°C with lower probability,2040,75.8,57.1,108.19,USD2010/tCO2,74
+R10CHINA+,China,C4,Below 2°C with lower probability,2045,95.39,73.23,145.68,USD2010/tCO2,68
+R10CHINA+,China,C4,Below 2°C with lower probability,2050,112.39,92.51,161.43,USD2010/tCO2,74
+R10CHINA+,China,C7,High-warming weak-policy (reference),2020,0.0,0.0,0.28,USD2010/tCO2,57
+R10CHINA+,China,C7,High-warming weak-policy (reference),2025,0.0,0.0,0.26,USD2010/tCO2,52
+R10CHINA+,China,C7,High-warming weak-policy (reference),2030,0.0,0.0,0.63,USD2010/tCO2,57
+R10CHINA+,China,C7,High-warming weak-policy (reference),2035,0.0,0.0,1.06,USD2010/tCO2,52
+R10CHINA+,China,C7,High-warming weak-policy (reference),2040,0.0,0.0,1.54,USD2010/tCO2,57
+R10CHINA+,China,C7,High-warming weak-policy (reference),2045,0.0,0.0,2.08,USD2010/tCO2,52
+R10CHINA+,China,C7,High-warming weak-policy (reference),2050,0.0,0.0,2.68,USD2010/tCO2,57
+R10EUROPE,Europe,C1,"1.5°C, no/limited overshoot",2020,6.87,0.0,13.64,USD2010/tCO2,60
+R10EUROPE,Europe,C1,"1.5°C, no/limited overshoot",2025,181.51,115.48,238.58,USD2010/tCO2,60
+R10EUROPE,Europe,C1,"1.5°C, no/limited overshoot",2030,241.69,182.47,329.7,USD2010/tCO2,60
+R10EUROPE,Europe,C1,"1.5°C, no/limited overshoot",2035,339.03,227.05,483.38,USD2010/tCO2,60
+R10EUROPE,Europe,C1,"1.5°C, no/limited overshoot",2040,410.28,298.63,622.14,USD2010/tCO2,60
+R10EUROPE,Europe,C1,"1.5°C, no/limited overshoot",2045,494.2,352.78,748.01,USD2010/tCO2,60
+R10EUROPE,Europe,C1,"1.5°C, no/limited overshoot",2050,635.43,409.79,887.68,USD2010/tCO2,60
+R10EUROPE,Europe,C2,"1.5°C, high overshoot",2020,0.0,0.0,12.68,USD2010/tCO2,86
+R10EUROPE,Europe,C2,"1.5°C, high overshoot",2025,44.89,27.09,77.31,USD2010/tCO2,75
+R10EUROPE,Europe,C2,"1.5°C, high overshoot",2030,63.36,50.0,111.1,USD2010/tCO2,86
+R10EUROPE,Europe,C2,"1.5°C, high overshoot",2035,154.82,93.79,206.26,USD2010/tCO2,75
+R10EUROPE,Europe,C2,"1.5°C, high overshoot",2040,172.09,119.07,259.4,USD2010/tCO2,86
+R10EUROPE,Europe,C2,"1.5°C, high overshoot",2045,253.87,169.48,352.5,USD2010/tCO2,75
+R10EUROPE,Europe,C2,"1.5°C, high overshoot",2050,285.03,195.5,417.87,USD2010/tCO2,86
+R10EUROPE,Europe,C3,Likely below 2°C,2020,7.71,0.0,14.86,USD2010/tCO2,190
+R10EUROPE,Europe,C3,Likely below 2°C,2025,42.81,23.68,76.23,USD2010/tCO2,167
+R10EUROPE,Europe,C3,Likely below 2°C,2030,71.48,50.2,110.96,USD2010/tCO2,190
+R10EUROPE,Europe,C3,Likely below 2°C,2035,104.42,72.6,168.65,USD2010/tCO2,167
+R10EUROPE,Europe,C3,Likely below 2°C,2040,134.85,98.66,213.93,USD2010/tCO2,190
+R10EUROPE,Europe,C3,Likely below 2°C,2045,178.1,120.71,263.56,USD2010/tCO2,167
+R10EUROPE,Europe,C3,Likely below 2°C,2050,209.45,147.7,301.86,USD2010/tCO2,190
+R10EUROPE,Europe,C4,Below 2°C with lower probability,2020,0.0,0.0,7.17,USD2010/tCO2,74
+R10EUROPE,Europe,C4,Below 2°C with lower probability,2025,22.1,16.3,31.32,USD2010/tCO2,68
+R10EUROPE,Europe,C4,Below 2°C with lower probability,2030,43.88,28.1,76.42,USD2010/tCO2,74
+R10EUROPE,Europe,C4,Below 2°C with lower probability,2035,52.06,41.63,77.38,USD2010/tCO2,68
+R10EUROPE,Europe,C4,Below 2°C with lower probability,2040,75.8,57.1,108.06,USD2010/tCO2,74
+R10EUROPE,Europe,C4,Below 2°C with lower probability,2045,94.76,72.43,145.68,USD2010/tCO2,68
+R10EUROPE,Europe,C4,Below 2°C with lower probability,2050,112.38,92.46,161.43,USD2010/tCO2,74
+R10EUROPE,Europe,C7,High-warming weak-policy (reference),2020,0.0,0.0,8.51,USD2010/tCO2,55
+R10EUROPE,Europe,C7,High-warming weak-policy (reference),2025,0.0,0.0,9.64,USD2010/tCO2,50
+R10EUROPE,Europe,C7,High-warming weak-policy (reference),2030,0.0,0.0,10.58,USD2010/tCO2,55
+R10EUROPE,Europe,C7,High-warming weak-policy (reference),2035,0.0,0.0,9.1,USD2010/tCO2,50
+R10EUROPE,Europe,C7,High-warming weak-policy (reference),2040,0.0,0.0,8.62,USD2010/tCO2,55
+R10EUROPE,Europe,C7,High-warming weak-policy (reference),2045,0.0,0.0,8.78,USD2010/tCO2,50
+R10EUROPE,Europe,C7,High-warming weak-policy (reference),2050,0.0,0.0,8.48,USD2010/tCO2,55
+R10INDIA+,India,C1,"1.5°C, no/limited overshoot",2020,0.28,0.0,0.28,USD2010/tCO2,60
+R10INDIA+,India,C1,"1.5°C, no/limited overshoot",2025,133.67,63.83,177.75,USD2010/tCO2,60
+R10INDIA+,India,C1,"1.5°C, no/limited overshoot",2030,176.95,103.13,241.69,USD2010/tCO2,60
+R10INDIA+,India,C1,"1.5°C, no/limited overshoot",2035,242.69,152.72,350.22,USD2010/tCO2,60
+R10INDIA+,India,C1,"1.5°C, no/limited overshoot",2040,325.37,260.5,499.12,USD2010/tCO2,60
+R10INDIA+,India,C1,"1.5°C, no/limited overshoot",2045,430.26,352.78,693.38,USD2010/tCO2,60
+R10INDIA+,India,C1,"1.5°C, no/limited overshoot",2050,592.32,412.98,815.96,USD2010/tCO2,60
+R10INDIA+,India,C2,"1.5°C, high overshoot",2020,0.0,0.0,0.28,USD2010/tCO2,86
+R10INDIA+,India,C2,"1.5°C, high overshoot",2025,23.04,1.11,61.44,USD2010/tCO2,75
+R10INDIA+,India,C2,"1.5°C, high overshoot",2030,41.97,1.11,78.09,USD2010/tCO2,86
+R10INDIA+,India,C2,"1.5°C, high overshoot",2035,129.57,85.89,200.38,USD2010/tCO2,75
+R10INDIA+,India,C2,"1.5°C, high overshoot",2040,165.64,107.85,256.54,USD2010/tCO2,86
+R10INDIA+,India,C2,"1.5°C, high overshoot",2045,249.21,162.19,345.91,USD2010/tCO2,75
+R10INDIA+,India,C2,"1.5°C, high overshoot",2050,285.03,195.5,417.87,USD2010/tCO2,86
+R10INDIA+,India,C3,Likely below 2°C,2020,0.07,0.0,0.28,USD2010/tCO2,192
+R10INDIA+,India,C3,Likely below 2°C,2025,25.76,1.11,49.85,USD2010/tCO2,169
+R10INDIA+,India,C3,Likely below 2°C,2030,47.87,1.11,77.8,USD2010/tCO2,192
+R10INDIA+,India,C3,Likely below 2°C,2035,86.21,66.98,132.18,USD2010/tCO2,169
+R10INDIA+,India,C3,Likely below 2°C,2040,123.26,90.53,179.1,USD2010/tCO2,192
+R10INDIA+,India,C3,Likely below 2°C,2045,172.36,117.95,229.77,USD2010/tCO2,169
+R10INDIA+,India,C3,Likely below 2°C,2050,209.45,147.49,301.21,USD2010/tCO2,192
+R10INDIA+,India,C4,Below 2°C with lower probability,2020,0.0,0.0,0.07,USD2010/tCO2,74
+R10INDIA+,India,C4,Below 2°C with lower probability,2025,0.0,0.0,19.26,USD2010/tCO2,68
+R10INDIA+,India,C4,Below 2°C with lower probability,2030,1.11,0.0,36.09,USD2010/tCO2,74
+R10INDIA+,India,C4,Below 2°C with lower probability,2035,52.06,41.63,77.38,USD2010/tCO2,68
+R10INDIA+,India,C4,Below 2°C with lower probability,2040,75.8,57.1,106.01,USD2010/tCO2,74
+R10INDIA+,India,C4,Below 2°C with lower probability,2045,94.56,72.43,145.68,USD2010/tCO2,68
+R10INDIA+,India,C4,Below 2°C with lower probability,2050,112.27,92.44,161.43,USD2010/tCO2,74
+R10INDIA+,India,C7,High-warming weak-policy (reference),2020,0.0,0.0,0.28,USD2010/tCO2,56
+R10INDIA+,India,C7,High-warming weak-policy (reference),2025,0.0,0.0,0.26,USD2010/tCO2,51
+R10INDIA+,India,C7,High-warming weak-policy (reference),2030,0.0,0.0,0.63,USD2010/tCO2,56
+R10INDIA+,India,C7,High-warming weak-policy (reference),2035,0.0,0.0,1.06,USD2010/tCO2,51
+R10INDIA+,India,C7,High-warming weak-policy (reference),2040,0.0,0.0,1.54,USD2010/tCO2,56
+R10INDIA+,India,C7,High-warming weak-policy (reference),2045,0.0,0.0,2.08,USD2010/tCO2,51
+R10INDIA+,India,C7,High-warming weak-policy (reference),2050,0.0,0.0,2.68,USD2010/tCO2,56
+R10LATIN_AM,Latin America,C1,"1.5°C, no/limited overshoot",2020,0.55,0.0,13.55,USD2010/tCO2,60
+R10LATIN_AM,Latin America,C1,"1.5°C, no/limited overshoot",2025,153.36,108.64,200.87,USD2010/tCO2,60
+R10LATIN_AM,Latin America,C1,"1.5°C, no/limited overshoot",2030,220.73,173.6,252.97,USD2010/tCO2,60
+R10LATIN_AM,Latin America,C1,"1.5°C, no/limited overshoot",2035,286.86,236.35,439.44,USD2010/tCO2,60
+R10LATIN_AM,Latin America,C1,"1.5°C, no/limited overshoot",2040,360.55,289.44,573.35,USD2010/tCO2,60
+R10LATIN_AM,Latin America,C1,"1.5°C, no/limited overshoot",2045,471.06,352.78,713.93,USD2010/tCO2,60
+R10LATIN_AM,Latin America,C1,"1.5°C, no/limited overshoot",2050,581.75,409.79,771.78,USD2010/tCO2,60
+R10LATIN_AM,Latin America,C2,"1.5°C, high overshoot",2020,0.0,0.0,0.95,USD2010/tCO2,86
+R10LATIN_AM,Latin America,C2,"1.5°C, high overshoot",2025,28.56,22.45,61.4,USD2010/tCO2,75
+R10LATIN_AM,Latin America,C2,"1.5°C, high overshoot",2030,57.59,28.65,83.92,USD2010/tCO2,86
+R10LATIN_AM,Latin America,C2,"1.5°C, high overshoot",2035,135.74,87.23,201.85,USD2010/tCO2,75
+R10LATIN_AM,Latin America,C2,"1.5°C, high overshoot",2040,169.66,111.56,257.75,USD2010/tCO2,86
+R10LATIN_AM,Latin America,C2,"1.5°C, high overshoot",2045,249.21,166.87,348.9,USD2010/tCO2,75
+R10LATIN_AM,Latin America,C2,"1.5°C, high overshoot",2050,285.03,194.32,417.87,USD2010/tCO2,86
+R10LATIN_AM,Latin America,C3,Likely below 2°C,2020,1.08,0.0,13.55,USD2010/tCO2,192
+R10LATIN_AM,Latin America,C3,Likely below 2°C,2025,45.73,17.56,64.96,USD2010/tCO2,169
+R10LATIN_AM,Latin America,C3,Likely below 2°C,2030,61.35,34.42,98.94,USD2010/tCO2,192
+R10LATIN_AM,Latin America,C3,Likely below 2°C,2035,98.16,71.63,145.52,USD2010/tCO2,169
+R10LATIN_AM,Latin America,C3,Likely below 2°C,2040,128.76,98.91,192.35,USD2010/tCO2,192
+R10LATIN_AM,Latin America,C3,Likely below 2°C,2045,172.36,120.73,246.99,USD2010/tCO2,169
+R10LATIN_AM,Latin America,C3,Likely below 2°C,2050,209.45,147.91,301.21,USD2010/tCO2,192
+R10LATIN_AM,Latin America,C4,Below 2°C with lower probability,2020,0.0,0.0,1.08,USD2010/tCO2,74
+R10LATIN_AM,Latin America,C4,Below 2°C with lower probability,2025,18.1,11.67,27.61,USD2010/tCO2,68
+R10LATIN_AM,Latin America,C4,Below 2°C with lower probability,2030,38.25,25.27,53.43,USD2010/tCO2,74
+R10LATIN_AM,Latin America,C4,Below 2°C with lower probability,2035,52.06,41.63,77.38,USD2010/tCO2,68
+R10LATIN_AM,Latin America,C4,Below 2°C with lower probability,2040,75.8,57.1,107.93,USD2010/tCO2,74
+R10LATIN_AM,Latin America,C4,Below 2°C with lower probability,2045,95.39,73.11,145.68,USD2010/tCO2,68
+R10LATIN_AM,Latin America,C4,Below 2°C with lower probability,2050,112.37,92.46,161.43,USD2010/tCO2,74
+R10LATIN_AM,Latin America,C7,High-warming weak-policy (reference),2020,0.0,0.0,0.69,USD2010/tCO2,56
+R10LATIN_AM,Latin America,C7,High-warming weak-policy (reference),2025,0.0,0.0,2.08,USD2010/tCO2,51
+R10LATIN_AM,Latin America,C7,High-warming weak-policy (reference),2030,0.0,0.0,3.27,USD2010/tCO2,56
+R10LATIN_AM,Latin America,C7,High-warming weak-policy (reference),2035,0.0,0.0,2.67,USD2010/tCO2,51
+R10LATIN_AM,Latin America,C7,High-warming weak-policy (reference),2040,0.0,0.0,2.11,USD2010/tCO2,56
+R10LATIN_AM,Latin America,C7,High-warming weak-policy (reference),2045,0.0,0.0,3.6,USD2010/tCO2,51
+R10LATIN_AM,Latin America,C7,High-warming weak-policy (reference),2050,0.0,0.0,3.18,USD2010/tCO2,56
+R10MIDDLE_EAST,Middle East,C1,"1.5°C, no/limited overshoot",2020,0.74,0.0,5.64,USD2010/tCO2,60
+R10MIDDLE_EAST,Middle East,C1,"1.5°C, no/limited overshoot",2025,131.07,101.54,190.02,USD2010/tCO2,60
+R10MIDDLE_EAST,Middle East,C1,"1.5°C, no/limited overshoot",2030,197.09,164.67,241.99,USD2010/tCO2,60
+R10MIDDLE_EAST,Middle East,C1,"1.5°C, no/limited overshoot",2035,256.63,220.16,396.19,USD2010/tCO2,60
+R10MIDDLE_EAST,Middle East,C1,"1.5°C, no/limited overshoot",2040,335.79,287.98,560.56,USD2010/tCO2,60
+R10MIDDLE_EAST,Middle East,C1,"1.5°C, no/limited overshoot",2045,460.87,355.81,713.93,USD2010/tCO2,60
+R10MIDDLE_EAST,Middle East,C1,"1.5°C, no/limited overshoot",2050,581.75,412.98,771.78,USD2010/tCO2,60
+R10MIDDLE_EAST,Middle East,C2,"1.5°C, high overshoot",2020,0.55,0.0,5.35,USD2010/tCO2,86
+R10MIDDLE_EAST,Middle East,C2,"1.5°C, high overshoot",2025,21.41,1.26,55.72,USD2010/tCO2,75
+R10MIDDLE_EAST,Middle East,C2,"1.5°C, high overshoot",2030,41.97,1.28,77.17,USD2010/tCO2,86
+R10MIDDLE_EAST,Middle East,C2,"1.5°C, high overshoot",2035,129.57,87.35,202.85,USD2010/tCO2,75
+R10MIDDLE_EAST,Middle East,C2,"1.5°C, high overshoot",2040,165.64,108.54,257.75,USD2010/tCO2,86
+R10MIDDLE_EAST,Middle East,C2,"1.5°C, high overshoot",2045,249.21,164.3,345.91,USD2010/tCO2,75
+R10MIDDLE_EAST,Middle East,C2,"1.5°C, high overshoot",2050,285.03,195.5,417.87,USD2010/tCO2,86
+R10MIDDLE_EAST,Middle East,C3,Likely below 2°C,2020,3.5,0.0,6.33,USD2010/tCO2,192
+R10MIDDLE_EAST,Middle East,C3,Likely below 2°C,2025,33.59,0.53,59.63,USD2010/tCO2,169
+R10MIDDLE_EAST,Middle East,C3,Likely below 2°C,2030,49.21,19.05,80.62,USD2010/tCO2,192
+R10MIDDLE_EAST,Middle East,C3,Likely below 2°C,2035,100.47,72.41,138.58,USD2010/tCO2,169
+R10MIDDLE_EAST,Middle East,C3,Likely below 2°C,2040,127.66,96.45,186.44,USD2010/tCO2,192
+R10MIDDLE_EAST,Middle East,C3,Likely below 2°C,2045,171.28,120.13,239.45,USD2010/tCO2,169
+R10MIDDLE_EAST,Middle East,C3,Likely below 2°C,2050,208.73,147.49,301.21,USD2010/tCO2,192
+R10MIDDLE_EAST,Middle East,C4,Below 2°C with lower probability,2020,0.48,0.0,10.33,USD2010/tCO2,74
+R10MIDDLE_EAST,Middle East,C4,Below 2°C with lower probability,2025,7.24,0.0,20.73,USD2010/tCO2,68
+R10MIDDLE_EAST,Middle East,C4,Below 2°C with lower probability,2030,21.3,1.23,33.01,USD2010/tCO2,74
+R10MIDDLE_EAST,Middle East,C4,Below 2°C with lower probability,2035,52.06,41.63,77.38,USD2010/tCO2,68
+R10MIDDLE_EAST,Middle East,C4,Below 2°C with lower probability,2040,75.8,57.1,108.19,USD2010/tCO2,74
+R10MIDDLE_EAST,Middle East,C4,Below 2°C with lower probability,2045,95.39,73.23,145.68,USD2010/tCO2,68
+R10MIDDLE_EAST,Middle East,C4,Below 2°C with lower probability,2050,112.39,92.51,161.43,USD2010/tCO2,74
+R10MIDDLE_EAST,Middle East,C7,High-warming weak-policy (reference),2020,0.0,0.0,0.57,USD2010/tCO2,58
+R10MIDDLE_EAST,Middle East,C7,High-warming weak-policy (reference),2025,0.0,0.0,0.89,USD2010/tCO2,53
+R10MIDDLE_EAST,Middle East,C7,High-warming weak-policy (reference),2030,0.0,0.0,1.25,USD2010/tCO2,58
+R10MIDDLE_EAST,Middle East,C7,High-warming weak-policy (reference),2035,0.0,0.0,1.66,USD2010/tCO2,53
+R10MIDDLE_EAST,Middle East,C7,High-warming weak-policy (reference),2040,0.0,0.0,2.11,USD2010/tCO2,58
+R10MIDDLE_EAST,Middle East,C7,High-warming weak-policy (reference),2045,0.0,0.0,2.69,USD2010/tCO2,53
+R10MIDDLE_EAST,Middle East,C7,High-warming weak-policy (reference),2050,0.0,0.0,3.18,USD2010/tCO2,58
+R10NORTH_AM,North America,C1,"1.5°C, no/limited overshoot",2020,0.28,0.0,19.61,USD2010/tCO2,60
+R10NORTH_AM,North America,C1,"1.5°C, no/limited overshoot",2025,186.41,132.25,238.58,USD2010/tCO2,60
+R10NORTH_AM,North America,C1,"1.5°C, no/limited overshoot",2030,241.69,182.47,320.88,USD2010/tCO2,60
+R10NORTH_AM,North America,C1,"1.5°C, no/limited overshoot",2035,339.03,227.05,455.16,USD2010/tCO2,60
+R10NORTH_AM,North America,C1,"1.5°C, no/limited overshoot",2040,410.28,298.63,617.6,USD2010/tCO2,60
+R10NORTH_AM,North America,C1,"1.5°C, no/limited overshoot",2045,494.2,352.78,716.45,USD2010/tCO2,60
+R10NORTH_AM,North America,C1,"1.5°C, no/limited overshoot",2050,644.35,409.79,850.15,USD2010/tCO2,60
+R10NORTH_AM,North America,C2,"1.5°C, high overshoot",2020,0.0,0.0,3.32,USD2010/tCO2,86
+R10NORTH_AM,North America,C2,"1.5°C, high overshoot",2025,53.52,40.81,96.45,USD2010/tCO2,75
+R10NORTH_AM,North America,C2,"1.5°C, high overshoot",2030,72.87,48.73,108.63,USD2010/tCO2,86
+R10NORTH_AM,North America,C2,"1.5°C, high overshoot",2035,153.66,89.74,206.26,USD2010/tCO2,75
+R10NORTH_AM,North America,C2,"1.5°C, high overshoot",2040,172.09,116.42,258.41,USD2010/tCO2,86
+R10NORTH_AM,North America,C2,"1.5°C, high overshoot",2045,253.87,168.51,351.39,USD2010/tCO2,75
+R10NORTH_AM,North America,C2,"1.5°C, high overshoot",2050,285.03,194.45,417.87,USD2010/tCO2,86
+R10NORTH_AM,North America,C3,Likely below 2°C,2020,0.0,0.0,19.66,USD2010/tCO2,190
+R10NORTH_AM,North America,C3,Likely below 2°C,2025,53.56,38.94,98.16,USD2010/tCO2,167
+R10NORTH_AM,North America,C3,Likely below 2°C,2030,79.9,52.11,120.05,USD2010/tCO2,190
+R10NORTH_AM,North America,C3,Likely below 2°C,2035,104.42,72.6,166.17,USD2010/tCO2,167
+R10NORTH_AM,North America,C3,Likely below 2°C,2040,134.84,98.66,211.54,USD2010/tCO2,190
+R10NORTH_AM,North America,C3,Likely below 2°C,2045,178.1,120.71,262.84,USD2010/tCO2,167
+R10NORTH_AM,North America,C3,Likely below 2°C,2050,209.45,147.7,301.86,USD2010/tCO2,190
+R10NORTH_AM,North America,C4,Below 2°C with lower probability,2020,0.0,0.0,0.0,USD2010/tCO2,74
+R10NORTH_AM,North America,C4,Below 2°C with lower probability,2025,32.29,23.59,40.18,USD2010/tCO2,68
+R10NORTH_AM,North America,C4,Below 2°C with lower probability,2030,53.39,38.83,97.41,USD2010/tCO2,74
+R10NORTH_AM,North America,C4,Below 2°C with lower probability,2035,52.06,41.63,77.38,USD2010/tCO2,68
+R10NORTH_AM,North America,C4,Below 2°C with lower probability,2040,75.8,57.1,108.19,USD2010/tCO2,74
+R10NORTH_AM,North America,C4,Below 2°C with lower probability,2045,95.39,73.23,145.68,USD2010/tCO2,68
+R10NORTH_AM,North America,C4,Below 2°C with lower probability,2050,112.38,92.51,161.43,USD2010/tCO2,74
+R10NORTH_AM,North America,C7,High-warming weak-policy (reference),2020,0.0,0.0,3.32,USD2010/tCO2,55
+R10NORTH_AM,North America,C7,High-warming weak-policy (reference),2025,0.0,0.0,1.71,USD2010/tCO2,50
+R10NORTH_AM,North America,C7,High-warming weak-policy (reference),2030,0.0,0.0,4.22,USD2010/tCO2,55
+R10NORTH_AM,North America,C7,High-warming weak-policy (reference),2035,0.0,0.0,5.0,USD2010/tCO2,50
+R10NORTH_AM,North America,C7,High-warming weak-policy (reference),2040,0.0,0.0,3.75,USD2010/tCO2,55
+R10NORTH_AM,North America,C7,High-warming weak-policy (reference),2045,0.0,0.0,5.93,USD2010/tCO2,50
+R10NORTH_AM,North America,C7,High-warming weak-policy (reference),2050,0.0,0.0,5.22,USD2010/tCO2,55
+R10PAC_OECD,Pacific OECD,C1,"1.5°C, no/limited overshoot",2020,0.28,0.0,0.28,USD2010/tCO2,60
+R10PAC_OECD,Pacific OECD,C1,"1.5°C, no/limited overshoot",2025,174.96,121.06,238.58,USD2010/tCO2,60
+R10PAC_OECD,Pacific OECD,C1,"1.5°C, no/limited overshoot",2030,241.69,173.6,320.88,USD2010/tCO2,60
+R10PAC_OECD,Pacific OECD,C1,"1.5°C, no/limited overshoot",2035,335.39,227.05,451.85,USD2010/tCO2,60
+R10PAC_OECD,Pacific OECD,C1,"1.5°C, no/limited overshoot",2040,407.27,287.98,574.94,USD2010/tCO2,60
+R10PAC_OECD,Pacific OECD,C1,"1.5°C, no/limited overshoot",2045,479.16,352.78,713.93,USD2010/tCO2,60
+R10PAC_OECD,Pacific OECD,C1,"1.5°C, no/limited overshoot",2050,604.24,409.79,827.36,USD2010/tCO2,60
+R10PAC_OECD,Pacific OECD,C2,"1.5°C, high overshoot",2020,0.0,0.0,0.28,USD2010/tCO2,86
+R10PAC_OECD,Pacific OECD,C2,"1.5°C, high overshoot",2025,24.75,10.72,68.18,USD2010/tCO2,75
+R10PAC_OECD,Pacific OECD,C2,"1.5°C, high overshoot",2030,46.2,15.43,90.62,USD2010/tCO2,86
+R10PAC_OECD,Pacific OECD,C2,"1.5°C, high overshoot",2035,129.57,87.35,200.38,USD2010/tCO2,75
+R10PAC_OECD,Pacific OECD,C2,"1.5°C, high overshoot",2040,172.09,112.15,257.75,USD2010/tCO2,86
+R10PAC_OECD,Pacific OECD,C2,"1.5°C, high overshoot",2045,253.87,166.02,347.01,USD2010/tCO2,75
+R10PAC_OECD,Pacific OECD,C2,"1.5°C, high overshoot",2050,285.03,194.32,417.87,USD2010/tCO2,86
+R10PAC_OECD,Pacific OECD,C3,Likely below 2°C,2020,0.1,0.0,0.41,USD2010/tCO2,188
+R10PAC_OECD,Pacific OECD,C3,Likely below 2°C,2025,37.94,16.88,73.58,USD2010/tCO2,165
+R10PAC_OECD,Pacific OECD,C3,Likely below 2°C,2030,56.33,35.18,92.14,USD2010/tCO2,188
+R10PAC_OECD,Pacific OECD,C3,Likely below 2°C,2035,104.42,71.63,167.91,USD2010/tCO2,165
+R10PAC_OECD,Pacific OECD,C3,Likely below 2°C,2040,134.85,98.06,213.2,USD2010/tCO2,188
+R10PAC_OECD,Pacific OECD,C3,Likely below 2°C,2045,178.1,120.68,263.27,USD2010/tCO2,165
+R10PAC_OECD,Pacific OECD,C3,Likely below 2°C,2050,209.45,147.49,301.21,USD2010/tCO2,188
+R10PAC_OECD,Pacific OECD,C4,Below 2°C with lower probability,2020,0.0,0.0,0.1,USD2010/tCO2,74
+R10PAC_OECD,Pacific OECD,C4,Below 2°C with lower probability,2025,17.33,10.49,23.89,USD2010/tCO2,68
+R10PAC_OECD,Pacific OECD,C4,Below 2°C with lower probability,2030,35.18,32.27,56.45,USD2010/tCO2,74
+R10PAC_OECD,Pacific OECD,C4,Below 2°C with lower probability,2035,52.06,41.63,77.38,USD2010/tCO2,68
+R10PAC_OECD,Pacific OECD,C4,Below 2°C with lower probability,2040,75.8,57.1,108.19,USD2010/tCO2,74
+R10PAC_OECD,Pacific OECD,C4,Below 2°C with lower probability,2045,95.39,73.23,145.68,USD2010/tCO2,68
+R10PAC_OECD,Pacific OECD,C4,Below 2°C with lower probability,2050,112.39,92.51,161.43,USD2010/tCO2,74
+R10PAC_OECD,Pacific OECD,C7,High-warming weak-policy (reference),2020,0.0,0.0,0.28,USD2010/tCO2,52
+R10PAC_OECD,Pacific OECD,C7,High-warming weak-policy (reference),2025,0.0,0.0,0.26,USD2010/tCO2,47
+R10PAC_OECD,Pacific OECD,C7,High-warming weak-policy (reference),2030,0.0,0.0,0.76,USD2010/tCO2,52
+R10PAC_OECD,Pacific OECD,C7,High-warming weak-policy (reference),2035,0.0,0.0,1.19,USD2010/tCO2,47
+R10PAC_OECD,Pacific OECD,C7,High-warming weak-policy (reference),2040,0.0,0.0,1.54,USD2010/tCO2,52
+R10PAC_OECD,Pacific OECD,C7,High-warming weak-policy (reference),2045,0.0,0.0,2.08,USD2010/tCO2,47
+R10PAC_OECD,Pacific OECD,C7,High-warming weak-policy (reference),2050,0.0,0.0,2.68,USD2010/tCO2,52
+R10REF_ECON,Reforming Economies,C1,"1.5°C, no/limited overshoot",2020,0.28,0.0,0.28,USD2010/tCO2,60
+R10REF_ECON,Reforming Economies,C1,"1.5°C, no/limited overshoot",2025,149.53,108.64,198.32,USD2010/tCO2,60
+R10REF_ECON,Reforming Economies,C1,"1.5°C, no/limited overshoot",2030,218.12,173.6,244.32,USD2010/tCO2,60
+R10REF_ECON,Reforming Economies,C1,"1.5°C, no/limited overshoot",2035,286.86,236.35,418.75,USD2010/tCO2,60
+R10REF_ECON,Reforming Economies,C1,"1.5°C, no/limited overshoot",2040,360.55,295.01,564.55,USD2010/tCO2,60
+R10REF_ECON,Reforming Economies,C1,"1.5°C, no/limited overshoot",2045,471.06,352.78,713.93,USD2010/tCO2,60
+R10REF_ECON,Reforming Economies,C1,"1.5°C, no/limited overshoot",2050,577.98,409.79,771.78,USD2010/tCO2,60
+R10REF_ECON,Reforming Economies,C2,"1.5°C, high overshoot",2020,0.28,0.0,0.55,USD2010/tCO2,86
+R10REF_ECON,Reforming Economies,C2,"1.5°C, high overshoot",2025,5.54,1.11,61.4,USD2010/tCO2,75
+R10REF_ECON,Reforming Economies,C2,"1.5°C, high overshoot",2030,41.97,1.11,79.59,USD2010/tCO2,86
+R10REF_ECON,Reforming Economies,C2,"1.5°C, high overshoot",2035,135.74,87.35,202.85,USD2010/tCO2,75
+R10REF_ECON,Reforming Economies,C2,"1.5°C, high overshoot",2040,169.66,108.71,257.75,USD2010/tCO2,86
+R10REF_ECON,Reforming Economies,C2,"1.5°C, high overshoot",2045,249.21,166.02,345.91,USD2010/tCO2,75
+R10REF_ECON,Reforming Economies,C2,"1.5°C, high overshoot",2050,285.03,195.5,417.87,USD2010/tCO2,86
+R10REF_ECON,Reforming Economies,C3,Likely below 2°C,2020,0.28,0.0,0.56,USD2010/tCO2,192
+R10REF_ECON,Reforming Economies,C3,Likely below 2°C,2025,34.67,0.88,64.1,USD2010/tCO2,169
+R10REF_ECON,Reforming Economies,C3,Likely below 2°C,2030,52.23,1.11,82.73,USD2010/tCO2,192
+R10REF_ECON,Reforming Economies,C3,Likely below 2°C,2035,100.47,72.8,145.52,USD2010/tCO2,169
+R10REF_ECON,Reforming Economies,C3,Likely below 2°C,2040,127.51,96.45,192.35,USD2010/tCO2,192
+R10REF_ECON,Reforming Economies,C3,Likely below 2°C,2045,171.28,120.13,246.99,USD2010/tCO2,169
+R10REF_ECON,Reforming Economies,C3,Likely below 2°C,2050,208.73,146.83,301.21,USD2010/tCO2,192
+R10REF_ECON,Reforming Economies,C4,Below 2°C with lower probability,2020,0.0,0.0,7.82,USD2010/tCO2,74
+R10REF_ECON,Reforming Economies,C4,Below 2°C with lower probability,2025,2.19,0.0,19.61,USD2010/tCO2,68
+R10REF_ECON,Reforming Economies,C4,Below 2°C with lower probability,2030,10.19,0.0,36.09,USD2010/tCO2,74
+R10REF_ECON,Reforming Economies,C4,Below 2°C with lower probability,2035,52.06,41.63,77.38,USD2010/tCO2,68
+R10REF_ECON,Reforming Economies,C4,Below 2°C with lower probability,2040,75.8,57.1,108.19,USD2010/tCO2,74
+R10REF_ECON,Reforming Economies,C4,Below 2°C with lower probability,2045,95.39,73.23,145.68,USD2010/tCO2,68
+R10REF_ECON,Reforming Economies,C4,Below 2°C with lower probability,2050,112.39,92.51,161.43,USD2010/tCO2,74
+R10REF_ECON,Reforming Economies,C7,High-warming weak-policy (reference),2020,0.0,0.0,0.28,USD2010/tCO2,57
+R10REF_ECON,Reforming Economies,C7,High-warming weak-policy (reference),2025,0.0,0.0,0.26,USD2010/tCO2,52
+R10REF_ECON,Reforming Economies,C7,High-warming weak-policy (reference),2030,0.0,0.0,0.63,USD2010/tCO2,57
+R10REF_ECON,Reforming Economies,C7,High-warming weak-policy (reference),2035,0.0,0.0,1.06,USD2010/tCO2,52
+R10REF_ECON,Reforming Economies,C7,High-warming weak-policy (reference),2040,0.0,0.0,1.54,USD2010/tCO2,57
+R10REF_ECON,Reforming Economies,C7,High-warming weak-policy (reference),2045,0.0,0.0,2.08,USD2010/tCO2,52
+R10REF_ECON,Reforming Economies,C7,High-warming weak-policy (reference),2050,0.0,0.0,2.68,USD2010/tCO2,57
+R10REST_ASIA,Rest of Asia,C1,"1.5°C, no/limited overshoot",2020,0.55,0.0,8.05,USD2010/tCO2,60
+R10REST_ASIA,Rest of Asia,C1,"1.5°C, no/limited overshoot",2025,117.22,72.92,177.75,USD2010/tCO2,60
+R10REST_ASIA,Rest of Asia,C1,"1.5°C, no/limited overshoot",2030,186.64,116.89,241.69,USD2010/tCO2,60
+R10REST_ASIA,Rest of Asia,C1,"1.5°C, no/limited overshoot",2035,250.8,184.18,361.62,USD2010/tCO2,60
+R10REST_ASIA,Rest of Asia,C1,"1.5°C, no/limited overshoot",2040,325.37,278.29,499.12,USD2010/tCO2,60
+R10REST_ASIA,Rest of Asia,C1,"1.5°C, no/limited overshoot",2045,440.67,355.81,713.93,USD2010/tCO2,60
+R10REST_ASIA,Rest of Asia,C1,"1.5°C, no/limited overshoot",2050,581.75,412.98,808.29,USD2010/tCO2,60
+R10REST_ASIA,Rest of Asia,C2,"1.5°C, high overshoot",2020,0.12,0.0,0.88,USD2010/tCO2,86
+R10REST_ASIA,Rest of Asia,C2,"1.5°C, high overshoot",2025,28.76,20.12,61.53,USD2010/tCO2,75
+R10REST_ASIA,Rest of Asia,C2,"1.5°C, high overshoot",2030,50.0,25.96,72.46,USD2010/tCO2,86
+R10REST_ASIA,Rest of Asia,C2,"1.5°C, high overshoot",2035,135.74,86.12,201.85,USD2010/tCO2,75
+R10REST_ASIA,Rest of Asia,C2,"1.5°C, high overshoot",2040,165.64,111.3,257.19,USD2010/tCO2,86
+R10REST_ASIA,Rest of Asia,C2,"1.5°C, high overshoot",2045,249.21,166.87,348.51,USD2010/tCO2,75
+R10REST_ASIA,Rest of Asia,C2,"1.5°C, high overshoot",2050,285.03,194.46,417.87,USD2010/tCO2,86
+R10REST_ASIA,Rest of Asia,C3,Likely below 2°C,2020,0.88,0.0,8.05,USD2010/tCO2,193
+R10REST_ASIA,Rest of Asia,C3,Likely below 2°C,2025,33.18,16.76,53.92,USD2010/tCO2,170
+R10REST_ASIA,Rest of Asia,C3,Likely below 2°C,2030,55.79,38.34,80.39,USD2010/tCO2,193
+R10REST_ASIA,Rest of Asia,C3,Likely below 2°C,2035,89.54,66.58,135.76,USD2010/tCO2,170
+R10REST_ASIA,Rest of Asia,C3,Likely below 2°C,2040,128.23,91.28,182.11,USD2010/tCO2,193
+R10REST_ASIA,Rest of Asia,C3,Likely below 2°C,2045,171.82,118.51,237.03,USD2010/tCO2,170
+R10REST_ASIA,Rest of Asia,C3,Likely below 2°C,2050,208.87,147.6,302.19,USD2010/tCO2,193
+R10REST_ASIA,Rest of Asia,C4,Below 2°C with lower probability,2020,0.0,0.0,0.88,USD2010/tCO2,74
+R10REST_ASIA,Rest of Asia,C4,Below 2°C with lower probability,2025,18.48,10.91,28.56,USD2010/tCO2,68
+R10REST_ASIA,Rest of Asia,C4,Below 2°C with lower probability,2030,42.46,24.9,58.39,USD2010/tCO2,74
+R10REST_ASIA,Rest of Asia,C4,Below 2°C with lower probability,2035,52.06,41.63,77.38,USD2010/tCO2,68
+R10REST_ASIA,Rest of Asia,C4,Below 2°C with lower probability,2040,75.8,57.1,106.13,USD2010/tCO2,74
+R10REST_ASIA,Rest of Asia,C4,Below 2°C with lower probability,2045,94.85,72.43,145.68,USD2010/tCO2,68
+R10REST_ASIA,Rest of Asia,C4,Below 2°C with lower probability,2050,112.39,92.44,161.43,USD2010/tCO2,74
+R10REST_ASIA,Rest of Asia,C7,High-warming weak-policy (reference),2020,0.0,0.0,0.98,USD2010/tCO2,53
+R10REST_ASIA,Rest of Asia,C7,High-warming weak-policy (reference),2025,0.0,0.0,1.53,USD2010/tCO2,48
+R10REST_ASIA,Rest of Asia,C7,High-warming weak-policy (reference),2030,0.0,0.0,5.93,USD2010/tCO2,53
+R10REST_ASIA,Rest of Asia,C7,High-warming weak-policy (reference),2035,0.0,0.0,1.7,USD2010/tCO2,48
+R10REST_ASIA,Rest of Asia,C7,High-warming weak-policy (reference),2040,0.0,0.0,2.11,USD2010/tCO2,53
+R10REST_ASIA,Rest of Asia,C7,High-warming weak-policy (reference),2045,0.0,0.0,2.96,USD2010/tCO2,48
+R10REST_ASIA,Rest of Asia,C7,High-warming weak-policy (reference),2050,0.0,0.0,3.18,USD2010/tCO2,53
+R10ROWO,Rest of World,C1,"1.5°C, no/limited overshoot",2020,16.89,3.32,17.69,USD2010/tCO2,35
+R10ROWO,Rest of World,C1,"1.5°C, no/limited overshoot",2025,186.02,118.09,226.1,USD2010/tCO2,35
+R10ROWO,Rest of World,C1,"1.5°C, no/limited overshoot",2030,249.01,153.03,308.54,USD2010/tCO2,35
+R10ROWO,Rest of World,C1,"1.5°C, no/limited overshoot",2035,315.12,204.93,388.29,USD2010/tCO2,35
+R10ROWO,Rest of World,C1,"1.5°C, no/limited overshoot",2040,386.69,253.58,461.85,USD2010/tCO2,35
+R10ROWO,Rest of World,C1,"1.5°C, no/limited overshoot",2045,475.43,313.33,544.41,USD2010/tCO2,35
+R10ROWO,Rest of World,C1,"1.5°C, no/limited overshoot",2050,526.09,384.75,647.1,USD2010/tCO2,35
+R10ROWO,Rest of World,C2,"1.5°C, high overshoot",2020,3.32,0.0,12.75,USD2010/tCO2,44
+R10ROWO,Rest of World,C2,"1.5°C, high overshoot",2025,28.8,11.72,64.98,USD2010/tCO2,44
+R10ROWO,Rest of World,C2,"1.5°C, high overshoot",2030,53.86,11.72,90.76,USD2010/tCO2,44
+R10ROWO,Rest of World,C2,"1.5°C, high overshoot",2035,116.66,79.75,185.8,USD2010/tCO2,44
+R10ROWO,Rest of World,C2,"1.5°C, high overshoot",2040,194.55,122.15,245.43,USD2010/tCO2,44
+R10ROWO,Rest of World,C2,"1.5°C, high overshoot",2045,255.49,166.17,333.84,USD2010/tCO2,44
+R10ROWO,Rest of World,C2,"1.5°C, high overshoot",2050,322.66,214.6,426.08,USD2010/tCO2,44
+R10ROWO,Rest of World,C3,Likely below 2°C,2020,17.58,7.71,19.62,USD2010/tCO2,102
+R10ROWO,Rest of World,C3,Likely below 2°C,2025,64.98,42.66,104.26,USD2010/tCO2,82
+R10ROWO,Rest of World,C3,Likely below 2°C,2030,83.36,52.1,123.04,USD2010/tCO2,102
+R10ROWO,Rest of World,C3,Likely below 2°C,2035,116.64,78.84,176.4,USD2010/tCO2,82
+R10ROWO,Rest of World,C3,Likely below 2°C,2040,146.21,104.79,214.28,USD2010/tCO2,102
+R10ROWO,Rest of World,C3,Likely below 2°C,2045,181.36,130.8,270.72,USD2010/tCO2,82
+R10ROWO,Rest of World,C3,Likely below 2°C,2050,217.82,166.93,316.89,USD2010/tCO2,102
+R10ROWO,Rest of World,C4,Below 2°C with lower probability,2020,7.71,0.0,17.58,USD2010/tCO2,20
+R10ROWO,Rest of World,C4,Below 2°C with lower probability,2025,16.47,5.57,27.3,USD2010/tCO2,14
+R10ROWO,Rest of World,C4,Below 2°C with lower probability,2030,24.46,3.61,37.54,USD2010/tCO2,20
+R10ROWO,Rest of World,C4,Below 2°C with lower probability,2035,44.47,42.15,50.39,USD2010/tCO2,14
+R10ROWO,Rest of World,C4,Below 2°C with lower probability,2040,65.58,57.88,70.56,USD2010/tCO2,20
+R10ROWO,Rest of World,C4,Below 2°C with lower probability,2045,82.31,73.66,92.03,USD2010/tCO2,14
+R10ROWO,Rest of World,C4,Below 2°C with lower probability,2050,108.01,96.12,124.34,USD2010/tCO2,20
+R10ROWO,Rest of World,C7,High-warming weak-policy (reference),2020,0.47,0.0,10.5,USD2010/tCO2,39
+R10ROWO,Rest of World,C7,High-warming weak-policy (reference),2025,2.15,0.0,13.59,USD2010/tCO2,34
+R10ROWO,Rest of World,C7,High-warming weak-policy (reference),2030,0.78,0.0,12.35,USD2010/tCO2,39
+R10ROWO,Rest of World,C7,High-warming weak-policy (reference),2035,2.9,0.0,13.54,USD2010/tCO2,34
+R10ROWO,Rest of World,C7,High-warming weak-policy (reference),2040,1.66,0.0,12.4,USD2010/tCO2,39
+R10ROWO,Rest of World,C7,High-warming weak-policy (reference),2045,3.8,0.0,11.77,USD2010/tCO2,34
+R10ROWO,Rest of World,C7,High-warming weak-policy (reference),2050,2.68,0.0,10.63,USD2010/tCO2,39
