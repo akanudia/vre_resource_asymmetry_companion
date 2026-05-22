@@ -1218,39 +1218,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#usage-example-python-pandas" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Usage example (Python / pandas)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#whats-not-on-this-site" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        What's not on this site
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#license" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        License
-      
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -1418,39 +1385,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#usage-example-python-pandas" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Usage example (Python / pandas)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#whats-not-on-this-site" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        What's not on this site
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#license" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        License
-      
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -1477,6 +1411,17 @@
 
 
 <h1 id="data">Data<a class="headerlink" href="#data" title="Permanent link">¶</a></h1>
+<div class="admonition abstract">
+<p class="admonition-title">Sources &amp; provenance</p>
+<p><strong>Manuscript:</strong> Extended Data Figs 2–4 (signed structural–parametric
+angle, world + regional decomposition) and Extended Data Table 2
+(structural-distribution table).<br>
+<strong>External data:</strong> none.<br>
+<strong>Companion-only:</strong> every CSV here is the pre-extracted figure-level
+data sidecar for the corresponding manuscript figure. Released for
+re-analysis; the figures themselves are the canonical claim
+surface.</p>
+</div>
 <p>CSV sidecars for every cell in the signed structural–parametric angle
 diagnostic (<a href="../world/">ED Fig 2 in the manuscript</a>) are released on this
 site alongside the figures.</p>
@@ -1642,54 +1587,10 @@ rows total, channel × climate × region × outcome).</p>
 <tr>
 <td><code>S_p5</code>, <code>S_p25</code>, <code>S_median</code>, <code>S_p75</code>, <code>S_p95</code></td>
 <td>float</td>
-<td>signed structural shift, % of C7–Base–median reference</td>
-</tr>
-<tr>
-<td><code>absS_median</code></td>
-<td>float</td>
-<td>median absolute structural shift</td>
-</tr>
-<tr>
-<td><code>absP_median</code></td>
-<td>float</td>
-<td>median absolute parametric shift</td>
-</tr>
-<tr>
-<td><code>pct_rivals_50</code></td>
-<td>float</td>
-<td>share where $</td>
-</tr>
-<tr>
-<td><code>pct_rivals_100</code></td>
-<td>float</td>
-<td>share where $</td>
+<td>signed structural shift</td>
 </tr>
 </tbody>
 </table>
-<p>The manuscript prints a curated world-aggregate subset (60 rows × 11 columns)
-as Extended Data Table 2; the regional rows live here.</p>
-<h2 id="usage-example-python-pandas">Usage example (Python / pandas)<a class="headerlink" href="#usage-example-python-pandas" title="Permanent link">¶</a></h2>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
-
-<span class="n">india_supply</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
-    <span class="s2">"https://akanudia.github.io/vre_resource_asymmetry_companion/"</span>
-    <span class="s2">"assets/data/regions/india/magnitude_angle_india_supply.csv"</span>
-<span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">india_supply</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="s2">"climate == 'C7'"</span><span class="p">))</span>
-</code></pre></div>
-<h2 id="whats-not-on-this-site">What's not on this site<a class="headerlink" href="#whats-not-on-this-site" title="Permanent link">¶</a></h2>
-<p>The full 1,080-run scenario output database (generation, capacity, cost,
-emissions trajectories by country/region/year for every model run) and the
-raw analysis scripts that produced these figures live in the
-<code>structural_experiment</code> source tree released alongside the manuscript per the
-journal's Data Availability policy. Pre-acceptance, contact the corresponding
-author for access. Post-acceptance, the archived snapshot will be linked
-from the <a href="../cite/">cite page</a>.</p>
-<h2 id="license">License<a class="headerlink" href="#license" title="Permanent link">¶</a></h2>
-<p>All CSVs are released under CC-BY 4.0 (see <code>LICENSE-CONTENT</code> in the
-<a href="https://github.com/akanudia/vre_resource_asymmetry_companion">GitHub repo</a>).
-Attribution: "Companion site data for Kanudia, A., 2026, <em>Wind–solar resource
-asymmetry...</em>, Nature Energy."</p>
 
 
 

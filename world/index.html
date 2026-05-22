@@ -799,39 +799,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#where-each-region-sits-on-the-angle-scale" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Where each region sits on the angle scale
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#saturation-how-much-temporal-resolution-is-enough" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Saturation: how much temporal resolution is enough?
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#see-also" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        See also
-      
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -1452,39 +1419,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#where-each-region-sits-on-the-angle-scale" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Where each region sits on the angle scale
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#saturation-how-much-temporal-resolution-is-enough" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Saturation: how much temporal resolution is enough?
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#see-also" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        See also
-      
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -1511,6 +1445,22 @@
 
 
 <h1 id="world-aggregate">World aggregate<a class="headerlink" href="#world-aggregate" title="Permanent link">¶</a></h1>
+<div class="admonition abstract">
+<p class="admonition-title">Sources &amp; provenance</p>
+<p><strong>Manuscript:</strong> Results § (Fig 5 hero, Fig 6 world-vs-regional),
+Extended Data Figs 2–5 (signed structural–parametric angle, regional
+decompositions, saturation), Methods § Paired-shift diagnostics
+(rivals thresholds 30 %, 16 %).<br>
+<strong>External data:</strong> none directly on this page; the AR6 plausibility
+benchmark for the same model archive lives on the
+<a href="../methodology/">Methodology page</a>.<br>
+<strong>Companion-only:</strong> the cell-by-cell θ readings, the regional-bracket
+interpretation, the rival-headline table and the embedded
+dominance-heatmap reading prose extend the manuscript figures with
+reader-friendly framings; no quantitative claims appear here that
+are not derivable from the manuscript figures and the released
+CSVs.</p>
+</div>
 <p>This page reads the four world-level figures from the manuscript: the
 paired-shifts hero scatter (Fig 5), the world-vs-regional structural-shift
 diagnostic (Fig 6), the signed structural–parametric angle with saturation
@@ -1714,90 +1664,7 @@ data file (60 rows × 11 columns).</p>
 <li>The <strong>temporal channel</strong> is mixed: some cells (Cost C7 temporal, all 10
   regions positive) have tight brackets; others (Solar C7 supply being the
   poster child) have brackets that span most of the <span class="arithmatex">\([-90^\circ, +90^\circ]\)</span>
-  range. When the bracket is wide and centred near <span class="arithmatex">\(\theta = 0\)</span>, the
-  regional signals are cancelling at world aggregate — the regional bias is
-  real but invisible at the headline.</li>
-</ul>
-<p>The implication is that <strong>regional-scale validation matters even when the
-world-scale story looks unremarkable</strong>. A reader who sees Solar C7 supply
-sitting at world θ ≈ −6° might conclude "no structural effect". The
-−68° to +74° regional range tells the opposite story: every region has a
-large structural shift, but their signs cancel at world aggregate.</p>
-<h2 id="where-each-region-sits-on-the-angle-scale">Where each region sits on the angle scale<a class="headerlink" href="#where-each-region-sits-on-the-angle-scale" title="Permanent link">¶</a></h2>
-<p>The world-aggregate ED Fig 2 above collapses the regional spread into a
-bracket on each cell. The two figures below decompose that bracket back
-into its ten regional medians — one figure per channel, three rows
-(C1, C3, C4) × three columns (wind generation, solar generation,
-electricity price) × ten R10 macro-regions per panel.</p>
-<figure>
-<p><a href="../assets/figures/world/ed_fig_dominance_heatmap_supply.png"><img alt="Signed structural–parametric angle by region, supply-curve refinement" loading="lazy" src="../assets/figures/world/ed_fig_dominance_heatmap_supply.png"></a></p>
-<figcaption>
-<p><strong>Signed structural–parametric angle by region, supply-curve refinement
-(LoT → HiT).</strong> Per (region × climate × outcome) cell, the filled circle
-is the regional median angle and the vertical line is the 5--95th
-percentile range. Horizontal reference lines mark <span class="arithmatex">\(\theta = 0^\circ\)</span>
-(no structural component) and <span class="arithmatex">\(|\theta| = 45^\circ\)</span> (strict structural
-dominance, <span class="arithmatex">\(|S| = |P|\)</span>); cells beyond the structural-rival threshold
-<span class="arithmatex">\(|\theta| \ge 26.6^\circ\)</span> (<span class="arithmatex">\(|S| \ge 0.5 |P|\)</span>) are the broader rivals
-convention used in the headline numbers above. Source:
-<a href="../assets/figures/world/ed_fig_dominance_heatmap_supply.pdf">ed_fig_dominance_heatmap_supply.pdf</a>.</p>
-</figcaption>
-</figure>
-<figure>
-<p><a href="../assets/figures/world/ed_fig_dominance_heatmap_temporal.png"><img alt="Signed structural–parametric angle by region, temporal refinement" loading="lazy" src="../assets/figures/world/ed_fig_dominance_heatmap_temporal.png"></a></p>
-<figcaption>
-<p><strong>Signed structural–parametric angle by region, temporal refinement
-(TS04 → TS72).</strong> All conventions for rows, columns, region order, dots,
-whiskers and reference lines are identical to the supply figure above.
-Source:
-<a href="../assets/figures/world/ed_fig_dominance_heatmap_temporal.pdf">ed_fig_dominance_heatmap_temporal.pdf</a>.</p>
-</figcaption>
-</figure>
-<p><strong>Reading the two figures together.</strong> The supply-curve channel (top
-figure) produces a coherent windward shift across most regions — the
-wind column sits predominantly above <span class="arithmatex">\(0^\circ\)</span> and the solar column
-predominantly below — with the strict-dominance line (<span class="arithmatex">\(|\theta| =
-45^\circ\)</span>) crossed in several India+/Latin America/Pac OECD cells. The
-temporal channel (bottom figure) produces region-specific reallocations
-on the wind–solar balance: the wind and solar columns straddle zero in
-most climates, the channel-asymmetric global aggregation finding from
-Fig 6 made visible at the regional grain. The electricity-price column
-is the cleanest sign-consistent diagnostic in both channels: supply
-refinement lowers prices across all regions, temporal refinement raises
-them across all regions.</p>
-<p>The pair of figures includes only three of the six outcomes for visual
-density; NPV system cost and cumulative CO<span class="arithmatex">\(_2\)</span> distributions for the
-same (region × climate × channel) buckets are released in the
-<a href="https://akanudia.github.io/vre_info_asymmetry/figures/ed_table_structural_distribution.csv">ED structural-distribution table</a>.</p>
-<h2 id="saturation-how-much-temporal-resolution-is-enough">Saturation: how much temporal resolution is enough?<a class="headerlink" href="#saturation-how-much-temporal-resolution-is-enough" title="Permanent link">¶</a></h2>
-<figure>
-<p><a href="../assets/figures/world/ed_fig3_saturation_by_climate.png"><img alt="Saturation analysis, climate-stratified" loading="lazy" src="../assets/figures/world/ed_fig3_saturation_by_climate.png"></a></p>
-<figcaption>
-<p><strong>ED Fig 3 (manuscript).</strong> The same signed structural–parametric angle
-diagnostic as ED Fig 2, stratified by AR6 climate ambition category
-(C1 1.5 °C low/no-overshoot through C7 above 2.5 °C). Each panel shows
-the world-aggregate median angle and regional-spread bracket for each
-(outcome × channel × fine-endpoint) cell.
-<a href="../assets/figures/world/ed_fig3_saturation_by_climate.pdf">Download PDF</a>.</p>
-</figcaption>
-</figure>
-<p><strong>Reading.</strong> The figure answers <em>"how much temporal resolution is enough?"</em>
-and the answer is <strong>diagnostic-specific</strong>: along the tested TS12 → TS72
-sweep, structural–parametric angles do not converge uniformly across
-outcomes. Electricity prices, system cost and non-VRE utilisation continue
-shifting with finer temporal resolution; wind–solar shifts remain
-region- and regime-dependent; CO<span class="arithmatex">\(_2\)</span> effects concentrate in weaker-policy
-regimes (C7). The temporal channel has therefore <strong>not saturated</strong> within
-the resolution range tested here, which means the TS04→TS72 magnitudes
-elsewhere on this site should be read as a <strong>lower bound</strong> on what a
-chronological dispatch representation would surface. The directional
-channel signatures would amplify rather than reverse with further
-refinement.</p>
-<h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">¶</a></h2>
-<ul>
-<li><a href="../regions/gallery/">Regional gallery</a> — all 10 R10 regions' figures side by side</li>
-<li><a href="../regions/">Regional pages</a> — full prose readings of each of the 10 R10 macro-regions</li>
-<li><a href="../methodology/">Methodology</a> — for the experimental design and the θ definition</li>
+  range. When the </li>
 </ul>
 
 

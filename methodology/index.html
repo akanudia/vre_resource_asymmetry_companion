@@ -603,17 +603,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#data-and-code" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Data and code
-      
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -1393,17 +1382,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#data-and-code" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Data and code
-      
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -1430,6 +1408,23 @@
 
 
 <h1 id="methodology">Methodology<a class="headerlink" href="#methodology" title="Permanent link">¶</a></h1>
+<div class="admonition abstract">
+<p class="admonition-title">Sources &amp; provenance</p>
+<p><strong>Manuscript:</strong> Methods § all subsections (experimental design,
+parametric envelope, structural variants, physical diagnostics,
+paired-shift diagnostics, signed structural–parametric angle).<br>
+<strong>External data:</strong> <a href="../data_sources/#ar6">IPCC AR6 WGIII Scenarios Database</a>,
+<a href="../data_sources/#iea-gec">IEA GEC (WEO 2023)</a>,
+<a href="../data_sources/#nrel-atb">NREL ATB 2024 v3</a>,
+<a href="../data_sources/#era5">ERA5 reanalysis</a>,
+<a href="../data_sources/#atlite">Atlite library</a>.<br>
+<strong>Companion-only:</strong> the experiment-design narrative, the
+threshold-convention reading guide for the signed
+structural–parametric angle, and the cross-references to per-figure
+pages on this site extend the manuscript Methods with
+reader-friendly framings; no quantitative claims appear here that
+are not derivable from the manuscript and the listed sources.</p>
+</div>
 <p>This page sketches the experimental design, the two structural channels, and
 the diagnostic used to summarise structural-shift behaviour cell-by-cell. The
 manuscript Methods section is the authoritative reference; this is a reader's
@@ -1526,17 +1521,7 @@ signals are cancelling at world aggregate.</p>
 (ED Fig 2) use the same axes and sign conventions across world and per-region
 versions. The paired-shifts scatter shows raw (parametric, structural) point
 pairs; the signed-θ figure compresses each cell to one angle. Use them
-together: the scatter shows the point cloud and the saturation pile-up on
-the <span class="arithmatex">\(y=x\)</span> diagonal; the signed-θ figure shows the cell-level summary.</p>
-<h2 id="data-and-code">Data and code<a class="headerlink" href="#data-and-code" title="Permanent link">¶</a></h2>
-<p>CSV sidecars for every cell in the signed-θ figures are released on the
-<a href="../data/">Data page</a>. The figure-generation scripts and the underlying
-analysis tree are released alongside the manuscript per the journal's Data
-Availability policy.</p>
-<p>The 540 R70 runs in the cube are benchmarked against the IPCC AR6 Scenarios
-Database (R10 regions, v1.1) for global electricity generation by technology
-at 2035 and 2050; the benchmarking is a plausibility test, not a calibration
-(no KiNESYS parameters are tuned to AR6 outcomes).</p>
+together: the scatter shows the point cloud</p>
 
 
 

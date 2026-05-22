@@ -737,17 +737,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#license" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        License
-      
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -1549,17 +1538,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#license" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        License
-      
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -1586,6 +1564,21 @@
 
 
 <h1 id="structural-inputs">Structural inputs<a class="headerlink" href="#structural-inputs" title="Permanent link">¶</a></h1>
+<div class="admonition abstract">
+<p class="admonition-title">Sources &amp; provenance</p>
+<p><strong>Manuscript:</strong> Methods § Structural variants (regional aggregation,
+supply-curve detail, temporal resolution).<br>
+<strong>External data:</strong> <a href="../data_sources/#rezoning">REZoning grid-cell potential and capacity factors</a>,
+<a href="../data_sources/#era5">ERA5 reanalysis</a>,
+<a href="../data_sources/#atlite">Atlite library</a>.<br>
+<strong>Companion-only:</strong> the released CSVs (bins, uplift, timeslice
+definitions, template scores, DEF convergence), the embedded
+reading prose and the schema tables on this page expose the
+structural-axis pipeline outputs at a level of detail that the
+manuscript Methods describes only verbally; no quantitative claims
+appear here that are not derivable from the manuscript and the
+released CSVs.</p>
+</div>
 <p>This page releases the data behind the two structural axes that drive
 the representational channels analysed in the manuscript: supply-curve
 detail and temporal resolution. Regional aggregation (R10 vs R70) is
@@ -2061,30 +2054,21 @@ a large fraction of wind's variability is synoptic-scale and
 irrecoverable by any calendar-based representative-period approach.</p>
 <hr>
 <h2 id="usage-example-python-pandas">Usage example (Python / pandas)<a class="headerlink" href="#usage-example-python-pandas" title="Permanent link">¶</a></h2>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
-
-<span class="n">base</span> <span class="o">=</span> <span class="p">(</span><span class="s2">"https://akanudia.github.io/vre_resource_asymmetry_companion/"</span>
-        <span class="s2">"assets/data/structural/"</span><span class="p">)</span>
-
-<span class="c1"># Wind onshore cherry-picking uplift by R10 region</span>
-<span class="n">uplift</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">base</span> <span class="o">+</span> <span class="s2">"supply_curve_uplift_r10.csv"</span><span class="p">)</span>
-<span class="n">wind</span>   <span class="o">=</span> <span class="n">uplift</span><span class="p">[</span><span class="n">uplift</span><span class="o">.</span><span class="n">technology</span> <span class="o">==</span> <span class="s2">"wind_onshore"</span><span class="p">]</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">wind</span><span class="p">[[</span><span class="s2">"region_label"</span><span class="p">,</span> <span class="s2">"lot_n_bins"</span><span class="p">,</span> <span class="s2">"hit_n_bins"</span><span class="p">,</span>
-            <span class="s2">"hit_top_vs_lot_mean"</span><span class="p">]]</span><span class="o">.</span><span class="n">to_string</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
-
-<span class="c1"># DEF convergence: median solar vs wind across all ISOs</span>
-<span class="n">conv</span>  <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">base</span> <span class="o">+</span> <span class="s2">"timeslice_def_convergence_by_iso.csv"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">conv</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">"technology"</span><span class="p">)[</span>
-    <span class="p">[</span><span class="s2">"def_ts01"</span><span class="p">,</span> <span class="s2">"def_ts12"</span><span class="p">,</span> <span class="s2">"def_ts288"</span><span class="p">,</span>
-     <span class="s2">"pct_of_total_improvement_captured_by_ts12"</span><span class="p">]</span>
-<span class="p">]</span><span class="o">.</span><span class="n">median</span><span class="p">()</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span>
-</code></pre></div>
-<hr>
-<h2 id="license">License<a class="headerlink" href="#license" title="Permanent link">¶</a></h2>
-<p>All CSVs are released under CC-BY 4.0 (see <code>LICENSE-CONTENT</code> in the
-<a href="https://github.com/akanudia/vre_resource_asymmetry_companion">GitHub repo</a>).
-Attribution: "Companion site data for Kanudia, A., 2026,
-<em>Wind–solar resource asymmetry…</em>, Nature Energy."</p>
+<p>```python
+import pandas as pd</p>
+<p>base = ("https://akanudia.github.io/vre_resource_asymmetry_companion/"
+        "assets/data/structural/")</p>
+<h1 id="wind-onshore-cherry-picking-uplift-by-r10-region">Wind onshore cherry-picking uplift by R10 region<a class="headerlink" href="#wind-onshore-cherry-picking-uplift-by-r10-region" title="Permanent link">¶</a></h1>
+<p>uplift = pd.read_csv(base + "supply_curve_uplift_r10.csv")
+wind   = uplift[uplift.technology == "wind_onshore"]
+print(wind[["region_label", "lot_n_bins", "hit_n_bins",
+            "hit_top_vs_lot_mean"]].to_string(index=False))</p>
+<h1 id="def-convergence-median-solar-vs-wind-across-all-isos">DEF convergence: median solar vs wind across all ISOs<a class="headerlink" href="#def-convergence-median-solar-vs-wind-across-all-isos" title="Permanent link">¶</a></h1>
+<p>conv  = pd.read_csv(base + "timeslice_def_convergence_by_iso.csv")
+print(conv.groupby("technology")[
+    ["def_ts01", "def_ts12", "def_ts288",
+     "pct_of_total_improvement_captured_by_ts12"]
+].</p>
 
 
 
