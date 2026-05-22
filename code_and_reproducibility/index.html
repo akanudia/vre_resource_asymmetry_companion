@@ -1672,6 +1672,17 @@ archive remains internal.</p>
 </tr>
 </tbody>
 </table>
+<div class="admonition note">
+<p class="admonition-title">Compact input footprint</p>
+<p>The four base TIMES models that VS-G builds for the
+R10/R70 × LoT/HiT structural-axis combinations are each fully
+specified by 4–5 Excel input files. The entire 1,080-run
+experimental archive is therefore parameterised by ~20 input
+spreadsheets in total — a deliberately economical surface designed
+to keep the controlled-factorial design auditable end-to-end.
+VEDA then orchestrates the 45-scenario parametric envelope on top
+of those base models.</p>
+</div>
 <h3 id="code">Code<a class="headerlink" href="#code" title="Permanent link">¶</a></h3>
 <p>All analysis scripts that produce the figures and statistics in the
 paper are released. The index in the next section names each script and
@@ -1775,7 +1786,7 @@ Atlite). None of them call into the model-generation pipeline.</p>
 <tr>
 <td><code>fig_validation.py</code></td>
 <td>Fig 7</td>
-<td>Benchmark of KiNESYS R70 generation by technology against the AR6 ensemble at 2035 and 2050.</td>
+<td>Benchmark of VS-G R70 generation by technology against the AR6 ensemble at 2035 and 2050.</td>
 </tr>
 <tr>
 <td><code>make_ed_regional_figures.py</code></td>

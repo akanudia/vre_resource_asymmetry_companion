@@ -1975,8 +1975,9 @@ pipeline-side preprocessing notes that supplement the bibliographic
 record. No quantitative claims appear here; the page is a
 transparent inventory of inputs.</p>
 </div>
-<p>This page documents all external data sources ingested by the
-KiNESYS pipeline to produce the 1,080-run archive. Sources are
+<p>This page documents all external data sources ingested by <strong>VerveStacks-G</strong> (VS-G), the KanORS-EMR global
+energy-system modelling engine, to produce the 1,080-run experimental
+archive. Sources are
 organised by function. For each, the version used in this study,
 the provider, the content consumed, and the pipeline stage are
 listed.</p>
@@ -2132,7 +2133,7 @@ existing generation fleet. Each record covers a single power unit with
 plant name, country, fuel type, generating technology, capacity (MW),
 operating status, commissioning year, and coordinates. The pipeline
 filters to operating and mothballed units, applies technology
-mappings to KiNESYS technology codes, and resolves captive/CHP
+mappings to VS-G technology codes, and resolves captive/CHP
 flags using the Platts comparison (below). VRE units are linked to
 the nearest REZoning grid cells via a pre-computed coordinate-match
 table; thermal units are assigned to model regions via the
@@ -2218,7 +2219,7 @@ Used for three purposes:</p>
 representation: a global grid of ~50 × 50 km cells with estimated
 installable potential (MW), land exclusion flags, and a
 pre-computed LCOE ordering. Three technology tracks are used:
-solar PV, wind onshore, wind offshore. In the KiNESYS pipeline,
+solar PV, wind onshore, wind offshore. In the VS-G pipeline,
 each cell is further enhanced with Atlite-derived capacity factors
 (see below), producing a combined resource dataset per cell that
 carries both the potential size and the temporal CF profile. The
@@ -2392,7 +2393,7 @@ Moderate and Advanced. Used in two roles:</p>
 <h3 id="co2-storage">ETSAP-TIAM CO₂ storage<a class="headerlink" href="#co2-storage" title="Permanent link">¶</a></h3>
 <p><strong>Provider:</strong> ETSAP (Energy Technology Systems Analysis Programme);
 TIAM (TIMES Integrated Assessment Model)<br>
-<strong>Access:</strong> Part of the KiNESYS framework; not publicly redistributed
+<strong>Access:</strong> Part of the proprietary VS-G framework (KanORS-EMR); not publicly redistributed
 as a standalone file.</p>
 <p>Geological CO₂ storage potentials (Gt CO₂) and pipeline transport
 costs by country, plus bio-energy CCS breakthrough-point costs.
@@ -2401,7 +2402,7 @@ These drive the CO₂ storage and CO₂ transport sheets of
 model regions using weights derived from fossil fuel production
 volumes (IEA balances), land area (World Bank WDI), and coastline
 length proxy.</p>
-<p><strong>File:</strong> KiNESYS framework <code>etsap-tiam storage potentials and costs.xlsx</code></p>
+<p><strong>File:</strong> VS-G framework workbook <code>etsap-tiam storage potentials and costs.xlsx</code></p>
 <p><strong>Used in:</strong> <code>existing_fleet/co2_storage_from_etsap_tiam.py</code></p>
 <hr>
 <h3 id="wdi">World Bank World Development Indicators<a class="headerlink" href="#wdi" title="Permanent link">¶</a></h3>
@@ -2448,13 +2449,13 @@ using the build scripts released alongside the manuscript.</p>
 <p><strong>Derived or research-origin (contact corresponding author):</strong> China
 actual load (Wu Haochi), India actual load, Atlite grid-cell
 parquet files, REZoning Atlite-enhanced CSVs.</p>
-<p><strong>Part of the KiNESYS framework (available on request):</strong> ETSAP-TIAM
-CO₂ storage potentials, TIAM_RegionMap, KiNESYS mappings workbook.</p>
+<p><strong>Part of the proprietary VS-G framework (available on request from
+KanORS-EMR):</strong> ETSAP-TIAM CO₂ storage potentials, TIAM_RegionMap, VS-G
+mappings workbook.</p>
 <p>The <a href="../inputs/">Inputs page</a> releases the four parametric input
 layers (carbon prices, fuel prices, electricity demand, technology
 costs) in their pipeline-ready form under CC-BY 4.0.
-The <a href="../structural_inputs/">Structural inputs page</a> releases the
-supply-curve bin tables and timeslice partition definitions.</p>
+The [Structural inputs page](structural_i</p>
 
 
 

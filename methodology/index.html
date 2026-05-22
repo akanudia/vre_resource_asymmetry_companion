@@ -1430,12 +1430,15 @@ the diagnostic used to summarise structural-shift behaviour cell-by-cell. The
 manuscript Methods section is the authoritative reference; this is a reader's
 companion to the figures hosted on this site.</p>
 <h2 id="the-1080-instance-controlled-factorial">The 1,080-instance controlled factorial<a class="headerlink" href="#the-1080-instance-controlled-factorial" title="Permanent link">¶</a></h2>
-<p>KiNESYS is the modular VEDA–TIMES data-to-model pipeline and the
-<strong>1,080-run global model archive</strong> it produces, described in the
-manuscript Methods. The pipeline ingests a single shared data repository
-covering 155+ countries (atmospheric resources, technology costs, fuel
-prices, demand drivers, climate-policy trajectories) and emits 1,080
-model instances end-to-end:</p>
+<p>This study uses <strong>VerveStacks-G</strong> (VS-G), the global energy-system
+modelling engine developed at KanORS-EMR. VS-G extends the original
+country-level VerveStacks pipeline to global, multi-region modelling
+and is used here in <strong>power-sector-isolated</strong> configuration. The
+pipeline ingests a single shared data repository covering 155+ countries
+(atmospheric resources, technology costs, fuel prices, demand drivers,
+climate-policy trajectories) and constructs the structural variants of
+the model; VEDA manages the parametric scenario envelope on each
+variant, producing the <strong>1,080-run experimental archive</strong>:</p>
 <ul>
 <li><strong>Parametric scenarios</strong> vary external assumptions: 5 climate ambition
   levels (C1, C2, C3, C4, C7, corresponding to carbon-price trajectories) ×
