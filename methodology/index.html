@@ -297,6 +297,44 @@
   
   
     <li class="md-tabs__item">
+      <a href="../code_and_reproducibility/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Code &amp; data
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../playground/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Playground
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
       <a href="../cite/" class="md-tabs__link">
         
   
@@ -544,10 +582,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#the-signed-structural-dominance-angle" class="md-nav__link">
+  <a href="#the-signed-structuralparametric-angle" class="md-nav__link">
     <span class="md-ellipsis">
       
-        The signed structural dominance angle
+        The signed structural–parametric angle
       
     </span>
   </a>
@@ -684,8 +722,6 @@
   
     
     
-      
-        
       
         
       
@@ -1199,8 +1235,42 @@
 
               
             
-              
-                
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../code_and_reproducibility/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Code &amp; data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
   
   
   
@@ -1222,14 +1292,6 @@
   
 
       </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
     </li>
   
 
@@ -1310,10 +1372,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#the-signed-structural-dominance-angle" class="md-nav__link">
+  <a href="#the-signed-structuralparametric-angle" class="md-nav__link">
     <span class="md-ellipsis">
       
-        The signed structural dominance angle
+        The signed structural–parametric angle
       
     </span>
   </a>
@@ -1373,12 +1435,12 @@ the diagnostic used to summarise structural-shift behaviour cell-by-cell. The
 manuscript Methods section is the authoritative reference; this is a reader's
 companion to the figures hosted on this site.</p>
 <h2 id="the-1080-instance-controlled-factorial">The 1,080-instance controlled factorial<a class="headerlink" href="#the-1080-instance-controlled-factorial" title="Permanent link">¶</a></h2>
-<p>KiNESYS — a global energy-system optimisation framework built on the TIMES
-generator with VEDA model-management tools — covers 155+ countries from a
-single shared data repository (atmospheric resources, technology costs, fuel
-prices, demand drivers, climate-policy trajectories). For this study, an
-automated production pipeline generates <strong>1,080 model runs</strong> end-to-end from
-that repository:</p>
+<p>KiNESYS is the modular VEDA–TIMES data-to-model pipeline and the
+<strong>1,080-run global model archive</strong> it produces, described in the
+manuscript Methods. The pipeline ingests a single shared data repository
+covering 155+ countries (atmospheric resources, technology costs, fuel
+prices, demand drivers, climate-policy trajectories) and emits 1,080
+model instances end-to-end:</p>
 <ul>
 <li><strong>Parametric scenarios</strong> vary external assumptions: 5 climate ambition
   levels (C1, C2, C3, C4, C7, corresponding to carbon-price trajectories) ×
@@ -1419,7 +1481,7 @@ included as a <em>robustness dimension</em> rather than a primary channel: it te
 whether the two channels operate consistently across the regional-aggregation
 scales typical of integrated assessment modelling (R10) and detailed national
 modelling (R70).</p>
-<h2 id="the-signed-structural-dominance-angle">The signed structural dominance angle<a class="headerlink" href="#the-signed-structural-dominance-angle" title="Permanent link">¶</a></h2>
+<h2 id="the-signed-structuralparametric-angle">The signed structural–parametric angle<a class="headerlink" href="#the-signed-structuralparametric-angle" title="Permanent link">¶</a></h2>
 <p>Each model run is paired with a sibling that differs only in the structural
 axis under test (LoT vs HiT for the supply channel, TS04 vs TS72 for the
 temporal channel). The shift is measured as % of the C7-Base-median anchor
@@ -1433,13 +1495,24 @@ from the C7-Base-median anchor</strong>, and <strong>which direction it goes</st
 \]</div>
 <p>The angle is bounded, robust at <span class="arithmatex">\(|x|=0\)</span>, and has the readings:</p>
 <ul>
-<li><span class="arithmatex">\(|\theta| &gt; 45^\circ\)</span> → structural shift exceeds parametric distance from
-  anchor in magnitude (the cell is <strong>structurally dominant</strong>).</li>
+<li><span class="arithmatex">\(|\theta| \ge 26.57^\circ\)</span> → structural shift reaches at least half the
+  corresponding parametric shift in magnitude (the <strong>structural-rival
+  threshold</strong>, <span class="arithmatex">\(|S| \ge 0.5\,|P|\)</span>; this is the headline rivals
+  convention used in the manuscript).</li>
+<li><span class="arithmatex">\(|\theta| &gt; 45^\circ\)</span> → structural shift strictly exceeds the
+  parametric shift in magnitude (<strong>strict structural dominance</strong>,
+  <span class="arithmatex">\(|S| &gt; |P|\)</span>).</li>
 <li><span class="arithmatex">\(\theta &gt; 0\)</span> → structural shift is in the positive direction for that
   outcome (e.g., wind up, cost up).</li>
 <li><span class="arithmatex">\(\theta &lt; 0\)</span> → structural shift is in the negative direction.</li>
 <li><span class="arithmatex">\(\theta = 0\)</span> → no structural shift; the parametric-only landscape.</li>
 </ul>
+<p>"Dominance" is reserved here for the strict case <span class="arithmatex">\(|\theta| &gt; 45^\circ\)</span>;
+the broader <span class="arithmatex">\(|\theta| \ge 26.57^\circ\)</span> band is the "rival" range where
+the structural channel reaches a substantial fraction of the parametric
+channel without overpowering it. The two thresholds correspond to the
+<span class="arithmatex">\(k = 0.5\)</span> and <span class="arithmatex">\(k = 1.0\)</span> values defined in the manuscript's
+<a href="https://akanudia.github.io/vre_info_asymmetry/">Methods §3.7</a>.</p>
 <p>Per (outcome × climate × channel) cell, we summarise the within-cell θ
 distribution by median + p25–p75. The world figure (<a href="../world/">ED Fig 2</a>)
 layers a regional bracket on each cell: world median (filled dot), regional

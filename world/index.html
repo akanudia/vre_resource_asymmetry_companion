@@ -297,6 +297,44 @@
   
   
     <li class="md-tabs__item">
+      <a href="../code_and_reproducibility/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Code &amp; data
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../playground/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Playground
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
       <a href="../cite/" class="md-tabs__link">
         
   
@@ -586,8 +624,6 @@
       
         
       
-        
-      
     
     
     
@@ -725,10 +761,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#signed-structural-dominance-angle-saturation-sweep" class="md-nav__link">
+  <a href="#signed-structuralparametric-angle-saturation-sweep" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Signed structural dominance angle + saturation sweep
+        Signed structural–parametric angle + saturation sweep
       
     </span>
   </a>
@@ -1213,8 +1249,42 @@
 
               
             
-              
-                
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../code_and_reproducibility/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Code &amp; data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
   
   
   
@@ -1236,14 +1306,6 @@
   
 
       </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
     </li>
   
 
@@ -1324,10 +1386,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#signed-structural-dominance-angle-saturation-sweep" class="md-nav__link">
+  <a href="#signed-structuralparametric-angle-saturation-sweep" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Signed structural dominance angle + saturation sweep
+        Signed structural–parametric angle + saturation sweep
       
     </span>
   </a>
@@ -1395,7 +1457,7 @@
 <h1 id="world-aggregate">World aggregate<a class="headerlink" href="#world-aggregate" title="Permanent link">¶</a></h1>
 <p>This page reads the four world-level figures from the manuscript: the
 paired-shifts hero scatter (Fig 5), the world-vs-regional structural-shift
-diagnostic (Fig 6), the signed structural dominance angle with saturation
+diagnostic (Fig 6), the signed structural–parametric angle with saturation
 sweep and non-VRE capacity factor (ED Fig 2) and the climate-stratified
 saturation diagnostic (ED Fig 3). All four are computed from the 1,080-run
 controlled factorial described on the <a href="../methodology/">Methodology</a> page.</p>
@@ -1417,9 +1479,14 @@ climate ambition category (C1 ... C7).
 <p>For an interactive view that lets you filter on every scenario dimension and
 recolour the cloud by climate, cost, price, TS resolution, supply curve, or
 regional aggregation, open the <strong><a href="../playground/">Playground</a></strong>.</p>
-<p><strong>Reading.</strong> Points sitting above <span class="arithmatex">\(y = x\)</span> (or below <span class="arithmatex">\(y = -x\)</span>) are
-structurally dominated: the structural-axis shift exceeds the parametric
-distance from the anchor in magnitude. The supply channel (left column)
+<p><strong>Reading.</strong> Points sitting above <span class="arithmatex">\(y = x\)</span> (or below <span class="arithmatex">\(y = -x\)</span>) exhibit
+strict structural dominance: the structural-axis shift exceeds the
+parametric distance from the anchor in magnitude (<span class="arithmatex">\(|S| &gt; |P|\)</span>, equivalently
+<span class="arithmatex">\(|\theta| &gt; 45^\circ\)</span>). Points beyond the <span class="arithmatex">\(|y| \ge 0.5\,|x|\)</span> band satisfy
+the structural-rival threshold (<span class="arithmatex">\(|S| \ge 0.5\,|P|\)</span>, <span class="arithmatex">\(|\theta| \ge 26.6^\circ\)</span>);
+this is the headline rivals convention used in the manuscript and
+discussed on the <a href="../methodology/">Methodology</a> page.
+The supply channel (left column)
 produces a persistent windward shift, lowers electricity prices, and reduces
 emissions across nearly every scenario. Solar generation falls modestly
 because it loses to wind, not because the solar resource deteriorates.
@@ -1451,11 +1518,11 @@ regional shifts are large. Electricity price is the outcome where both
 channels propagate coherently with opposite signs (down on supply, up on
 temporal), making it the cleanest single-cell test of the channel
 asymmetry.</p>
-<h2 id="signed-structural-dominance-angle-saturation-sweep">Signed structural dominance angle + saturation sweep<a class="headerlink" href="#signed-structural-dominance-angle-saturation-sweep" title="Permanent link">¶</a></h2>
+<h2 id="signed-structuralparametric-angle-saturation-sweep">Signed structural–parametric angle + saturation sweep<a class="headerlink" href="#signed-structuralparametric-angle-saturation-sweep" title="Permanent link">¶</a></h2>
 <figure>
-<p><a href="../assets/figures/world/ed_fig2_magnitude_angle.png"><img alt="Signed structural dominance angle, world median + regional spread, with saturation sweep" loading="lazy" src="../assets/figures/world/ed_fig2_magnitude_angle.png"></a></p>
+<p><a href="../assets/figures/world/ed_fig2_magnitude_angle.png"><img alt="Signed structural–parametric angle, world median + regional spread, with saturation sweep" loading="lazy" src="../assets/figures/world/ed_fig2_magnitude_angle.png"></a></p>
 <figcaption>
-<p><strong>ED Fig 2 (manuscript).</strong> Signed structural-dominance diagnostic at world
+<p><strong>ED Fig 2 (manuscript).</strong> Signed structural–parametric angle at world
 aggregate, across six outcomes (cumulative wind, solar, average electricity
 price, <strong>non-VRE capacity factor</strong>, cumulative system cost, cumulative
 CO<span class="arithmatex">\(_2\)</span> emissions). For each (outcome × channel × fine-endpoint) cell, the
@@ -1564,17 +1631,17 @@ large structural shift, but their signs cancel at world aggregate.</p>
 <figure>
 <p><a href="../assets/figures/world/ed_fig3_saturation_by_climate.png"><img alt="Saturation analysis, climate-stratified" loading="lazy" src="../assets/figures/world/ed_fig3_saturation_by_climate.png"></a></p>
 <figcaption>
-<p><strong>ED Fig 3 (manuscript).</strong> The same signed structural-dominance diagnostic
-as ED Fig 2, stratified by AR6 climate ambition category (C1 1.5 °C
-low/no-overshoot through C7 above 2.5 °C). Each panel shows the
-world-aggregate median angle and regional-spread bracket for each
+<p><strong>ED Fig 3 (manuscript).</strong> The same signed structural–parametric angle
+diagnostic as ED Fig 2, stratified by AR6 climate ambition category
+(C1 1.5 °C low/no-overshoot through C7 above 2.5 °C). Each panel shows
+the world-aggregate median angle and regional-spread bracket for each
 (outcome × channel × fine-endpoint) cell.
 <a href="../assets/figures/world/ed_fig3_saturation_by_climate.pdf">Download PDF</a>.</p>
 </figcaption>
 </figure>
 <p><strong>Reading.</strong> The figure answers <em>"how much temporal resolution is enough?"</em>
 and the answer is <strong>diagnostic-specific</strong>: along the tested TS12 → TS72
-sweep, structural-dominance angles do not converge uniformly across
+sweep, structural–parametric angles do not converge uniformly across
 outcomes. Electricity prices, system cost and non-VRE utilisation continue
 shifting with finer temporal resolution; wind–solar shifts remain
 region- and regime-dependent; CO<span class="arithmatex">\(_2\)</span> effects concentrate in weaker-policy

@@ -297,6 +297,44 @@
   
   
     <li class="md-tabs__item">
+      <a href="../code_and_reproducibility/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Code &amp; data
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../playground/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Playground
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
       <a href="../cite/" class="md-tabs__link">
         
   
@@ -762,8 +800,6 @@
   
     
     
-      
-        
       
         
       
@@ -1277,8 +1313,42 @@
 
               
             
-              
-                
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../code_and_reproducibility/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Code &amp; data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
   
   
   
@@ -1300,14 +1370,6 @@
   
 
       </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
     </li>
   
 
@@ -1565,19 +1627,24 @@ page and its region-mapping table is released in Extended Data Table 1.</p>
 </tr>
 </tbody>
 </table>
-<p>The build script
-<a href="https://github.com/akanudia/vre_resource_asymmetry_companion/blob/main/scripts/build_structural_inputs.py"><code>build_structural_inputs.py</code></a>
-regenerates all five CSVs from the source pipeline outputs.</p>
+<p>All five CSVs are released as the pipeline's structural-axis outputs;
+see the <a href="../code_and_reproducibility/">Code &amp; data page</a> for the bundling
+context and the boundary between released analysis code and the
+proprietary model-generation pipeline.</p>
 <hr>
 <h2 id="supply-curve-detail">Supply-curve detail<a class="headerlink" href="#supply-curve-detail" title="Permanent link">¶</a></h2>
 <h3 id="what-lot-and-hit-represent">What LoT and HiT represent<a class="headerlink" href="#what-lot-and-hit-represent" title="Permanent link">¶</a></h3>
 <p>Within each active model region, renewable-resource gridcells are
-clustered into supply-curve bins. The bin count scales with the number
-of gridcells via an exponent <em>n</em>. The LoT configuration uses <em>n</em> = 0.2,
-producing 4–6 bins per R10 macro-region for wind onshore. The HiT
-configuration uses <em>n</em> = 0.45, producing 23–62 bins for the same
-regions. Both configurations use identical resource data, exclusion
-filters and aggregation rules; only the binning resolution changes.</p>
+clustered into supply-curve bins. LoT is the coarse endpoint;
+HiT is the fine endpoint. Both configurations use identical resource
+data, exclusion filters and aggregation rules — only the binning
+resolution changes. The released
+<a href="../assets/data/structural/supply_curve_bins_r10.csv">supply_curve_bins_r10.csv</a>
+quantifies the difference: in R70, LoT produces a median of 2 solar PV
+and 2 wind-onshore bins per country (range 2–5), while HiT produces a
+median of 12 solar PV and 10 wind-onshore bins per country (range 3–41).
+The two endpoints span the range of supply-curve resolutions typical of
+production global energy-system models.</p>
 <p>The effect is technology-asymmetric. Solar capacity factors are
 spatially smooth (within-region CV ≈ 0.07–0.11); adding bins reveals
 almost no additional quality variation. Wind capacity factors are
@@ -1730,11 +1797,12 @@ claim in the manuscript.</p>
 <h2 id="temporal-resolution">Temporal resolution<a class="headerlink" href="#temporal-resolution" title="Permanent link">¶</a></h2>
 <h3 id="timeslice-family-design">Timeslice family design<a class="headerlink" href="#timeslice-family-design" title="Permanent link">¶</a></h3>
 <p>The six temporal configurations (TS04–TS72) are generated from a
-single calendar-based partition family defined in the
-<code>base_ts_design</code> sheet of <code>kinesys_mappings.xlsx</code>. Each TS level maps
-calendar months (1–12) and clock hours (1–24) to a set of season
-codes (S1–S6) and time-of-day codes (H1–H8). The timeslice label for
-each (month, hour) is the concatenation of its season and ToD code.</p>
+single calendar-based partition family released as
+<a href="../assets/data/structural/timeslice_definitions_all_levels.csv">timeslice_definitions_all_levels.csv</a>.
+Each TS level maps calendar months (1–12) and clock hours (1–24) to a
+set of season codes (S1–S6) and time-of-day codes (H1–H8). The
+timeslice label for each (month, hour) is the concatenation of its
+season and ToD code.</p>
 <p>The partition family was selected after a systematic evaluation of six
 calendar templates against an unconstrained k-means clustering
 benchmark, using ERA5-derived demand and Atlite-derived capacity-factor
