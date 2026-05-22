@@ -25,13 +25,14 @@ companion to the figures hosted on this site.
 
 This study uses **VerveStacks-G** (VS-G), the global energy-system
 modelling engine developed at KanORS-EMR. VS-G extends the original
-country-level VerveStacks pipeline to global, multi-region modelling
+country-level [VerveStacks](https://vervestacks.readthedocs.io/en/latest/index.html) pipeline to global, multi-region modelling
 and is used here in **power-sector-isolated** configuration. The
 pipeline ingests a single shared data repository covering 155+ countries
 (atmospheric resources, technology costs, fuel prices, demand drivers,
 climate-policy trajectories) and constructs the structural variants of
-the model; VEDA manages the parametric scenario envelope on each
-variant, producing the **1,080-run experimental archive**:
+the model; [VEDA](https://kanors-emr.github.io/Veda-documentation/)
+manages the parametric scenario envelope on each variant, producing
+the **1,080-run experimental archive**:
 
 - **Parametric scenarios** vary external assumptions: 5 climate ambition
   levels (C1, C2, C3, C4, C7, corresponding to carbon-price trajectories) ×
@@ -127,7 +128,4 @@ signals are cancelling at world aggregate.
 ## Reading the figures on this site
 
 Both the paired-shifts hero scatter (Fig 5) and the signed-θ diagnostic
-(ED Fig 2) use the same axes and sign conventions across world and per-region
-versions. The paired-shifts scatter shows raw (parametric, structural) point
-pairs; the signed-θ figure compresses each cell to one angle. Use them
-together: the scatter shows the point cloud
+(ED Fig 2) use the same axes and si

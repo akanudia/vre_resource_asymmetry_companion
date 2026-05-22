@@ -10,7 +10,7 @@
     record. No quantitative claims appear here; the page is a
     transparent inventory of inputs.
 
-This page documents all external data sources ingested by **VerveStacks-G** (VS-G), the KanORS-EMR global
+This page documents all external data sources ingested by **[VerveStacks-G](https://vervestacks.readthedocs.io/en/latest/index.html)** (VS-G), the KanORS-EMR global
 energy-system modelling engine, to produce the 1,080-run experimental
 archive. Sources are
 organised by function. For each, the version used in this study,
