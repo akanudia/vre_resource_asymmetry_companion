@@ -23,12 +23,15 @@ companion to the figures hosted on this site.
 
 ## The 1,080-instance controlled factorial
 
-KiNESYS is the modular VEDA–TIMES data-to-model pipeline and the
-**1,080-run global model archive** it produces, described in the
-manuscript Methods. The pipeline ingests a single shared data repository
-covering 155+ countries (atmospheric resources, technology costs, fuel
-prices, demand drivers, climate-policy trajectories) and emits 1,080
-model instances end-to-end:
+This study uses **VerveStacks-G** (VS-G), the global energy-system
+modelling engine developed at KanORS-EMR. VS-G extends the original
+country-level VerveStacks pipeline to global, multi-region modelling
+and is used here in **power-sector-isolated** configuration. The
+pipeline ingests a single shared data repository covering 155+ countries
+(atmospheric resources, technology costs, fuel prices, demand drivers,
+climate-policy trajectories) and constructs the structural variants of
+the model; VEDA manages the parametric scenario envelope on each
+variant, producing the **1,080-run experimental archive**:
 
 - **Parametric scenarios** vary external assumptions: 5 climate ambition
   levels (C1, C2, C3, C4, C7, corresponding to carbon-price trajectories) ×

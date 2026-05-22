@@ -10,8 +10,9 @@
     record. No quantitative claims appear here; the page is a
     transparent inventory of inputs.
 
-This page documents all external data sources ingested by the
-KiNESYS pipeline to produce the 1,080-run archive. Sources are
+This page documents all external data sources ingested by **VerveStacks-G** (VS-G), the KanORS-EMR global
+energy-system modelling engine, to produce the 1,080-run experimental
+archive. Sources are
 organised by function. For each, the version used in this study,
 the provider, the content consumed, and the pipeline stage are
 listed.
@@ -56,7 +57,7 @@ existing generation fleet. Each record covers a single power unit with
 plant name, country, fuel type, generating technology, capacity (MW),
 operating status, commissioning year, and coordinates. The pipeline
 filters to operating and mothballed units, applies technology
-mappings to KiNESYS technology codes, and resolves captive/CHP
+mappings to VS-G technology codes, and resolves captive/CHP
 flags using the Platts comparison (below). VRE units are linked to
 the nearest REZoning grid cells via a pre-computed coordinate-match
 table; thermal units are assigned to model regions via the
@@ -165,7 +166,7 @@ REZoning provides the **spatial** layer of the renewable resource
 representation: a global grid of ~50 × 50 km cells with estimated
 installable potential (MW), land exclusion flags, and a
 pre-computed LCOE ordering. Three technology tracks are used:
-solar PV, wind onshore, wind offshore. In the KiNESYS pipeline,
+solar PV, wind onshore, wind offshore. In the VS-G pipeline,
 each cell is further enhanced with Atlite-derived capacity factors
 (see below), producing a combined resource dataset per cell that
 carries both the potential size and the temporal CF profile. The
@@ -401,7 +402,7 @@ Moderate and Advanced. Used in two roles:
 
 **Provider:** ETSAP (Energy Technology Systems Analysis Programme);
 TIAM (TIMES Integrated Assessment Model)  
-**Access:** Part of the KiNESYS framework; not publicly redistributed
+**Access:** Part of the proprietary VS-G framework (KanORS-EMR); not publicly redistributed
 as a standalone file.
 
 Geological CO₂ storage potentials (Gt CO₂) and pipeline transport
@@ -412,7 +413,7 @@ model regions using weights derived from fossil fuel production
 volumes (IEA balances), land area (World Bank WDI), and coastline
 length proxy.
 
-**File:** KiNESYS framework `etsap-tiam storage potentials and costs.xlsx`
+**File:** VS-G framework workbook `etsap-tiam storage potentials and costs.xlsx`
 
 **Used in:** `existing_fleet/co2_storage_from_etsap_tiam.py`
 
@@ -484,11 +485,11 @@ using the build scripts released alongside the manuscript.
 actual load (Wu Haochi), India actual load, Atlite grid-cell
 parquet files, REZoning Atlite-enhanced CSVs.
 
-**Part of the KiNESYS framework (available on request):** ETSAP-TIAM
-CO₂ storage potentials, TIAM_RegionMap, KiNESYS mappings workbook.
+**Part of the proprietary VS-G framework (available on request from
+KanORS-EMR):** ETSAP-TIAM CO₂ storage potentials, TIAM_RegionMap, VS-G
+mappings workbook.
 
 The [Inputs page](inputs.md) releases the four parametric input
 layers (carbon prices, fuel prices, electricity demand, technology
 costs) in their pipeline-ready form under CC-BY 4.0.
-The [Structural inputs page](structural_inputs.md) releases the
-supply-curve bin tables and timeslice partition definitions.
+The [Structural inputs page](structural_i

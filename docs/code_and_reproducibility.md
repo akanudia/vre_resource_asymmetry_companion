@@ -30,6 +30,16 @@ archive remains internal.
 | Companion-site CSV sidecars (figure-level data) | [Data tables page](data.md) | CSV | CC-BY 4.0 |
 | Companion-site figures | this site | PNG + PDF | CC-BY 4.0 |
 
+!!! note "Compact input footprint"
+    The four base TIMES models that VS-G builds for the
+    R10/R70 × LoT/HiT structural-axis combinations are each fully
+    specified by 4–5 Excel input files. The entire 1,080-run
+    experimental archive is therefore parameterised by ~20 input
+    spreadsheets in total — a deliberately economical surface designed
+    to keep the controlled-factorial design auditable end-to-end.
+    VEDA then orchestrates the 45-scenario parametric envelope on top
+    of those base models.
+
 ### Code
 
 All analysis scripts that produce the figures and statistics in the
@@ -71,7 +81,7 @@ Atlite). None of them call into the model-generation pipeline.
 | `export_quant_headline.py` | `quant_headline_long.csv`, summary CSVs | Build the long-form paired-comparison table that feeds the rivals/dominance headline numbers (30% / 16%) and the dominance-heatmap figures. |
 | `fig_paired_shifts_scatter_world_vs_base.py` | Fig 5 (hero), regional companions | Paired structural-vs-parametric scatter for the five Fig 5 outcomes, at world aggregate and for each R10 region. |
 | `fig_structural_shift_world_vs_regional.py` | Fig 6 | World-row + 10 regional rows of within-cell structural-shift distributions, per outcome × channel. |
-| `fig_validation.py` | Fig 7 | Benchmark of KiNESYS R70 generation by technology against the AR6 ensemble at 2035 and 2050. |
+| `fig_validation.py` | Fig 7 | Benchmark of VS-G R70 generation by technology against the AR6 ensemble at 2035 and 2050. |
 | `make_ed_regional_figures.py` | Extended Data, 10× regional figure pairs | Driver that wraps the world-vs-base scatter and the angle diagnostic to emit one figure set per R10 region. |
 
 ### Signed structural-parametric angle diagnostics (Extended Data)
