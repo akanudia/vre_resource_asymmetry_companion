@@ -60,22 +60,22 @@ under finer temporal resolution even though the supply channel ignores it.
 
 **Reading.**
 
-- **Supply Wind C7 at −30°** vs world +69°: the **largest single departure
+- **Supply Wind C7 at −31°** vs world +69°: the **largest single departure
   on the entire site at 99°**. World sits at the high end of wind
   saturation; the Middle East sits in *negative* territory. Onshore wind
   isn't attractive enough in most Middle East countries for supply
   refinement to favour it, and at fossil-dominant policy the system
   doesn't build the wind that LoT-vs-HiT comparisons would normally
   expose.
-- **Supply Cost C7 at −30°** vs world +31°: cost goes *down* under supply
+- **Supply Cost C7 at −29°** vs world +28°: cost goes *down* under supply
   refinement at C7 in the Middle East, opposite to world. With wind out of
   contention, supply refinement reduces system cost by exposing high-CF
   solar tranches and leaving the cheap-fossil baseline alone.
-- **Temporal Wind C7 at +45°** vs world −10°: finer timeslicing favours
+- **Temporal Wind C7 at +45°** vs world −9°: finer timeslicing favours
   wind in the Middle East — Oman's offshore wind seasonal aligns with
   peak cooling demand, and the optimiser captures that value once
   TS04→TS72 makes it visible.
-- **Supply Emissions C7 at −12°** vs world −52°: the emissions reduction
+- **Supply Emissions C7 at −12°** vs world −51°: the emissions reduction
   channel is muted; the structural channel can't cut emissions much when
   wind is essentially absent from the marginal build set.
 
@@ -83,14 +83,17 @@ under finer temporal resolution even though the supply channel ignores it.
 
 | Channel | Outcome | Climate | World θ | Middle East θ | Departure |
 |---|---|---|---:|---:|---:|
-| Supply | Wind | C7 | +69° | −30° | **−99°** |
-| Supply | Cost | C7 | +31° | −30° | **−60°** |
-| Temporal | Wind | C7 | −10° | +45° | **+55°** |
-| Temporal | Cost | C4 | +48° | +4° | **−43°** |
-| Supply | Emissions | C7 | −52° | −12° | **+40°** |
-| Supply | Solar | C4 | −34° | +5° | **+39°** |
-| Temporal | Cost | C7 | +50° | +14° | **−36°** |
-| Supply | Wind | C4 | +33° | +5° | **−28°** |
+| Supply | Wind | C7 | +69° | -31° | **-100°** |
+| Supply | Cost | C7 | +28° | -29° | **-57°** |
+| Temporal | Wind | C7 | -9° | +45° | **+54°** |
+| Temporal | Cost | C4 | +54° | +5° | **-49°** |
+| Supply | Non-VRE CF | C7 | -57° | -19° | **+38°** |
+| Supply | Solar | C4 | -33° | +5° | **+37°** |
+| Temporal | Non-VRE CF | C3 | -29° | -64° | **-35°** |
+| Temporal | Cost | C7 | +55° | +21° | **-34°** |
+| Temporal | Non-VRE CF | C1 | -37° | -67° | **-30°** |
+| Supply | Wind | C4 | +30° | +5° | **-26°** |
+| Temporal | Non-VRE CF | C2 | -32° | -57° | **-25°** |
 
 The Middle East is the **canonical "supply channel rejects wind" region**.
 Under fossil-dominant policy the world story is "wind saturation"; the

@@ -99,18 +99,48 @@ utilisation of the non-VRE fleet and raises its per-unit cost. These two
 effects oppose on system cost — which is why the supply-channel cost
 direction is *mixed* across climate regimes rather than uniformly negative.
 
-**Reading at world aggregate.** Headline cells:
+**Reading at world aggregate.** Headline cells (refreshed against the 2030--2050 horizon outputs):
 
 | Cell | World θ | Regional range | Reading |
 |---|---:|---|---|
-| Wind C7 supply | +69° | −30° to +90° | saturation; 7 of 10 regions at +88°+ |
-| Solar C7 supply | **−5°** | **−74° to +74°** | **the cancellation poster cell** |
-| Solar C7 temporal | −63° | −85° to +21° | strong directional consensus; world reads the central tendency |
-| Price C7 supply | −29° | −69° to −8° | uniformly negative across all 10 regions (consumer-facing cost-channel signal) |
-| Price C7 temporal | +52° | +15° to +67° | uniformly positive across all 10 regions (consumer-facing integration cost) |
-| Cost C7 supply | +31° | −45° to +59° | sign disagreement across regions |
-| Cost C7 temporal | +50° | +2° to +64° | uniformly positive across all 10 regions |
-| Emissions C7 supply | −52° | −61° to −12° | tight bracket; world at the strong end |
+| Wind C7 supply | +69° | −31° to +90° | saturation; the upper-end regions are pinned at +90° |
+| Solar C7 supply | **−6°** | **−68° to +74°** | **the cancellation poster cell** — world median sits near zero while regional medians span the full sign range |
+| Solar C7 temporal | −65° | −86° to +24° | strong directional consensus; world reads the central tendency |
+| Price C7 supply | −30° | −68° to −7° | uniformly negative across all 10 regions (consumer-facing cost-channel signal) |
+| Price C7 temporal | +55° | +19° to +67° | uniformly positive across all 10 regions (consumer-facing integration cost) |
+| Cost C7 supply | +28° | −43° to +57° | sign disagreement across regions |
+| Cost C7 temporal | +55° | +1° to +73° | almost all regions positive |
+| Emissions C7 supply | −51° | −59° to −12° | tight bracket; world at the strong end |
+| Emissions C7 temporal | +39° | −4° to +69° | predominantly positive across regions |
+| Non-VRE CF C7 supply | −57° | −68° to −19° | uniform regional consensus on lower utilisation |
+| Non-VRE CF C7 temporal | −72° | −88° to −47° | the strongest dominance signal in the figure |
+
+### The rivals headline — how often is structural ≥ parametric?
+
+The headline numbers from Methods §3.7 of the manuscript, recomputed
+against R10 regional paired outcome comparisons under mitigation regimes
+(C1–C4) across the six outcomes:
+
+| Threshold | $|θ|$ ≥ | $|S|$ ≥ | Share of cells | Reading |
+|---|---:|---:|---:|---|
+| Rival quarter | 14.0° | 0.25 $|P|$ | **50 %** | structural reaches a quarter of parametric |
+| **Rival half (headline)** | **26.6°** | **0.5 $|P|$** | **30 %** | **headline rivals threshold** |
+| Rival three-quarter | 36.9° | 0.75 $|P|$ | **21 %** | structural reaches three-quarters of parametric |
+| **Strict dominance** | **45.0°** | $|P|$ | **16 %** | **structural exceeds parametric outright** |
+
+Across 30,348 paired comparisons (= 10 R10 regions × 6 outcomes × 2
+channels × 36 C1–C4 scenarios × 6/2 paired-axis multiplicity),
+representation-induced shifts rival the parametric channel in **30 %** of
+cells and strictly dominate it in **16 %**. The result is not confined
+to outliers: structural representation choices frequently enter the same
+magnitude range as scenario assumptions.
+
+The full per-outcome × climate × channel distribution at world aggregate
+is released as
+[Extended Data Table 2 in the manuscript](https://akanudia.github.io/vre_info_asymmetry/)
+and as the
+[ed_table_structural_distribution.csv](https://akanudia.github.io/vre_info_asymmetry/figures/ed_table_structural_distribution.csv)
+data file (60 rows × 11 columns).
 
 ## What the regional spread tells you
 
@@ -130,9 +160,59 @@ The width of the regional bracket in each cell is the diagnostic for the
 
 The implication is that **regional-scale validation matters even when the
 world-scale story looks unremarkable**. A reader who sees Solar C7 supply
-sitting at world θ ≈ −5° might conclude "no structural effect". The
-−74° to +74° regional range tells the opposite story: every region has a
+sitting at world θ ≈ −6° might conclude "no structural effect". The
+−68° to +74° regional range tells the opposite story: every region has a
 large structural shift, but their signs cancel at world aggregate.
+
+## Where each region sits on the angle scale
+
+The world-aggregate ED Fig 2 above collapses the regional spread into a
+bracket on each cell. The two figures below decompose that bracket back
+into its ten regional medians — one figure per channel, three rows
+(C1, C3, C4) × three columns (wind generation, solar generation,
+electricity price) × ten R10 macro-regions per panel.
+
+[![Signed structural–parametric angle by region, supply-curve refinement](assets/figures/world/ed_fig_dominance_heatmap_supply.png){ loading=lazy }](assets/figures/world/ed_fig_dominance_heatmap_supply.png)
+
+/// caption
+**Signed structural–parametric angle by region, supply-curve refinement
+(LoT → HiT).** Per (region × climate × outcome) cell, the filled circle
+is the regional median angle and the vertical line is the 5--95th
+percentile range. Horizontal reference lines mark $\theta = 0^\circ$
+(no structural component) and $|\theta| = 45^\circ$ (strict structural
+dominance, $|S| = |P|$); cells beyond the structural-rival threshold
+$|\theta| \ge 26.6^\circ$ ($|S| \ge 0.5 |P|$) are the broader rivals
+convention used in the headline numbers above. Source:
+[ed_fig_dominance_heatmap_supply.pdf](assets/figures/world/ed_fig_dominance_heatmap_supply.pdf).
+///
+
+[![Signed structural–parametric angle by region, temporal refinement](assets/figures/world/ed_fig_dominance_heatmap_temporal.png){ loading=lazy }](assets/figures/world/ed_fig_dominance_heatmap_temporal.png)
+
+/// caption
+**Signed structural–parametric angle by region, temporal refinement
+(TS04 → TS72).** All conventions for rows, columns, region order, dots,
+whiskers and reference lines are identical to the supply figure above.
+Source:
+[ed_fig_dominance_heatmap_temporal.pdf](assets/figures/world/ed_fig_dominance_heatmap_temporal.pdf).
+///
+
+**Reading the two figures together.** The supply-curve channel (top
+figure) produces a coherent windward shift across most regions — the
+wind column sits predominantly above $0^\circ$ and the solar column
+predominantly below — with the strict-dominance line ($|\theta| =
+45^\circ$) crossed in several India+/Latin America/Pac OECD cells. The
+temporal channel (bottom figure) produces region-specific reallocations
+on the wind–solar balance: the wind and solar columns straddle zero in
+most climates, the channel-asymmetric global aggregation finding from
+Fig 6 made visible at the regional grain. The electricity-price column
+is the cleanest sign-consistent diagnostic in both channels: supply
+refinement lowers prices across all regions, temporal refinement raises
+them across all regions.
+
+The pair of figures includes only three of the six outcomes for visual
+density; NPV system cost and cumulative CO$_2$ distributions for the
+same (region × climate × channel) buckets are released in the
+[ED structural-distribution table](https://akanudia.github.io/vre_info_asymmetry/figures/ed_table_structural_distribution.csv).
 
 ## Saturation: how much temporal resolution is enough?
 

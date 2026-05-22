@@ -86,22 +86,23 @@ opposite directions in nearly every climate.
 
 ## Cells where Reforming Economies departs from world
 
-| Channel | Outcome | Climate | World θ | Reforming Economies θ | Departure |
+| Channel | Outcome | Climate | World θ | Ref Econ θ | Departure |
 |---|---|---|---:|---:|---:|
-| Supply | Solar | C4 | −34° | +61° | **+95°** |
-| Supply | Solar | C7 | −5° | +74° | **+79°** |
-| Supply | Solar | C2 | −9° | +64° | **+73°** |
-| Supply | Solar | C3 | −13° | +54° | **+66°** |
-| Supply | Solar | C1 | −9° | +41° | **+50°** |
-| Temporal | Solar | C2 | +12° | −33° | **−46°** |
-| Supply | Wind | C7 | +69° | +28° | **−42°** |
-| Temporal | Solar | C1 | +18° | −23° | **−40°** |
-| Temporal | Price | C7 | +52° | +15° | **−37°** |
-| Temporal | Solar | C3 | +15° | −21° | **−36°** |
-| Temporal | Cost | C7 | +50° | +15° | **−35°** |
-| Temporal | Cost | C4 | +48° | +21° | **−27°** |
-| Temporal | Solar | C4 | −8° | −34° | **−26°** |
-| Supply | Price | C7 | −29° | −8° | **+21°** |
+| Supply | Solar | C4 | -33° | +61° | **+94°** |
+| Supply | Solar | C7 | -6° | +74° | **+80°** |
+| Supply | Solar | C2 | -9° | +64° | **+73°** |
+| Supply | Solar | C3 | -12° | +53° | **+66°** |
+| Supply | Solar | C1 | -8° | +41° | **+49°** |
+| Temporal | Solar | C2 | +13° | -33° | **-47°** |
+| Supply | Wind | C7 | +69° | +28° | **-42°** |
+| Temporal | Cost | C7 | +55° | +14° | **-41°** |
+| Temporal | Solar | C1 | +19° | -23° | **-41°** |
+| Temporal | Solar | C3 | +17° | -21° | **-38°** |
+| Temporal | Cost | C4 | +54° | +17° | **-38°** |
+| Supply | Non-VRE CF | C7 | -57° | -20° | **+36°** |
+| Temporal | Price | C7 | +55° | +19° | **-36°** |
+| Temporal | Solar | C4 | -5° | -34° | **-29°** |
+| Supply | Price | C7 | -30° | -8° | **+22°** |
 
 The headline reading is that **all 5 climates show large positive
 departures on Supply Solar** — Reforming Economies is the cleanest

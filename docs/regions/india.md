@@ -91,21 +91,21 @@ world aggregate $\theta$ on the same (channel × outcome × climate) cell:
 
 | Channel | Outcome | Climate | World θ | India+ θ | Departure |
 |---|---|---|---:|---:|---:|
-| Temporal | Solar | C7 | −63° | +21° | **+84°** |
-| Supply | Cost | C3 | −3° | +50° | **+53°** |
-| Supply | Wind | C4 | +33° | +83° | **+51°** |
-| Temporal | Solar | C4 | −8° | +33° | **+41°** |
-| Supply | Wind | C3 | +22° | +62° | **+40°** |
-| Temporal | Emissions | C7 | +41° | +10° | **−31°** |
-| Supply | Solar | C4 | −34° | −64° | **−30°** |
-| Supply | Emissions | C7 | −52° | −24° | **+29°** |
-| Supply | Cost | C4 | +8° | +31° | **+23°** |
-| Temporal | Solar | C3 | +15° | +37° | **+22°** |
-| Temporal | Cost | C4 | +48° | +26° | **−22°** |
+| Temporal | Solar | C7 | -65° | +24° | **+89°** |
+| Supply | Wind | C4 | +30° | +83° | **+53°** |
+| Supply | Cost | C3 | -3° | +44° | **+47°** |
+| Temporal | Solar | C4 | -5° | +36° | **+41°** |
+| Supply | Wind | C3 | +21° | +61° | **+40°** |
+| Supply | Solar | C4 | -33° | -66° | **-33°** |
+| Temporal | Non-VRE CF | C2 | -32° | -56° | **-24°** |
+| Temporal | Non-VRE CF | C1 | -37° | -61° | **-24°** |
+| Supply | Cost | C4 | +6° | +29° | **+23°** |
+| Temporal | Cost | C4 | +54° | +32° | **-22°** |
+| Temporal | Solar | C3 | +17° | +39° | **+22°** |
 
-The most striking departure is **Temporal Solar C7** at +84°: world sits at
-−63° (strong directional consensus that finer timeslices disadvantage solar
-under fossil-dominant policy), but India sits at +21° — *positive*. India's
+The most striking departure is **Temporal Solar C7** at +89°: world sits at
+−65° (strong directional consensus that finer timeslices disadvantage solar
+under fossil-dominant policy), but India sits at +24° — *positive*. India's
 cooling-monsoon climate gives solar a different value profile than the
 global average; under fossil-dominant policy the structural-channel signal
 flips sign relative to the world story. This is the kind of region-specific
@@ -126,4 +126,4 @@ C1/C2/C3/C4/C7 or `POOL`; `n` is the number of paired comparisons in the cell.
 
 - [World aggregate](../world.md) — where India's cells sit in the regional bracket
 - [Methodology](../methodology.md) — for the θ definition and the experimental design
-- [Gallery](gallery.md) — all 10 R10 regions' figures side by side
+- [Gallery](gallery.

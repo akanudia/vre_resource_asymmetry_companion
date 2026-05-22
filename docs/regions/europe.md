@@ -72,20 +72,18 @@ in degrees. Median (dot) ± p25–p75 (whiskers).
 
 | Channel | Outcome | Climate | World θ | Europe θ | Departure |
 |---|---|---|---:|---:|---:|
-| Temporal | Solar | C1 | +18° | −52° | **−70°** |
-| Temporal | Solar | C2 | +12° | −49° | **−62°** |
-| Temporal | Solar | C3 | +15° | −30° | **−45°** |
-| Supply | Solar | C7 | −5° | −48° | **−43°** |
-| Supply | Solar | C1 | −9° | −47° | **−38°** |
-| Temporal | Cost | C4 | +48° | +11° | **−37°** |
-| Supply | Solar | C2 | −9° | −42° | **−33°** |
-| Temporal | Wind | C7 | −10° | +23° | **+33°** |
-| Temporal | Solar | C4 | −8° | −36° | **−28°** |
-| Temporal | Emissions | C7 | +41° | +20° | **−22°** |
-| Supply | Wind | C4 | +33° | +12° | **−20°** |
+| Temporal | Solar | C1 | +19° | -55° | **-73°** |
+| Temporal | Solar | C2 | +13° | -53° | **-67°** |
+| Temporal | Solar | C3 | +17° | -30° | **-47°** |
+| Temporal | Cost | C4 | +54° | +12° | **-43°** |
+| Supply | Solar | C7 | -6° | -46° | **-40°** |
+| Supply | Solar | C2 | -9° | -44° | **-36°** |
+| Temporal | Wind | C7 | -9° | +25° | **+34°** |
+| Supply | Solar | C1 | -8° | -41° | **-33°** |
+| Temporal | Solar | C4 | -5° | -36° | **-31°** |
 
-The headline departure is **Temporal Solar C1 at −70°**: Europe is at −52°
-while world is at +18°. This single cell encapsulates the resource-asymmetry
+The headline departure is **Temporal Solar C1 at −74°**: Europe is at −55°
+while world is at +19°. This single cell encapsulates the resource-asymmetry
 finding for the heating-driven temperate group: under the strictest climate
 ambition, finer timeslicing recognises that European solar's peak-output
 season has minimal demand value, and reallocates generation share toward

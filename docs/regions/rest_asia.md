@@ -71,32 +71,38 @@ high-CF coastal tail that LoT averaging hides.
   optimiser builds the available potential to its ceiling.
 - **Supply Wind C7 at +90°**: full saturation. The cell sits at the upper
   bound of the diagnostic.
-- **Temporal Wind C3 at +33°** vs world −1°: finer timeslicing also
-  favours wind at intermediate climate ambition — the ITCZ-driven
-  seasonal wind signal carries enough value-of-alignment for the
-  temporal channel to pick it up.
-- **Supply Cost C7 at +52°** vs world +31°: cost rises more aggressively
-  under supply refinement in Rest of Asia than at world, because the
-  resource exposure pulls the system rapidly toward (more expensive)
-  wind-and-storage from a (cheaper) cheap-fossil baseline at C7.
+- **Temporal Wind C3 at −36°** vs world −1°: finer timeslicing pulls wind
+  *down* sharply in Rest of Asia at intermediate climate ambition, the
+  opposite of the (essentially zero) world signal. The ITCZ-driven
+  seasonal wind signal misaligns with demand seasonality in many of the
+  region's countries, so exposing intra-year variability via finer
+  timeslices makes wind look less valuable to the optimiser. Same
+  mechanism applies at C1, C2 and C4 — wind is systematically
+  disadvantaged by temporal refinement across the mitigation regimes.
+- **Supply Cost C7 at +5°** vs world +28°: cost barely shifts in Rest
+  of Asia under fossil-dominant policy, well below world. The supply-
+  curve channel does its work on wind generation (saturating at +90°)
+  without flowing through to large system-cost changes — the additional
+  wind comes in at low cost from previously-hidden tranches.
 
 ## Cells where Rest of Asia departs from world
 
-| Channel | Outcome | Climate | World θ | Rest of Asia θ | Departure |
+| Channel | Outcome | Climate | World θ | Rest Asia θ | Departure |
 |---|---|---|---:|---:|---:|
-| Supply | Wind | C3 | +22° | +88° | **+66°** |
-| Supply | Wind | C2 | +20° | +86° | **+66°** |
-| Supply | Wind | C4 | +33° | +90° | **+57°** |
-| Temporal | Wind | C4 | −3° | −52° | **−49°** |
-| Supply | Wind | C1 | +17° | +65° | **+48°** |
-| Temporal | Cost | C4 | +48° | +4° | **−44°** |
-| Supply | Emissions | C7 | −52° | −17° | **+35°** |
-| Temporal | Wind | C3 | −1° | −36° | **−35°** |
-| Temporal | Wind | C7 | −10° | −43° | **−33°** |
-| Temporal | Wind | C2 | +1° | −30° | **−31°** |
-| Temporal | Wind | C1 | +1° | −29° | **−30°** |
-| Supply | Solar | C4 | −34° | −6° | **+29°** |
-| Supply | Price | C7 | −29° | −8° | **+22°** |
+| Supply | Wind | C3 | +21° | +88° | **+67°** |
+| Supply | Wind | C2 | +19° | +85° | **+67°** |
+| Temporal | Wind | C7 | -9° | -72° | **-63°** |
+| Supply | Wind | C4 | +30° | +90° | **+60°** |
+| Temporal | Cost | C4 | +54° | +5° | **-50°** |
+| Temporal | Wind | C4 | -3° | -52° | **-49°** |
+| Supply | Wind | C1 | +16° | +65° | **+49°** |
+| Temporal | Wind | C3 | -1° | -36° | **-34°** |
+| Temporal | Wind | C2 | +1° | -30° | **-31°** |
+| Temporal | Wind | C1 | +2° | -29° | **-30°** |
+| Supply | Non-VRE CF | C7 | -57° | -29° | **+27°** |
+| Supply | Solar | C4 | -33° | -8° | **+25°** |
+| Supply | Price | C7 | -30° | -7° | **+23°** |
+| Supply | Cost | C7 | +28° | +5° | **-23°** |
 | Supply | Wind | C7 | +69° | +90° | **+21°** |
 
 The headline reading is **wind saturation across every climate**: Rest of

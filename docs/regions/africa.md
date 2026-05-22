@@ -80,13 +80,15 @@ world aggregate $\theta$ on the same (channel × outcome × climate) cell:
 
 | Channel | Outcome | Climate | World θ | Africa θ | Departure |
 |---|---|---|---:|---:|---:|
-| Temporal | Cost | C7 | +50° | +2° | **−48°** |
-| Supply | Solar | C7 | −5° | +31° | **+36°** |
-| Temporal | Cost | C4 | +48° | +14° | **−34°** |
-| Supply | Solar | C3 | −13° | −43° | **−30°** |
-| Supply | Wind | C4 | +33° | +62° | **+29°** |
-| Supply | Cost | C7 | +31° | +59° | **+28°** |
-| Temporal | Solar | C2 | +12° | +40° | **+27°** |
+| Temporal | Cost | C7 | +55° | +1° | **-55°** |
+| Temporal | Cost | C4 | +54° | +15° | **-40°** |
+| Supply | Solar | C7 | -6° | +31° | **+37°** |
+| Supply | Solar | C3 | -12° | -45° | **-33°** |
+| Temporal | Solar | C2 | +13° | +44° | **+31°** |
+| Supply | Wind | C4 | +30° | +60° | **+30°** |
+| Supply | Cost | C7 | +28° | +57° | **+29°** |
+| Temporal | Solar | C1 | +19° | +47° | **+28°** |
+| Temporal | Non-VRE CF | C1 | -37° | -10° | **+27°** |
 | Supply | Wind | C7 | +69° | +90° | **+21°** |
 
 The most striking departure is **Temporal Cost C7** at −48°: world sits at

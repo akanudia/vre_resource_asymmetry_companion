@@ -63,7 +63,7 @@ in degrees. Median (dot) ± p25–p75 (whiskers).
   policy, finer timeslices favour solar in China — the temporal-value
   signal redirects from wind (which has weak demand alignment) to solar
   (which has a clearer daytime-cooling overlap in southern provinces).
-- **Temporal Cost C3 at +65°** vs world +24°: cost goes up more aggressively
+- **Temporal Cost C3 at +64°** vs world +26°: cost goes up more aggressively
   under finer timeslicing in China. The monsoon-damped winter wind leaves
   less low-cost generation visible to the coarse-TS optimiser; finer TS
   exposes the mismatch and forces a costlier substitution.
@@ -76,14 +76,14 @@ in degrees. Median (dot) ± p25–p75 (whiskers).
 
 | Channel | Outcome | Climate | World θ | China+ θ | Departure |
 |---|---|---|---:|---:|---:|
-| Temporal | Solar | C4 | −8° | +39° | **+47°** |
-| Temporal | Cost | C3 | +24° | +65° | **+41°** |
-| Supply | Solar | C7 | −5° | +34° | **+39°** |
-| Temporal | Solar | C1 | +18° | +49° | **+31°** |
-| Temporal | Wind | C7 | −10° | −38° | **−28°** |
-| Temporal | Cost | C1 | +17° | +40° | **+23°** |
-| Supply | Solar | C4 | −34° | −13° | **+21°** |
-| Supply | Wind | C7 | +69° | +90° | **+20°** |
+| Temporal | Solar | C4 | -5° | +39° | **+44°** |
+| Supply | Solar | C7 | -6° | +34° | **+40°** |
+| Temporal | Cost | C3 | +26° | +64° | **+38°** |
+| Temporal | Solar | C1 | +19° | +50° | **+31°** |
+| Temporal | Wind | C7 | -9° | -38° | **-30°** |
+| Temporal | Cost | C1 | +17° | +39° | **+22°** |
+| Supply | Wind | C7 | +69° | +90° | **+21°** |
+| Supply | Solar | C4 | -33° | -13° | **+20°** |
 
 The headline reading is that **China's temporal channel is consistently
 more positive than world's across both Solar and Cost outcomes**. The

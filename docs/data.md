@@ -43,6 +43,34 @@ additionally has `channel` (`supply` or `temporal`), `world_p50`,
 | Reforming Economies | [supply](assets/data/regions/ref_econ/magnitude_angle_ref_econ_supply.csv) | [temporal](assets/data/regions/ref_econ/magnitude_angle_ref_econ_temporal.csv) |
 | Rest of Asia | [supply](assets/data/regions/rest_asia/magnitude_angle_rest_asia_supply.csv) | [temporal](assets/data/regions/rest_asia/magnitude_angle_rest_asia_temporal.csv) |
 
+## Structural-distribution table (six outcomes × climate × channel × region)
+
+The Extended Data table in the manuscript reports the full percentile
+distribution of the signed structural shift $S_{s,a\rightarrow b}$ across
+all paired comparisons in each (channel, climate, outcome) cell. The
+full-granularity release also includes the regional decomposition (515
+rows total, channel × climate × region × outcome).
+
+- [ed_table_structural_distribution.csv](assets/data/world/ed_table_structural_distribution.csv) — full granularity (515 rows × 14 columns)
+
+Schema:
+
+| Column | Type | Description |
+|---|---|---|
+| `channel` | str | `supply` or `temporal` |
+| `sg_climate` | str | AR6 climate category (C1, C2, C3, C4, C7) |
+| `region` | str | `WORLD` or an R10 code |
+| `outcome` | str | one of the six outcomes (see above) |
+| `n` | int | paired comparisons in the cell |
+| `S_p5`, `S_p25`, `S_median`, `S_p75`, `S_p95` | float | signed structural shift, % of C7–Base–median reference |
+| `absS_median` | float | median absolute structural shift |
+| `absP_median` | float | median absolute parametric shift |
+| `pct_rivals_50` | float | share where $|S| \ge 0.5\,|P|$ (rival threshold) |
+| `pct_rivals_100` | float | share where $|S| > |P|$ (strict structural dominance) |
+
+The manuscript prints a curated world-aggregate subset (60 rows × 11 columns)
+as Extended Data Table 2; the regional rows live here.
+
 ## Usage example (Python / pandas)
 
 ```python
