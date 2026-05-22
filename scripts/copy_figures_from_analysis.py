@@ -29,8 +29,10 @@ WORLD_FIGURES = [
     # (source filename stem, dest folder, dest filename stem, role)
     ("fig_paired_shifts_scatter_world_vs_base", "world", "hero", "hero scatter (Fig 5)"),
     ("fig_structural_shift_world_vs_regional", "world", "world_vs_regional", "world-vs-regional (Fig 6)"),
-    ("ed_fig6_magnitude_angle", "world", "ed_fig2_magnitude_angle", "ED Fig 2 (signed θ, world + regional bracket)"),
-    ("ed_fig6_magnitude_angle_world", "world", "ed_fig2_world_only", "ED Fig 2 (world-only variant)"),
+    ("ed_fig6_magnitude_angle", "world", "ed_fig2_magnitude_angle", "ED Fig 2 (signed structural-parametric angle, world + regional bracket)"),
+    ("ed_fig_saturation_angle_by_climate_world", "world", "ed_fig3_saturation_by_climate", "ED Fig 3 (saturation by climate)"),
+    ("ed_fig_dominance_heatmap_supply", "world", "ed_fig_dominance_heatmap_supply", "ED Fig (supply-channel angle by region)"),
+    ("ed_fig_dominance_heatmap_temporal", "world", "ed_fig_dominance_heatmap_temporal", "ED Fig (temporal-channel angle by region)"),
 ]
 
 WORLD_CSVS = [
