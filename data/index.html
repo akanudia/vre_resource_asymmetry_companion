@@ -1208,6 +1208,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#structural-distribution-table-six-outcomes-climate-channel-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Structural-distribution table (six outcomes × climate × channel × region)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#usage-example-python-pandas" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1397,6 +1408,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#structural-distribution-table-six-outcomes-climate-channel-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Structural-distribution table (six outcomes × climate × channel × region)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#usage-example-python-pandas" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1573,6 +1595,79 @@ additionally has <code>channel</code> (<code>supply</code> or <code>temporal</co
 </tr>
 </tbody>
 </table>
+<h2 id="structural-distribution-table-six-outcomes-climate-channel-region">Structural-distribution table (six outcomes × climate × channel × region)<a class="headerlink" href="#structural-distribution-table-six-outcomes-climate-channel-region" title="Permanent link">¶</a></h2>
+<p>The Extended Data table in the manuscript reports the full percentile
+distribution of the signed structural shift <span class="arithmatex">\(S_{s,a\rightarrow b}\)</span> across
+all paired comparisons in each (channel, climate, outcome) cell. The
+full-granularity release also includes the regional decomposition (515
+rows total, channel × climate × region × outcome).</p>
+<ul>
+<li><a href="../assets/data/world/ed_table_structural_distribution.csv">ed_table_structural_distribution.csv</a> — full granularity (515 rows × 14 columns)</li>
+</ul>
+<p>Schema:</p>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>channel</code></td>
+<td>str</td>
+<td><code>supply</code> or <code>temporal</code></td>
+</tr>
+<tr>
+<td><code>sg_climate</code></td>
+<td>str</td>
+<td>AR6 climate category (C1, C2, C3, C4, C7)</td>
+</tr>
+<tr>
+<td><code>region</code></td>
+<td>str</td>
+<td><code>WORLD</code> or an R10 code</td>
+</tr>
+<tr>
+<td><code>outcome</code></td>
+<td>str</td>
+<td>one of the six outcomes (see above)</td>
+</tr>
+<tr>
+<td><code>n</code></td>
+<td>int</td>
+<td>paired comparisons in the cell</td>
+</tr>
+<tr>
+<td><code>S_p5</code>, <code>S_p25</code>, <code>S_median</code>, <code>S_p75</code>, <code>S_p95</code></td>
+<td>float</td>
+<td>signed structural shift, % of C7–Base–median reference</td>
+</tr>
+<tr>
+<td><code>absS_median</code></td>
+<td>float</td>
+<td>median absolute structural shift</td>
+</tr>
+<tr>
+<td><code>absP_median</code></td>
+<td>float</td>
+<td>median absolute parametric shift</td>
+</tr>
+<tr>
+<td><code>pct_rivals_50</code></td>
+<td>float</td>
+<td>share where $</td>
+</tr>
+<tr>
+<td><code>pct_rivals_100</code></td>
+<td>float</td>
+<td>share where $</td>
+</tr>
+</tbody>
+</table>
+<p>The manuscript prints a curated world-aggregate subset (60 rows × 11 columns)
+as Extended Data Table 2; the regional rows live here.</p>
 <h2 id="usage-example-python-pandas">Usage example (Python / pandas)<a class="headerlink" href="#usage-example-python-pandas" title="Permanent link">¶</a></h2>
 <div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
 

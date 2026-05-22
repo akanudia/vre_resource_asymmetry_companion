@@ -1510,22 +1510,22 @@ under finer temporal resolution even though the supply channel ignores it.</p>
 </figure>
 <p><strong>Reading.</strong></p>
 <ul>
-<li><strong>Supply Wind C7 at −30°</strong> vs world +69°: the <strong>largest single departure
+<li><strong>Supply Wind C7 at −31°</strong> vs world +69°: the <strong>largest single departure
   on the entire site at 99°</strong>. World sits at the high end of wind
   saturation; the Middle East sits in <em>negative</em> territory. Onshore wind
   isn't attractive enough in most Middle East countries for supply
   refinement to favour it, and at fossil-dominant policy the system
   doesn't build the wind that LoT-vs-HiT comparisons would normally
   expose.</li>
-<li><strong>Supply Cost C7 at −30°</strong> vs world +31°: cost goes <em>down</em> under supply
+<li><strong>Supply Cost C7 at −29°</strong> vs world +28°: cost goes <em>down</em> under supply
   refinement at C7 in the Middle East, opposite to world. With wind out of
   contention, supply refinement reduces system cost by exposing high-CF
   solar tranches and leaving the cheap-fossil baseline alone.</li>
-<li><strong>Temporal Wind C7 at +45°</strong> vs world −10°: finer timeslicing favours
+<li><strong>Temporal Wind C7 at +45°</strong> vs world −9°: finer timeslicing favours
   wind in the Middle East — Oman's offshore wind seasonal aligns with
   peak cooling demand, and the optimiser captures that value once
   TS04→TS72 makes it visible.</li>
-<li><strong>Supply Emissions C7 at −12°</strong> vs world −52°: the emissions reduction
+<li><strong>Supply Emissions C7 at −12°</strong> vs world −51°: the emissions reduction
   channel is muted; the structural channel can't cut emissions much when
   wind is essentially absent from the marginal build set.</li>
 </ul>
@@ -1547,64 +1547,88 @@ under finer temporal resolution even though the supply channel ignores it.</p>
 <td>Wind</td>
 <td>C7</td>
 <td style="text-align: right;">+69°</td>
-<td style="text-align: right;">−30°</td>
-<td style="text-align: right;"><strong>−99°</strong></td>
+<td style="text-align: right;">-31°</td>
+<td style="text-align: right;"><strong>-100°</strong></td>
 </tr>
 <tr>
 <td>Supply</td>
 <td>Cost</td>
 <td>C7</td>
-<td style="text-align: right;">+31°</td>
-<td style="text-align: right;">−30°</td>
-<td style="text-align: right;"><strong>−60°</strong></td>
+<td style="text-align: right;">+28°</td>
+<td style="text-align: right;">-29°</td>
+<td style="text-align: right;"><strong>-57°</strong></td>
 </tr>
 <tr>
 <td>Temporal</td>
 <td>Wind</td>
 <td>C7</td>
-<td style="text-align: right;">−10°</td>
+<td style="text-align: right;">-9°</td>
 <td style="text-align: right;">+45°</td>
-<td style="text-align: right;"><strong>+55°</strong></td>
+<td style="text-align: right;"><strong>+54°</strong></td>
 </tr>
 <tr>
 <td>Temporal</td>
 <td>Cost</td>
 <td>C4</td>
-<td style="text-align: right;">+48°</td>
-<td style="text-align: right;">+4°</td>
-<td style="text-align: right;"><strong>−43°</strong></td>
+<td style="text-align: right;">+54°</td>
+<td style="text-align: right;">+5°</td>
+<td style="text-align: right;"><strong>-49°</strong></td>
 </tr>
 <tr>
 <td>Supply</td>
-<td>Emissions</td>
+<td>Non-VRE CF</td>
 <td>C7</td>
-<td style="text-align: right;">−52°</td>
-<td style="text-align: right;">−12°</td>
-<td style="text-align: right;"><strong>+40°</strong></td>
+<td style="text-align: right;">-57°</td>
+<td style="text-align: right;">-19°</td>
+<td style="text-align: right;"><strong>+38°</strong></td>
 </tr>
 <tr>
 <td>Supply</td>
 <td>Solar</td>
 <td>C4</td>
-<td style="text-align: right;">−34°</td>
+<td style="text-align: right;">-33°</td>
 <td style="text-align: right;">+5°</td>
-<td style="text-align: right;"><strong>+39°</strong></td>
+<td style="text-align: right;"><strong>+37°</strong></td>
+</tr>
+<tr>
+<td>Temporal</td>
+<td>Non-VRE CF</td>
+<td>C3</td>
+<td style="text-align: right;">-29°</td>
+<td style="text-align: right;">-64°</td>
+<td style="text-align: right;"><strong>-35°</strong></td>
 </tr>
 <tr>
 <td>Temporal</td>
 <td>Cost</td>
 <td>C7</td>
-<td style="text-align: right;">+50°</td>
-<td style="text-align: right;">+14°</td>
-<td style="text-align: right;"><strong>−36°</strong></td>
+<td style="text-align: right;">+55°</td>
+<td style="text-align: right;">+21°</td>
+<td style="text-align: right;"><strong>-34°</strong></td>
+</tr>
+<tr>
+<td>Temporal</td>
+<td>Non-VRE CF</td>
+<td>C1</td>
+<td style="text-align: right;">-37°</td>
+<td style="text-align: right;">-67°</td>
+<td style="text-align: right;"><strong>-30°</strong></td>
 </tr>
 <tr>
 <td>Supply</td>
 <td>Wind</td>
 <td>C4</td>
-<td style="text-align: right;">+33°</td>
+<td style="text-align: right;">+30°</td>
 <td style="text-align: right;">+5°</td>
-<td style="text-align: right;"><strong>−28°</strong></td>
+<td style="text-align: right;"><strong>-26°</strong></td>
+</tr>
+<tr>
+<td>Temporal</td>
+<td>Non-VRE CF</td>
+<td>C2</td>
+<td style="text-align: right;">-32°</td>
+<td style="text-align: right;">-57°</td>
+<td style="text-align: right;"><strong>-25°</strong></td>
 </tr>
 </tbody>
 </table>
