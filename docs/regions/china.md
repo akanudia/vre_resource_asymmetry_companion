@@ -46,12 +46,12 @@ storage, which is costlier than the wind-driven world-aggregate trade-off.
 
 *Electricity-price row.* The electricity-price row follows the world pattern closely (no cells exceed the 20° departure threshold) — supply-curve refinement lowers prices, temporal refinement raises them.
 
-## Signed structural dominance angle (China)
+## Signed structural–parametric angle (China)
 
-[![China — signed structural dominance angle](../assets/figures/regions/china/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/china/magnitude_angle.png)
+[![China — signed structural–parametric angle](../assets/figures/regions/china/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/china/magnitude_angle.png)
 
 /// caption
-**China signed structural dominance angle.** Per (outcome × climate × channel)
+**China signed structural–parametric angle.** Per (outcome × climate × channel)
 cell, $\theta = \mathrm{atan2}(\text{structural shift}, |\text{parametric shift}|)$
 in degrees. Median (dot) ± p25–p75 (whiskers).
 [Download PDF](../assets/figures/regions/china/magnitude_angle.pdf).

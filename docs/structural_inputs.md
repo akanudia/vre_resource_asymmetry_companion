@@ -14,9 +14,10 @@ page and its region-mapping table is released in Extended Data Table 1.
 | Template validation scores | 6 calendar templates vs k-means benchmark | [timeslice_template_scores.csv](assets/data/structural/timeslice_template_scores.csv) |
 | DEF convergence by ISO | Solar PV and wind onshore, 210 countries | [timeslice_def_convergence_by_iso.csv](assets/data/structural/timeslice_def_convergence_by_iso.csv) |
 
-The build script
-[`build_structural_inputs.py`](https://github.com/akanudia/vre_resource_asymmetry_companion/blob/main/scripts/build_structural_inputs.py)
-regenerates all five CSVs from the source pipeline outputs.
+All five CSVs are released as the pipeline's structural-axis outputs;
+see the [Code & data page](code_and_reproducibility.md) for the bundling
+context and the boundary between released analysis code and the
+proprietary model-generation pipeline.
 
 ---
 
@@ -25,12 +26,16 @@ regenerates all five CSVs from the source pipeline outputs.
 ### What LoT and HiT represent
 
 Within each active model region, renewable-resource gridcells are
-clustered into supply-curve bins. The bin count scales with the number
-of gridcells via an exponent *n*. The LoT configuration uses *n* = 0.2,
-producing 4–6 bins per R10 macro-region for wind onshore. The HiT
-configuration uses *n* = 0.45, producing 23–62 bins for the same
-regions. Both configurations use identical resource data, exclusion
-filters and aggregation rules; only the binning resolution changes.
+clustered into supply-curve bins. LoT is the coarse endpoint;
+HiT is the fine endpoint. Both configurations use identical resource
+data, exclusion filters and aggregation rules — only the binning
+resolution changes. The released
+[supply_curve_bins_r10.csv](assets/data/structural/supply_curve_bins_r10.csv)
+quantifies the difference: in R70, LoT produces a median of 2 solar PV
+and 2 wind-onshore bins per country (range 2–5), while HiT produces a
+median of 12 solar PV and 10 wind-onshore bins per country (range 3–41).
+The two endpoints span the range of supply-curve resolutions typical of
+production global energy-system models.
 
 The effect is technology-asymmetric. Solar capacity factors are
 spatially smooth (within-region CV ≈ 0.07–0.11); adding bins reveals
@@ -93,11 +98,12 @@ claim in the manuscript.
 ### Timeslice family design
 
 The six temporal configurations (TS04–TS72) are generated from a
-single calendar-based partition family defined in the
-`base_ts_design` sheet of `kinesys_mappings.xlsx`. Each TS level maps
-calendar months (1–12) and clock hours (1–24) to a set of season
-codes (S1–S6) and time-of-day codes (H1–H8). The timeslice label for
-each (month, hour) is the concatenation of its season and ToD code.
+single calendar-based partition family released as
+[timeslice_definitions_all_levels.csv](assets/data/structural/timeslice_definitions_all_levels.csv).
+Each TS level maps calendar months (1–12) and clock hours (1–24) to a
+set of season codes (S1–S6) and time-of-day codes (H1–H8). The
+timeslice label for each (month, hour) is the concatenation of its
+season and ToD code.
 
 The partition family was selected after a systematic evaluation of six
 calendar templates against an unconstrained k-means clustering

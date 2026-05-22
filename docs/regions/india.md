@@ -55,16 +55,17 @@ temporal TS04→TS72). Expressed as % of C7-Base-median anchor.
 
 *Electricity-price row.* The electricity-price row follows the world pattern closely (no cells exceed the 20° departure threshold) — supply-curve refinement lowers prices, temporal refinement raises them.
 
-## Signed structural dominance angle (India)
+## Signed structural–parametric angle (India)
 
-[![India — signed structural dominance angle](../assets/figures/regions/india/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/india/magnitude_angle.png)
+[![India — signed structural–parametric angle](../assets/figures/regions/india/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/india/magnitude_angle.png)
 
 /// caption
-**India signed structural dominance angle.** Per (outcome × climate × channel)
+**India signed structural–parametric angle.** Per (outcome × climate × channel)
 cell, $\theta = \mathrm{atan2}(\text{structural shift}, |\text{parametric shift}|)$
 in degrees on $[-90^\circ, +90^\circ]$. Median (dot) ± p25–p75 (whiskers).
-$|\theta| > 45^\circ$ means structural shift exceeds parametric distance
-from anchor in magnitude — the cell is **structurally dominant**.
+$|\theta| \ge 26.6^\circ$ is the **structural-rival threshold**
+($|S| \ge 0.5\,|P|$, the headline rivals convention); $|\theta| > 45^\circ$
+is **strict structural dominance** ($|S| > |P|$).
 [Download PDF](../assets/figures/regions/india/magnitude_angle.pdf).
 ///
 

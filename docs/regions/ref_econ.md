@@ -53,12 +53,12 @@ refinement disfavours it.
 
 *Electricity-price row.* The electricity-price row mutes the temporal-channel signature at C7 (Δθ −37°) and softens the supply-channel signature (Δθ +21°) — temporal refinement raises prices less aggressively here than at world aggregate, consistent with limited integration-cost exposure in a fossil-rich, hydro-rich region.
 
-## Signed structural dominance angle (Reforming Economies)
+## Signed structural–parametric angle (Reforming Economies)
 
-[![Reforming Economies — signed structural dominance angle](../assets/figures/regions/ref_econ/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/ref_econ/magnitude_angle.png)
+[![Reforming Economies — signed structural–parametric angle](../assets/figures/regions/ref_econ/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/ref_econ/magnitude_angle.png)
 
 /// caption
-**Reforming Economies signed structural dominance angle.**
+**Reforming Economies signed structural–parametric angle.**
 [Download PDF](../assets/figures/regions/ref_econ/magnitude_angle.pdf).
 ///
 

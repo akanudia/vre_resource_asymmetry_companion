@@ -13,7 +13,7 @@ Each region has two figures available on this site:
   solar, electricity price, system cost, CO$_2$ emissions × supply-channel,
   temporal-channel), in the same format as the manuscript hero figure but
   computed at regional aggregate.
-- **Signed structural dominance angle** — the cell-level summary
+- **Signed structural–parametric angle** — the cell-level summary
   ($\theta = \mathrm{atan2}(\text{structural shift}, |\text{parametric shift}|)$),
   with within-cell p25–p75 whiskers.
 

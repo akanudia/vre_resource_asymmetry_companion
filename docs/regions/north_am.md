@@ -46,12 +46,12 @@ LoT averages it with low-CF cells, HiT exposes the cheap-wind tail.
 
 *Electricity-price row.* The electricity-price row tracks the system-cost channel signatures — supply-curve refinement drives prices down more aggressively than at world aggregate at C7 (Δθ −35°), and temporal refinement raises them more at low-ambition C2 (Δθ +20°). USA Great Plains wind heterogeneity is the dominant driver of the supply-channel signal.
 
-## Signed structural dominance angle (North America)
+## Signed structural–parametric angle (North America)
 
-[![North America — signed structural dominance angle](../assets/figures/regions/north_am/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/north_am/magnitude_angle.png)
+[![North America — signed structural–parametric angle](../assets/figures/regions/north_am/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/north_am/magnitude_angle.png)
 
 /// caption
-**North America signed structural dominance angle.**
+**North America signed structural–parametric angle.**
 [Download PDF](../assets/figures/regions/north_am/magnitude_angle.pdf).
 ///
 

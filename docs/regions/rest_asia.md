@@ -53,12 +53,12 @@ high-CF coastal tail that LoT averaging hides.
 
 *Electricity-price row.* The electricity-price row mutes the supply-channel signature at C7 (Δθ +22°): supply-curve refinement lowers prices less aggressively than at world aggregate, consistent with the wind-saturation regime visible in the signed-θ diagnostic.
 
-## Signed structural dominance angle (Rest of Asia)
+## Signed structural–parametric angle (Rest of Asia)
 
-[![Rest of Asia — signed structural dominance angle](../assets/figures/regions/rest_asia/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/rest_asia/magnitude_angle.png)
+[![Rest of Asia — signed structural–parametric angle](../assets/figures/regions/rest_asia/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/rest_asia/magnitude_angle.png)
 
 /// caption
-**Rest of Asia signed structural dominance angle.**
+**Rest of Asia signed structural–parametric angle.**
 [Download PDF](../assets/figures/regions/rest_asia/magnitude_angle.pdf).
 ///
 

@@ -47,12 +47,12 @@ aggregate.
 
 *Electricity-price row.* The electricity-price row follows the world pattern closely (no cells exceed the 20° departure threshold) — supply-curve refinement lowers prices, temporal refinement raises them.
 
-## Signed structural dominance angle (Africa)
+## Signed structural–parametric angle (Africa)
 
-[![Africa — signed structural dominance angle](../assets/figures/regions/africa/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/africa/magnitude_angle.png)
+[![Africa — signed structural–parametric angle](../assets/figures/regions/africa/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/africa/magnitude_angle.png)
 
 /// caption
-**Africa signed structural dominance angle.** Per (outcome × climate × channel)
+**Africa signed structural–parametric angle.** Per (outcome × climate × channel)
 cell, $\theta = \mathrm{atan2}(\text{structural shift}, |\text{parametric shift}|)$
 in degrees on $[-90^\circ, +90^\circ]$. Median (dot) ± p25–p75 (whiskers).
 [Download PDF](../assets/figures/regions/africa/magnitude_angle.pdf).

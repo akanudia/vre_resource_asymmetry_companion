@@ -50,12 +50,12 @@ directions:
 
 *Electricity-price row.* The electricity-price row reads as the strongest consumer-facing channel signature on the site. Supply-curve refinement drives prices down much more aggressively than at world aggregate (Δθ of −33° to −46° across climates), while temporal refinement raises them more steeply (Δθ of +28° to +41°). The vast within-region wind heterogeneity in Brazil's Nordeste and the seasonal misalignment between solar and demand both make the price signal larger here than for any other R10 region.
 
-## Signed structural dominance angle (Latin America)
+## Signed structural–parametric angle (Latin America)
 
-[![Latin America — signed structural dominance angle](../assets/figures/regions/latin_am/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/latin_am/magnitude_angle.png)
+[![Latin America — signed structural–parametric angle](../assets/figures/regions/latin_am/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/latin_am/magnitude_angle.png)
 
 /// caption
-**Latin America signed structural dominance angle.**
+**Latin America signed structural–parametric angle.**
 [Download PDF](../assets/figures/regions/latin_am/magnitude_angle.pdf).
 ///
 

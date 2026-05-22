@@ -45,12 +45,12 @@ visual signature of intra-region cancellation.
 
 *Electricity-price row.* The electricity-price row shows the in-region analogue of channel cancellation: temporal refinement raises prices less aggressively than at world aggregate (Δθ −33° at C7, Δθ −23° at C4), and supply refinement lowers prices less (Δθ +21° at C7). The mixed hemispheres of Pacific OECD dilute the channel signatures relative to a single-climate aggregate.
 
-## Signed structural dominance angle (Pacific OECD)
+## Signed structural–parametric angle (Pacific OECD)
 
-[![Pacific OECD — signed structural dominance angle](../assets/figures/regions/pac_oecd/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/pac_oecd/magnitude_angle.png)
+[![Pacific OECD — signed structural–parametric angle](../assets/figures/regions/pac_oecd/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/pac_oecd/magnitude_angle.png)
 
 /// caption
-**Pacific OECD signed structural dominance angle.**
+**Pacific OECD signed structural–parametric angle.**
 [Download PDF](../assets/figures/regions/pac_oecd/magnitude_angle.pdf).
 ///
 

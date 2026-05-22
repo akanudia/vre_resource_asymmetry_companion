@@ -1,6 +1,6 @@
 # Data
 
-CSV sidecars for every cell in the signed structural dominance angle
+CSV sidecars for every cell in the signed structural–parametric angle
 diagnostic ([ED Fig 2 in the manuscript](world.md)) are released on this
 site alongside the figures.
 
@@ -10,7 +10,7 @@ Per-region CSVs (`magnitude_angle_<region>_<channel>.csv`):
 
 | Column | Type | Description |
 |---|---|---|
-| `outcome` | str | One of `cum_wind_twh`, `cum_solar_twh`, `npv_cost_bn`, `cum_emissions_mt` |
+| `outcome` | str | One of `cum_wind_twh`, `cum_solar_twh`, `avg_elec_price`, `nonvre_cf`, `npv_cost_bn`, `cum_emissions_mt` (six outcomes matching ED Fig 2 of the manuscript) |
 | `climate` | str | C1, C2, C3, C4, C7, or `POOL` (pooled across climates) |
 | `p25` | float | 25th percentile of within-cell signed-θ distribution (degrees) |
 | `p50` | float | Median of within-cell signed-θ distribution (degrees) |

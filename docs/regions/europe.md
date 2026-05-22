@@ -43,12 +43,12 @@ image: positive at C7, with winter storm-track wind taking the share.
 
 *Electricity-price row.* The electricity-price row follows the world pattern closely (no cells exceed the 20° departure threshold) — supply-curve refinement lowers prices, temporal refinement raises them.
 
-## Signed structural dominance angle (Europe)
+## Signed structural–parametric angle (Europe)
 
-[![Europe — signed structural dominance angle](../assets/figures/regions/europe/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/europe/magnitude_angle.png)
+[![Europe — signed structural–parametric angle](../assets/figures/regions/europe/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/europe/magnitude_angle.png)
 
 /// caption
-**Europe signed structural dominance angle.** Per (outcome × climate × channel)
+**Europe signed structural–parametric angle.** Per (outcome × climate × channel)
 cell, $\theta = \mathrm{atan2}(\text{structural shift}, |\text{parametric shift}|)$
 in degrees. Median (dot) ± p25–p75 (whiskers).
 [Download PDF](../assets/figures/regions/europe/magnitude_angle.pdf).

@@ -2,7 +2,7 @@
 
 This page reads the four world-level figures from the manuscript: the
 paired-shifts hero scatter (Fig 5), the world-vs-regional structural-shift
-diagnostic (Fig 6), the signed structural dominance angle with saturation
+diagnostic (Fig 6), the signed structural–parametric angle with saturation
 sweep and non-VRE capacity factor (ED Fig 2) and the climate-stratified
 saturation diagnostic (ED Fig 3). All four are computed from the 1,080-run
 controlled factorial described on the [Methodology](methodology.md) page.
@@ -27,9 +27,14 @@ For an interactive view that lets you filter on every scenario dimension and
 recolour the cloud by climate, cost, price, TS resolution, supply curve, or
 regional aggregation, open the **[Playground](../playground/)**.
 
-**Reading.** Points sitting above $y = x$ (or below $y = -x$) are
-structurally dominated: the structural-axis shift exceeds the parametric
-distance from the anchor in magnitude. The supply channel (left column)
+**Reading.** Points sitting above $y = x$ (or below $y = -x$) exhibit
+strict structural dominance: the structural-axis shift exceeds the
+parametric distance from the anchor in magnitude ($|S| > |P|$, equivalently
+$|\theta| > 45^\circ$). Points beyond the $|y| \ge 0.5\,|x|$ band satisfy
+the structural-rival threshold ($|S| \ge 0.5\,|P|$, $|\theta| \ge 26.6^\circ$);
+this is the headline rivals convention used in the manuscript and
+discussed on the [Methodology](methodology.md) page.
+The supply channel (left column)
 produces a persistent windward shift, lowers electricity prices, and reduces
 emissions across nearly every scenario. Solar generation falls modestly
 because it loses to wind, not because the solar resource deteriorates.
@@ -64,12 +69,12 @@ channels propagate coherently with opposite signs (down on supply, up on
 temporal), making it the cleanest single-cell test of the channel
 asymmetry.
 
-## Signed structural dominance angle + saturation sweep
+## Signed structural–parametric angle + saturation sweep
 
-[![Signed structural dominance angle, world median + regional spread, with saturation sweep](assets/figures/world/ed_fig2_magnitude_angle.png){ loading=lazy }](assets/figures/world/ed_fig2_magnitude_angle.png)
+[![Signed structural–parametric angle, world median + regional spread, with saturation sweep](assets/figures/world/ed_fig2_magnitude_angle.png){ loading=lazy }](assets/figures/world/ed_fig2_magnitude_angle.png)
 
 /// caption
-**ED Fig 2 (manuscript).** Signed structural-dominance diagnostic at world
+**ED Fig 2 (manuscript).** Signed structural–parametric angle at world
 aggregate, across six outcomes (cumulative wind, solar, average electricity
 price, **non-VRE capacity factor**, cumulative system cost, cumulative
 CO$_2$ emissions). For each (outcome × channel × fine-endpoint) cell, the
@@ -134,17 +139,17 @@ large structural shift, but their signs cancel at world aggregate.
 [![Saturation analysis, climate-stratified](assets/figures/world/ed_fig3_saturation_by_climate.png){ loading=lazy }](assets/figures/world/ed_fig3_saturation_by_climate.png)
 
 /// caption
-**ED Fig 3 (manuscript).** The same signed structural-dominance diagnostic
-as ED Fig 2, stratified by AR6 climate ambition category (C1 1.5 °C
-low/no-overshoot through C7 above 2.5 °C). Each panel shows the
-world-aggregate median angle and regional-spread bracket for each
+**ED Fig 3 (manuscript).** The same signed structural–parametric angle
+diagnostic as ED Fig 2, stratified by AR6 climate ambition category
+(C1 1.5 °C low/no-overshoot through C7 above 2.5 °C). Each panel shows
+the world-aggregate median angle and regional-spread bracket for each
 (outcome × channel × fine-endpoint) cell.
 [Download PDF](assets/figures/world/ed_fig3_saturation_by_climate.pdf).
 ///
 
 **Reading.** The figure answers *"how much temporal resolution is enough?"*
 and the answer is **diagnostic-specific**: along the tested TS12 → TS72
-sweep, structural-dominance angles do not converge uniformly across
+sweep, structural–parametric angles do not converge uniformly across
 outcomes. Electricity prices, system cost and non-VRE utilisation continue
 shifting with finer temporal resolution; wind–solar shifts remain
 region- and regime-dependent; CO$_2$ effects concentrate in weaker-policy

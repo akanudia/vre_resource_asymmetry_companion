@@ -64,12 +64,14 @@ A point at coordinates $(x, y)$ means:
 - $y$ = structural % shift LO → HI, on the same denominator
 
 Both axes share that base-value denominator, so $x + y$ is the total
-deviation of the HI configuration from the base case. Points sitting in
-the **dashed wedge** ($|y| \le |x|$) are *parametrically dominant* — the
-parametric distance from base exceeds the structural shift. Points
-*outside* the wedge are *structurally dominant* — the structural axis
+deviation of the HI configuration from the base case. Points *outside*
+the **dashed $|y| = |x|$ wedge** exhibit **strict structural dominance**
+($|S| > |P|$, equivalently $|\theta| > 45^\circ$): the structural axis
 (supply-curve refinement or temporal-resolution refinement) is the
-larger lever.
+larger lever. Points beyond the inner $|y| \ge 0.5\,|x|$ band satisfy the
+**structural-rival threshold** ($|S| \ge 0.5\,|P|$, $|\theta| \ge 26.6^\circ$),
+the broader rivals convention used in the manuscript headline.
 
 The print figure ([world](world.md), [regional pages](regions/)) shows
 this geometry; the playground lets you slice into it any way you want.
+See [Methodology](methodology.md) for the dual-threshold definition.

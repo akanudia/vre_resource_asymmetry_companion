@@ -108,6 +108,9 @@ nav:
       - Reforming Economies: regions/ref_econ.md
       - Rest of Asia: regions/rest_asia.md
     - Data tables: data.md
-    - Playground: playground.md
+
+  - Code & data: code_and_reproducibility.md
+
+  - Playground: playground.md
 
   - Cite: cite.md

@@ -7,12 +7,12 @@ companion to the figures hosted on this site.
 
 ## The 1,080-instance controlled factorial
 
-KiNESYS — a global energy-system optimisation framework built on the TIMES
-generator with VEDA model-management tools — covers 155+ countries from a
-single shared data repository (atmospheric resources, technology costs, fuel
-prices, demand drivers, climate-policy trajectories). For this study, an
-automated production pipeline generates **1,080 model runs** end-to-end from
-that repository:
+KiNESYS is the modular VEDA–TIMES data-to-model pipeline and the
+**1,080-run global model archive** it produces, described in the
+manuscript Methods. The pipeline ingests a single shared data repository
+covering 155+ countries (atmospheric resources, technology costs, fuel
+prices, demand drivers, climate-policy trajectories) and emits 1,080
+model instances end-to-end:
 
 - **Parametric scenarios** vary external assumptions: 5 climate ambition
   levels (C1, C2, C3, C4, C7, corresponding to carbon-price trajectories) ×
@@ -59,7 +59,7 @@ whether the two channels operate consistently across the regional-aggregation
 scales typical of integrated assessment modelling (R10) and detailed national
 modelling (R70).
 
-## The signed structural dominance angle
+## The signed structural–parametric angle
 
 Each model run is paired with a sibling that differs only in the structural
 axis under test (LoT vs HiT for the supply channel, TS04 vs TS72 for the
@@ -77,12 +77,24 @@ $$
 
 The angle is bounded, robust at $|x|=0$, and has the readings:
 
-- $|\theta| > 45^\circ$ → structural shift exceeds parametric distance from
-  anchor in magnitude (the cell is **structurally dominant**).
+- $|\theta| \ge 26.57^\circ$ → structural shift reaches at least half the
+  corresponding parametric shift in magnitude (the **structural-rival
+  threshold**, $|S| \ge 0.5\,|P|$; this is the headline rivals
+  convention used in the manuscript).
+- $|\theta| > 45^\circ$ → structural shift strictly exceeds the
+  parametric shift in magnitude (**strict structural dominance**,
+  $|S| > |P|$).
 - $\theta > 0$ → structural shift is in the positive direction for that
   outcome (e.g., wind up, cost up).
 - $\theta < 0$ → structural shift is in the negative direction.
 - $\theta = 0$ → no structural shift; the parametric-only landscape.
+
+"Dominance" is reserved here for the strict case $|\theta| > 45^\circ$;
+the broader $|\theta| \ge 26.57^\circ$ band is the "rival" range where
+the structural channel reaches a substantial fraction of the parametric
+channel without overpowering it. The two thresholds correspond to the
+$k = 0.5$ and $k = 1.0$ values defined in the manuscript's
+[Methods §3.7](https://akanudia.github.io/vre_info_asymmetry/).
 
 Per (outcome × climate × channel) cell, we summarise the within-cell θ
 distribution by median + p25–p75. The world figure ([ED Fig 2](world.md))

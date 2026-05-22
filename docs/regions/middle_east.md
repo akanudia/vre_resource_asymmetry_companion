@@ -49,12 +49,12 @@ under finer temporal resolution even though the supply channel ignores it.
 
 *Electricity-price row.* The electricity-price row follows the world pattern closely (no cells exceed the 20° departure threshold) — supply-curve refinement lowers prices, temporal refinement raises them.
 
-## Signed structural dominance angle (Middle East)
+## Signed structural–parametric angle (Middle East)
 
-[![Middle East — signed structural dominance angle](../assets/figures/regions/middle_east/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/middle_east/magnitude_angle.png)
+[![Middle East — signed structural–parametric angle](../assets/figures/regions/middle_east/magnitude_angle.png){ loading=lazy }](../assets/figures/regions/middle_east/magnitude_angle.png)
 
 /// caption
-**Middle East signed structural dominance angle.**
+**Middle East signed structural–parametric angle.**
 [Download PDF](../assets/figures/regions/middle_east/magnitude_angle.pdf).
 ///
 

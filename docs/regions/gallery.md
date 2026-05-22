@@ -1,7 +1,7 @@
 # All-region gallery
 
 Every R10 region has two figures in this gallery: the paired-shifts mini-hero
-scatter and the signed structural dominance angle ($\theta$) diagnostic.
+scatter and the signed structural–parametric angle ($\theta$) diagnostic.
 Click any thumbnail to expand. Each row is one region; the left column is
 the paired-shifts scatter and the right column is the signed-θ figure.
 
