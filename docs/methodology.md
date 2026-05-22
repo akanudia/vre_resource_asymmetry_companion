@@ -1,5 +1,21 @@
 # Methodology
 
+!!! abstract "Sources & provenance"
+    **Manuscript:** Methods § all subsections (experimental design,
+    parametric envelope, structural variants, physical diagnostics,
+    paired-shift diagnostics, signed structural–parametric angle).  
+    **External data:** [IPCC AR6 WGIII Scenarios Database](data_sources.md#ar6),
+    [IEA GEC (WEO 2023)](data_sources.md#iea-gec),
+    [NREL ATB 2024 v3](data_sources.md#nrel-atb),
+    [ERA5 reanalysis](data_sources.md#era5),
+    [Atlite library](data_sources.md#atlite).  
+    **Companion-only:** the experiment-design narrative, the
+    threshold-convention reading guide for the signed
+    structural–parametric angle, and the cross-references to per-figure
+    pages on this site extend the manuscript Methods with
+    reader-friendly framings; no quantitative claims appear here that
+    are not derivable from the manuscript and the listed sources.
+
 This page sketches the experimental design, the two structural channels, and
 the diagnostic used to summarise structural-shift behaviour cell-by-cell. The
 manuscript Methods section is the authoritative reference; this is a reader's
@@ -111,17 +127,4 @@ Both the paired-shifts hero scatter (Fig 5) and the signed-θ diagnostic
 (ED Fig 2) use the same axes and sign conventions across world and per-region
 versions. The paired-shifts scatter shows raw (parametric, structural) point
 pairs; the signed-θ figure compresses each cell to one angle. Use them
-together: the scatter shows the point cloud and the saturation pile-up on
-the $y=x$ diagonal; the signed-θ figure shows the cell-level summary.
-
-## Data and code
-
-CSV sidecars for every cell in the signed-θ figures are released on the
-[Data page](data.md). The figure-generation scripts and the underlying
-analysis tree are released alongside the manuscript per the journal's Data
-Availability policy.
-
-The 540 R70 runs in the cube are benchmarked against the IPCC AR6 Scenarios
-Database (R10 regions, v1.1) for global electricity generation by technology
-at 2035 and 2050; the benchmarking is a plausibility test, not a calibration
-(no KiNESYS parameters are tuned to AR6 outcomes).
+together: the scatter shows the point cloud

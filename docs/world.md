@@ -1,5 +1,20 @@
 # World aggregate
 
+!!! abstract "Sources & provenance"
+    **Manuscript:** Results § (Fig 5 hero, Fig 6 world-vs-regional),
+    Extended Data Figs 2–5 (signed structural–parametric angle, regional
+    decompositions, saturation), Methods § Paired-shift diagnostics
+    (rivals thresholds 30 %, 16 %).  
+    **External data:** none directly on this page; the AR6 plausibility
+    benchmark for the same model archive lives on the
+    [Methodology page](methodology.md).  
+    **Companion-only:** the cell-by-cell θ readings, the regional-bracket
+    interpretation, the rival-headline table and the embedded
+    dominance-heatmap reading prose extend the manuscript figures with
+    reader-friendly framings; no quantitative claims appear here that
+    are not derivable from the manuscript figures and the released
+    CSVs.
+
 This page reads the four world-level figures from the manuscript: the
 paired-shifts hero scatter (Fig 5), the world-vs-regional structural-shift
 diagnostic (Fig 6), the signed structural–parametric angle with saturation
@@ -154,94 +169,4 @@ The width of the regional bracket in each cell is the diagnostic for the
 - The **temporal channel** is mixed: some cells (Cost C7 temporal, all 10
   regions positive) have tight brackets; others (Solar C7 supply being the
   poster child) have brackets that span most of the $[-90^\circ, +90^\circ]$
-  range. When the bracket is wide and centred near $\theta = 0$, the
-  regional signals are cancelling at world aggregate — the regional bias is
-  real but invisible at the headline.
-
-The implication is that **regional-scale validation matters even when the
-world-scale story looks unremarkable**. A reader who sees Solar C7 supply
-sitting at world θ ≈ −6° might conclude "no structural effect". The
-−68° to +74° regional range tells the opposite story: every region has a
-large structural shift, but their signs cancel at world aggregate.
-
-## Where each region sits on the angle scale
-
-The world-aggregate ED Fig 2 above collapses the regional spread into a
-bracket on each cell. The two figures below decompose that bracket back
-into its ten regional medians — one figure per channel, three rows
-(C1, C3, C4) × three columns (wind generation, solar generation,
-electricity price) × ten R10 macro-regions per panel.
-
-[![Signed structural–parametric angle by region, supply-curve refinement](assets/figures/world/ed_fig_dominance_heatmap_supply.png){ loading=lazy }](assets/figures/world/ed_fig_dominance_heatmap_supply.png)
-
-/// caption
-**Signed structural–parametric angle by region, supply-curve refinement
-(LoT → HiT).** Per (region × climate × outcome) cell, the filled circle
-is the regional median angle and the vertical line is the 5--95th
-percentile range. Horizontal reference lines mark $\theta = 0^\circ$
-(no structural component) and $|\theta| = 45^\circ$ (strict structural
-dominance, $|S| = |P|$); cells beyond the structural-rival threshold
-$|\theta| \ge 26.6^\circ$ ($|S| \ge 0.5 |P|$) are the broader rivals
-convention used in the headline numbers above. Source:
-[ed_fig_dominance_heatmap_supply.pdf](assets/figures/world/ed_fig_dominance_heatmap_supply.pdf).
-///
-
-[![Signed structural–parametric angle by region, temporal refinement](assets/figures/world/ed_fig_dominance_heatmap_temporal.png){ loading=lazy }](assets/figures/world/ed_fig_dominance_heatmap_temporal.png)
-
-/// caption
-**Signed structural–parametric angle by region, temporal refinement
-(TS04 → TS72).** All conventions for rows, columns, region order, dots,
-whiskers and reference lines are identical to the supply figure above.
-Source:
-[ed_fig_dominance_heatmap_temporal.pdf](assets/figures/world/ed_fig_dominance_heatmap_temporal.pdf).
-///
-
-**Reading the two figures together.** The supply-curve channel (top
-figure) produces a coherent windward shift across most regions — the
-wind column sits predominantly above $0^\circ$ and the solar column
-predominantly below — with the strict-dominance line ($|\theta| =
-45^\circ$) crossed in several India+/Latin America/Pac OECD cells. The
-temporal channel (bottom figure) produces region-specific reallocations
-on the wind–solar balance: the wind and solar columns straddle zero in
-most climates, the channel-asymmetric global aggregation finding from
-Fig 6 made visible at the regional grain. The electricity-price column
-is the cleanest sign-consistent diagnostic in both channels: supply
-refinement lowers prices across all regions, temporal refinement raises
-them across all regions.
-
-The pair of figures includes only three of the six outcomes for visual
-density; NPV system cost and cumulative CO$_2$ distributions for the
-same (region × climate × channel) buckets are released in the
-[ED structural-distribution table](https://akanudia.github.io/vre_info_asymmetry/figures/ed_table_structural_distribution.csv).
-
-## Saturation: how much temporal resolution is enough?
-
-[![Saturation analysis, climate-stratified](assets/figures/world/ed_fig3_saturation_by_climate.png){ loading=lazy }](assets/figures/world/ed_fig3_saturation_by_climate.png)
-
-/// caption
-**ED Fig 3 (manuscript).** The same signed structural–parametric angle
-diagnostic as ED Fig 2, stratified by AR6 climate ambition category
-(C1 1.5 °C low/no-overshoot through C7 above 2.5 °C). Each panel shows
-the world-aggregate median angle and regional-spread bracket for each
-(outcome × channel × fine-endpoint) cell.
-[Download PDF](assets/figures/world/ed_fig3_saturation_by_climate.pdf).
-///
-
-**Reading.** The figure answers *"how much temporal resolution is enough?"*
-and the answer is **diagnostic-specific**: along the tested TS12 → TS72
-sweep, structural–parametric angles do not converge uniformly across
-outcomes. Electricity prices, system cost and non-VRE utilisation continue
-shifting with finer temporal resolution; wind–solar shifts remain
-region- and regime-dependent; CO$_2$ effects concentrate in weaker-policy
-regimes (C7). The temporal channel has therefore **not saturated** within
-the resolution range tested here, which means the TS04→TS72 magnitudes
-elsewhere on this site should be read as a **lower bound** on what a
-chronological dispatch representation would surface. The directional
-channel signatures would amplify rather than reverse with further
-refinement.
-
-## See also
-
-- [Regional gallery](regions/gallery.md) — all 10 R10 regions' figures side by side
-- [Regional pages](regions/index.md) — full prose readings of each of the 10 R10 macro-regions
-- [Methodology](methodology.md) — for the experimental design and the θ definition
+  range. When the 

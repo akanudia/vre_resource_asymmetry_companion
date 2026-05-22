@@ -1,5 +1,23 @@
 # Rest of Asia
 
+!!! abstract "Sources & provenance"
+    **Manuscript:** Results § (Fig 5 hero scatter, Fig 6 world-vs-regional),
+    Extended Data Figs 2–4 (signed structural–parametric angle), Extended
+    Data Table 1 (region composition). Methods § Physical diagnostics
+    (resource and demand variance decomposition, alignment landscape).  
+    **External data:** [ERA5 reanalysis](../data_sources.md#era5),
+    [Atlite library](../data_sources.md#atlite),
+    [REZoning](../data_sources.md#rezoning),
+    [IPCC AR6 WGIII Scenarios Database](../data_sources.md#ar6) (for the
+    parametric envelope behind the regional shifts).  
+    **Companion-only:** the Rest of Asia physical-setting prose, the
+    paired-shifts mini-hero plot computed at Rest of Asia aggregate,
+    the regional signed structural–parametric angle figure and the
+    "cells where Rest of Asia departs from world" table extend the
+    manuscript figures with reader-friendly framings; no quantitative
+    claims appear here that are not derivable from the manuscript and
+    the released CSVs.
+
 R10 macro-region covering South-East Asia, Mongolia, and the Pacific
 island states. Indonesia, Thailand, Vietnam, the Philippines, Malaysia
 are typically treated individually in the R70 model; smaller members
@@ -115,11 +133,4 @@ representation most badly underestimates the deployable resource.
 ## CSV download
 
 - [magnitude_angle_rest_asia_supply.csv](../assets/data/regions/rest_asia/magnitude_angle_rest_asia_supply.csv)
-- [magnitude_angle_rest_asia_temporal.csv](../assets/data/regions/rest_asia/magnitude_angle_rest_asia_temporal.csv)
-
-## See also
-
-- [World aggregate](../world.md) — where Rest of Asia's cells sit in the regional bracket
-- [Gallery](gallery.md) — all 10 R10 regions' figures side by side
-- [India](india.md) — adjacent macro-region (South Asian monsoon)
-- [Methodology](../methodology.md) — for the θ definition
+- [magnitude_angle_rest_asia_tem

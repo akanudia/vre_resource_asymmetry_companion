@@ -1,5 +1,14 @@
 # All-region gallery
 
+!!! abstract "Sources & provenance"
+    **Manuscript:** all per-region figures on this gallery are
+    regional decompositions of Fig 5 and Extended Data Fig 2.  
+    **External data:** none directly.  
+    **Companion-only:** the side-by-side gallery layout is a
+    companion-site convenience; the figures themselves and their
+    per-region CSV sidecars are the canonical artefacts (released
+    on the individual regional pages and on the [data page](../data.md)).
+
 Every R10 region has two figures in this gallery: the paired-shifts mini-hero
 scatter and the signed structural–parametric angle ($\theta$) diagnostic.
 Click any thumbnail to expand. Each row is one region; the left column is

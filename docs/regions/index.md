@@ -1,5 +1,13 @@
 # Regions
 
+!!! abstract "Sources & provenance"
+    **Manuscript:** Extended Data Table 1 (R10 + R70 region composition),
+    Results § Fig 5 / Fig 6 (regional decomposition rows).  
+    **External data:** see individual regional pages.  
+    **Companion-only:** this index page is the navigation entry point
+    for the 10 R10 macro-region readings released on this site; no
+    quantitative claims appear here.
+
 The 10 R10 macro-regions follow the IPCC AR6 Working Group III convention.
 The less-obvious names: *Reforming Economies* = former Soviet Union and
 Eastern Europe; *China+* = China and nearby; *India+* = India and nearby;

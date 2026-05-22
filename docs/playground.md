@@ -1,5 +1,16 @@
 # Playground
 
+!!! abstract "Sources & provenance"
+    **Manuscript:** Fig 5 (paired-shifts hero scatter) and Fig 6
+    (world-vs-regional structural shifts); Methods § Paired-shift
+    diagnostics (definitions of x = parametric %, y = structural %).  
+    **External data:** none.  
+    **Companion-only:** the interactive filter/recolour/marker UI and
+    the per-region rebuild are companion-site extensions of the static
+    manuscript figure. The 47,520-marker scenario archive is the
+    underlying paired-comparison data; no quantitative claims appear in
+    the playground UI that are not derivable from the manuscript.
+
 An interactive view over the **full scenario archive backing the
 manuscript's structural-vs-parametric diagnostics** — 7,920 paired
 comparisons across 11 regions, rendered as 47,520 visible markers
@@ -71,23 +82,4 @@ the **dashed $|y| = |x|$ wedge** exhibit **strict structural dominance**
 ($|S| > |P|$, equivalently $|\theta| > 45^\circ$): the structural axis
 (supply-curve refinement or temporal-resolution refinement) is the
 larger lever. Points beyond the inner $|y| \ge 0.5\,|x|$ band satisfy the
-**structural-rival threshold** ($|S| \ge 0.5\,|P|$, $|\theta| \ge 26.6^\circ$),
-the broader rivals convention used in the manuscript headline.
-
-The print figure ([world](world.md), [regional pages](regions/)) shows
-this geometry; the playground lets you slice into it any way you want.
-See [Methodology](methodology.md) for the dual-threshold definition.
-
-**A subtler reading on the diagonals themselves.** Points lying on the
-south-east 45° locus ($y = -x$) are scenarios where the structural
-refinement *exactly undoes* the parametric scenario's deviation from
-the C7-Base-median baseline: $x + y = 0$, i.e., the HI outcome lands
-back at baseline regardless of how far the LO outcome had been pushed
-by climate ambition, fuel prices and technology costs. Tight diagonals
-on a regional panel are not noise — they identify (region, outcome)
-combinations where the representation choice *saturates* the result,
-making the model's reported outcome independent of the scenario. The
-mirror locus ($y = +x$) is the "structural reinforcement" line: the
-structural refinement doubles down on whatever the parametric scenario
-had set up. Either alignment is a sign that representation choice is
-the binding constraint, not the scenario assumptions.
+**structural-rival thres

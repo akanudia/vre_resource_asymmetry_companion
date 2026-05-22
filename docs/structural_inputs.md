@@ -1,5 +1,19 @@
 # Structural inputs
 
+!!! abstract "Sources & provenance"
+    **Manuscript:** Methods § Structural variants (regional aggregation,
+    supply-curve detail, temporal resolution).  
+    **External data:** [REZoning grid-cell potential and capacity factors](data_sources.md#rezoning),
+    [ERA5 reanalysis](data_sources.md#era5),
+    [Atlite library](data_sources.md#atlite).  
+    **Companion-only:** the released CSVs (bins, uplift, timeslice
+    definitions, template scores, DEF convergence), the embedded
+    reading prose and the schema tables on this page expose the
+    structural-axis pipeline outputs at a level of detail that the
+    manuscript Methods describes only verbally; no quantitative claims
+    appear here that are not derivable from the manuscript and the
+    released CSVs.
+
 This page releases the data behind the two structural axes that drive
 the representational channels analysed in the manuscript: supply-curve
 detail and temporal resolution. Regional aggregation (R10 vs R70) is
@@ -220,14 +234,4 @@ conv  = pd.read_csv(base + "timeslice_def_convergence_by_iso.csv")
 print(conv.groupby("technology")[
     ["def_ts01", "def_ts12", "def_ts288",
      "pct_of_total_improvement_captured_by_ts12"]
-].median().round(3))
-```
-
----
-
-## License
-
-All CSVs are released under CC-BY 4.0 (see `LICENSE-CONTENT` in the
-[GitHub repo](https://github.com/akanudia/vre_resource_asymmetry_companion)).
-Attribution: "Companion site data for Kanudia, A., 2026,
-*Wind–solar resource asymmetry…*, Nature Energy."
+].

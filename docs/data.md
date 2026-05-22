@@ -1,5 +1,15 @@
 # Data
 
+!!! abstract "Sources & provenance"
+    **Manuscript:** Extended Data Figs 2–4 (signed structural–parametric
+    angle, world + regional decomposition) and Extended Data Table 2
+    (structural-distribution table).  
+    **External data:** none.  
+    **Companion-only:** every CSV here is the pre-extracted figure-level
+    data sidecar for the corresponding manuscript figure. Released for
+    re-analysis; the figures themselves are the canonical claim
+    surface.
+
 CSV sidecars for every cell in the signed structural–parametric angle
 diagnostic ([ED Fig 2 in the manuscript](world.md)) are released on this
 site alongside the figures.
@@ -62,40 +72,4 @@ Schema:
 | `region` | str | `WORLD` or an R10 code |
 | `outcome` | str | one of the six outcomes (see above) |
 | `n` | int | paired comparisons in the cell |
-| `S_p5`, `S_p25`, `S_median`, `S_p75`, `S_p95` | float | signed structural shift, % of C7–Base–median reference |
-| `absS_median` | float | median absolute structural shift |
-| `absP_median` | float | median absolute parametric shift |
-| `pct_rivals_50` | float | share where $|S| \ge 0.5\,|P|$ (rival threshold) |
-| `pct_rivals_100` | float | share where $|S| > |P|$ (strict structural dominance) |
-
-The manuscript prints a curated world-aggregate subset (60 rows × 11 columns)
-as Extended Data Table 2; the regional rows live here.
-
-## Usage example (Python / pandas)
-
-```python
-import pandas as pd
-
-india_supply = pd.read_csv(
-    "https://akanudia.github.io/vre_resource_asymmetry_companion/"
-    "assets/data/regions/india/magnitude_angle_india_supply.csv"
-)
-print(india_supply.query("climate == 'C7'"))
-```
-
-## What's not on this site
-
-The full 1,080-run scenario output database (generation, capacity, cost,
-emissions trajectories by country/region/year for every model run) and the
-raw analysis scripts that produced these figures live in the
-`structural_experiment` source tree released alongside the manuscript per the
-journal's Data Availability policy. Pre-acceptance, contact the corresponding
-author for access. Post-acceptance, the archived snapshot will be linked
-from the [cite page](cite.md).
-
-## License
-
-All CSVs are released under CC-BY 4.0 (see `LICENSE-CONTENT` in the
-[GitHub repo](https://github.com/akanudia/vre_resource_asymmetry_companion)).
-Attribution: "Companion site data for Kanudia, A., 2026, *Wind–solar resource
-asymmetry...*, Nature Energy."
+| `S_p5`, `S_p25`, `S_median`, `S_p75`, `S_p95` | float | signed structural shift

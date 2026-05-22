@@ -1,5 +1,15 @@
 # Data sources
 
+!!! abstract "Sources & provenance"
+    **Manuscript:** Methods § Input data + Data Availability statement.  
+    **External data:** every entry on this page is an upstream public
+    or commercial dataset used in the experiment; each section header
+    is the canonical citation.  
+    **Companion-only:** version stamps, file fingerprints, and
+    pipeline-side preprocessing notes that supplement the bibliographic
+    record. No quantitative claims appear here; the page is a
+    transparent inventory of inputs.
+
 This page documents all external data sources ingested by the
 KiNESYS pipeline to produce the 1,080-run archive. Sources are
 organised by function. For each, the version used in this study,

@@ -1,5 +1,23 @@
 # Europe
 
+!!! abstract "Sources & provenance"
+    **Manuscript:** Results § (Fig 5 hero scatter, Fig 6 world-vs-regional),
+    Extended Data Figs 2–4 (signed structural–parametric angle), Extended
+    Data Table 1 (region composition). Methods § Physical diagnostics
+    (resource and demand variance decomposition, alignment landscape).  
+    **External data:** [ERA5 reanalysis](../data_sources.md#era5),
+    [Atlite library](../data_sources.md#atlite),
+    [REZoning](../data_sources.md#rezoning),
+    [IPCC AR6 WGIII Scenarios Database](../data_sources.md#ar6) (for the
+    parametric envelope behind the regional shifts).  
+    **Companion-only:** the Europe physical-setting prose, the
+    paired-shifts mini-hero plot computed at Europe aggregate,
+    the regional signed structural–parametric angle figure and the
+    "cells where Europe departs from world" table extend the
+    manuscript figures with reader-friendly framings; no quantitative
+    claims appear here that are not derivable from the manuscript and
+    the released CSVs.
+
 R10 macro-region covering the EU, UK, EFTA, and non-EU South-Eastern Europe.
 See Extended Data Table 1 in the manuscript for the exact composition.
 
