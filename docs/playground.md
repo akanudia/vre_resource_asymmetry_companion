@@ -1,11 +1,13 @@
 # Playground
 
-An interactive view over the **full 14,400-pair scenario archive** that
-backs the manuscript's hero figure (Fig 5) and the world-vs-regional
-diagnostic (Fig 6). The same 5 × 2 panel grid — five outcomes (wind,
-solar, electricity price, system cost, CO₂ emissions) across two
-structural channels (supply-curve refinement, temporal refinement) — is
-rebuilt in your browser as you change the filters.
+An interactive view over the **full scenario archive backing the
+manuscript's structural-vs-parametric diagnostics** — 7,920 paired
+comparisons across 11 regions, rendered as 47,520 visible markers
+(6 outcomes × 2 channels per paired comparison). The 6 × 2 panel grid —
+six outcomes (wind generation, solar generation, electricity price,
+non-VRE capacity factor, system cost, CO₂ emissions) across two
+structural channels (supply-curve refinement, temporal refinement) —
+is rebuilt in your browser as you change the filters.
 
 <div class="playground-launch" markdown>
 

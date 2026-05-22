@@ -20,13 +20,14 @@ const REGION_LABELS = {
   R10REST_ASIA:     "Rest of Asia",
 };
 
-const OUTCOMES = ["wind", "solar", "price", "cost", "emis"];
+const OUTCOMES = ["wind", "solar", "price", "nonvrecf", "cost", "emis"];
 const OUTCOME_LABELS = {
-  wind:  "Wind generation",
-  solar: "Solar generation",
-  price: "Electricity price",
-  cost:  "System cost (NPV)",
-  emis:  "CO₂ emissions",
+  wind:     "Wind generation",
+  solar:    "Solar generation",
+  price:    "Electricity price",
+  nonvrecf: "Non-VRE capacity factor",
+  cost:     "System cost (NPV)",
+  emis:     "CO₂ emissions",
 };
 const CHANNELS = ["supply", "temporal"];
 const CHANNEL_LABELS = {
