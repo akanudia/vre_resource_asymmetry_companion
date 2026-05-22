@@ -43,6 +43,21 @@ view — the structural shifts are present but less directionally coherent
 than at world or in any of the more homogeneous regions. This is the
 visual signature of intra-region cancellation.
 
+*Solar under supply refinement is the striking exception.* In the
+[playground](../playground.md) view of Pac OECD, almost all solar points
+line up tightly along the south-east 45° locus ($y = -x$). Geometrically
+that line is the **structural cancellation line**: $x + y = 0$, so the
+HiT solar outcome lands exactly at the C7-Base-median baseline value
+regardless of the scenario run. The mechanism is wind displacement —
+detailed supply curves expose Australia's high-quality wind tail (Bass
+Strait, Great Australian Bight, Eastern Seaboard), wind crowds out
+solar across every (climate, technology cost, fuel price) combination,
+and the model rebuilds the same ~5,800 TWh solar floor every time. In
+Pac OECD, the *representation choice* — not the scenario assumptions —
+determines how much solar gets built. This is structural dominance at
+the boundary ($|\theta| = 45^\circ$ exactly), and it's the clearest
+visible saturation pattern in any R10 region.
+
 *Electricity-price row.* The electricity-price row shows the in-region analogue of channel cancellation: temporal refinement raises prices less aggressively than at world aggregate (Δθ −33° at C7, Δθ −23° at C4), and supply refinement lowers prices less (Δθ +21° at C7). The mixed hemispheres of Pacific OECD dilute the channel signatures relative to a single-climate aggregate.
 
 ## Signed structural–parametric angle (Pacific OECD)
