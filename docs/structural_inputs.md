@@ -9,10 +9,10 @@
     **Companion-only:** the released CSVs (bins, uplift, timeslice
     definitions, template scores, DEF convergence), the embedded
     reading prose and the schema tables on this page expose the
-    structural-axis pipeline outputs at a level of detail that the
-    manuscript Methods describes only verbally; no quantitative claims
-    appear here that are not derivable from the manuscript and the
-    released CSVs.
+    structural-axis outputs at a level of detail that the manuscript
+    Methods describes only verbally; no quantitative claims appear
+    here that are not derivable from the manuscript and the released
+    CSVs.
 
 This page releases the data behind the two structural axes that drive
 the representational channels analysed in the manuscript: supply-curve
@@ -28,10 +28,9 @@ page and its region-mapping table is released in Extended Data Table 1.
 | Template validation scores | 6 calendar templates vs k-means benchmark | [timeslice_template_scores.csv](assets/data/structural/timeslice_template_scores.csv) |
 | DEF convergence by ISO | Solar PV and wind onshore, 210 countries | [timeslice_def_convergence_by_iso.csv](assets/data/structural/timeslice_def_convergence_by_iso.csv) |
 
-All five CSVs are released as the pipeline's structural-axis outputs;
-see the [Code & data page](code_and_reproducibility.md) for the bundling
-context and the boundary between released analysis code and the
-proprietary model-generation pipeline.
+All five CSVs are released as the structural-axis input data; see the
+[Code & data page](code_and_reproducibility.md) for the full release
+inventory.
 
 ---
 

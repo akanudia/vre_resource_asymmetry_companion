@@ -6,23 +6,24 @@
     or commercial dataset used in the experiment; each section header
     is the canonical citation.  
     **Companion-only:** version stamps, file fingerprints, and
-    pipeline-side preprocessing notes that supplement the bibliographic
-    record. No quantitative claims appear here; the page is a
-    transparent inventory of inputs.
+    preprocessing notes that supplement the bibliographic record. No
+    quantitative claims appear here; the page is a transparent
+    inventory of inputs.
 
-This page documents all external data sources ingested by **[VerveStacks-G](https://vervestacks.readthedocs.io/en/latest/index.html)** (VS-G), the KanORS-EMR global
-energy-system modelling engine, to produce the 1,080-run experimental
-archive. Sources are
+This page documents all external data sources used to build
+**[VerveStacks-G](https://vervestacks.readthedocs.io/en/latest/index.html)** (VS-G),
+the generated global power-sector model archive and workspace
+underlying the 1,080-run experiment. Sources are
 organised by function. For each, the version used in this study,
-the provider, the content consumed, and the pipeline stage are
-listed.
+the provider, the content consumed, and the role in the experiment
+are listed.
 
 ---
 
 ## Summary table
 
-| # | Dataset | Version used | Provider | Pipeline stage |
-|---|---------|-------------|----------|----------------|
+| # | Dataset | Version used | Provider | Role in experiment |
+|---|---------|-------------|----------|--------------------|
 | 1 | [Global Integrated Power](#gem) | Sep 2025 II | Global Energy Monitor | Existing fleet |
 | 2 | [S&P Global Platts](#platts) | Feb 2023 | S&P Global | Existing fleet (CHP override) |
 | 3 | [IEA World Energy Balances](#iea-balances) | 2025 extract | IEA | Fleet CHP/losses; demand profiles; CO₂ weights |
@@ -55,15 +56,13 @@ listed.
 The Global Integrated Power tracker is the primary source for the
 existing generation fleet. Each record covers a single power unit with
 plant name, country, fuel type, generating technology, capacity (MW),
-operating status, commissioning year, and coordinates. The pipeline
-filters to operating and mothballed units, applies technology
-mappings to VS-G technology codes, and resolves captive/CHP
-flags using the Platts comparison (below). VRE units are linked to
+operating status, commissioning year, and coordinates. Records are
+filtered to operating and mothballed units, technology mappings to
+VS-G technology codes are applied, and captive/CHP flags are
+resolved using the Platts comparison (below). VRE units are linked to
 the nearest REZoning grid cells via a pre-computed coordinate-match
 table; thermal units are assigned to model regions via the
 TIAM_RegionMap lookup.
-
-**Used in:** `existing_fleet/global_power_plants_processor.py`
 
 ---
 
@@ -77,9 +76,7 @@ Used exclusively to produce a CHP/captive override table
 (`gem_platts_chp_comparison.csv`) by matching GEM unit IDs to
 Platts records. The resulting override flags are applied to the
 GEM dataset before model assembly. No Platts data appears in any
-released pipeline output.
-
-**Used in:** `existing_fleet/match_gem_platts.py`
+released output.
 
 ---
 
@@ -90,7 +87,7 @@ released pipeline output.
 **Access:** Licensed; IEA data subscribers. Public edition available at
 [https://www.iea.org/data-and-statistics/data-product/world-energy-balances](https://www.iea.org/data-and-statistics/data-product/world-energy-balances)
 
-Used in three separate pipeline stages:
+Used in three separate roles:
 
 1. **CHP and losses** — electricity from CHP plants, distribution
    losses, own use (PJ), by country and fuel, to build the
@@ -101,10 +98,6 @@ Used in three separate pipeline stages:
 3. **CO₂ storage weighting** — fossil fuel production volumes
    (coal, oil, gas) used as proxy weights when distributing ETSAP-TIAM
    CO₂ storage potentials to model regions.
-
-**Used in:** `existing_fleet/compute_iea_chp_and_losses.py`,
-`timeslice_pipeline/generate_load_shapes.py`,
-`existing_fleet/co2_storage_from_etsap_tiam.py`
 
 ---
 
@@ -123,9 +116,6 @@ generation (GWh), used in two roles:
 2. **Hydro availability factor weights** — IRENA hydro installed
    capacity by country is used to aggregate ISO-level hydro
    availability factors to model regions.
-
-**Used in:** `existing_fleet/global_power_plants_processor.py`,
-`timeslice_pipeline/assemble_ts_parameters.py`
 
 ---
 
@@ -149,10 +139,6 @@ Used for three purposes:
    2020 electricity consumption by country anchors the SSP-share
    downscaling to actual outturns.
 
-**Used in:** `existing_fleet/global_power_plants_processor.py`,
-`existing_fleet/thermal_utilization_factors.py`,
-`scenario_drivers/scripts/downscale_ar6_demand_to_r70.py`
-
 ---
 
 ## Renewable resource
@@ -166,18 +152,14 @@ REZoning provides the **spatial** layer of the renewable resource
 representation: a global grid of ~50 × 50 km cells with estimated
 installable potential (MW), land exclusion flags, and a
 pre-computed LCOE ordering. Three technology tracks are used:
-solar PV, wind onshore, wind offshore. In the VS-G pipeline,
-each cell is further enhanced with Atlite-derived capacity factors
-(see below), producing a combined resource dataset per cell that
-carries both the potential size and the temporal CF profile. The
-clustering algorithm (`global_renewable_processor.py`) reads the
-enhanced REZoning file as its cell inventory.
+solar PV, wind onshore, wind offshore. Each cell is further enhanced
+with Atlite-derived capacity factors (see below), producing a combined
+resource dataset per cell that carries both the potential size and the
+temporal CF profile.
 
 **Files:** `data/REZoning/REZoning_Solar_atlite_cf.csv`,
 `REZoning_WindOnshore_atlite_cf.csv`,
 `REZoning_WindOffshore_atlite_cf.csv`
-
-**Used in:** `re_characterization/global_renewable_processor.py`
 
 ---
 
@@ -194,17 +176,13 @@ not redistributed on this site.
 Hourly capacity factor time series (8,760 values per year) for
 solar PV, wind onshore and wind offshore at each REZoning grid cell.
 These are the **temporal** layer of the renewable resource
-representation. The supply-curve clustering algorithm
-(`global_renewable_processor.py`) reads these parquets to compute
-representative cluster capacity factors and to build the
-`cluster_profiles.parquet` files consumed by the timeslice pipeline.
+representation. The supply-curve clustering step reads these parquets
+to compute representative cluster capacity factors and to build the
+`cluster_profiles.parquet` files that feed timeslice parameterisation.
 Multiple weather years are used to produce multi-year COM_FR
 averages; the 2013 weather year is the default single-year reference.
 
 **Files:** `data/hourly_profiles/Atlite_data_grid_cell/{ISO}_{YEAR}.parquet`
-
-**Used in:** `re_characterization/global_renewable_processor.py`,
-`timeslice_pipeline/assemble_ts_parameters.py`
 
 ---
 
@@ -228,14 +206,10 @@ from the IEA World Energy Balances are used to weight industry,
 commercial and residential sub-profiles before aggregating to total
 demand.
 
-All ERA5-derived demand data enters the pipeline via
-`shared_data_loader.get_era5_demand_data()`, which applies the
-UTC-to-local-time conversion uniformly.
+All ERA5-derived demand data enters model assembly with a uniform
+UTC-to-local-time conversion applied.
 
 **File:** `data/hourly_profiles/era5_combined_data_2030.csv`
-
-**Used in:** `timeslice_pipeline/generate_load_shapes.py`,
-`timeslice_design/global_design/` (template evaluation)
 
 ---
 
@@ -254,8 +228,6 @@ temporal profile for China, and is used when available.
 
 **File:** `data/hourly_profiles/WuHaochi_China_Hourly electric power load final.csv`
 
-**Used in:** `timeslice_pipeline/generate_load_shapes.py`
-
 ---
 
 ### India actual load {#india-load}
@@ -263,7 +235,7 @@ temporal profile for China, and is used when available.
 **Provider:** Indian national grid/utility data  
 **Version:** 2024  
 **Access:** Derived from publicly available grid data; specific source
-documented in the pipeline configuration.
+documented in the model configuration.
 
 Observed hourly electricity load for India, used in place of ERA5
 for the same reasons as the China override: India's load curve is
@@ -272,8 +244,6 @@ significant unserved demand that the ERA5 temperature proxy
 does not capture.
 
 **File:** `data/hourly_profiles/india_load_curve_2024.csv`
-
-**Used in:** `timeslice_pipeline/generate_load_shapes.py`
 
 ---
 
@@ -310,9 +280,6 @@ region × fuel/variable × year cell.
 
 **Files:** `data/ipcc_iamc/AR6_R10_v1.1/`
 
-**Used in:** `scenario_drivers/scripts/compile_ar6_*.py`,
-`downscale_ar6_demand_to_r70.py`
-
 ---
 
 ### SSP Basic Drivers {#ssp}
@@ -332,8 +299,6 @@ industry, commercial, transport and hydrogen → GDP share.
 
 **File:** `data/ipcc_iamc/ssp_basic_drivers_release_3.0_full.xlsx`
 (cached to `ssp_basic_drivers_ssp2_pop_gdp.csv` after first run)
-
-**Used in:** `scenario_drivers/scripts/downscale_ar6_demand_to_r70.py`
 
 ---
 
@@ -364,8 +329,6 @@ waste-to-energy.
 
 **File:** `data/technologies/GEC Model power generation technology costs dataset.xlsb`
 
-**Used in:** `conv_tech_characterization/compile_unified_reference.py`
-
 ---
 
 ### NREL Annual Technology Baseline {#nrel-atb}
@@ -392,8 +355,6 @@ Moderate and Advanced. Used in two roles:
 
 **File:** `data/technologies/ATB_2024_v3_Workbook.xlsx`
 
-**Used in:** `conv_tech_characterization/compile_unified_reference.py`
-
 ---
 
 ## Supporting reference data
@@ -402,8 +363,8 @@ Moderate and Advanced. Used in two roles:
 
 **Provider:** ETSAP (Energy Technology Systems Analysis Programme);
 TIAM (TIMES Integrated Assessment Model)  
-**Access:** Part of the proprietary VS-G framework (KanORS-EMR); not publicly redistributed
-as a standalone file.
+**Access:** Not publicly redistributed as a standalone file; available
+on request.
 
 Geological CO₂ storage potentials (Gt CO₂) and pipeline transport
 costs by country, plus bio-energy CCS breakthrough-point costs.
@@ -413,9 +374,7 @@ model regions using weights derived from fossil fuel production
 volumes (IEA balances), land area (World Bank WDI), and coastline
 length proxy.
 
-**File:** VS-G framework workbook `etsap-tiam storage potentials and costs.xlsx`
-
-**Used in:** `existing_fleet/co2_storage_from_etsap_tiam.py`
+**File:** `etsap-tiam storage potentials and costs.xlsx`
 
 ---
 
@@ -429,8 +388,6 @@ as proxy weights when distributing ETSAP-TIAM CO₂ storage potentials
 and computing regional carbon budgets.
 
 **File:** `data/WorldBank/WDICSV.csv`
-
-**Used in:** `existing_fleet/co2_storage_from_etsap_tiam.py`
 
 ---
 
@@ -448,8 +405,6 @@ timeslice parameters in `Scen_TSParameters`.
 
 **File:** `data/Hoes_global_hydro/hydro_potential_kinesys.xlsx`
 
-**Used in:** `timeslice_pipeline/assemble_ts_parameters.py`
-
 ---
 
 ### Natural Earth admin-1 boundaries {#ne}
@@ -466,8 +421,6 @@ interpretation and validation but does not affect any model parameter.
 
 **File:** `data/country_data/naturalearth/ne_10m_admin_1_states_provinces.shp`
 
-**Used in:** `re_characterization/global_renewable_processor.py`
-
 ---
 
 ## Data availability notes
@@ -478,18 +431,18 @@ NREL ATB, World Bank WDI, Natural Earth, ERA5 raw reanalysis.
 
 **Licensed (not redistributed here):** IEA World Energy Balances,
 IEA GEC power costs, S&P Global Platts. Researchers with IEA data
-access can regenerate the pipeline outputs from the source files
-using the build scripts released alongside the manuscript.
+access can regenerate the corresponding model inputs from the source
+files following the methodology documented in the VerveStacks
+documentation.
 
 **Derived or research-origin (contact corresponding author):** China
 actual load (Wu Haochi), India actual load, Atlite grid-cell
 parquet files, REZoning Atlite-enhanced CSVs.
 
-**Part of the proprietary VS-G framework (available on request from
-KanORS-EMR):** ETSAP-TIAM CO₂ storage potentials, TIAM_RegionMap, VS-G
-mappings workbook.
+**Not publicly redistributed (available on request):** ETSAP-TIAM CO₂
+storage potentials, TIAM_RegionMap, internal mappings workbook.
 
 The [Inputs page](inputs.md) releases the four parametric input
 layers (carbon prices, fuel prices, electricity demand, technology
-costs) in their pipeline-ready form under CC-BY 4.0.
+costs) in tidy-long form under CC-BY 4.0.
 The [Structural inputs page](structural_i

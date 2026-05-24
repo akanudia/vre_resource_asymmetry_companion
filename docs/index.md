@@ -11,8 +11,9 @@ their optimisation tractable. This paper asks whether those choices interact
 with the **intrinsic physical properties of wind and solar resources** to bias
 modelled outcomes — and finds that they do, through two channels acting
 asymmetrically across geographies. A 1,080-instance controlled factorial,
-generated from a single shared data repository by **[VerveStacks-G](https://vervestacks.readthedocs.io/en/latest/index.html)** (VS-G),
-the KanORS-EMR global energy-system modelling engine, isolates the channels
+generated from a single shared data repository and released as **[VerveStacks-G](https://vervestacks.readthedocs.io/en/latest/index.html)** (VS-G),
+the generated global power-sector model archive and workspace used in this
+experiment, isolates the channels
 from cross-framework data drift and lets the
 signature be read off at world and regional scale simultaneously across five
 outcomes: wind generation, solar generation, electricity price, system cost,

@@ -23,16 +23,19 @@ companion to the figures hosted on this site.
 
 ## The 1,080-instance controlled factorial
 
-This study uses **VerveStacks-G** (VS-G), the global energy-system
-modelling engine developed at KanORS-EMR. VS-G extends the original
-country-level [VerveStacks](https://vervestacks.readthedocs.io/en/latest/index.html) pipeline to global, multi-region modelling
-and is used here in **power-sector-isolated** configuration. The
-pipeline ingests a single shared data repository covering 155+ countries
+This study regenerates 24 structurally distinct global power-sector
+representations from a common source-data base covering 155+ countries
 (atmospheric resources, technology costs, fuel prices, demand drivers,
-climate-policy trajectories) and constructs the structural variants of
-the model; [VEDA](https://kanors-emr.github.io/Veda-documentation/)
-manages the parametric scenario envelope on each variant, producing
-the **1,080-run experimental archive**:
+climate-policy trajectories), following the global-scale extension of
+the
+[VerveStacks](https://vervestacks.readthedocs.io/en/latest/index.html)
+methodology and run here in **power-sector-isolated** configuration.
+[VEDA](https://kanors-emr.github.io/Veda-documentation/) manages the
+parametric scenario envelope on each variant, producing the **1,080-run
+experimental archive**. The resulting global power-sector model archive
+and workspace — the 24 generated structural variants together with
+their scenario outputs — is what we refer to in this paper as
+**VerveStacks-G** (VS-G):
 
 - **Parametric scenarios** vary external assumptions: 5 climate ambition
   levels (C1, C2, C3, C4, C7, corresponding to carbon-price trajectories) ×

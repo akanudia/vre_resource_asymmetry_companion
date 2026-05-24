@@ -25,7 +25,7 @@ The full parametric envelope is the factorial of carbon × fuel × tech-cost
 levels (5 × 3 × 3 = 45), each combined with every structural variant to
 form the 1,080-run archive analysed in the manuscript. Mapping from
 these native regional schemas (AR6 R10, IEA nine-region) into the
-experiment's regional configurations happens during pipeline assembly
+experiment's regional configurations happens during model assembly
 and is documented in the [methodology](methodology.md) page.
 
 The build scripts in this repository regenerate everything from the
@@ -214,7 +214,7 @@ print(
 
 AR6 monetary values are in **USD 2010**; IEA + ATB technology costs are
 in **USD 2022**. No currency conversion is applied at the CSV layer —
-the model build step harmonises currencies during pipeline assembly.
+the model build step harmonises currencies during model assembly.
 
 ## License
 
