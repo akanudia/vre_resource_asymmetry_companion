@@ -1430,16 +1430,19 @@ the diagnostic used to summarise structural-shift behaviour cell-by-cell. The
 manuscript Methods section is the authoritative reference; this is a reader's
 companion to the figures hosted on this site.</p>
 <h2 id="the-1080-instance-controlled-factorial">The 1,080-instance controlled factorial<a class="headerlink" href="#the-1080-instance-controlled-factorial" title="Permanent link">¶</a></h2>
-<p>This study uses <strong>VerveStacks-G</strong> (VS-G), the global energy-system
-modelling engine developed at KanORS-EMR. VS-G extends the original
-country-level <a href="https://vervestacks.readthedocs.io/en/latest/index.html">VerveStacks</a> pipeline to global, multi-region modelling
-and is used here in <strong>power-sector-isolated</strong> configuration. The
-pipeline ingests a single shared data repository covering 155+ countries
+<p>This study regenerates 24 structurally distinct global power-sector
+representations from a common source-data base covering 155+ countries
 (atmospheric resources, technology costs, fuel prices, demand drivers,
-climate-policy trajectories) and constructs the structural variants of
-the model; <a href="https://kanors-emr.github.io/Veda-documentation/">VEDA</a>
-manages the parametric scenario envelope on each variant, producing
-the <strong>1,080-run experimental archive</strong>:</p>
+climate-policy trajectories), following the global-scale extension of
+the
+<a href="https://vervestacks.readthedocs.io/en/latest/index.html">VerveStacks</a>
+methodology and run here in <strong>power-sector-isolated</strong> configuration.
+<a href="https://kanors-emr.github.io/Veda-documentation/">VEDA</a> manages the
+parametric scenario envelope on each variant, producing the <strong>1,080-run
+experimental archive</strong>. The resulting global power-sector model archive
+and workspace — the 24 generated structural variants together with
+their scenario outputs — is what we refer to in this paper as
+<strong>VerveStacks-G</strong> (VS-G):</p>
 <ul>
 <li><strong>Parametric scenarios</strong> vary external assumptions: 5 climate ambition
   levels (C1, C2, C3, C4, C7, corresponding to carbon-price trajectories) ×

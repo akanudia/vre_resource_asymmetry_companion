@@ -1313,10 +1313,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#whats-not-released" class="md-nav__link">
+  <a href="#open-use-workspace" class="md-nav__link">
     <span class="md-ellipsis">
       
-        What's not released
+        Open-use workspace
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#methodology" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Methodology
       
     </span>
   </a>
@@ -1545,10 +1556,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#whats-not-released" class="md-nav__link">
+  <a href="#open-use-workspace" class="md-nav__link">
     <span class="md-ellipsis">
       
-        What's not released
+        Open-use workspace
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#methodology" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Methodology
       
     </span>
   </a>
@@ -1610,11 +1632,12 @@ result rests on three layers — <em>parametric and structural inputs</em>, <em>
 statistics from the archive</em> — and the layers released here cover the
 inspection, validation and re-analysis paths a reviewer or downstream
 modeller will typically want.</p>
-<p>The boundary between what is released and what is not is described
-explicitly in the <a href="#whats-not-released">What's not released</a> section
-below; in short, every post-run analysis artefact is open, while the
-proprietary orchestration pipeline that constructs the 1{,}080-run
-archive remains internal.</p>
+<p>The methodology that transforms the common source-data base into the
+24 structural variants is documented in the
+<a href="https://vervestacks.readthedocs.io/en/latest/index.html">VerveStacks documentation</a>;
+the input data is referenced on the <a href="../data_sources/">Data sources</a>
+page; the model files, scenario outputs and analysis scripts produced
+by that methodology are released as listed below.</p>
 <hr>
 <h2 id="whats-released">What's released<a class="headerlink" href="#whats-released" title="Permanent link">¶</a></h2>
 <h3 id="data">Data<a class="headerlink" href="#data" title="Permanent link">¶</a></h3>
@@ -1674,28 +1697,28 @@ archive remains internal.</p>
 </table>
 <div class="admonition note">
 <p class="admonition-title">Compact input footprint</p>
-<p>The four base TIMES models that VS-G builds for the
-R10/R70 × LoT/HiT structural-axis combinations are each fully
+<p>The four base TIMES models in VS-G — one for each of the
+R10/R70 × LoT/HiT structural-axis combinations — are each fully
 specified by 4–5 Excel input files. The entire 1,080-run
 experimental archive is therefore parameterised by ~20 input
 spreadsheets in total — a deliberately economical surface designed
 to keep the controlled-factorial design auditable end-to-end.
-VEDA then orchestrates the 45-scenario parametric envelope on top
+VEDA then manages the 45-scenario parametric envelope on top
 of those base models.</p>
 </div>
 <h3 id="code">Code<a class="headerlink" href="#code" title="Permanent link">¶</a></h3>
 <p>All analysis scripts that produce the figures and statistics in the
 paper are released. The index in the next section names each script and
-what it does.</p>
-<p>The proprietary model-generation pipeline is described conceptually on
-the <a href="../methodology/">methodology</a> and <a href="../structural_inputs/">structural inputs</a>
-pages, but its source is not part of this release.
-<a href="#whats-not-released">Why</a>.</p>
+what it does. The methodology that constructs the 24 structural
+variants from the common source-data base is documented in the
+<a href="https://vervestacks.readthedocs.io/en/latest/index.html">VerveStacks documentation</a>
+and summarised on the <a href="../methodology/">methodology</a> and
+<a href="../structural_inputs/">structural inputs</a> pages.</p>
 <hr>
 <h2 id="analysis-script-index">Analysis script index<a class="headerlink" href="#analysis-script-index" title="Permanent link">¶</a></h2>
 <p>All scripts below run against the released 1{,}080-run scenario outputs
 (or, for the physical diagnostics, against ERA5 reanalysis through
-Atlite). None of them call into the model-generation pipeline.</p>
+Atlite).</p>
 <h3 id="physical-diagnostics-section-1-of-the-paper">Physical diagnostics (Section 1 of the paper)<a class="headerlink" href="#physical-diagnostics-section-1-of-the-paper" title="Permanent link">¶</a></h3>
 <table>
 <thead>
@@ -1850,7 +1873,7 @@ Atlite). None of them call into the model-generation pipeline.</p>
 <tr>
 <td><code>build_structural_inputs.py</code></td>
 <td>CSVs in <code>docs/assets/data/structural/</code></td>
-<td>Reformats the pipeline's structural-axis outputs (supply-curve bins, timeslice partitions, validation scores, DEF convergence) into companion-site CSVs.</td>
+<td>Reformats the released structural-axis outputs (supply-curve bins, timeslice partitions, validation scores, DEF convergence) into companion-site CSVs.</td>
 </tr>
 <tr>
 <td><code>build_input_plots.py</code></td>
@@ -1886,33 +1909,31 @@ regenerate every figure and statistic in the paper.</p>
 emitted by <code>export_quant_headline.py</code> from the same <code>horizon_metrics_regional.csv</code>
 input and printed to <code>quant_headline.md</code> for inspection.</p>
 <hr>
-<h2 id="whats-not-released">What's not released<a class="headerlink" href="#whats-not-released" title="Permanent link">¶</a></h2>
-<p>The companion-site contents, the released model input files (TIMES
-syntax) and the released scenario outputs are <em>sufficient to reproduce
-any specific run</em>. They are not sufficient to <em>rebuild the 1{,}080-run
-factorial from scratch</em>, because that requires the proprietary
-KanORS-EMR orchestration pipeline (VEDA / VEDA-Online), which is not
-part of this release.</p>
-<p>The boundary is:</p>
-<ul>
-<li><strong>Released</strong> — every post-run analysis script that operates on the
-  scenario outputs (the analysis bundle in this page's index), every
-  model input file generated by the pipeline (TIMES syntax for each of
-  the 24 structural variants), and every released CSV / figure on this
-  companion site.</li>
-<li><strong>Not released</strong> — the orchestration code that ingests source data,
-  constructs the supply-curve bins, assembles the timeslice partitions,
-  emits the 24 structural variants, and dispatches the 1{,}080-run
-  factorial.</li>
-</ul>
-<p>The reasoning: the model itself is fully inspectable and runnable
-through public TIMES tools using the released model files; what is
-proprietary is the workflow that scales the construction of variants
-across the full experimental cube. The orchestration pipeline is
-available on commercial terms from
-<a href="https://www.kanors-emr.org/">KanORS-EMR</a>.</p>
-<p>The same boundary is stated in the manuscript's Data Availability
-section; this page restates it for the general companion-site reader.</p>
+<h2 id="open-use-workspace">Open-use workspace<a class="headerlink" href="#open-use-workspace" title="Permanent link">¶</a></h2>
+<p>In addition to the static Zenodo archive, the VerveStacks-G (VS-G)
+model state used for the 1{,}080-run experiment is preserved in
+<a href="https://veda-online.kanors-emr.com/structural-experiment">Veda Online</a>.
+The workspace lets users browse,
+visualise and download model inputs and outputs in the same working
+environment in which the archive was produced. Subject to available
+Veda Online compute capacity and queueing, users may also launch
+additional runs from the preserved model state.</p>
+<p>The static Zenodo deposit remains the canonical reproducibility
+surface for the paper's figures and statistics; the Veda Online
+workspace is a complementary working environment for readers who want
+to interrogate the model instances directly.</p>
+<hr>
+<h2 id="methodology">Methodology<a class="headerlink" href="#methodology" title="Permanent link">¶</a></h2>
+<p>The methodology that constructs the 24 structural variants from the
+common source-data base is documented in the
+<a href="https://vervestacks.readthedocs.io/en/latest/index.html">VerveStacks documentation</a>
+and summarised on the <a href="../methodology/">methodology</a> and
+<a href="../structural_inputs/">structural inputs</a> pages. The released model
+input files, scenario outputs and analysis scripts are the artefacts of
+that methodology and are sufficient to reproduce every figure and
+statistic in the paper. Model solution uses the open-source TIMES
+generator (IEA-ETSAP), so any TIMES-compatible workflow can reload,
+inspect and re-solve the released model instances.</p>
 <hr>
 <h2 id="bundling">Bundling<a class="headerlink" href="#bundling" title="Permanent link">¶</a></h2>
 <p>When the paper is accepted:</p>
@@ -1927,7 +1948,7 @@ section; this page restates it for the general companion-site reader.</p>
   (<a href="https://github.com/akanudia/vre_resource_asymmetry_companion">vre_resource_asymmetry_companion</a>).</li>
 </ul>
 <p>Pre-acceptance, contact the corresponding author for working snapshots
-of any of the above.</p>
+of the analysis bundle.</p>
 <hr>
 <h2 id="licence">Licence<a class="headerlink" href="#licence" title="Permanent link">¶</a></h2>
 <p>Analysis code is MIT-licensed; released data and figures are
